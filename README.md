@@ -11,6 +11,10 @@ TempCompass encompasses a diverse set of temporal aspects (left) and task format
 ![](./assets/dist_instruction.jpg)
 
 ## Evaluation Results
+![](./assets/multi-choice.jpg)
+![](./assets/yes_no.jpg)
+![](./assets/caption_matching.jpg)
+![](./assets/captioning.jpg)
 
 ## TODOs
 - [ ] Upload scripts to collect and process videos.
