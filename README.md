@@ -13,6 +13,6 @@ TempCompass encompasses a diverse set of temporal aspects (left) and task format
 ## Evaluation Results
 
 ## TODOs
--[ ] Upload scripts to collect and process videos.
--[ ] Upload the code for task instruction generation.
--[ ] Upload the code for automatic evaluation.
+- [ ] Upload scripts to collect and process videos.
+- [ ] Upload the code for task instruction generation.
+- [ ] Upload the code for automatic evaluation.
