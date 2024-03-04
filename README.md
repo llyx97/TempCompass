@@ -34,8 +34,12 @@ TempCompass encompasses a diverse set of temporal aspects (left) and task format
 ![](./assets/dist_instruction.jpg)
 
 ## Evaluation Results
-![](./assets/multi-choice.jpg)
-![](./assets/yes_no.jpg)
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="./assets/multi-choice.jpg" alt="Multi-Choice" style="flex: 1 0 auto; margin-right: 10px;">
+    <img src="./assets/yes_no.jpg" alt="Yes/No" style="flex: 1 0 auto;">
+</div>
+<!-- ![](./assets/multi-choice.jpg)
+![](./assets/yes_no.jpg) -->
 ![](./assets/caption_matching.jpg)
 ![](./assets/captioning.jpg)
 
