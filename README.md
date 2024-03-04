@@ -13,7 +13,7 @@
     </br>
     <a href='https://lilei-nlp.github.io/' target='_blank'>Lei Li<sup>2</sup></a>&emsp;
     <a href='https://pkucss.github.io/' target='_blank'>Sishuo Chen<sup>1</sup></a>&emsp;
-    <a href='https://xusun.org/' target='_blank'>Xu Sun<sup>1</sup></a>&emsp;
+    <a href='https://xusun26.github.io/' target='_blank'>Xu Sun<sup>1</sup></a>&emsp;
     <a href='https://houlu369.github.io/' target='_blank'>Lu Hou<sup>3</sup></a>
 </div>
 <div>
