@@ -34,6 +34,8 @@ TempCompass encompasses a diverse set of temporal aspects (left) and task format
 ![](./assets/dist_instruction.jpg)
 
 ## Evaluation Results
+The following figures present results of [Video LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA), [VideoChat2](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2), [SPHINX-v2](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX) and the random baseline. Results of more Video LLMs and Image LLMs can be found in our [paper](https://arxiv.org/abs/2403.00476).
+
 <img src="./assets/multi-choice.jpg" alt="Multi-Choice" style="float: left; width: 49%; margin-right: 10px;">
 <img src="./assets/yes_no.jpg" alt="Yes/No" style="float: left; width: 49%;">
 <img src="./assets/caption_matching.jpg" alt="Caption Matching" style="float: left; width: 49%; margin-right: 10px;">
