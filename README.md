@@ -25,11 +25,12 @@
 
 ## Overview
 ![](./assets/overview.png)
-TempCompass encompasses a diverse set of temporal aspects (left) and task formats (right) to comprehensively evaluate the temporal perception capability of Video LLMs.
+TempCompass encompasses a diverse set of temporal aspects (left) and task formats (right) to comprehensively evaluate the temporal perception capability of Video LLMs. The task instructions can be found in `questions/`.
 
 ## Data Statistics
 ### Distribution of Videos
 ![](./assets/dist_video.jpg)
+
 ### Distribution of Task Instructions
 ![](./assets/dist_instruction.jpg)
 
