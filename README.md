@@ -11,16 +11,16 @@
     Yuxiang Wang<sup>1</sup>&emsp;
     <a href='https://renshuhuai-andy.github.io/' target='_blank'>Shuhuai Ren<sup>1</sup></a>&emsp;
     </br>
-    <a href='https://leili.site/' target='_blank'>Lei Li<sup>1</sup></a>&emsp;
+    <a href='https://leili.site/' target='_blank'>Lei Li<sup>2</sup></a>&emsp;
     <a href='https://pkucss.github.io/' target='_blank'>Sishuo Chen<sup>1</sup></a>&emsp;
     <a href='https://xusun.org/' target='_blank'>Xu Sun<sup>1</sup></a>&emsp;
-    <a href='https://houlu369.github.io/' target='_blank'>Lu Hou<sup>2</sup></a>
+    <a href='https://houlu369.github.io/' target='_blank'>Lu Hou<sup>3</sup></a>
 </div>
 <div>
 <div align="center">
     <sup>1</sup>Peking University&emsp;
-    <sup>2</sup>Huawei Noah’s Ark Lab
-    
+    <sup>2</sup>The University of Hong Kong&emsp;
+    <sup>3</sup>Huawei Noah’s Ark Lab
 </div>
 
 ## Overview
