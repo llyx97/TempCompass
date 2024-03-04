@@ -36,9 +36,8 @@ TempCompass encompasses a diverse set of temporal aspects (left) and task format
 ## Evaluation Results
 <img src="./assets/multi-choice.jpg" alt="Multi-Choice" style="float: left; width: 49%; margin-right: 10px;">
 <img src="./assets/yes_no.jpg" alt="Yes/No" style="float: left; width: 49%;">
-
-![](./assets/caption_matching.jpg)
-![](./assets/captioning.jpg)
+<img src="./assets/caption_matching.jpg" alt="Caption Matching" style="float: left; width: 49%; margin-right: 10px;">
+<img src="./assets/captioning.jpg" alt="Caption Generation" style="float: left; width: 49%;">
 
 ## TODOs
 - [ ] Upload scripts to collect and process videos.
