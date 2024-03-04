@@ -1,6 +1,6 @@
 # TempCompass: A benchmark to evaluate the temporal perception ability of Video LLMs
 <div align="center">
-    <a href='https://arxiv.org/abs/2403.00476'><img src='https://img.shields.io/badge/ArXiv-2311.01813-red'></a>
+    <a href='https://arxiv.org/abs/2403.00476'><img src='https://img.shields.io/badge/ArXiv-2403.00476-red'></a>
 </div>
 
 <div>
