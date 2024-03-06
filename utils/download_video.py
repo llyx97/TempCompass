@@ -1,7 +1,7 @@
 import json, os, requests
 from tqdm import tqdm
 
-video_root = '../raw_videos'
+video_root = '../videos'
 
 def download_video(download_url, video_file):
     vid_path = os.path.join(video_root, video_file)
