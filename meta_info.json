@@ -1,0 +1,7044 @@
+{
+    "1034419625": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "dunking",
+                "type": "fine-grained action"
+            },
+            "speed": null,
+            "direction": {
+                "subject": "man",
+                "direction": "moving from left to right from the camera's point of view",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1034419625_reverse": {
+        "eval_dim": {
+            "action": null,
+            "speed": null,
+            "direction": {
+                "subject": "man",
+                "direction": "moving from right to left from the camera's point of view",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1094590221": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "shooting basketball",
+                "type": "fine-grained action"
+            },
+            "speed": null,
+            "direction": {
+                "subject": "basketball",
+                "direction": "flying from right to left, up and down",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1094590221_reverse": {
+        "eval_dim": {
+            "action": null,
+            "speed": null,
+            "direction": {
+                "subject": "basketball",
+                "direction": "flying from left to right, up and down",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1098982673": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "dancing and singing",
+                "type": "coarse-grained action"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "direction": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1111657885": {
+        "eval_dim": {
+            "action": {
+                "subject": "people",
+                "action": "ice skating",
+                "type": "coarse-grained action"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "slow motion",
+                "type": "absolute speed"
+            },
+            "direction": {
+                "subject": "people",
+                "direction": "skating towards the camera",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1111657885_reverse": {
+        "eval_dim": {
+            "action": null,
+            "speed": null,
+            "direction": {
+                "subject": "people",
+                "direction": "skating away from the camera",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1073873933": {
+        "eval_dim": {
+            "action": {
+                "subject": "monkey",
+                "action": "fighting",
+                "type": "coarse-grained action"
+            },
+            "speed": null,
+            "direction": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1089810425": {
+        "eval_dim": {
+            "action": {
+                "subject": "people",
+                "action": "dancing",
+                "type": "coarse-grained action"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "direction": {
+                "subject": "entire video",
+                "direction": "panning from right to left",
+                "type": "camera motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1089810425_reverse": {
+        "eval_dim": {
+            "action": null,
+            "speed": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "panning from left to right",
+                "type": "camera motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1077507593": {
+        "eval_dim": {
+            "action": {
+                "subject": "people",
+                "action": "cooking",
+                "type": "coarse-grained action"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "slow motion",
+                "type": "absolute speed"
+            },
+            "direction": null,
+            "order": {
+                "subject": "skillet",
+                "event1": "smoking",
+                "event2": "burning in fire"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1107116885": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "shooting an arrow",
+                "type": "coarse-grained action"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "direction": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1059718130": {
+        "eval_dim": {
+            "action": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "time-lapse",
+                "type": "absolute speed"
+            },
+            "direction": {
+                "subject": "sun",
+                "direction": "rising",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": {
+                "subject": "entire video",
+                "attribute_change": "turning brighter",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1059718130_reverse": {
+        "eval_dim": {
+            "action": null,
+            "speed": null,
+            "direction": {
+                "subject": "sun",
+                "direction": "falling",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": {
+                "subject": "entire video",
+                "attribute_change": "turning darker",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1083845854": {
+        "eval_dim": {
+            "action": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "time-lapse",
+                "type": "absolute speed"
+            },
+            "direction": {
+                "subject": "clock hands",
+                "direction": "moving clockwise",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1083845854_reverse": {
+        "eval_dim": {
+            "action": null,
+            "speed": null,
+            "direction": {
+                "subject": "clock hands",
+                "direction": "moving counter-clockwise",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1050618460": {
+        "eval_dim": {
+            "action": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "time-lapse",
+                "type": "absolute speed"
+            },
+            "direction": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "flowers",
+                "attribute_change": "from bud to full bloom",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1083113449": {
+        "eval_dim": {
+            "action": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "time-lapse",
+                "type": "absolute speed"
+            },
+            "direction": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "sky",
+                "attribute_change": "getting darker",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1091143117": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": {
+                "subject": "eye",
+                "attribute_change": "from closed to open",
+                "type": "other change"
+            }
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1100329207": {
+        "eval_dim": {
+            "action": {
+                "subject": "sheep",
+                "action": "running",
+                "type": "coarse-grained action"
+            },
+            "direction": {
+                "subject": "entire video",
+                "direction": "moving forward",
+                "type": "camera motion"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1100329207_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "moving backward",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1089201973": {
+        "eval_dim": {
+            "action": {
+                "subject": "people",
+                "action": "kicking football",
+                "type": "fine-grained action"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "slow motion",
+                "type": "absolute speed"
+            },
+            "direction": {
+                "subject": "football",
+                "direction": "moving from left to right",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1089201973_reverse": {
+        "eval_dim": {
+            "action": null,
+            "speed": null,
+            "direction": {
+                "subject": "football",
+                "direction": "moving from right to left",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1034736653": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman athletes",
+                "action": "running",
+                "type": "coarse-grained action"
+            },
+            "speed": {
+                "subject": "woman closest to the camera",
+                "speed": "the fastest",
+                "type": "relative speed"
+            },
+            "direction": {
+                "subject": "woman athletes",
+                "direction": "running from left to right from the camera's point of view",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1034736653_reverse": {
+        "eval_dim": {
+            "action": null,
+            "speed": null,
+            "direction": {
+                "subject": "woman atheletes",
+                "direction": "running from right to left from the camera's point of view",
+                "type": "object motion"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1098153561": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "time-lapse",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": {
+                "subject": "leaves",
+                "attribute_change": "from green to yellow",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1084153195": {
+        "eval_dim": {
+            "action": {
+                "subject": "dolphins",
+                "action": "swimming",
+                "type": "coarse-grained action"
+            },
+            "direction": {
+                "subject": "dolphins",
+                "direction": "swimming towards the shore",
+                "type": "object motion"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "order": {
+                "subject": "dolphins",
+                "event1": "swimming towards the shore",
+                "event2": "getting fed with fish"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1084153195_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "dolphins",
+                "direction": "swimming away from the shore",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1054717541": {
+        "eval_dim": {
+            "action": {
+                "subject": "person",
+                "action": "kneading dough",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "slow motion",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1081092839": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "sun",
+                "direction": "descending",
+                "type": "object motion"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "time-lapse",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1081092839_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "sun",
+                "direction": "ascending",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1059462749": {
+        "eval_dim": {
+            "action": {
+                "subject": "person",
+                "action": "climbing down a ladder",
+                "type": "coarse-grained action"
+            },
+            "direction": {
+                "subject": "person",
+                "direction": "descending",
+                "type": "object motion"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1059462749_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "person",
+                "direction": "ascending",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1077590324": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "doing laundry",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "order": {
+                "subject": "woman",
+                "event1": "putting clothes into the washing machine",
+                "event2": "standing up to operate the washing machine"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1040541401": {
+        "eval_dim": {
+            "action": {
+                "subject": "children",
+                "action": "doing chemical experiments",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1059072773": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "ice cream",
+                "attribute_change": "melting",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1064645467": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "exercising",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "order": {
+                "subject": "man",
+                "event1": "taking off his jacket",
+                "event2": "jumping up to grab the bar"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1088279109": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "elevator",
+                "direction": "rising",
+                "type": "object motion"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1088279109_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "elevator",
+                "direction": "moving down",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1093573255": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "time-lapse",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": {
+                "subject": "plant",
+                "attribute_change": "reviving",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1105233293": {
+        "eval_dim": {
+            "action": {
+                "subject": "people",
+                "action": "playing basketball",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "order": {
+                "subject": "players",
+                "event1": "passing the ball to each other",
+                "event2": "shooting the basketball"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1077146132": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "waking up",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "entire video",
+                "attribute_change": "turning brighter",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1086688682": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "traffic lights",
+                "attribute_change": "from red to green",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1096612823": {
+        "eval_dim": {
+            "action": {
+                "subject": "car",
+                "action": "driving on the road",
+                "type": "coarse-grained action"
+            },
+            "direction": {
+                "subject": "entire video",
+                "direction": "zooming in",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1096612823_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "zooming out",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1075484900": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "child",
+                "direction": "turning away from the man",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1075484900_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "child",
+                "direction": "turning towards from the man",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1090578917": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "playing soccer",
+                "type": "coarse-grained action"
+            },
+            "direction": {
+                "subject": "man",
+                "direction": "leaping to his right",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": {
+                "subject": "man",
+                "event1": "leaping to his right",
+                "event2": "standing up"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1090578917_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "man",
+                "direction": "leaping to his left",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1075338140": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "ball",
+                "direction": "rolling from left to right",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1075338140_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "ball",
+                "direction": "rolling from right to left",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1067268403": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "wind turbines",
+                "direction": "rotating clockwise",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1067268403_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "wind turbines",
+                "direction": "rotating counter-clockwise",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1072594556": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the car in the center of screen",
+                "speed": "faster than other cars",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles",
+            "buildings"
+        ]
+    },
+    "1096007487": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "3d cloud",
+                "direction": "spining leftward from the camera's point of view",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1096007487_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "3d cloud",
+                "direction": "spining rightward from the camera's point of view",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1095939659": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "light",
+                "direction": "growing clockwise",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1095939659_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "light",
+                "direction": "disappearing counter-clockwise",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1059632327": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "tennis ball",
+                "direction": "bouncing up and down",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1098785169": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "galaxy",
+                "direction": "spinning clockwise",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1098785169_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "galaxy",
+                "direction": "spinning counter-clockwise",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1099984801": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "clouds",
+                "direction": "moving towards the camera",
+                "type": "object motion"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "time-lapse",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": {
+                "subject": "entire video",
+                "attribute_change": "getting darker",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1099984801_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "clouds",
+                "direction": "moving away from the camera",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "entire video",
+                "attribute_change": "getting brighter",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1082419672": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "flying backwards relative to the ship",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1082419672_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "flying forwards relative to the ship",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1058985719": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "airplane",
+                "direction": "flying from bottom to top of the screen",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1058985719_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "airplane",
+                "direction": "flying from top to bottom of the screen",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1055413730": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "planet earth",
+                "direction": "spinning to the right from the camera's point of view",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1055413730_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "planet earth",
+                "direction": "spinning to the left from the camera's point of view",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1081684532": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "asteroids",
+                "direction": "flying towards the camera",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1081684532_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "asteroids",
+                "direction": "flying away from the camera",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "23391142": {
+        "eval_dim": {
+            "action": {
+                "subject": "people",
+                "action": "playing badminton",
+                "type": "coarse-grained action"
+            },
+            "direction": {
+                "subject": "entire video",
+                "direction": "panning to the right",
+                "type": "camera motion"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "slow motion",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "23391142_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "panning to the left",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1078368947": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "reading book while taking a bath",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1099738787": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "concrete wall",
+                "attribute_change": "falling apart",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1094219575": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "time-lapse",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": {
+                "subject": "flowers",
+                "attribute_change": "from full blossom to withered",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1053758117": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "zoom into a 3d digital brain",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1053758117_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "zoom out of a 3d digital brain",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1069717165": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "woman",
+                "event1": "shaking her head",
+                "event2": "nodding her head"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1041584314": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "man",
+                "event1": "showing a serious experssion",
+                "event2": "smiling"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1067427023": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "time-lapse",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": {
+                "subject": "snow particles",
+                "attribute_change": "melting",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "plants",
+            "natural objects"
+        ]
+    },
+    "1093948229": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "golden particles",
+                "attribute_change": "exploding",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1106668103": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "moving forward",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1106668103_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "moving backward",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1049965795": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "light bulb",
+                "attribute_change": "light up",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1052364490": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "digital bar chart",
+                "attribute_change": "growing",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1080990179": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "apple",
+                "attribute_change": "shrinking and drying out",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1057163434": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "chef",
+                "direction": "putting a bread on top of a burger",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "food"
+        ]
+    },
+    "1057163434_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "chef",
+                "direction": "removing a bread from the top of a burger",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "food"
+        ]
+    },
+    "1085910917": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "drinking",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "woman",
+                "event1": "drinking a glass of water",
+                "event2": "turning back"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1058907236": {
+        "eval_dim": {
+            "action": {
+                "subject": "squirrel",
+                "action": "foraging",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "squirrel",
+                "event1": "picking up a nut",
+                "event2": "turning back"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1077575504": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "pile of salt",
+                "attribute_change": "growing",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "23370985": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "ice crystal",
+                "attribute_change": "forming",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1100319395": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "circular pattern",
+                "direction": "moving clockwise",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1100319395_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "circular pattern",
+                "direction": "moving counter-clockwise",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1067268406": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the car",
+                "speed": "travels faster than the camera",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1092682551": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the cars",
+                "speed": "travel slower than the camera",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles",
+            "buildings"
+        ]
+    },
+    "1101200293": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "flying clockwise around an aircraft carrier",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1101200293_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "flying counter-clockwise around an aircraft carrier",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1072453637": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "panning to the back of a fighter jet",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": {
+                "subject": "the fighter jet",
+                "event1": "shooting one missile",
+                "event2": "shooting two missiles"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1072453637_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "panning to the front of a fighter jet",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "3396473605": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "five stars",
+                "direction": "appear from left to right",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "3396473605_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "five stars",
+                "direction": "disappear from right to left",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1086820415": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "the large wave",
+                "direction": "moving vertically towards the bottom of the screen",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1086820415_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "the large wave",
+                "direction": "moving vertically towards the top of the screen",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1081513610": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "discussing",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1073831006": {
+        "eval_dim": {
+            "action": {
+                "subject": "zebras",
+                "action": "running",
+                "type": "coarse-grained action"
+            },
+            "direction": {
+                "subject": "zebras",
+                "direction": "moving from left to right from the camera's point of view",
+                "type": "object motion"
+            },
+            "speed": {
+                "subject": "zebras",
+                "speed": "slow motion",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1073831006_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "zebras",
+                "direction": "moving from right to left from the camera's point of view",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1069338034": {
+        "eval_dim": {
+            "action": {
+                "subject": "elephants",
+                "action": "eating and drinking",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals",
+            "natural objects"
+        ]
+    },
+    "1076880707": {
+        "eval_dim": {
+            "action": {
+                "subject": "bear",
+                "action": "scratching against a tree",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals",
+            "plants"
+        ]
+    },
+    "1092278063": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "two rows of duck toy",
+                "direction": "moving in the opposite direction on a conveyor belt",
+                "type": "object motion"
+            },
+            "speed": {
+                "subject": "conveyor belt",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1024867412": {
+        "eval_dim": {
+            "action": {
+                "subject": "dog",
+                "action": "driving a car",
+                "type": "coarse-grained action"
+            },
+            "direction": {
+                "subject": "car",
+                "direction": "taking a right turn",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles",
+            "animals"
+        ]
+    },
+    "1024867412_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "car",
+                "direction": "taking a left turn",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles",
+            "animals"
+        ]
+    },
+    "1076877854": {
+        "eval_dim": {
+            "action": {
+                "subject": "robots",
+                "action": "caring for seedlings",
+                "type": "coarse-grained action"
+            },
+            "direction": {
+                "subject": "the closest robotic arm",
+                "direction": "moving to the right side of the screen",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "plants",
+            "artifacts"
+        ]
+    },
+    "1076877854_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "the closest robotic arm",
+                "direction": "moving to the left side of the screen",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "plants",
+            "artifacts"
+        ]
+    },
+    "1104673225": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "eating salad",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "food"
+        ]
+    },
+    "1100468035": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "zooming forward",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the door",
+                "attribute_change": "gradually opening",
+                "type": "other change"
+            }
+        },
+        "content": [
+            "artifacts",
+            "buildings"
+        ]
+    },
+    "1100468035_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "zooming backward",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the door",
+                "attribute_change": "gradually closing",
+                "type": "other change"
+            }
+        },
+        "content": [
+            "artifacts",
+            "buildings"
+        ]
+    },
+    "315784": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the speedometer in the center",
+                "speed": "moving faster than the speedometer in the left",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "3411806181": {
+        "eval_dim": {
+            "action": {
+                "subject": "person",
+                "action": "recharging an electric vehicle",
+                "type": "fine-grained action"
+            },
+            "direction": {
+                "subject": "person",
+                "direction": "plugging the charging gun into the electric vehicle",
+                "type": "object motion"
+            },
+            "speed": {
+                "subject": "entire video",
+                "speed": "slow motion",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "vehicles"
+        ]
+    },
+    "3411806181_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "person",
+                "direction": "unplugging the charging gun from the electric vehicle",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "vehicles"
+        ]
+    },
+    "1043054206": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the yellow car",
+                "speed": "driving faster than other cars",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1096238125": {
+        "eval_dim": {
+            "action": {
+                "subject": "the man and woman",
+                "action": "lifting kettlebell",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": {
+                "subject": "the man",
+                "speed": "lifting kettlebell at roughly the same speed as the woman",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1103088481": {
+        "eval_dim": {
+            "action": {
+                "subject": "person",
+                "action": "buying vegetables",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "person",
+                "event1": "placing a green vegetables into the trolley",
+                "event2": "placing a black vegetables into the trolley"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "food"
+        ]
+    },
+    "1055981522": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "3d shapes",
+                "attribute_change": "transforming from cubes into spheres",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1061017846": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the boat on the top of the screen",
+                "speed": "travels at the same speed as the boat on the bottom of the screen",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1097341567": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "the bar chart",
+                "event1": "the bars appears",
+                "event2": "the arrow appears",
+                "type": null
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1056433484": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "the earth",
+                "direction": "travels counter-clockwise around the sun",
+                "type": "object motion"
+            },
+            "speed": {
+                "subject": "the earth",
+                "speed": "rotates faster than the sun",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1073914229": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "the trains",
+                "direction": "driving towards each other",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1073914229_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "the trains",
+                "direction": "driving away from each other",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1099360359": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the train further away from the screen",
+                "speed": "drives faster than the train closer to the screen",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1098970151": {
+        "eval_dim": {
+            "action": {
+                "subject": "cat",
+                "action": "licking its paw",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1081734740": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "texture of a leaf",
+                "attribute_change": "turning from green to yellow",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1093719871": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "pink flowers",
+                "attribute_change": "turning from withered to full blossom",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1042819039": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "entire video",
+                "speed": "time-lapse",
+                "type": "absolute speed"
+            },
+            "order": {
+                "subject": "the street",
+                "event1": "filled with people",
+                "event2": "filled with vehicles",
+                "type": null
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "vehicles"
+        ]
+    },
+    "1093139559": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "zooming into three football players",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the light condition on the football players",
+                "attribute_change": "turning brighter",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1093139559_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "zooming out from three football players",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the light condition on the football players",
+                "attribute_change": "turning darker",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1055973887": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the fire ball",
+                "attribute_change": "getting larger",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1098710341": {
+        "eval_dim": {
+            "action": {
+                "subject": "person",
+                "action": "pouring water into a glass",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the glass",
+                "attribute_change": "from empty to full of water",
+                "type": "other change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1062736174": {
+        "eval_dim": {
+            "action": {
+                "subject": "chef",
+                "action": "sprinkle salt on steak",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "food"
+        ]
+    },
+    "1099116143": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "pink liquid",
+                "attribute_change": "white foam appears on the surface",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1108398787": {
+        "eval_dim": {
+            "action": {
+                "subject": "person",
+                "action": "operating a smartphone device",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "person",
+                "event1": "scrolling down",
+                "event2": "entering passwords"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1080591311": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "jellyfish",
+                "direction": "floating upwards",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1080591311_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "jellyfish",
+                "direction": "floating downwards",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1107034223": {
+        "eval_dim": {
+            "action": {
+                "subject": "bear",
+                "action": "catching fishes",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "bear",
+                "event1": "catching a fish",
+                "event2": "turning back"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1025623079": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "skyscraper",
+                "attribute_change": "collasping",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1094782389": {
+        "eval_dim": {
+            "action": {
+                "subject": "dog",
+                "action": "giving a high five to a woman",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "animals"
+        ]
+    },
+    "3411228673": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "flying upwards among skyscraper buildings",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "3411228673_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "flying downwards among skyscraper buildings",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1043487715": {
+        "eval_dim": {
+            "action": {
+                "subject": "children",
+                "action": "diving into water",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "children",
+                "event1": "diving into water",
+                "event2": "making gestures to the camera"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1093737353": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "panning to the right",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a line of test tubes are shown",
+                "event2": "a beaker is shown"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1093737353_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "panning to the left",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1063373449": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "coronavirus",
+                "attribute_change": "dissolving under the attack of antibodies",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1017768724": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "person",
+                "direction": "moving rightwards",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "natural objects",
+            "artifacts"
+        ]
+    },
+    "1017768724_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "person",
+                "direction": "moving leftwards",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "natural objects",
+            "artifacts"
+        ]
+    },
+    "1106280325": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "reading book",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a girl is shown reading book",
+                "event2": "a body of water is shown"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "natural objects"
+        ]
+    },
+    "1100117263": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "the little lion",
+                "direction": "falling from the back of a big lion",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1100117263_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "the little lion",
+                "direction": "climbing up to the back of a big lion",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "15695290": {
+        "eval_dim": {
+            "action": {
+                "subject": "person",
+                "action": "drawing a picture",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a house is drawn",
+                "event2": "a family of people is drawn"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1091090295": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a bird flying onto the back of a hippo",
+                "event2": "a hippo pokes its head out of water"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1021488277": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "person",
+                "direction": "picking up a pineapple",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "food",
+            "people"
+        ]
+    },
+    "1021488277_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "person",
+                "direction": "dropping down a pineapple",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1106899445": {
+        "eval_dim": {
+            "action": {
+                "subject": "person",
+                "action": "squeezing out toothpaste on a toothbrush",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1067925569": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a container ship is shown",
+                "event2": "a cargo train is shown"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1062609286": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the battery charge",
+                "attribute_change": "increasing",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1100397435": {
+        "eval_dim": {
+            "action": {
+                "subject": "person",
+                "action": "starts the robot vacuum cleaner",
+                "type": "fine-grained action"
+            },
+            "direction": {
+                "subject": "robot vacuum cleaner",
+                "direction": "moving to the right side of the screen",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a person enters the screen",
+                "event2": "the robot vacuum cleaner starts moving"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1100397435_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "robot vacuum cleaner",
+                "direction": "moving to the left side of the screen",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1108534143": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "puppy",
+                "direction": "walking out of a wigwam",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1108534143_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "puppy",
+                "direction": "going into a wigwam",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1034049020": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "painting a wall while walking",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "woman",
+                "event1": "painting a wall while walking",
+                "event2": "turning back"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1047368344": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "girl",
+                "direction": "jumping into water",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": {
+                "subject": "girl",
+                "event1": "taking off clothes",
+                "event2": "jumping into water"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "natural objects"
+        ]
+    },
+    "1047368344_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "girl",
+                "direction": "jumping out of water",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "natural objects"
+        ]
+    },
+    "1060403198": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "tree",
+                "attribute_change": "growing",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1100074677": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "person",
+                "event1": "writing something on the paper note",
+                "event2": "standing the paper note up"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1100350201": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a little girl is drawn",
+                "event2": "a man is drawn"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1099109715": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the number of fruits and vegetables",
+                "attribute_change": "increasing",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1051211272": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the toast with cream cheese",
+                "attribute_change": "gradually being eaten out and disappearing",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1059815936": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the paper",
+                "attribute_change": "changing from wrinkled paper ball into a flattened sheet",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1086423566": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "food being added into the bowl",
+                "event2": "the bowl rotates"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1069611487": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a paper box appears",
+                "event2": "pizza slices being taken away"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1086286649": {
+        "eval_dim": {
+            "action": {
+                "subject": "armored vehicles",
+                "action": "driving",
+                "type": "coarse-grained action"
+            },
+            "direction": {
+                "subject": "armored vehicles",
+                "direction": "moving from right to left from the camera's point of view",
+                "type": "object motion"
+            },
+            "speed": {
+                "subject": "armored vehicles",
+                "speed": "slowly",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1093041749": {
+        "eval_dim": {
+            "action": {
+                "subject": "dragon",
+                "action": "breathing fire",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "dragon",
+                "event1": "landing from the sky",
+                "event2": "breathing fire"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1076180768": {
+        "eval_dim": {
+            "action": {
+                "subject": "Medieval Knight",
+                "action": "draws sword from shearf",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "3406661033": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "propels himeself forward in wheelchair",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "man",
+                "event1": "propels himeself forward in wheelchair",
+                "event2": "hands the document to colleagues"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "3406618583": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "doing freestyle dance",
+                "type": "fine-grained action"
+            },
+            "direction": {
+                "subject": "entire video",
+                "direction": "panning up and down around the girl",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "3405120819": {
+        "eval_dim": {
+            "action": {
+                "subject": "chef",
+                "action": "shaping dough",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "chef",
+                "event1": "shaping dough",
+                "event2": "smiling at the camera"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "food",
+            "people"
+        ]
+    },
+    "3405088753": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "buying bread",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "salesman",
+                "event1": "packing up the bread for the woman",
+                "event2": "saying something to the woman"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "food"
+        ]
+    },
+    "3401191309": {
+        "eval_dim": {
+            "action": {
+                "subject": "athletic man",
+                "action": "taking off prosthetic running blade",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "21218935": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "exercising",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "woman",
+                "event1": "doing push ups",
+                "event2": "smiling at the camera"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1050618460_reverse": {
+        "eval_dim": {
+            "action": null,
+            "speed": null,
+            "direction": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "flowers",
+                "attribute_change": "from full bloom to bud",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1083113449_reverse": {
+        "eval_dim": {
+            "action": null,
+            "speed": null,
+            "direction": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "sky",
+                "attribute_change": "getting brighter",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1091143117_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "eye",
+                "attribute_change": "from open to closed",
+                "type": "other change"
+            }
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1098153561_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "leaves",
+                "attribute_change": "from yellow to green",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1059072773_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "ice cream",
+                "attribute_change": "solidifying into a ball",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1093573255_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "plant",
+                "attribute_change": "wilting",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1077146132_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "entire video",
+                "attribute_change": "turning darker",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1086688682_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "traffic lights",
+                "attribute_change": "from green to red",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1099738787_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "concrete wall",
+                "attribute_change": "assembling together",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1094219575_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "flowers",
+                "attribute_change": "from withered to full blossom",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1067427023_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "snow particles",
+                "attribute_change": "growing",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "plants",
+            "natural objects"
+        ]
+    },
+    "1093948229_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "golden particles",
+                "attribute_change": "contracting into the center",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1049965795_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "light bulb",
+                "attribute_change": "turning off",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1052364490_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "digital bar chart",
+                "attribute_change": "decreasing and disappearing",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1080990179_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "apple",
+                "attribute_change": "swelling and becoming juicy",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1077575504_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "pile of salt",
+                "attribute_change": "shrinking",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "23370985_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "ice crystal",
+                "attribute_change": "melting",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1055981522_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "3d shapes",
+                "attribute_change": "transforming from spheres into cubes",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1081734740_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "texture of a leaf",
+                "attribute_change": "turning from yellow to green",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1093719871_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "pink flowers",
+                "attribute_change": "turning from full blossom to withered",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1055973887_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the fire ball",
+                "attribute_change": "getting smaller",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1098710341_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the glass",
+                "attribute_change": "from full of water to empty",
+                "type": "other change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1099116143_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "pink liquid",
+                "attribute_change": "white foam disappears from the surface",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1025623079_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "skyscraper",
+                "attribute_change": "being erected",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1063373449_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "coronavirus",
+                "attribute_change": "assembling together",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1062609286_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the battery charge",
+                "attribute_change": "decreasing",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1060403198_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "tree",
+                "attribute_change": "decreasing in size",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1099109715_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the number of fruits and vegetables",
+                "attribute_change": "decreasing",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1051211272_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the toast with cream cheese",
+                "attribute_change": "gradually reappearing piece by piece",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1059815936_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the paper",
+                "attribute_change": "changing from flattened sheet into wrinkled paper ball",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "5395244": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "walking across the pebble creek",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1037628617": {
+        "eval_dim": {
+            "action": {
+                "subject": "person",
+                "action": "clicking button and rolling wheel on a mouse ",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts",
+            "people"
+        ]
+    },
+    "1066801717": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "arranging bouquet of daffodils",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "plants"
+        ]
+    },
+    "1088428381": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "opening a gift box",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1069593640": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "puttting a towel on her neck",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "8307961": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "man",
+                "event1": "chatting with a woman while walking",
+                "event2": "showing something on his tablet to a woman"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "15439453": {
+        "eval_dim": {
+            "action": {
+                "subject": "entire video",
+                "action": "a couple dancing tango while a girl playing saxophone",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1107947873": {
+        "eval_dim": {
+            "action": {
+                "subject": "doctor",
+                "action": "giving medicine to a patient",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1081194848": {
+        "eval_dim": {
+            "action": {
+                "subject": "researcher",
+                "action": "teaching children how to dissect a frog",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "animals"
+        ]
+    },
+    "1091526823": {
+        "eval_dim": {
+            "action": {
+                "subject": "a hand",
+                "action": "turning over pages of a book",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts",
+            "people"
+        ]
+    },
+    "26631100": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "three hands are holding the clay pot",
+                "event2": "two hands are holding the clay pot"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts",
+            "people"
+        ]
+    },
+    "1059718130_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "speed": {
+                "subject": "the sun above",
+                "speed": "rising at the same speed as the sun below",
+                "type": "relative speed"
+            },
+            "direction": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1059718130_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "speed": {
+                "subject": "the sun above",
+                "speed": "rising slower than the sun below",
+                "type": "relative speed"
+            },
+            "direction": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1059718130_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "speed": {
+                "subject": "the sun above",
+                "speed": "rising faster than the sun below",
+                "type": "relative speed"
+            },
+            "direction": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1098153561_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the forest above",
+                "speed": "changing color at the same speed as the forest below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1098153561_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the forest above",
+                "speed": "changing color slower than the forest below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1098153561_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the forest above",
+                "speed": "changing color faster than the forest below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1059462749_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the person above",
+                "speed": "climbing at the same speed as the person below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1059462749_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the person above",
+                "speed": "climbing slower than the person below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1059462749_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the person above",
+                "speed": "climbing faster than the person below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1059072773_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the ice cream above",
+                "speed": "melting at the same speed as the ice cream below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1059072773_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the ice cream above",
+                "speed": "melting slower than the ice cream below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1059072773_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the ice cream above",
+                "speed": "melting faster than the ice cream below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1090578917_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the man above",
+                "speed": "jumping at the same speed as the man below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1090578917_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the man above",
+                "speed": "jumping slower than the man below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1090578917_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the man above",
+                "speed": "jumping faster than the man below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1075338140_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the ball above",
+                "speed": "moving at the same speed as the ball below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1075338140_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the ball above",
+                "speed": "moving slower than the ball below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1075338140_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the ball above",
+                "speed": "moving faster than the ball below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1077575504_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the pile of salt above",
+                "speed": "growing at the same speed as the pile of salt below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1077575504_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the pile of salt above",
+                "speed": "growing slower than the pile of salt below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1077575504_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the pile of salt above",
+                "speed": "growing faster than the pile of salt below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "food"
+        ]
+    },
+    "1100319395_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the white circle above",
+                "speed": "rotating at the same speed as the white circle below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1100319395_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the white circle above",
+                "speed": "rotating faster than the white circle below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1100319395_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the white circle above",
+                "speed": "rotating slower than the white circle below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1086820415_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the wave above",
+                "speed": "moving at the same speed as the wave below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1086820415_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the wave above",
+                "speed": "moving faster than the wave below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1086820415_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the wave above",
+                "speed": "moving slower than the wave below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1096238125_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the two people above",
+                "speed": "lifting kettlebell at the same speed as the two people below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1096238125_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the two people above",
+                "speed": "lifting kettlebell faster than the two people below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1096238125_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the two people above",
+                "speed": "lifting kettlebell slower than the two people below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1056433484_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the earth above",
+                "speed": "rotates at the same speed as the earth below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1056433484_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the earth above",
+                "speed": "rotates slower the earth below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1056433484_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the earth above",
+                "speed": "rotates faster than the earth below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "15695290_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the person above",
+                "speed": "drawing picture at the same speed as the person below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "15695290_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the person above",
+                "speed": "drawing picture slower than the person below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "15695290_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the person above",
+                "speed": "drawing picture faster than the person below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1047368344_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the girl above",
+                "speed": "running at the same speed as the girl below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "natural objects"
+        ]
+    },
+    "1047368344_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the girl above",
+                "speed": "running slower than the girl below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "natural objects"
+        ]
+    },
+    "1047368344_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the girl above",
+                "speed": "running faster than the girl below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "natural objects"
+        ]
+    },
+    "1060403198_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the tree above",
+                "speed": "growing at the same speed the tree below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1060403198_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the tree above",
+                "speed": "growing faster than the tree below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1060403198_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the tree above",
+                "speed": "growing slower than the tree below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "plants"
+        ]
+    },
+    "1100058499_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the man above",
+                "speed": "jumping rope at the same speed the man below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1100058499_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the man above",
+                "speed": "jumping rope slower than the man below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1100058499_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the man above",
+                "speed": "jumping rope faster than the man below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1092813279_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the woman above",
+                "speed": "doing push ups at the same speed the woman below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1092813279_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the woman above",
+                "speed": "doing push ups slower than the woman below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1092813279_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the woman above",
+                "speed": "doing push ups faster than the woman below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1084518106_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the truck above",
+                "speed": "driving at the same speed the truck below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1084518106_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the truck above",
+                "speed": "driving faster than the truck below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1084518106_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the truck above",
+                "speed": "driving slower than the truck below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles"
+        ]
+    },
+    "1062609286_concat_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the battery charge above",
+                "speed": "increasing at the same speed the battery charge below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1062609286_concat_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the battery charge above",
+                "speed": "increasing slower than the battery charge below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1062609286_concat_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": {
+                "subject": "the battery charge above",
+                "speed": "increasing faster than the battery charge below",
+                "type": "relative speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1111601171": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the sphere building",
+                "attribute_change": "changing from green to blue",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1086105089": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "building",
+                "attribute_change": "being constructed",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1058498242": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "3d pixels",
+                "attribute_change": "changing from a cuboid into the shape of a man",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1082268005": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "planet earth",
+                "attribute_change": "assembling from toy bricks",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1070711428": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "glacier",
+                "attribute_change": "breaking and falling in water",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1057447372": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "sport stadium",
+                "attribute_change": "turning brighter",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1053334574": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "black ink",
+                "attribute_change": "expanding from the center",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1016172301": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "3d house model",
+                "attribute_change": "being constructed",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1084736389": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the face",
+                "attribute_change": "morphs from a chimpanzee into a human",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "people",
+            "animals"
+        ]
+    },
+    "1054494542": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the background",
+                "attribute_change": "changing from pink to blue",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1055194940": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the insect",
+                "attribute_change": "transforming from pupa into butterfly",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1079384099": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "3d pixel",
+                "attribute_change": "transforming from a white square into the shape of a flower",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1099811331": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "3d heart",
+                "attribute_change": "gradually appears",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1093340469": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the room",
+                "attribute_change": "turning darker",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1111601171_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the sphere building",
+                "attribute_change": "changing from blue to green",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1086105089_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "building",
+                "attribute_change": "being deconstructed",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1058498242_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "3d pixels",
+                "attribute_change": "changing from the shape of a man into a cuboid",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1082268005_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "planet earth",
+                "attribute_change": "disassembling and disappearing",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "artifacts"
+        ]
+    },
+    "1070711428_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "glacier",
+                "attribute_change": "assembling and rising in water",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1057447372_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "sport stadium",
+                "attribute_change": "turning darker",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1053334574_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "black ink",
+                "attribute_change": "contracting into the center",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1016172301_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "3d house model",
+                "attribute_change": "being deconstructed",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1084736389_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the face",
+                "attribute_change": "morphs from a human into a chimpanzee",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "people",
+            "animals"
+        ]
+    },
+    "1054494542_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the background",
+                "attribute_change": "changing from blue to pink",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1055194940_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the insect",
+                "attribute_change": "transforming from butterfly into pupa",
+                "type": "combined change"
+            }
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1079384099_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "3d pixel",
+                "attribute_change": "transforming from the shape of a flower into a white square",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1099811331_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "3d heart",
+                "attribute_change": "gradually disappears",
+                "type": "size & shape change"
+            }
+        },
+        "content": [
+            "abstract"
+        ]
+    },
+    "1093340469_reverse": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": {
+                "subject": "the room",
+                "attribute_change": "turning brighter",
+                "type": "color & light change"
+            }
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1104663381": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "stretching a pizza dough",
+                "type": "fine-grained action"
+            },
+            "direction": {
+                "subject": "the pizza dough",
+                "direction": "rotating counter-clockwise",
+                "type": "object motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "food"
+        ]
+    },
+    "22100041": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "doing an invitation gesture with her hands",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1103623921": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "playing pool",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": {
+                "subject": "the cue ball",
+                "speed": "normal speed",
+                "type": "absolute speed"
+            },
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1093338031": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "trying to punch a computer screen",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1064310466": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "peeling cocoa seeds",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "food"
+        ]
+    },
+    "1088497853": {
+        "eval_dim": {
+            "action": null,
+            "direction": {
+                "subject": "entire video",
+                "direction": "flying upwards before a stone buidling",
+                "type": "camera motion"
+            },
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "buildings"
+        ]
+    },
+    "1106087175": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "drawing on a white sneaker",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "13324343": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "man",
+                "event1": "tying his shoelaces",
+                "event2": "gliding on the skateboard"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "vehicles"
+        ]
+    },
+    "1083624811": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "performs alternating leg lift plank",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1014976360": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "man",
+                "event1": "looking at his phone",
+                "event2": "taking off his glasses"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "18416608": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "woman",
+                "event1": "sampling water in a bottle",
+                "event2": "operating her tablet"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "natural objects",
+            "artifacts"
+        ]
+    },
+    "1061351290": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "woman",
+                "event1": "touching her pregant belly",
+                "event2": "measuring her belly with a measuring tape"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1066238617": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "practising her punches",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1072000366": {
+        "eval_dim": {
+            "action": {
+                "subject": "girls",
+                "action": "elbow each other",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1065272113": {
+        "eval_dim": {
+            "action": {
+                "subject": "doctor",
+                "action": "giving the woman an injection",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1072971926": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "opening a pizza box",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "food"
+        ]
+    },
+    "3399348431": {
+        "eval_dim": {
+            "action": {
+                "subject": "a hand",
+                "action": "squeezing sauce into a bowl of vegetables",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "food"
+        ]
+    },
+    "1059072773_1059718130_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "ice cream is melting while sun is rising"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects",
+            "food"
+        ]
+    },
+    "1059072773_1059718130_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "ice cream melting",
+                "event2": "sun rising"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects",
+            "food"
+        ]
+    },
+    "1059072773_1059718130_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "sun rising",
+                "event2": "ice cream melting"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects",
+            "food"
+        ]
+    },
+    "1024867412_1034049020_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a dog is driving while a girl is walking on the street"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals",
+            "people"
+        ]
+    },
+    "1024867412_1034049020_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a dog is driving",
+                "event2": "a girl is walking on the street"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals",
+            "people"
+        ]
+    },
+    "1024867412_1034049020_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a girl is walking on the street",
+                "event2": "a dog is driving"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals",
+            "people"
+        ]
+    },
+    "1096238125_1098970151_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "two people are lifting weights while a cat is licking its paw"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals",
+            "people"
+        ]
+    },
+    "1096238125_1098970151_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "two people are lifting weights",
+                "event2": "a cat is licking its paw"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals",
+            "people"
+        ]
+    },
+    "1096238125_1098970151_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a cat is licking its paw",
+                "event2": "two people are lifting weights"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals",
+            "people"
+        ]
+    },
+    "1069717165_1041584314_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a woman is showing different expressions while a man is showing different expressions"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1069717165_1041584314_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a woman is showing different expressions",
+                "event2": "a man is showing different expressions"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1069717165_1041584314_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a man is showing different expressions",
+                "event2": "a woman is showing different expressions"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1055413730_1055973887_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "the earth is spinning while the fire ball is expanding"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1055413730_1055973887_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "the earth is spinning",
+                "event2": "the fire ball is expanding"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1055413730_1055973887_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "the fire ball is expanding",
+                "event2": "the earth is spinning"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects"
+        ]
+    },
+    "1058907236_1021488277_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a squirrel is foraging while a person is picking up a pineapple"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals",
+            "food",
+            "people"
+        ]
+    },
+    "1058907236_1021488277_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a squirrel is foraging",
+                "event2": "a person is picking up a pineapple"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals",
+            "food",
+            "people"
+        ]
+    },
+    "1058907236_1021488277_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a person is picking up a pineapple",
+                "event2": "a squirrel is foraging"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "animals",
+            "food",
+            "people"
+        ]
+    },
+    "1054717541_1047368344_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a person is kneading dough while a girl is jumping into water"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "food",
+            "people",
+            "natural objects"
+        ]
+    },
+    "1054717541_1047368344_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a person is kneading dough",
+                "event2": "a girl is jumping into water"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "food",
+            "people",
+            "natural objects"
+        ]
+    },
+    "1054717541_1047368344_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a girl is jumping into water",
+                "event2": "a person is kneading dough"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "food",
+            "people",
+            "natural objects"
+        ]
+    },
+    "1089201973_1086820415_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a person is kicking football while a big wave is shown"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts",
+            "people",
+            "natural objects"
+        ]
+    },
+    "1089201973_1086820415_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a person is kicking football",
+                "event2": "a big wave is shown"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts",
+            "people",
+            "natural objects"
+        ]
+    },
+    "1089201973_1086820415_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a big wave is shown",
+                "event2": "a person is kicking football"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "artifacts",
+            "people",
+            "natural objects"
+        ]
+    },
+    "1080990179_1086820415_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "an apple is drying out while a big wave is shown"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "food",
+            "natural objects"
+        ]
+    },
+    "1080990179_1086820415_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "an apple is drying out",
+                "event2": "a big wave is shown"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "food",
+            "natural objects"
+        ]
+    },
+    "1080990179_1086820415_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a big wave is shown",
+                "event2": "an apple is drying out"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "food",
+            "natural objects"
+        ]
+    },
+    "1067268403_1064645467_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "wind turbines are rotating while a man is doing exercise"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1067268403_1064645467_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "wind turbines are rotating",
+                "event2": "a man is doing exercise"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1067268403_1064645467_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a man is doing exercise",
+                "event2": "wind turbines are rotating"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1082268005_1063373449_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "planet earth is assembling from toy bricks while viruses are dissolving"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects",
+            "artifacts"
+        ]
+    },
+    "1082268005_1063373449_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "planet earth is assembling from toy bricks",
+                "event2": "viruses are dissolving"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects",
+            "artifacts"
+        ]
+    },
+    "1082268005_1063373449_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "viruses are dissolving",
+                "event2": "planet earth is assembling from toy bricks"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects",
+            "artifacts"
+        ]
+    },
+    "1060403198_1049965795_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a tree is growing up while a light bulb is lighting up"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "plants",
+            "artifacts"
+        ]
+    },
+    "1060403198_1049965795_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a tree is growing up",
+                "event2": "a light bulb is lighting up"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "plants",
+            "artifacts"
+        ]
+    },
+    "1060403198_1049965795_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a light bulb is lighting up",
+                "event2": "a tree is growing up"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "plants",
+            "artifacts"
+        ]
+    },
+    "1091143117_1094219575_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "an eye is opening while a flower is wilting"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "plants",
+            "people"
+        ]
+    },
+    "1091143117_1094219575_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "an eye is opening",
+                "event2": "a flower is wilting"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "plants",
+            "people"
+        ]
+    },
+    "1091143117_1094219575_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a flower is wilting",
+                "event2": "an eye is opening"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "plants",
+            "people"
+        ]
+    },
+    "1086105089_1085910917_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a building is being constructed while a woman is drinking water"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "buildings",
+            "people"
+        ]
+    },
+    "1086105089_1085910917_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a building is being constructed",
+                "event2": "a woman is drinking water"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "buildings",
+            "people"
+        ]
+    },
+    "1086105089_1085910917_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a woman is drinking water",
+                "event2": "a building is being constructed"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "buildings",
+            "people"
+        ]
+    },
+    "1034736653_1043054206_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "women are running while cars are racing"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles",
+            "people"
+        ]
+    },
+    "1034736653_1043054206_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "women are running",
+                "event2": "cars are racing"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles",
+            "people"
+        ]
+    },
+    "1034736653_1043054206_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "cars are racing",
+                "event2": "women are running"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles",
+            "people"
+        ]
+    },
+    "1086423566_1094782389_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "foods are added into a bowl while a dog is giving a high five to a woman"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "food",
+            "people",
+            "animals"
+        ]
+    },
+    "1086423566_1094782389_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "foods are added into a bowl",
+                "event2": "a dog is giving a high five to a woman"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "food",
+            "people",
+            "animals"
+        ]
+    },
+    "1086423566_1094782389_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a dog is giving a high five to a woman",
+                "event2": "foods are added into a bowl"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "food",
+            "people",
+            "animals"
+        ]
+    },
+    "1053758117_1055413730_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "the digital brain is spinning while the earth is spinning"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects",
+            "abstract"
+        ]
+    },
+    "1053758117_1055413730_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "the digital brain is spinning",
+                "event2": "the earth is spinning"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects",
+            "abstract"
+        ]
+    },
+    "1053758117_1055413730_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "the earth is spinning",
+                "event2": "the digital brain is spinning"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "natural objects",
+            "abstract"
+        ]
+    },
+    "1076877854_1073914229_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "robotic arms are working while trains are driving"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles",
+            "abstract"
+        ]
+    },
+    "1076877854_1073914229_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "robotic arms are working",
+                "event2": "trains are driving"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles",
+            "abstract"
+        ]
+    },
+    "1076877854_1073914229_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "trains are driving",
+                "event2": "robotic arms are working"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles",
+            "abstract"
+        ]
+    },
+    "1067268406_1067427023_0": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a white car is driving while snow particles are melting"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles",
+            "natural objects"
+        ]
+    },
+    "1067268406_1067427023_1": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "a white car is driving",
+                "event2": "snow particles are melting"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles",
+            "natural objects"
+        ]
+    },
+    "1067268406_1067427023_2": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "entire video",
+                "event1": "snow particles are melting",
+                "event2": "a white car is driving"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "vehicles",
+            "natural objects"
+        ]
+    },
+    "1025137214": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "smoking cigarette",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1033101626": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "playing instrument",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "9537677": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman ",
+                "action": "playing tablet",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1077388994": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "patting the baby",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1037531786": {
+        "eval_dim": {
+            "action": {
+                "subject": "two men",
+                "action": "boxing ",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1077275024": {
+        "eval_dim": {
+            "action": {
+                "subject": "girl",
+                "action": "clapping hands for a man playing ukulele",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1107180099": {
+        "eval_dim": {
+            "action": {
+                "subject": "a group of women",
+                "action": "dancing",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1049434159": {
+        "eval_dim": {
+            "action": {
+                "subject": "parents and daughter",
+                "action": "playing video games",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "3402234027": {
+        "eval_dim": {
+            "action": {
+                "subject": "cat",
+                "action": "eating food on the ground",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals",
+            "food"
+        ]
+    },
+    "1056491306": {
+        "eval_dim": {
+            "action": {
+                "subject": "passengers",
+                "action": "taking a seat on subway",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "vehicles"
+        ]
+    },
+    "1012085909": {
+        "eval_dim": {
+            "action": {
+                "subject": "people",
+                "action": "pushing bikes up a hill",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "natural objects",
+            "vehicles"
+        ]
+    },
+    "1079406734": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "washing car",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "vehicles"
+        ]
+    },
+    "1022115337": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "girl",
+                "event1": "dancing",
+                "event2": "sending an air kiss"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1071214909": {
+        "eval_dim": {
+            "action": {
+                "subject": "person",
+                "action": "draws a cuttting line on a wood surface",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "artifacts"
+        ]
+    },
+    "1092065543": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "shopping",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "food"
+        ]
+    },
+    "1017063703": {
+        "eval_dim": {
+            "action": {
+                "subject": "a hand in blue gloves",
+                "action": "using pastry bag to decorate cakes",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "food"
+        ]
+    },
+    "1055022287": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "cleaning a swimming pool",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "buildings"
+        ]
+    },
+    "1094259081": {
+        "eval_dim": {
+            "action": {
+                "subject": "woman",
+                "action": "playing VR shooting game",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1022260408": {
+        "eval_dim": {
+            "action": {
+                "subject": "squirrel",
+                "action": "eating food",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "animals"
+        ]
+    },
+    "1089810969": {
+        "eval_dim": {
+            "action": {
+                "subject": "little girl",
+                "action": "runs towards a woman and then hugs her",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "6165731": {
+        "eval_dim": {
+            "action": {
+                "subject": "scientist",
+                "action": "looking confused and frustrated about the experiment",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1111469465": {
+        "eval_dim": {
+            "action": {
+                "subject": "man",
+                "action": "raise his arm to look at the watch looking anxious",
+                "type": "fine-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "1050000214": {
+        "eval_dim": {
+            "action": {
+                "subject": "little child",
+                "action": "water jumping",
+                "type": "coarse-grained action"
+            },
+            "direction": null,
+            "speed": null,
+            "order": null,
+            "attribute_change": null
+        },
+        "content": [
+            "people"
+        ]
+    },
+    "27537016": {
+        "eval_dim": {
+            "action": null,
+            "direction": null,
+            "speed": null,
+            "order": {
+                "subject": "man",
+                "event1": "showing off his car key",
+                "event2": "pulling back inside the car"
+            },
+            "attribute_change": null
+        },
+        "content": [
+            "people",
+            "vehicles"
+        ]
+    }
+}
