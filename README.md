@@ -34,6 +34,11 @@ TempCompass encompasses a diverse set of temporal aspects (left) and task format
 ### Distribution of Task Instructions
 ![](./assets/dist_instruction.jpg)
 
+## Video Collection
+Enter `utils/` and run `python download_video.py` to download the raw videos, which will be saved to a folder named `videos/`.
+
+Run `python process_videos.py` to construct the conflicting videos, which will also be saved to `videos/`.
+
 ## Evaluation Results
 The following figures present results of [Video LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA), [VideoChat2](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2), [SPHINX-v2](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX) and the random baseline. Results of more Video LLMs and Image LLMs can be found in our [paper](https://arxiv.org/abs/2403.00476).
 
@@ -43,6 +48,6 @@ The following figures present results of [Video LLaVA](https://github.com/PKU-Yu
 <img src="./assets/captioning.jpg" alt="Caption Generation" style="float: left; width: 49%;">
 
 ## TODOs
-- [ ] Upload scripts to collect and process videos.
+- [x] Upload scripts to collect and process videos.
 - [ ] Upload the code for task instruction generation.
 - [ ] Upload the code for automatic evaluation.
