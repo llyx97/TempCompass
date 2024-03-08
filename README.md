@@ -51,3 +51,13 @@ The following figures present results of [Video LLaVA](https://github.com/PKU-Yu
 - [x] Upload scripts to collect and process videos.
 - [ ] Upload the code for task instruction generation.
 - [ ] Upload the code for automatic evaluation.
+
+## Citation
+```bibtex
+@article{liu2024tempcompass,
+  title   = {TempCompass: Do Video LLMs Really Understand Videos?},
+  author  = {Yuanxin Liu and Shicheng Li and Yi Liu and Yuxiang Wang and Shuhuai Ren and Lei Li and Sishuo Chen and Xu Sun and Lu Hou},
+  year    = {2024},
+  journal = {arXiv preprint arXiv: 2403.00476}
+}
+```
