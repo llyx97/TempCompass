@@ -53,19 +53,19 @@ python inference_dataset.py --task_type <task_type>    # select <task_type> from
 ## Run Evaluation
 After obtaining the MLLM predictions, run the following commands to conduct automatic evaluation.
 
-**Multi-Choice QA**
+- **Multi-Choice QA**
 `python eval_multi_choice.py --video_llm video-llava`
 
-**Yes/No QA**
+- **Yes/No QA**
 `python eval_yes_no.py --video_llm video-llava`
 
-**Caption Matching**
+- **Caption Matching**
 `python eval_caption_matching.py --video_llm video-llava`
 
-**Caption Generation**
+- **Caption Generation**
 `python eval_captioning.py --video_llm video-llava`
 
-The results will be saved to `auto_eval_results/video-llava/<task_type>.json`. Each data point will have five elements, where `rating` indicates the correctness of the MLLM response.
+The results will be saved to `auto_eval_results/video-llava/<task_type>.json`. Each data point has five elements, where `rating` indicates the correctness of the MLLM response and `match_success` indicates whether the MLLM response can be matched with an option using rules.
 ```
 {
     "question": "What is the man doing in the video?\nA. dunking a basketball\nB. dribbling a basketball\nC. passing a basketball",
