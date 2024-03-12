@@ -46,7 +46,8 @@
     > C. A person rotates the pineapple    
     > D. A person picks up the pineapple
 
-## Data Preparation
+## Quick Start
+### Data Preparation
 **1. Task Instructions**
 
 The task instructions can be found in `questions/`.
@@ -60,7 +61,7 @@ python download_video.py    # Download raw videos
 python process_videos.py    # Construct conflicting videos
 ```
 
-## Run Inference
+### Run Inference
 We use [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) as an example to illustrate how to conduct MLLM inference on our benchmark.
 
 Run the following commands. The prediction results will be saved to `predictions/video-llava/<task_type>`.
@@ -69,7 +70,7 @@ cd run_video_llava
 python inference_dataset.py --task_type <task_type>    # select <task_type> from multi-choice, yes_no, caption_matching, captioning
 ```
 
-## Run Evaluation
+### Run Evaluation
 After obtaining the MLLM predictions, run the following commands to conduct automatic evaluation. Remember to set your own `$OPENAI_API_KEY` in `utils/eval_utils.py`.
 
 - **Multi-Choice QA**
