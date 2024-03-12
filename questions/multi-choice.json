@@ -437,7 +437,7 @@
             },
             {
                 "question": "What is the direction of the sun?\nA. stationary\nB. falling\nC. rising",
-                "answer": "D. rising"
+                "answer": "C. rising"
             },
             {
                 "question": "What is the primary movement of the sun?\nA. descending\nB. standing still\nC. rising",
@@ -463,7 +463,7 @@
         "direction": [
             {
                 "question": "What direction is the sun moving in?\nA. setting\nB. rising\nC. staying in one place",
-                "answer": "A. falling"
+                "answer": "A. setting"
             },
             {
                 "question": "What is the direction of the sun?\nA. stationary\nB. falling\nC. rising",
@@ -1071,11 +1071,11 @@
             },
             {
                 "question": "What is the velocity of the video playback?\nA. low speed\nB. normal speed\nC. high speed",
-                "answer": "B. normal speed."
+                "answer": "B. normal speed"
             },
             {
                 "question": "In what fashion is the video being played?\nA. rapid motion\nB. average speed\nC. slow motion",
-                "answer": "B. average speed."
+                "answer": "B. average speed"
             }
         ],
         "order": [
@@ -3321,7 +3321,7 @@
             },
             {
                 "question": "What is the movement pattern of the robot vacuum cleaner?\nA. straight line towards the screen\nB. straight line to the right side of the screen\nC. straight line to the left side of the screen\nD. straight line away from the screen",
-                "answer": "C. straight line to the right side of the screen"
+                "answer": "B. straight line to the right side of the screen"
             },
             {
                 "question": "Where is the robot vacuum cleaner heading?\nA. to the lower side of the screen\nB. to the upper side of the screen\nC. to the left side of the screen\nD. to the right side of the screen",
@@ -3707,7 +3707,7 @@
             },
             {
                 "question": "Which way is the man moving?\nA. left\nB. forwards\nC. right\nD. up",
-                "answer": "C. left"
+                "answer": "A. left"
             },
             {
                 "question": "What is the direction of the man's movement?\nA. counterclockwise\nB. horizontal\nC. vertically\nD. clockwise",
@@ -6188,8 +6188,8 @@
                 "answer": "A. A dog is driving"
             },
             {
-                "question": "In what sequence do the events occur in the video?A. A dog is driving, followed by a girl walking on the street\nA. A girl is walking on the street, followed by a dog driving\nB. A girl is walking on the street while a dog is driving at the same time",
-                "answer": "A. dog is driving, followed by a girl walking on the street"
+                "question": "In what sequence do the events occur in the video?\nA. A dog is driving, followed by a girl walking on the street\nB. A girl is walking on the street, followed by a dog driving\nC. A girl is walking on the street while a dog is driving at the same time",
+                "answer": "A. A dog is driving, followed by a girl walking on the street"
             }
         ]
     },
@@ -8069,11 +8069,11 @@
             },
             {
                 "question": "What action does the little girl perform?\nA. she runs towards a woman and hugs her\nB. she walks towards a woman and hugs her\nC. she runs towards a woman and jumps on her back\nD. she runs towards a woman and talks to her",
-                "answer": "A. she runs towards a woman and hug her"
+                "answer": "A. she runs towards a woman and hugs her"
             },
             {
                 "question": "Which of the following actions is the little girl performing?\nA. she runs towards a woman and hugs her\nB. she walks towards a woman and hugs her\nC. she runs towards a woman and jumps on her back\nD. she runs towards a woman and talks to her",
-                "answer": "A. she runs towards a woman and hug her"
+                "answer": "A. she runs towards a woman and hugs her"
             }
         ]
     },

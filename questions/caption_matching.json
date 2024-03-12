@@ -431,7 +431,7 @@
             },
             {
                 "question": "Which caption matches the video better?\nCaption A: The clock hands are rotating counterclockwise.\nCaption B: The clock hands are rotating clockwise.",
-                "answer": "Caption B: The clock hands are moving clockwise."
+                "answer": "Caption B: The clock hands are rotating clockwise."
             }
         ]
     },
@@ -783,7 +783,7 @@
             },
             {
                 "question": "Which sentence better captures the essence of the video?\nSentence A: The sun is moving upwards.\nSentence B: The sun is moving downwards.",
-                "answer": "Sentence B: The sun is descending."
+                "answer": "Sentence B: The sun is moving downwards."
             },
             {
                 "question": "Which description is a more suitable match for the video?\nOption 1: The sun is descending.\nOption 2: The sun is rising.",
@@ -1825,7 +1825,7 @@
             },
             {
                 "question": "Which description is a more suitable match for the video?\nOption 1: The ice crystal is reducing in size.\nOption 2: The ice crystal is growing in size.",
-                "answer": "Option 2: The ice crystal is forming."
+                "answer": "Option 2: The ice crystal is growing in size."
             }
         ]
     },
@@ -2081,7 +2081,7 @@
         "action": [
             {
                 "question": "Which caption matches the video better?\nCaption A: The dog is sleeping.\nCaption B: The dog is driving a car.",
-                "answer": "Caption B: A dog is driving a car."
+                "answer": "Caption B: The dog is driving a car."
             },
             {
                 "question": "Which description is a more suitable match for the video?\nOption 1: A dog is driving a car.\nOption 2: A video showing a dog eating.",
@@ -2293,7 +2293,7 @@
         "action": [
             {
                 "question": "Which sentence better captures the essence of the video?\nSentence A: The person is selling vegetables at the grocery store.\nSentence B: A person is buying vegetables at the grocery store.",
-                "answer": "Sentence B: A person is buying vegetables at the market/grocery store."
+                "answer": "Sentence B: A person is buying vegetables at the grocery store."
             },
             {
                 "question": "Which caption matches the video better?\nCaption A: A person is buying vegetables at the market/grocery store.\nCaption B: The person is packaging vegetables at the market/grocery store.",
@@ -3423,7 +3423,7 @@
             },
             {
                 "question": "Which description is a more suitable match for the video?\nOption 1: The ball is rolling from right to left.\nOption 2: The ball is rolling from left to right.",
-                "answer": "Option 1: The ball is rolling from right to left"
+                "answer": "Option 1: The ball is rolling from right to left."
             }
         ]
     },
