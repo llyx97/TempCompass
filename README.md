@@ -29,15 +29,28 @@ TempCompass encompasses a diverse set of temporal aspects (left) and task format
 
 ## Data Preparation
 **1. Task Instructions**
+
 The task instructions can be found in `questions/`.
 
 **2. Videos**
+
 Run the following commands. The videos will be saved to `videos/`.
 ```
 cd utils
 python download_video.py    # Download raw videos
 python process_videos.py    # Construct conflicting videos
 ```
+
+## Run Inference
+We use [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) as an example to illustrate how to conduct MLLM inference on our benchmark.
+
+Run the following commands. The prediction results will be saved to `predictions/video-llava/`.
+```
+cd run_video_llava
+python inference_dataset.py
+```
+
+## Run Evaluation
 
 ## Data Statistics
 ### Distribution of Videos
