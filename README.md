@@ -54,7 +54,7 @@ python inference_dataset.py --task_type <task_type>    # select <task_type> from
 ```
 
 ## Run Evaluation
-After obtaining the MLLM predictions, run the following commands to conduct automatic evaluation.
+After obtaining the MLLM predictions, run the following commands to conduct automatic evaluation. Remember to set your own `$OPENAI_API_KEY` in `utils/eval_utils.py`.
 
 - **Multi-Choice QA**
 `python eval_multi_choice.py --video_llm video-llava`
