@@ -26,9 +26,13 @@
 ## News 🚀
 **[2024-03-12]** 🔥🔥🔥 The evaluation code is released now! Feel free to evaluate your own Video LLMs.
 
-## Overview
+## Highlights
+### Diverse Temporal Aspects and Task Formats
+- TempCompass encompasses a diverse set of temporal aspects (left) and task formats (right) to comprehensively evaluate the temporal perception capability of Video LLMs.
 ![](./assets/overview.png)
-TempCompass encompasses a diverse set of temporal aspects (left) and task formats (right) to comprehensively evaluate the temporal perception capability of Video LLMs.
+### Conflicting Videos
+<img src="./assets/1021488277.gif" alt="Raw Video" style="float: left; width: 49%; margin-right: 10px;">
+<img src="./assets/1021488277_reverse.gif" alt="Conflicting Video" style="float: left; width: 49%;">
 
 ## Data Preparation
 **1. Task Instructions**
