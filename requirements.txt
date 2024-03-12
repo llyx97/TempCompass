@@ -3,3 +3,4 @@ imageio-ffmpeg==0.4.9
 moviepy==1.0.3
 tqdm==4.66.1
 requests
+opencv-python
