@@ -35,7 +35,7 @@ The task instructions can be found in `questions/`.
 **2. Videos**
 
 Run the following commands. The videos will be saved to `videos/`.
-```
+```shell
 cd utils
 python download_video.py    # Download raw videos
 python process_videos.py    # Construct conflicting videos
