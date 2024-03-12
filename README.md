@@ -23,6 +23,9 @@
     <sup>3</sup>Huawei Noah’s Ark Lab
 </div>
 
+## News 🚀
+**[2024-03-12]** 🔥🔥🔥 The evaluation code is released now! Feel free to evaluate your own Video LLMs.
+
 ## Overview
 ![](./assets/overview.png)
 TempCompass encompasses a diverse set of temporal aspects (left) and task formats (right) to comprehensively evaluate the temporal perception capability of Video LLMs.
@@ -93,8 +96,8 @@ The following figures present results of [Video LLaVA](https://github.com/PKU-Yu
 
 ## TODOs
 - [x] Upload scripts to collect and process videos.
+- [x] Upload the code for automatic evaluation.
 - [ ] Upload the code for task instruction generation.
-- [ ] Upload the code for automatic evaluation.
 
 ## Citation
 ```bibtex
