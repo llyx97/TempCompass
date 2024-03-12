@@ -47,6 +47,13 @@
     > D. A person picks up the pineapple
 
 ## Quick Start
+To begin with, clone this repository and install some packages:
+```shell
+git clone https://github.com/llyx97/TempCompass.git
+cd TempCompass
+pip install -r requirements.txt
+```
+
 ### Data Preparation
 **1. Task Instructions**
 
