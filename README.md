@@ -1,4 +1,5 @@
-# TempCompass: A benchmark to evaluate the temporal perception ability of Video LLMs
+<h2 align="center"> <a href="https://arxiv.org/abs/2403.00476">TempCompass: A benchmark to evaluate the temporal perception ability of Video LLMs</a></h2>
+
 <div align="center">
     <a href='https://arxiv.org/abs/2403.00476'><img src='https://img.shields.io/badge/ArXiv-2403.00476-red'></a>
 </div>
