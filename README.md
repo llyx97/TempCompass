@@ -47,7 +47,7 @@ We use [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) as an example
 Run the following commands. The prediction results will be saved to `predictions/video-llava/<task_type>`.
 ```shell
 cd run_video_llava
-python inference_dataset.py --task_type <task_type>
+python inference_dataset.py --task_type <task_type>    # select <task_type> from multi-choice, yes_no, caption_matching, captioning
 ```
 
 ## Run Evaluation
