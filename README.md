@@ -52,12 +52,16 @@ python inference_dataset.py --task_type <task_type>    # select <task_type> from
 
 ## Run Evaluation
 After obtaining the MLLM predictions, run the following commands to conduct automatic evaluation.
+
 **Multi-Choice QA**
 `python eval_multi_choice.py --video_llm video-llava`
+
 **Yes/No QA**
 `python eval_yes_no.py --video_llm video-llava`
+
 **Caption Matching**
 `python eval_caption_matching.py --video_llm video-llava`
+
 **Caption Generation**
 `python eval_captioning.py --video_llm video-llava`
 
