@@ -65,6 +65,17 @@ After obtaining the MLLM predictions, run the following commands to conduct auto
 **Caption Generation**
 `python eval_captioning.py --video_llm video-llava`
 
+The results will be saved to `auto_eval_results/video-llava/<task_type>.json`. Each data point will have five elements, where `rating` indicates the correctness of the MLLM response.
+```
+{
+    "question": "What is the man doing in the video?\nA. dunking a basketball\nB. dribbling a basketball\nC. passing a basketball",
+    "gt-answer": "A. dunking a basketball",
+    "video-llm-prediction": "The man in the video is dunking a basketball.",
+    "match_success": false,
+    "rating": 1
+            }
+```
+
 ## Data Statistics
 ### Distribution of Videos
 ![](./assets/dist_video.jpg)
