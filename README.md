@@ -25,7 +25,19 @@
 
 ## Overview
 ![](./assets/overview.png)
-TempCompass encompasses a diverse set of temporal aspects (left) and task formats (right) to comprehensively evaluate the temporal perception capability of Video LLMs. The task instructions can be found in `questions/`.
+TempCompass encompasses a diverse set of temporal aspects (left) and task formats (right) to comprehensively evaluate the temporal perception capability of Video LLMs.
+
+## Data Preparation
+**1. Task Instructions**
+The task instructions can be found in `questions/`.
+
+**2. Videos**
+Run the following commands. The videos will be saved to `videos/`.
+```
+cd utils
+python download_video.py    # Download raw videos
+python process_videos.py    # Construct conflicting videos
+```
 
 ## Data Statistics
 ### Distribution of Videos
@@ -33,11 +45,6 @@ TempCompass encompasses a diverse set of temporal aspects (left) and task format
 
 ### Distribution of Task Instructions
 ![](./assets/dist_instruction.jpg)
-
-## Video Collection
-Enter `utils/` and run `python download_video.py` to download the raw videos, which will be saved to a folder named `videos/`.
-
-Run `python process_videos.py` to construct the conflicting videos, which will also be saved to `videos/`.
 
 ## Evaluation Results
 The following figures present results of [Video LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA), [VideoChat2](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2), [SPHINX-v2](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX) and the random baseline. Results of more Video LLMs and Image LLMs can be found in our [paper](https://arxiv.org/abs/2403.00476).
