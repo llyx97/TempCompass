@@ -24,10 +24,10 @@
     <sup>3</sup>Huawei Noah’s Ark Lab
 </div>
 
-## News 🚀
+## 📢 News
 **[2024-03-12]** 🔥🔥🔥 The evaluation code is released now! Feel free to evaluate your own Video LLMs.
 
-## Highlights
+## ✨ Highlights
 ### Diverse Temporal Aspects and Task Formats
 - TempCompass encompasses a diverse set of temporal aspects (left) and task formats (right) to comprehensively evaluate the temporal perception capability of Video LLMs.
 ![](./assets/overview.png)
@@ -46,7 +46,7 @@
     > C. A person rotates the pineapple    
     > D. A person picks up the pineapple
 
-## Quick Start
+## 🚀 Quick Start
 To begin with, clone this repository and install some packages:
 ```shell
 git clone https://github.com/llyx97/TempCompass.git
