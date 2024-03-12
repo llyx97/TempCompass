@@ -44,8 +44,8 @@ python process_videos.py    # Construct conflicting videos
 ## Run Inference
 We use [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) as an example to illustrate how to conduct MLLM inference on our benchmark.
 
-Run the following commands and specify the `<task_type>`. The prediction results will be saved to `predictions/video-llava/<task_type>`.
-```
+Run the following commands. The prediction results will be saved to `predictions/video-llava/<task_type>`.
+```shell
 cd run_video_llava
 python inference_dataset.py --task_type <task_type>
 ```
