@@ -31,7 +31,10 @@
 - TempCompass encompasses a diverse set of temporal aspects (left) and task formats (right) to comprehensively evaluate the temporal perception capability of Video LLMs.
 ![](./assets/overview.png)
 ### Conflicting Videos
-- ❓ Can your Video LLM correctly answer the following question for both two videos?
+- We construct conflicting videos to prevent the models from taking advantage of single-frame bias and language priors.
+![](./assets/conflicting_videos.jpg)
+  
+- 🤔 Can your Video LLM correctly answer the following question for both two videos?
   
     <img src="./assets/1021488277.gif" alt="Raw Video" style="float: left; width: 49%; margin-right: 10px;">
     <img src="./assets/1021488277_reverse.gif" alt="Conflicting Video" style="float: left; width: 49%;">
