@@ -68,15 +68,11 @@ After obtaining the MLLM predictions, run the following commands to conduct auto
 - **Caption Generation**
 `python eval_captioning.py --video_llm video-llava`
 
-The results will be saved to `auto_eval_results/video-llava/<task_type>.json`. Each data point has five elements, where `rating` indicates the correctness of the MLLM response and `match_success` indicates whether the MLLM response can be matched with an option using rules.
+The results of each data point will be saved to `auto_eval_results/video-llava/<task_type>.json` and the overall results on each temporal aspect will be printed out as follows:
 ```
-{
-    "question": "What is the man doing in the video?\nA. dunking a basketball\nB. dribbling a basketball\nC. passing a basketball",
-    "gt-answer": "A. dunking a basketball",
-    "video-llm-prediction": "The man in the video is dunking a basketball.",
-    "match_success": false,
-    "rating": 1
-            }
+{'action': 70.4, 'direction': 32.2, 'speed': 38.2, 'order': 41.4, 'attribute_change': 39.9, 'avg': 44.7}
+{'fine-grained action': 54.9, 'coarse-grained action': 83.2, 'object motion': 31.7, 'camera motion': 33.7, 'absolute speed': 46.0, 'relative speed': 33.2, 'order': 41.4, 'color & light change': 39.7, 'size & shape change': 40.2, 'combined change': 35.0, 'other change': 55.6}
+Match Success Rate=37.9
 ```
 
 ## Data Statistics
