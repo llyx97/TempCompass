@@ -32,14 +32,14 @@
 ![](./assets/overview.png)
 ### Conflicting Videos
 - ❓ Can your Video LLM correctly answer the following question for both two videos?
-<img src="./assets/1021488277.gif" alt="Raw Video" style="float: left; width: 49%; margin-right: 10px;">
-<img src="./assets/1021488277_reverse.gif" alt="Conflicting Video" style="float: left; width: 49%;">
-
-> What is happening in the video?
-> A. A person drops down the pineapple
-> B. A person pushes forward the pineapple
-> C. A person rotates the pineapple
-> D. A person picks up the pineapple
+    <img src="./assets/1021488277.gif" alt="Raw Video" style="float: left; width: 49%; margin-right: 10px;">
+    <img src="./assets/1021488277_reverse.gif" alt="Conflicting Video" style="float: left; width: 49%;">
+    
+    > What is happening in the video?    
+    > A. A person drops down the pineapple    
+    > B. A person pushes forward the pineapple    
+    > C. A person rotates the pineapple    
+    > D. A person picks up the pineapple
 
 ## Data Preparation
 **1. Task Instructions**
