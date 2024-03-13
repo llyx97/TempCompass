@@ -1,5 +1,6 @@
-imageio=2.33.1=pypi_0
-imageio-ffmpeg=0.4.9=pypi_0
-moviepy=1.0.3=pypi_0
-tqdm=4.66.1=pypi_0
+imageio==2.33.1
+imageio-ffmpeg==0.4.9
+moviepy==1.0.3
+tqdm
 requests
+opencv-python
