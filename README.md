@@ -26,6 +26,7 @@
 </div>
 
 ## 📢 News
+**[2024-03-23]** The [answer prompt](#answer_prompt) is improved to encourage Video LLMs follow the answer formats. The [evaluation code](#eval) now provides an option to disable the use of ChatGPT.
 **[2024-03-12]** 🔥🔥🔥 The evaluation code is released now! Feel free to evaluate your own Video LLMs.
 
 ## ✨ Highlights
@@ -79,7 +80,7 @@ cd run_video_llava
 python inference_dataset.py --task_type <task_type>
 ```
 
-### Run Evaluation
+### <span id="eval"> Run Evaluation </span>
 After obtaining the MLLM predictions, run the following commands to conduct automatic evaluation. Remember to set your own `$OPENAI_API_KEY` in `utils/eval_utils.py`.
 
 - **Multi-Choice QA**
@@ -114,22 +115,22 @@ The following figures present results of [Video LLaVA](https://github.com/PKU-Yu
 <img src="./assets/caption_matching.jpg" alt="Caption Matching" style="float: left; width: 49%; margin-right: 10px;">
 <img src="./assets/captioning.jpg" alt="Caption Generation" style="float: left; width: 49%;">
 
-### Answer Prompt
-We update the answer prompt for *Multi-Choice QA* and *Caption Matching*, from "Best Option:" to "Please directly give the best option:", which can better encourage MLLMs to directly select an option.
+### <span id="answer_prompt"> Answer Prompt </span>
+We update the answer prompt for *Multi-Choice QA* and *Caption Matching*, from "Best Option:" to "Please directly give the best option:", which can better encourage MLLMs to directly select an option. As such, we can reduce the reliance on ChatGPT API, if an MLLM is good at following the instruction.
 
-The success rate of rule-based matching is shown as follows.
+The success rate of rule-based matching is as follows:
 
-**Multi-Choice QA** Match Rate
+**Multi-Choice QA**
 |  | V-LLaVA | SPHINX-v2    | LLaMA-VID | Qwen-VL-Chat | PandaGPT  | Valley  |
 | --- | --- | --- | --- | --- | --- | --- |
-| old | 37.9 | 99.6 | 62.9 | 46.8 | 6.4 | 3.5 |
-| new | 100 | 100 | 97.0 | 98.5 | 3.9 | 0.4 |
+| old prompt | 37.9 | 99.6 | 62.9 | 46.8 | 6.4 | 3.5 |
+| new prompt | 100 | 100 | 97.0 | 98.5 | 3.9 | 0.4 |
 
-**Caption Matching** Match Rate
+**Caption Matching**
 |  | V-LLaVA | SPHINX-v2    | LLaMA-VID | Qwen-VL-Chat | PandaGPT  | Valley  |
 | --- | --- | --- | --- | --- | --- | --- |
-| old | 74.3 | 88.7 | 41.9 | 91.6 | 30.7 | 11.2 |
-| new | 97.7 | 97.5 | 64.0 | 96.0 | 22.5 | 3.7 |
+| old prompt | 74.3 | 88.7 | 41.9 | 91.6 | 30.7 | 11.2 |
+| new prompt | 97.7 | 97.5 | 64.0 | 96.0 | 22.5 | 3.7 |
 
 ## TODOs
 - [x] Upload scripts to collect and process videos.
