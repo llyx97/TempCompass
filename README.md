@@ -94,7 +94,7 @@ After obtaining the MLLM predictions, run the following commands to conduct auto
 - **Caption Generation**
 `python eval_captioning.py --video_llm video-llava`
 
-**Tip**: You can set `--disable_llm` when running the scripts, which will disable chatgpt-based evaluation (i.e., entirely rely on rule-based evaluation). This is useful when you do not want to use ChatGPT API and your MLLM is good at following the instruction to generate answers of specific format.
+**Tip**: You can set `--disable_llm` when running the scripts, which will disable chatgpt-based evaluation (i.e., entirely rely on rule-based evaluation). **This is useful when you do not want to use ChatGPT API and your MLLM is good at following the instruction to generate answers of specific format.**
 
 The results of each data point will be saved to `auto_eval_results/video-llava/<task_type>.json` and the overall results on each temporal aspect will be printed out as follows:
 ```
