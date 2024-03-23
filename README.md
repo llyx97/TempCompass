@@ -114,6 +114,23 @@ The following figures present results of [Video LLaVA](https://github.com/PKU-Yu
 <img src="./assets/caption_matching.jpg" alt="Caption Matching" style="float: left; width: 49%; margin-right: 10px;">
 <img src="./assets/captioning.jpg" alt="Caption Generation" style="float: left; width: 49%;">
 
+### Answer Prompt
+We update the answer prompt for *Multi-Choice QA* and *Caption Matching*, from "Best Option:" to "Please directly give the best option:", which can better encourage MLLMs to directly select an option.
+
+The success rate of rule-based matching is shown as follows.
+
+**Multi-Choice QA** Match Rate
+|  | V-LLaVA | SPHINX-v2    | LLaMA-VID | Qwen-VL-Chat | PandaGPT  | Valley  |
+| --- | --- | --- | --- | --- | --- | --- |
+| old | 37.9 | 99.6 | 62.9 | 46.8 | 6.4 | 3.5 |
+| new | 100 | 100 | 97.0 | 98.5 | 3.9 | 0.4 |
+
+**Caption Matching** Match Rate
+|  | V-LLaVA | SPHINX-v2    | LLaMA-VID | Qwen-VL-Chat | PandaGPT  | Valley  |
+| --- | --- | --- | --- | --- | --- | --- |
+| old | 74.3 | 88.7 | 41.9 | 91.6 | 30.7 | 11.2 |
+| new | 97.7 | 97.5 | 64.0 | 96.0 | 22.5 | 3.7 |
+
 ## TODOs
 - [x] Upload scripts to collect and process videos.
 - [x] Upload the code for automatic evaluation.
