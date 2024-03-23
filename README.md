@@ -27,6 +27,7 @@
 
 ## 📢 News
 **[2024-03-23]** The [answer prompt](#answer_prompt) is improved to encourage Video LLMs follow the answer formats. The [evaluation code](#eval) now provides an option to disable the use of ChatGPT.
+
 **[2024-03-12]** 🔥🔥🔥 The evaluation code is released now! Feel free to evaluate your own Video LLMs.
 
 ## ✨ Highlights
