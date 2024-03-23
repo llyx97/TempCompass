@@ -98,9 +98,9 @@ After obtaining the MLLM predictions, run the following commands to conduct auto
 
 The results of each data point will be saved to `auto_eval_results/video-llava/<task_type>.json` and the overall results on each temporal aspect will be printed out as follows:
 ```
-{'action': 70.4, 'direction': 32.2, 'speed': 38.2, 'order': 41.4, 'attribute_change': 39.9, 'avg': 44.7}
-{'fine-grained action': 54.9, 'coarse-grained action': 83.2, 'object motion': 31.7, 'camera motion': 33.7, 'absolute speed': 46.0, 'relative speed': 33.2, 'order': 41.4, 'color & light change': 39.7, 'size & shape change': 40.2, 'combined change': 35.0, 'other change': 55.6}
-Match Success Rate=37.9
+{'action': 76.0, 'direction': 35.2, 'speed': 35.6, 'order': 37.7, 'attribute_change': 41.0, 'avg': 45.6}
+{'fine-grained action': 58.8, 'coarse-grained action': 90.3, 'object motion': 36.2, 'camera motion': 32.6, 'absolute speed': 47.6, 'relative speed': 28.0, 'order': 37.7, 'color & light change': 43.6, 'size & shape change': 39.4, 'combined change': 41.7, 'other change': 38.9}
+Match Success Rate=100.0
 ```
 
 ## Data Statistics
