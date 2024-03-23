@@ -17,7 +17,7 @@ def extract_pred(video_llm_output):
     else:
         return False
 
-def main(predictions, eval_results, output_file):
+def main(predictions, eval_results, output_file, disable_llm):
     for id in tqdm(predictions):
 
         if id not in eval_results:
@@ -38,6 +38,9 @@ def main(predictions, eval_results, output_file):
                 yes_no_pred = extract_pred(pred["prediction"])  # Some hand-crafted matching rules
                 if yes_no_pred:
                     eval_result["rating"] = 1 if yes_no_pred==pred["answer"] else 0
+                elif disable_llm:
+                    eval_result["match_success"] = False    
+                    eval_result["rating"] = 0               # Fail to match answer in the video-llm response. Directly set rating to 0
                 else:
                     eval_result["match_success"] = False    # Fail to match answer in the video-llm response. Use ChatGPT to evaluate.
                     prompt = f"""{base_prompt}\nYes/No Question:\n{pred["question"]}\nGround-Truth Answer: {pred["answer"]}\nModel Prediction: {pred["prediction"]}"""
@@ -54,10 +57,12 @@ def main(predictions, eval_results, output_file):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--video_llm', default="video-llava")
+    parser.add_argument('--disable_llm', action='store_true', help="Whether to disable llm evaluation")
     args = parser.parse_args()
 
+    disable_suffix = "_disable_llm" if args.disable_llm else ""
     input_file = f"predictions/{args.video_llm}/{qtype}.json"
-    output_file = f"auto_eval_results/{args.video_llm}/{qtype}.json"
+    output_file = f"auto_eval_results{disable_suffix}/{args.video_llm}/{qtype}.json"
     if not os.path.exists(os.path.dirname(output_file)):
         os.makedirs(os.path.dirname(output_file))
 
@@ -73,4 +78,4 @@ if __name__ == "__main__":
     else:
         eval_results = {}
 
-    main(predictions, eval_results, output_file)
+    main(predictions, eval_results, output_file, args.disable_llm)

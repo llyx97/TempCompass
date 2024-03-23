@@ -46,7 +46,7 @@ def llm_output_to_rating(llm_output):
         rating = 1
     elif llm_output.startswith('Incorrect'):
         rating = 0
-    elif 'Correct' in llm_output:
+    elif ('Correct' in llm_output) and ('Incorrect' not in llm_output):
         rating = 1
     elif 'Incorrect' in llm_output:
         rating = 0

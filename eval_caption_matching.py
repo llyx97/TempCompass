@@ -28,7 +28,7 @@ def eval_rule(video_llm_output, question, answer):
         if option_sent==video_llm_output or (') ' in video_llm_output and option_sent==video_llm_output.split(') ')[1]):
             video_llm_pred = option_sent
     for option_ind in option_inds:
-        if option_ind==video_llm_output:
+        if option_ind==video_llm_output or option_ind==video_llm_output.replace('.', ''):
             video_llm_pred = option_ind
 
     if video_llm_pred is None:
@@ -37,7 +37,7 @@ def eval_rule(video_llm_output, question, answer):
         return 1 if video_llm_pred==answer or video_llm_pred==answer.split(":")[0] or video_llm_pred==answer.split(": ")[1] else 0
 
 
-def main(predictions, eval_results, output_file):
+def main(predictions, eval_results, output_file, disable_llm):
     for id in tqdm(predictions):
 
         if id not in eval_results:
@@ -47,7 +47,6 @@ def main(predictions, eval_results, output_file):
 
             if dim in eval_results[id] and eval_results[id][dim] and len(preds)==len(eval_results[id][dim]) and check_ans(eval_results[id][dim]):    # skip if the eval result already exists
                 continue
-            print(id, dim)
             eval_results[id][dim] = []
 
             for pred in preds:
@@ -59,6 +58,9 @@ def main(predictions, eval_results, output_file):
                 rating = eval_rule(pred["prediction"], pred["question"], pred["answer"])    # Some hand-crafted matching rules
                 if rating!="fail":
                     eval_result["rating"] = rating
+                elif disable_llm:
+                    eval_result["match_success"] = False    
+                    eval_result["rating"] = 0               # Fail to match answer in the video-llm response. Directly set rating to 0
                 else:
                     eval_result["match_success"] = False    # Fail to match answer in the video-llm response. Use ChatGPT to evaluate.
                     prompt = f"""{base_prompt}\nCaption Matching Question:\n{pred["question"]}\nGround-Truth Answer: {pred["answer"]}\nModel Prediction: {pred["prediction"]}"""
@@ -75,10 +77,12 @@ def main(predictions, eval_results, output_file):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--video_llm', default="video-llava")
+    parser.add_argument('--disable_llm', action='store_true', help="Whether to disable llm evaluation")
     args = parser.parse_args()
 
+    disable_suffix = "_disable_llm" if args.disable_llm else ""
     input_file = f"predictions/{args.video_llm}/{qtype}.json"
-    output_file = f"auto_eval_results/{args.video_llm}/{qtype}.json"
+    output_file = f"auto_eval_results{disable_suffix}/{args.video_llm}/{qtype}.json"
     if not os.path.exists(os.path.dirname(output_file)):
         os.makedirs(os.path.dirname(output_file))
 
@@ -93,4 +97,4 @@ if __name__ == "__main__":
     else:
         eval_results = {}
 
-    main(predictions, eval_results, output_file)
+    main(predictions, eval_results, output_file, args.disable_llm)

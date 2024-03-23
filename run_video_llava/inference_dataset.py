@@ -4,8 +4,7 @@ from llava.conversation import conv_templates, SeparatorStyle
 from llava.model.builder import load_pretrained_model
 from llava.utils import disable_torch_init
 from llava.mm_utils import tokenizer_X_token, get_model_name_from_path, KeywordsStoppingCriteria
-import argparse, json, os, random
-import numpy as np
+import argparse, json, os
 from tqdm import tqdm
 
 def inference_single_video(video_path, inp, model, processor):
@@ -47,9 +46,11 @@ def inference_single_video(video_path, inp, model, processor):
     return outputs
 
 answer_prompt = {
-    "multi-choice": "\nBest Option:",
+    # "multi-choice": "\nBest Option:",     # The old version
+    "multi-choice": "\nPlease directly give the best option:",
     "yes_no": "\nPlease answer yes or no:",
-    "caption_matching": "\nBest Option:",
+    # "caption_matching": "\nBest Option:",     #The old version
+    "caption_matching": "\nPlease directly give the best option:",
     "captioning": ""    # The answer "Generated Caption:" is already contained in the question
 }
 

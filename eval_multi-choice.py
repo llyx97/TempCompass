@@ -7,7 +7,7 @@ from tqdm import tqdm
 qtype = "multi-choice"
 base_prompt = multi_choice_evaluation_prompt
 
-def main(predictions, eval_results, output_file):
+def main(predictions, eval_results, output_file, disable_llm):
     for id in tqdm(predictions):
 
         if id not in eval_results:
@@ -34,6 +34,9 @@ def main(predictions, eval_results, output_file):
                     eval_result["rating"] = 1 if pred["prediction"].split('.')[0]==pred["answer"][0] else 0
                 elif any(pred["prediction"].startswith(prefix) for prefix in ['A)', 'B)', 'C)', 'D)']):
                     eval_result["rating"] = 1 if pred["prediction"].split(')')[0]==pred["answer"][0] else 0
+                elif disable_llm:
+                    eval_result["match_success"] = False    
+                    eval_result["rating"] = 0               # Fail to match answer in the video-llm response. Directly set rating to 0
                 else:
                     eval_result["match_success"] = False    # Fail to match answer in the video-llm response. Use ChatGPT to evaluate.
                     prompt = f"""{base_prompt}\nMulti-Choice Question:\n{pred["question"]}\nGround-Truth Answer: {pred["answer"]}\nModel Prediction: {pred["prediction"]}"""
@@ -50,10 +53,12 @@ def main(predictions, eval_results, output_file):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--video_llm', default="video-llava")
+    parser.add_argument('--disable_llm', action='store_true', help="Whether to disable llm evaluation")
     args = parser.parse_args()
 
+    disable_suffix = "_disable_llm" if args.disable_llm else ""
     input_file = f"predictions/{args.video_llm}/{qtype}.json"
-    output_file = f"auto_eval_results/{args.video_llm}/{qtype}.json"
+    output_file = f"auto_eval_results{disable_suffix}/{args.video_llm}/{qtype}.json"
     if not os.path.exists(os.path.dirname(output_file)):
         os.makedirs(os.path.dirname(output_file))
 
@@ -68,4 +73,4 @@ if __name__ == "__main__":
     else:
         eval_results = {}
 
-    main(predictions, eval_results, output_file)
+    main(predictions, eval_results, output_file, args.disable_llm)
