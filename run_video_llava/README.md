@@ -14,3 +14,8 @@ pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 pip install decord opencv-python git+https://github.com/facebookresearch/pytorchvideo.git@28fe037d212663c6a24f373b94cc5d478c8c1a1d
 ```
+
+**NOTE** If you encounter the following error, please replace the config.json in `LanguageBind/Video-LLaVA-7B` with the config.json in this folder.
+```
+AttributeError: 'LlavaConfig' object has no attribute 'X'
+```
