@@ -1,0 +1,43 @@
+{
+  "X": [
+    "Video",
+    "Image"
+  ],
+  "_name_or_path": "lmsys/vicuna-7b-v1.5",
+  "architectures": [
+    "LlavaLlamaForCausalLM"
+  ],
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "freeze_mm_mlp_adapter": false,
+  "hidden_act": "silu",
+  "hidden_size": 4096,
+  "image_aspect_ratio": "pad",
+  "image_grid_pinpoints": null,
+  "initializer_range": 0.02,
+  "intermediate_size": 11008,
+  "max_position_embeddings": 4096,
+  "mm_hidden_size": 1024,
+  "mm_image_tower": "LanguageBind/LanguageBind_Image",
+  "mm_projector_type": "mlp2x_gelu",
+  "mm_use_x_patch_token": false,
+  "mm_use_x_start_end": false,
+  "mm_video_tower": "LanguageBind/LanguageBind_Video_merge",
+  "mm_vision_select_feature": "patch",
+  "mm_vision_select_layer": -2,
+  "model_type": "llava",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 32,
+  "num_key_value_heads": 32,
+  "pad_token_id": 0,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": null,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.31.0",
+  "tune_mm_mlp_adapter": false,
+  "use_cache": true,
+  "use_mm_proj": true,
+  "vocab_size": 32000
+}
