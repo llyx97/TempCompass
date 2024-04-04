@@ -26,6 +26,8 @@
 </div>
 
 ## 📢 News
+**[2024-03-23]** The [answer prompt](#answer_prompt) is improved to better guide Video LLMs to follow the desired answer formats. The [evaluation code](#eval) now provides an option to disable the use of ChatGPT.
+
 **[2024-03-12]** 🔥🔥🔥 The evaluation code is released now! Feel free to evaluate your own Video LLMs.
 
 ## ✨ Highlights
@@ -75,10 +77,11 @@ We use [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) as an example
 Run the following commands. The prediction results will be saved to `predictions/video-llava/<task_type>`.
 ```shell
 cd run_video_llava
-python inference_dataset.py --task_type <task_type>    # select <task_type> from multi-choice, yes_no, caption_matching, captioning
+# select <task_type> from multi-choice, yes_no, caption_matching, captioning
+python inference_dataset.py --task_type <task_type>
 ```
 
-### Run Evaluation
+### <span id="eval"> Run Evaluation </span>
 After obtaining the MLLM predictions, run the following commands to conduct automatic evaluation. Remember to set your own `$OPENAI_API_KEY` in `utils/eval_utils.py`.
 
 - **Multi-Choice QA**
@@ -93,14 +96,16 @@ After obtaining the MLLM predictions, run the following commands to conduct auto
 - **Caption Generation**
 `python eval_captioning.py --video_llm video-llava`
 
+**Tip**👉: Except for *Caption Generation*, you can set `--disable_llm` when running the scripts, which will disable chatgpt-based evaluation (i.e., entirely rely on rule-based evaluation). **This is useful when you do not want to use ChatGPT API and your MLLM is good at following the instruction to generate answers of specific format.**
+
 The results of each data point will be saved to `auto_eval_results/video-llava/<task_type>.json` and the overall results on each temporal aspect will be printed out as follows:
 ```
-{'action': 70.4, 'direction': 32.2, 'speed': 38.2, 'order': 41.4, 'attribute_change': 39.9, 'avg': 44.7}
-{'fine-grained action': 54.9, 'coarse-grained action': 83.2, 'object motion': 31.7, 'camera motion': 33.7, 'absolute speed': 46.0, 'relative speed': 33.2, 'order': 41.4, 'color & light change': 39.7, 'size & shape change': 40.2, 'combined change': 35.0, 'other change': 55.6}
-Match Success Rate=37.9
+{'action': 76.0, 'direction': 35.2, 'speed': 35.6, 'order': 37.7, 'attribute_change': 41.0, 'avg': 45.6}
+{'fine-grained action': 58.8, 'coarse-grained action': 90.3, 'object motion': 36.2, 'camera motion': 32.6, 'absolute speed': 47.6, 'relative speed': 28.0, 'order': 37.7, 'color & light change': 43.6, 'size & shape change': 39.4, 'combined change': 41.7, 'other change': 38.9}
+Match Success Rate=100.0
 ```
 
-## Data Statistics
+## 📈 Data Statistics
 ![](./assets/data_statistics.png)
 
 ## 📊 Evaluation Results
@@ -110,6 +115,23 @@ The following figures present results of [Video LLaVA](https://github.com/PKU-Yu
 <img src="./assets/yes_no.jpg" alt="Yes/No" style="float: left; width: 49%;">
 <img src="./assets/caption_matching.jpg" alt="Caption Matching" style="float: left; width: 49%; margin-right: 10px;">
 <img src="./assets/captioning.jpg" alt="Caption Generation" style="float: left; width: 49%;">
+
+### <span id="answer_prompt"> Answer Prompt </span>
+We update the answer prompt for *Multi-Choice QA* and *Caption Matching*, from "Best Option:" to "Please directly give the best option:", which can better encourage MLLMs to directly select an option. As such, we can reduce the reliance on ChatGPT API, if an MLLM is good at following the instruction.
+
+The success rate of rule-based matching is as follows:
+
+**Multi-Choice QA**
+|  | V-LLaVA | SPHINX-v2    | LLaMA-VID | Qwen-VL-Chat | PandaGPT  | Valley  |
+| --- | --- | --- | --- | --- | --- | --- |
+| old prompt | 37.9 | 99.6 | 62.9 | 46.8 | 6.4 | 3.5 |
+| new prompt | 100 | 100 | 97.0 | 98.5 | 3.9 | 0.4 |
+
+**Caption Matching**
+|  | V-LLaVA | SPHINX-v2    | LLaMA-VID | Qwen-VL-Chat | PandaGPT  | Valley  |
+| --- | --- | --- | --- | --- | --- | --- |
+| old prompt | 74.3 | 88.7 | 41.9 | 91.6 | 30.7 | 11.2 |
+| new prompt | 97.7 | 97.5 | 64.0 | 96.0 | 22.5 | 3.7 |
 
 ## TODOs
 - [x] Upload scripts to collect and process videos.
