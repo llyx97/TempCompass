@@ -26,6 +26,8 @@
 </div>
 
 ## 📢 News
+**[2024-04-14]** Evaluation result of Gemini-1.5-pro, the current SOTA Video LLM, is add.
+
 **[2024-03-23]** The [answer prompt](#answer_prompt) is improved to better guide Video LLMs to follow the desired answer formats. The [evaluation code](#eval) now provides an option to disable the use of ChatGPT.
 
 **[2024-03-12]** 🔥🔥🔥 The evaluation code is released now! Feel free to evaluate your own Video LLMs.
@@ -110,7 +112,7 @@ Match Success Rate=100.0
 ![](./assets/data_statistics.png)
 
 ## 📊 Evaluation Results
-The following figures present results of [Video LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA), [VideoChat2](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2), [SPHINX-v2](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX) and the random baseline. Results of more Video LLMs and Image LLMs can be found in our [paper](https://arxiv.org/abs/2403.00476).
+The following figures present results of [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA), [VideoChat2](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2), [SPHINX-v2](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX), [Gemini-1.5-pro](https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/) and the random baseline. Results of more Video LLMs and Image LLMs can be found in our [paper](https://arxiv.org/abs/2403.00476).
 
 <img src="./assets/multi-choice.jpg" alt="Multi-Choice" style="float: left; width: 49%; margin-right: 10px;">
 <img src="./assets/yes_no.jpg" alt="Yes/No" style="float: left; width: 49%;">
@@ -131,8 +133,8 @@ The success rate of rule-based matching is as follows:
 **Caption Matching**
 |  | V-LLaVA | SPHINX-v2    | LLaMA-VID | Qwen-VL-Chat | PandaGPT  | Valley  |
 | --- | --- | --- | --- | --- | --- | --- |
-| old prompt | 74.3 | 88.7 | 41.9 | 91.6 | 30.7 | 11.2 |
-| new prompt | 97.7 | 97.5 | 64.0 | 96.0 | 22.5 | 3.7 |
+| old prompt | 76.6 | 89.3 | 44.5 | 91.6 | 30.7 | 11.2 |
+| new prompt | 99.5 | 99.5 | 68.3 | 96.0 | 22.5 | 3.7 |
 
 ## TODOs
 - [x] Upload scripts to collect and process videos.
