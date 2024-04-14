@@ -89,3 +89,9 @@ def get_eval_result(prompt, maxtry=10):
             maxtry -= 1
             print(f"Not success! {maxtry} retries remaining...")
             time.sleep(random.uniform(1, 2))
+
+def process_gemini_caption(llm_output):
+    caption = llm_output.strip().split('\n')[-1].replace('*', '').strip().strip('"')
+    if ':' in caption:
+        caption = caption.split(':')[1].strip().strip('"')
+    return caption
