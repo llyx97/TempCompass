@@ -77,6 +77,7 @@ python process_videos.py    # Construct conflicting videos
 We use [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) and [Gemini](https://github.com/google-gemini/cookbook/blob/98a74b3cde77e518032928acec2fab8b8f3b41be/preview/file-api/File_API_Video.ipynb) as examples to illustrate how to conduct MLLM inference on our benchmark.
 
 **1. Video-LLaVA**
+
 Enter `run_video_llava` and install the environment as instructed.
 
 Then run the following commands. The prediction results will be saved to `predictions/video-llava/<task_type>`.
@@ -86,6 +87,7 @@ python inference_dataset.py --task_type <task_type>
 ```
 
 **2. Gemini**
+
 The inference script for gemini-1.5-pro is `run_gemini.ipynb`. It is recommended to run the script in [Google Colab](https://colab.research.google.com/).
 
 ### <span id="eval"> Run Evaluation </span>
