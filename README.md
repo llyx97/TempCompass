@@ -64,6 +64,14 @@ pip install -r requirements.txt
 
 The task instructions can be found in `questions/`.
 
+<details>
+<summary>Task Instruction Generation Procedure</summary>
+1. Generate **Multi-Choice QA** instructions (`question_gen.py`).
+2. Manually validate quality and rectify.
+3. Generate task instructions for **Yes/No QA** (`question_gen_yes_no.py`), **Caption Matching** (`question_gen_caption_match.py`) and **Caption Generation** (`question_gen_captioning.py`), based on manually rectified **Multi-Choice QA** instructions.
+4. Manually validate quality and rectify.
+</details>
+
 **2. Videos**
 
 Run the following commands. The videos will be saved to `videos/`.
