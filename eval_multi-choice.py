@@ -22,6 +22,12 @@ def main(predictions, eval_results, output_file, disable_llm):
             for pred in preds:
                 if "prediction" not in pred and "response" in pred:
                     pred["prediction"] = pred["response"]
+
+                if pred["prediction"] is None:  # In some cases the Video LLM may refuse to produce a response
+                    eval_result = {"question": pred["question"], "gt-answer": pred["answer"], "video-llm-prediction": pred["prediction"], "match_success": False, "rating": 0}
+                    eval_results[id][dim].append(eval_result)
+                    continue
+
                 pred["prediction"] = pred["prediction"].replace('</s>', '')
                 eval_result = {"question": pred["question"], "gt-answer": pred["answer"], "video-llm-prediction": pred["prediction"], "match_success": True}
 

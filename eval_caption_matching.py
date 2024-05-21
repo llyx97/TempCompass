@@ -19,7 +19,7 @@ def eval_rule(video_llm_output, question, answer):
     # Determine whether the video llm output is correct, based on word matching rules
     option_strs = question.split("\n")[1:]  # complete option strings
     option_sents = [opt.split(': ')[1] for opt in option_strs]    # option sentence
-    option_inds = [opt.split(': ')[0] for opt in option_strs]     # option index, e.g., Sentence A, Caption A, Option 1
+    option_inds = [opt.split(': ')[0] for opt in option_strs] + [opt.split(': ')[0].replace('Sentence ', '').replace('Option ', '').replace('Caption ', '') for opt in option_strs]   # option index, e.g., Sentence A, Caption A, Option 1
     video_llm_pred = None
     for option_str in option_strs:
         if option_str==video_llm_output:
@@ -34,7 +34,7 @@ def eval_rule(video_llm_output, question, answer):
     if video_llm_pred is None:
         return "fail"
     else:
-        return 1 if video_llm_pred==answer or video_llm_pred==answer.split(":")[0] or video_llm_pred==answer.split(": ")[1] else 0
+        return 1 if video_llm_pred==answer or video_llm_pred==answer.split(":")[0] or video_llm_pred==answer.split(": ")[1] or video_llm_pred==answer.split(": ")[0].split()[1] else 0
 
 
 def main(predictions, eval_results, output_file, disable_llm):
@@ -52,6 +52,12 @@ def main(predictions, eval_results, output_file, disable_llm):
             for pred in preds:
                 if "prediction" not in pred and "response" in pred:
                     pred["prediction"] = pred["response"]
+
+                if pred["prediction"] is None:  # In some cases the Video LLM may refuse to produce a response
+                    eval_result = {"question": pred["question"], "gt-answer": pred["answer"], "video-llm-prediction": pred["prediction"], "match_success": False, "rating": 0}
+                    eval_results[id][dim].append(eval_result)
+                    continue
+                
                 pred["prediction"] = pred["prediction"].replace('</s>', '')
                 eval_result = {"question": pred["question"], "gt-answer": pred["answer"], "video-llm-prediction": pred["prediction"], "match_success": True}
 

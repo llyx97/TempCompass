@@ -1,7 +1,7 @@
 from prompt_templates import *
 
 import requests, json, os, argparse, random, time
-from utils.eval_utils import url, headers, print_result
+from utils.eval_utils import url, headers, print_result, process_gemini_caption
 from tqdm import tqdm
 
 qtype = "captioning"
@@ -97,7 +97,17 @@ def main(predictions, eval_results, output_file, mc_questions):
             for pred in preds:
                 if "prediction" not in pred and "response" in pred:
                     pred["prediction"] = pred["response"]
+
+                if pred["prediction"] is None:  # In some cases the Video LLM may refuse to produce a response
+                    eval_result = {"question": pred["question"], "gt-answer": pred["answer"], "video-llm-prediction": pred["prediction"], "match_success": False, "rating": 0}
+                    eval_results[id][dim].append(eval_result)
+                    continue
+
                 pred["prediction"] = pred["prediction"].replace('</s>', '')
+
+                if args.video_llm=='gemini':
+                    pred["prediction"] = process_gemini_caption(pred["prediction"])
+
                 prompt = f"""{base_prompt}\nVideo Description:{pred["prediction"]}\nMulti-Choice Question:\n{mc_questions[id][dim][0]["question"]}\nAnswer:"""
 
                 eval_result = get_eval_result(prompt, mc_answer=mc_questions[id][dim][0]["answer"])
