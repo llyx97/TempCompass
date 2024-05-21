@@ -65,7 +65,7 @@ pip install -r requirements.txt
 The task instructions can be found in `questions/`.
 
 <details>
-<summary>Task Instruction Generation Procedure</summary>
+<summary><span id="eval_result"> Evaluation Results </span></summary>
     
 1. Generate **Multi-Choice QA** instructions (`question_gen.py`). 
 
