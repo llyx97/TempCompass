@@ -157,7 +157,7 @@ The success rate of rule-based matching is as follows:
 ## TODOs
 - [x] Upload scripts to collect and process videos.
 - [x] Upload the code for automatic evaluation.
-- [ ] Upload the code for task instruction generation.
+- [x] Upload the code for task instruction generation.
 
 ## Citation
 ```bibtex
