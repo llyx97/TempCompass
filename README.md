@@ -3,7 +3,7 @@
 <div align="center">
     <a href='https://arxiv.org/abs/2403.00476'><img src='https://img.shields.io/badge/ArXiv-2403.00476-red'></a>
     <a href='https://llyx97.github.io/tempcompass/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
-    <a href='https://huggingface.co/spaces/lyx97/TempCompass'><img src='https://img.shields.io/badge/🤗_Hugging_Face--Leaderboard'></a>
+    <a href='https://huggingface.co/spaces/lyx97/TempCompass'><img src='https://img.shields.io/badge/🤗_Hugging_Face-Leaderboard-blue'></a>
 </div>
 
 <div>
