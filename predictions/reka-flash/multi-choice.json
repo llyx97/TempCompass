@@ -6966,5 +6966,2759 @@
                 "prediction": " A. changing from pink to blue"
             }
         ]
+    },
+    "1055194940_reverse": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the insect?\nA. transforming from butterfly into pupa\nB. remaining as a butterfly\nC. remaining as a pupa\nD. transforming from pupa into butterfly",
+                "answer": "A. transforming from butterfly into pupa",
+                "prediction": " D. transforming from pupa into butterfly"
+            },
+            {
+                "question": "What is the final form of the insect after it undergoes transformation?\nA. pupa\nB. larva\nC. butterfly\nD. egg",
+                "answer": "A. pupa",
+                "prediction": " C. butterfly"
+            },
+            {
+                "question": "What change is occurring in the insect\nA. transforming from pupa into butterfly\nB. transforming from dead to live\nC. transforming from live to dead\nD. transforming from butterfly into pupa",
+                "answer": "D. transforming from butterfly into pupa",
+                "prediction": " A. transforming from pupa into butterfly"
+            }
+        ]
+    },
+    "1079384099_reverse": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the 3d pixel? \nA. It is transforming from the shape of a heart into a triangle\nB. It is transforming from a triangle into the shape of a heart\nC. It is transforming from a white square into the shape of a flower\nD. It is transforming from the shape of a flower into a white square",
+                "answer": "D. It is transforming from the shape of a flower into a white square",
+                "prediction": " C. It is transforming from a white square into the shape of a flower"
+            },
+            {
+                "question": "What is the final shape of the 3d pixel? \nA. A star\nB. A circle\nC. A flower\nD. A square",
+                "answer": "D. A square",
+                "prediction": " C. A flower"
+            },
+            {
+                "question": "Which shapes does the 3d pixel transform through? \nA. From flower to square\nB. From flower to heart\nC. From heart to flower\nD. From square to flower",
+                "answer": "A. From flower to square",
+                "prediction": " A. From flower to square"
+            }
+        ]
+    },
+    "1099811331_reverse": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the 3d heart?\nA. gradually disappearing\nB. gradually appearing\nC. growing in size\nD. Reducing in size",
+                "answer": "A. gradually disappearing",
+                "prediction": " B. gradually appearing"
+            },
+            {
+                "question": "How is the 3d heart transforming?\nA. gradually disappearing\nB. Reducing in size\nC. gradually appearing\nD. growing in size",
+                "answer": "A. gradually disappearing",
+                "prediction": " C. gradually appearing"
+            },
+            {
+                "question": "What is the attribute change of the 3d heart?\nA. gradually disappearing\nB. breaking apart\nC. gradually appearing\nD. splitting in half",
+                "answer": "A. gradually disappearing",
+                "prediction": " C. gradually appearing"
+            }
+        ]
+    },
+    "1093340469_reverse": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the room?\nA. staying the same brightness\nB. turning brighter\nC. turning darker",
+                "answer": "B. turning brighter",
+                "prediction": " B. turning brighter"
+            },
+            {
+                "question": "Which word best describes the change in the room?\nA. darkening\nB. stabilizing\nC. brightening",
+                "answer": "C. brightening",
+                "prediction": " C. brightening"
+            },
+            {
+                "question": "How is the attribute of the room changing?\nA. becoming darker\nB. brightening up\nC. staying unchanged",
+                "answer": "A. becoming darker",
+                "prediction": " C. staying unchanged\n\nThe video shows a video of a bathroom, from the perspective of the doorway, with the main focus being on the wash basin, mirror, and bathtub. The video starts with the room in a darker tone, then it brightens up as the video progresses, but the attributes of the room itself do not change.\n\nB. brightening up is a correct option, but it is describing the video, not the attribute of the room."
+            }
+        ]
+    },
+    "1111601171": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the sphere building?\nA. It is changing from green to blue.\nB. It is changing from blue to green.\nC. It is changing from blue to red.\nD. It is staying in the same color.",
+                "answer": "A. It is changing from green to blue.",
+                "prediction": " A. It is changing from green to blue."
+            },
+            {
+                "question": "What is the final color of the sphere building?\nA. Red\nB. Green\nC. Blue\nD. Black",
+                "answer": "C. Blue",
+                "prediction": " C. Blue"
+            },
+            {
+                "question": "How is the sphere building transforming?\nA. It is changing from green to blue.\nB. It is staying in the same color.\nC. It is changing from blue to green.\nD. It is changing from red to yellow.",
+                "answer": "A. It is changing from green to blue.",
+                "prediction": " A. It is changing from green to blue."
+            }
+        ]
+    },
+    "1086105089": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the building?\nA. being constructed\nB. demolishing\nC. grwoing wider",
+                "answer": "A. being constructed",
+                "prediction": " A. being constructed"
+            },
+            {
+                "question": "How is the building changing?\nA. growing taller\nB. staying the same\nC. getting shorter",
+                "answer": "A. growing taller",
+                "prediction": " A. growing taller"
+            },
+            {
+                "question": "What is being done to the building?\nA. deconstructing\nB. constructing\nC. renovating",
+                "answer": "B. constructing",
+                "prediction": " B. constructing"
+            }
+        ]
+    },
+    "1058498242": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the 3d pixels?\nA. changing from a cuboid into a flat surface\nB. changing from the shape of a man into a cuboid\nC. changing from a cuboid into the shape of a man\nD. changing from a flat surface into a cuboid",
+                "answer": "C. changing from a cuboid into the shape of a man",
+                "prediction": " C. changing from a cuboid into the shape of a man"
+            },
+            {
+                "question": "How are the 3d pixels transforming?\nA. changing from a cuboid into the shape of a man\nB. changing from a sphere into a cuboid\nC. changing from a cuboid into a sphere\nD. changing from the shape of a man into a cuboid",
+                "answer": "A. changing from a cuboid into the shape of a man",
+                "prediction": " A. changing from a cuboid into the shape of a man"
+            },
+            {
+                "question": "In what shape are the 3d pixels changing into?\nA. a cuboid\nB. a man\nC. a sphere\nD. a tree",
+                "answer": "B. a man",
+                "prediction": " B. a man"
+            }
+        ]
+    },
+    "1082268005": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the planet earth?\nA. assembling from toy bricks\nB. disassembling and disappearing\nC. splitting into two halves",
+                "answer": "A. assembling from toy bricks",
+                "prediction": " A. assembling from toy bricks"
+            },
+            {
+                "question": "How is the planet earth changing?\nA. it is spinning\nB. it is disappearing\nC. it is assembling from toy bricks",
+                "answer": "C. it is assembling from toy bricks",
+                "prediction": " C. it is assembling from toy bricks."
+            },
+            {
+                "question": "In what way is the planet earth transforming?\nA. it is disassembling and disappearing\nB. it is dissolving into water\nC. it is assembling from toy bricks",
+                "answer": "C. it is assembling from toy bricks",
+                "prediction": " C. it is assembling from toy bricks."
+            }
+        ]
+    },
+    "1070711428": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the glacier?\nA. breaking and falling in water\nB. assembling and rising from water\nC. freezing\nD. evaporating",
+                "answer": "A. breaking and falling in water",
+                "prediction": " A. breaking and falling in water"
+            },
+            {
+                "question": "What change is happening to the glacier?\nA. falling in water\nB. rising from water\nC. becoming shorter\nD. freezing",
+                "answer": "A. falling in water",
+                "prediction": " C. becoming shorter"
+            },
+            {
+                "question": "What is occurring to the glacier?\nA. breaking and falling in water\nB. becoming shorter\nC. assembling and rising from water\nD. evaporating",
+                "answer": "A. breaking and falling in water",
+                "prediction": " A. breaking and falling in water."
+            }
+        ]
+    },
+    "1057447372": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the sport stadium?\nA. turning darker\nB. turning brighter\nC. staying the same brightness",
+                "answer": "B. turning brighter",
+                "prediction": " B. turning brighter"
+            },
+            {
+                "question": "How is the sport stadium transforming?\nA. staying the same brightness\nB. becoming darker\nC. becoming brighter",
+                "answer": "C. becoming brighter",
+                "prediction": " C. becoming brighter"
+            },
+            {
+                "question": "What is the alteration occurring in the sport stadium?\nA. remaining the same\nB. turning darker\nC. turning brighter",
+                "answer": "C. turning brighter",
+                "prediction": " B. turning darker"
+            }
+        ]
+    },
+    "1053334574": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the black ink?\nA. staying in the same shape\nB. shrinking into the the center\nC. splitting in half\nD. expanding from the center",
+                "answer": "D. expanding from the center",
+                "prediction": " D. expanding from the center"
+            },
+            {
+                "question": "How is the black ink transforming?\nA. splitting in half\nB. staying in the same shape\nC. expanding from the center\nD. contracting towards the center",
+                "answer": "C. expanding from the center",
+                "prediction": " C. expanding from the center"
+            },
+            {
+                "question": "In what way is the black ink undergoing a change?\nA. drying up\nB. contracting into the center\nC. expanding from the center",
+                "answer": "C. expanding from the center",
+                "prediction": " C. expanding from the center"
+            }
+        ]
+    },
+    "1016172301": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the 3D house model?\nA. being constructed\nB. being painted\nC. being demolished",
+                "answer": "A. being constructed",
+                "prediction": " A. being constructed"
+            },
+            {
+                "question": "Which process is the 3D house model going through?\nA. being deconstructed\nB. being repaired\nC. being constructed",
+                "answer": "C. being constructed",
+                "prediction": " C. being constructed"
+            },
+            {
+                "question": "What change is occurring to the 3D house model?\nA. being renovated\nB. being constructed\nC. being dismantled",
+                "answer": "B. being constructed",
+                "prediction": " B. being constructed"
+            }
+        ]
+    },
+    "1084736389": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the face?\nA. Aging\nB. Morphing from a chimpanzee into a human\nC. Becoming younger\nD. Morphing from a human into a chimpanzee",
+                "answer": "B. Morphing from a chimpanzee into a human",
+                "prediction": " B. Morphing from a chimpanzee into a human"
+            },
+            {
+                "question": "How does the face transform?\nA. It morphs from a chimpanzee into a human\nB. It is aging\nC. It morphs from a human into a chimpanzee\nD. It gets younger",
+                "answer": "A. It morphs from a chimpanzee into a human",
+                "prediction": " A. It morphs from a chimpanzee into a human"
+            },
+            {
+                "question": "Which animal does the face resemble at the beginning?\nA. Human\nB. Giraffe\nC. Tiger\nD. Chimpanzee",
+                "answer": "D. Chimpanzee",
+                "prediction": " D. Chimpanzee"
+            }
+        ]
+    },
+    "1054494542": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the background?\nA. changing from pink to green\nB. changing from pink to blue\nC. changing from green to pink\nD. changing from blue to pink",
+                "answer": "B. changing from pink to blue",
+                "prediction": " B. changing from pink to blue"
+            },
+            {
+                "question": "How is the background transforming?\nA. turning green\nB. truning pink\nC. turning yellow\nD. turning blue",
+                "answer": "D. turning blue",
+                "prediction": " B. truning pink"
+            },
+            {
+                "question": "What is the main change occurring in the background?\nA. changing from green to pink\nB. changing from pink to green\nC. changing from blue to pink\nD. changing from pink to blue",
+                "answer": "D. changing from pink to blue",
+                "prediction": " D. changing from pink to blue"
+            }
+        ]
+    },
+    "1055194940": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the insect?\nA. remaining as a butterfly\nB. transforming from butterfly into pupa\nC. transforming from pupa into butterfly\nD. remaining as a pupa",
+                "answer": "C. transforming from pupa into butterfly",
+                "prediction": " C. transforming from pupa into butterfly"
+            },
+            {
+                "question": "What is the final form of the insect after it undergoes transformation?\nA. larva\nB. pupa\nC. butterfly\nD. egg",
+                "answer": "C. butterfly",
+                "prediction": " C. butterfly"
+            },
+            {
+                "question": "What change is occurring in the insect\nA. transforming from butterfly into pupa\nB. transforming from dead to live\nC. transforming from live to dead\nD. transforming from pupa into butterfly",
+                "answer": "D. transforming from pupa into butterfly",
+                "prediction": " D. transforming from pupa into butterfly"
+            }
+        ]
+    },
+    "1079384099": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the 3d pixel? \nA. It is transforming from a white square into the shape of a flower\nB. It is transforming from a triangle into the shape of a heart\nC. It is transforming from the shape of a heart into a triangle\nD. It is transforming from the shape of a flower into a white square",
+                "answer": "A. It is transforming from a white square into the shape of a flower",
+                "prediction": " A. It is transforming from a white square into the shape of a flower"
+            },
+            {
+                "question": "What is the final shape of the 3d pixel? \nA. A flower\nB. A star\nC. A circle\nD. A square",
+                "answer": "A. A flower",
+                "prediction": " A. A flower"
+            },
+            {
+                "question": "Which shapes does the 3d pixel transform through? \nA. From flower to square\nB. From flower to heart\nC. From heart to flower\nD. From square to flower",
+                "answer": "D. From square to flower",
+                "prediction": " D. From square to flower"
+            }
+        ]
+    },
+    "1099811331": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the 3d heart?\nA. Reducing in size\nB. gradually disappearing\nC. gradually appearing\nD. growing in size",
+                "answer": "C. gradually appearing",
+                "prediction": " C. gradually appearing"
+            },
+            {
+                "question": "How is the 3d heart transforming?\nA. gradually disappearing\nB. growing in size\nC. gradually appearing\nD. Reducing in size",
+                "answer": "C. gradually appearing",
+                "prediction": " C. gradually appearing"
+            },
+            {
+                "question": "What is the attribute change of the 3d heart?\nA. gradually appearing\nB. splitting in half\nC. gradually disappearing\nD. breaking apart",
+                "answer": "A. gradually appearing",
+                "prediction": " B. splitting in half"
+            }
+        ]
+    },
+    "1093340469": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the room?\nA. staying the same brightness\nB. turning brighter\nC. turning darker",
+                "answer": "C. turning darker",
+                "prediction": " C. turning darker."
+            },
+            {
+                "question": "Which word best describes the change in the room?\nA. darkening\nB. brightening\nC. stabilizing",
+                "answer": "A. darkening",
+                "prediction": " A. darkening"
+            },
+            {
+                "question": "How is the attribute of the room changing?\nA. staying unchanged\nB. brightening up\nC. becoming darker",
+                "answer": "C. becoming darker",
+                "prediction": " C. becoming darker."
+            }
+        ]
+    },
+    "1059072773_1059718130_0": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. Sun rising and then ice cream melting\nB. Ice cream melting and then sun rising\nC. Sun rising and ice cream melting at the same time",
+                "answer": "C. Sun rising and ice cream melting at the same time",
+                "prediction": " B. Ice cream melting and then sun rising"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. Both events happen simultaneously\nB. Sun rising\nC. Ice cream melting",
+                "answer": "A. Both events happen simultaneously",
+                "prediction": " C. Ice cream melting"
+            },
+            {
+                "question": "In what sequence do the events occur in the video?\nA. Both events occur at the same time\nB. Ice cream melting, sun rising\nC. Sun rising, ice cream melting",
+                "answer": "A. Both events occur at the same time",
+                "prediction": " C. Sun rising, ice cream melting"
+            }
+        ]
+    },
+    "1059072773_1059718130_1": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. Sun rising and ice cream melting at the same time\nB. Sun rising and then ice cream melting\nC. Ice cream melting and then sun rising",
+                "answer": "C. Ice cream melting and then sun rising",
+                "prediction": " B. Sun rising and then ice cream melting"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. Sun rising\nB. Ice cream melting\nC. Both events happen simultaneously",
+                "answer": "B. Ice cream melting",
+                "prediction": " B. Ice cream melting"
+            },
+            {
+                "question": "In what sequence do the events occur in the video?\nA. Ice cream melting, sun rising\nB. Sun rising, ice cream melting\nC. Both events occur at the same time",
+                "answer": "A. Ice cream melting, sun rising",
+                "prediction": " B. Sun rising, ice cream melting"
+            }
+        ]
+    },
+    "1059072773_1059718130_2": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. Sun rising and ice cream melting at the same time\nB. Sun rising and then ice cream melting\nC. Ice cream melting and then sun rising",
+                "answer": "B. Sun rising and then ice cream melting",
+                "prediction": " B. Sun rising and then ice cream melting"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. Both events happen simultaneously\nB. Sun rising\nC. Ice cream melting",
+                "answer": "B. Sun rising",
+                "prediction": " B. Sun rising"
+            },
+            {
+                "question": "In what sequence do the events occur in the video?\nA. Sun rising, ice cream melting\nB. Ice cream melting, sun rising\nC. Both events occur at the same time",
+                "answer": "A. Sun rising, ice cream melting",
+                "prediction": " B. Ice cream melting, sun rising"
+            }
+        ]
+    },
+    "1024867412_1034049020_0": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. A girl is walking on the street while a dog is simultaneously driving\nB. A girl is walking on the street, then a dog is driving\nC. A dog is driving, then a girl is walking on the street",
+                "answer": "A. A girl is walking on the street while a dog is simultaneously driving",
+                "prediction": " B. A girl is walking on the street, then a dog is driving"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. A dog is driving\nB. Both events happen concurrently\nC. A girl is walking on the street",
+                "answer": "B. Both events happen concurrently",
+                "prediction": " C. A girl is walking on the street"
+            },
+            {
+                "question": "In what sequence do the events occur in the video?A. A dog is driving, followed by a girl walking on the street\nA. A girl is walking on the street while a dog is driving at the same time\nB. A girl is walking on the street, followed by a dog driving",
+                "answer": "A. A girl is walking on the street while a dog is driving at the same time",
+                "prediction": " B. A girl is walking on the street, followed by a dog driving"
+            }
+        ]
+    },
+    "1024867412_1034049020_1": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. A dog is driving, then a girl is walking on the street\nB. A girl is walking on the street, then a dog is driving\nC. A girl is walking on the street while a dog is simultaneously driving",
+                "answer": "A. A dog is driving, then a girl is walking on the street",
+                "prediction": " A. A dog is driving, then a girl is walking on the street"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. A dog is driving\nB. A girl is walking on the street\nC. Both events happen concurrently",
+                "answer": "A. A dog is driving",
+                "prediction": " A. A dog is driving\n\nIn the video, the scene with the dog wearing sunglasses and appearing to drive a car occurs before the scene of the girl walking down the street with a paint roller. Therefore, the event with the dog driving happens first."
+            },
+            {
+                "question": "In what sequence do the events occur in the video?\nA. A dog is driving, followed by a girl walking on the street\nB. A girl is walking on the street, followed by a dog driving\nC. A girl is walking on the street while a dog is driving at the same time",
+                "answer": "A. A dog is driving, followed by a girl walking on the street",
+                "prediction": " B. A girl is walking on the street, followed by a dog driving"
+            }
+        ]
+    },
+    "1024867412_1034049020_2": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. A girl is walking on the street, then a dog is driving\nB. A girl is walking on the street while a dog is simultaneously driving\nC. A dog is driving, then a girl is walking on the street",
+                "answer": "A. A girl is walking on the street, then a dog is driving",
+                "prediction": " A. A girl is walking on the street, then a dog is driving"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. A girl is walking on the street\nB. A dog is driving\nC. Both events happen concurrently",
+                "answer": "A. A girl is walking on the street",
+                "prediction": " A. A girl is walking on the street"
+            },
+            {
+                "question": "In what sequence do the events occur in the video?A. A dog is driving, followed by a girl walking on the street\nA. A girl is walking on the street, followed by a dog driving\nB. A girl is walking on the street while a dog is driving at the same time",
+                "answer": "A. A girl is walking on the street, followed by a dog driving",
+                "prediction": " A. A girl is walking on the street, followed by a dog driving"
+            }
+        ]
+    },
+    "1096238125_1098970151_0": {
+        "order": [
+            {
+                "question": "What is the order of the events in the video?\nA. Two people are lifting weights and then a cat is licking its paw\nB. The events are happening simultaneously, there is no specific order\nC. A cat is licking its paw and then two people are lifting weights",
+                "answer": "B. The events are happening simultaneously, there is no specific order",
+                "prediction": " A. Two people are lifting weights and then a cat is licking its paw"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. A cat is licking its paw\nB. Two people are lifting weights\nC. Both events happen at the same time",
+                "answer": "C. Both events happen at the same time",
+                "prediction": " B. Two people are lifting weights"
+            },
+            {
+                "question": "In what order do the events take place in the video?\nA. The events happen simultaneously\nB. Two people are lifting weights followed by a cat licking its paw\nC. A cat is licking its paw followed by two people lifting weights",
+                "answer": "A. The events happen simultaneously",
+                "prediction": " C. A cat is licking its paw followed by two people lifting weights"
+            }
+        ]
+    },
+    "1096238125_1098970151_1": {
+        "order": [
+            {
+                "question": "What is the order of the events in the video?\nA. A cat is licking its paw and then two people are lifting weights\nB. Two people are lifting weights and then a cat is licking its paw\nC. The events are happening simultaneously, there is no specific order",
+                "answer": "B. Two people are lifting weights and then a cat is licking its paw",
+                "prediction": " B. Two people are lifting weights and then a cat is licking its paw"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. Two people are lifting weights\nB. Both events happen at the same time\nC. A cat is licking its paw",
+                "answer": "A. Two people are lifting weights",
+                "prediction": " C. A cat is licking its paw"
+            },
+            {
+                "question": "In what order do the events take place in the video?\nA. Two people are lifting weights followed by a cat licking its paw\nB. The events happen simultaneously\nC. A cat is licking its paw followed by two people lifting weights",
+                "answer": "A. Two people are lifting weights followed by a cat licking its paw",
+                "prediction": " C. A cat is licking its paw followed by two people lifting weights"
+            }
+        ]
+    },
+    "1096238125_1098970151_2": {
+        "order": [
+            {
+                "question": "What is the order of the events in the video?\nA. Two people are lifting weights and then a cat is licking its paw\nB. A cat is licking its paw and then two people are lifting weights\nC. The events are happening simultaneously, there is no specific order",
+                "answer": "B. A cat is licking its paw and then two people are lifting weights",
+                "prediction": " B. A cat is licking its paw and then two people are lifting weights"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. Two people are lifting weights\nB. Both events happen at the same time\nC. A cat is licking its paw",
+                "answer": "C. A cat is licking its paw",
+                "prediction": " C. A cat is licking its paw"
+            },
+            {
+                "question": "In what order do the events take place in the video?\nA. The events happen simultaneously\nB. Two people are lifting weights followed by a cat licking its paw\nC. A cat is licking its paw followed by two people lifting weights",
+                "answer": "C. A cat is licking its paw followed by two people lifting weights",
+                "prediction": " C. A cat is licking its paw followed by two people lifting weights"
+            }
+        ]
+    },
+    "1069717165_1041584314_0": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. First, a woman is showing different expressions; then, a man is showing different expressions.\nB. First, a man is showing different expressions; then, a woman is showing different expressions.\nC. Both the woman and the man are showing different expressions at the same time.",
+                "answer": "C. Both the woman and the man are showing different expressions at the same time.",
+                "prediction": " A. First, a woman is showing different expressions; then, a man is showing different expressions."
+            },
+            {
+                "question": "In what sequence are the events presented in the video?\nA. The man presents his expressions first, followed by the woman.\nB. The woman presents his expressions first, followed by the man.\nC. The woman and man are showing their expressions simultaneously.",
+                "answer": "C. The woman and man are showing their expressions simultaneously.",
+                "prediction": " A. The man presents his expressions first, followed by the woman."
+            },
+            {
+                "question": "Which event occurs earlier in the video?\nA. The man showing different expressions\nB. They both happen together\nC. The woman showing different expressions",
+                "answer": "B. They both happen together",
+                "prediction": " C. The woman showing different expressions"
+            }
+        ]
+    },
+    "1069717165_1041584314_1": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. First, a man is showing different expressions; then, a woman is showing different expressions.\nB. First, a woman is showing different expressions; then, a man is showing different expressions.\nC. Both the woman and the man are showing different expressions at the same time.",
+                "answer": "B. First, a woman is showing different expressions; then, a man is showing different expressions.",
+                "prediction": " B. First, a woman is showing different expressions; then, a man is showing different expressions."
+            },
+            {
+                "question": "In what sequence are the events presented in the video?\nA. The woman and man are showing their expressions simultaneously.\nB. The man presents his expressions first, followed by the woman.\nC. The woman presents his expressions first, followed by the man.",
+                "answer": "C. The woman presents his expressions first, followed by the man.",
+                "prediction": " B. The man presents his expressions first, followed by the woman."
+            },
+            {
+                "question": "Which event occurs earlier in the video?\nA. The man showing different expressions\nB. The woman showing different expressions\nC. They both happen together",
+                "answer": "B. The woman showing different expressions",
+                "prediction": " B. The woman showing different expressions"
+            }
+        ]
+    },
+    "1069717165_1041584314_2": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. First, a woman is showing different expressions; then, a man is showing different expressions.\nB. Both the woman and the man are showing different expressions at the same time.\nC. First, a man is showing different expressions; then, a woman is showing different expressions.",
+                "answer": "C. First, a man is showing different expressions; then, a woman is showing different expressions.",
+                "prediction": " C. First, a man is showing different expressions; then, a woman is showing different expressions."
+            },
+            {
+                "question": "In what sequence are the events presented in the video?\nA. The man presents his expressions first, followed by the woman.\nB. The woman presents his expressions first, followed by the man.\nC. The woman and man are showing their expressions simultaneously.",
+                "answer": "A. The man presents his expressions first, followed by the woman.",
+                "prediction": " A. The man presents his expressions first, followed by the woman."
+            },
+            {
+                "question": "Which event occurs earlier in the video?\nA. The woman showing different expressions\nB. They both happen together\nC. The man showing different expressions",
+                "answer": "C. The man showing different expressions",
+                "prediction": " C. The man showing different expressions"
+            }
+        ]
+    },
+    "1055413730_1055973887_0": {
+        "order": [
+            {
+                "question": "What is the correct order of events in the video?\nA. The fire ball is expanding, then the earth is spinning\nB. The earth is spinning, then the fire ball is expanding\nC. Simultaneously, the earth is spinning and the fire ball is expanding",
+                "answer": "C. Simultaneously, the earth is spinning and the fire ball is expanding",
+                "prediction": " B. The earth is spinning, then the fire ball is expanding"
+            },
+            {
+                "question": "What is happening in the first event of the video?\nA. Both events happen together\nB. The fire ball is expanding\nC. The earth is spinning",
+                "answer": "A. Both events happen together",
+                "prediction": " B. The fire ball is expanding"
+            },
+            {
+                "question": "What is happening in the second event of the video?\nA. The earth is spinning\nB. The fire ball is expanding\nC. Both events happen together",
+                "answer": "C. Both events happen together",
+                "prediction": " B. The fire ball is expanding"
+            }
+        ]
+    },
+    "1055413730_1055973887_1": {
+        "order": [
+            {
+                "question": "What is the correct order of events in the video?\nA. The fire ball is expanding, then the earth is spinning\nB. The earth is spinning, then the fire ball is expanding\nC. Simultaneously, the earth is spinning and the fire ball is expanding",
+                "answer": "B. The earth is spinning, then the fire ball is expanding",
+                "prediction": " B. The earth is spinning, then the fire ball is expanding"
+            },
+            {
+                "question": "What is happening in the first event of the video?\nA. The earth is spinning\nB. Both events happen together\nC. The fire ball is expanding",
+                "answer": "A. The earth is spinning",
+                "prediction": " A. The earth is spinning\n\nThe video shows the planet earth in space, rotating on it's axis. There is no connection between the two events shown in the video, and the second event shown in the video (fireball expanding) does not happen during the first event."
+            },
+            {
+                "question": "What is happening in the second event of the video?\nA. Both events happen together\nB. The earth is spinning\nC. The fire ball is expanding",
+                "answer": "C. The fire ball is expanding",
+                "prediction": " C. The fire ball is expanding"
+            }
+        ]
+    },
+    "1055413730_1055973887_2": {
+        "order": [
+            {
+                "question": "What is the correct order of events in the video?\nA. Simultaneously, the earth is spinning and the fire ball is expanding\nB. The fire ball is expanding, then the earth is spinning\nC. The earth is spinning, then the fire ball is expanding",
+                "answer": "B. The fire ball is expanding, then the earth is spinning",
+                "prediction": " C. The earth is spinning, then the fire ball is expanding"
+            },
+            {
+                "question": "What is happening in the first event of the video?\nA. The fire ball is expanding\nB. Both events happen together\nC. The earth is spinning",
+                "answer": "A. The fire ball is expanding",
+                "prediction": " A. The fire ball is expanding"
+            },
+            {
+                "question": "What is happening in the second event of the video?\nA. The fire ball is expanding\nB. The earth is spinning\nC. Both events happen together",
+                "answer": "B. The earth is spinning",
+                "prediction": " A. The fire ball is expanding\n\nThe video first shows a fireball with an irregular, expanding shape. There is no motion in the video to suggest spinning, and the second event shown is a view of the Earth from space, which has no relation to the first event. Therefore, the best option is that the fireball is expanding."
+            }
+        ]
+    },
+    "1058907236_1021488277_0": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. A person is picking up a pineapple and then a squirrel is foraging\nB. A squirrel is foraging and then a person is picking up a pineapple\nC. Both events are happening concurrently",
+                "answer": "C. Both events are happening concurrently",
+                "prediction": " B. A squirrel is foraging and then a person is picking up a pineapple"
+            },
+            {
+                "question": "In what sequence are the events happening in the video?\nA. First, a person is picking up a pineapple; then, a squirrel is foraging\nB. First, a squirrel is foraging; then, a person is picking up a pineapple\nC. Both events are happening simultaneously",
+                "answer": "C. Both events are happening simultaneously",
+                "prediction": " B. First, a squirrel is foraging; then, a person is picking up a pineapple"
+            },
+            {
+                "question": "What is the arrangement of the events in the video?\nA. A person picks up a pineapple before a squirrel starts foraging\nB. They happen at exactly the same time\nC. A squirrel is foraging before a person picks up a pineapple",
+                "answer": "B. They happen at exactly the same time",
+                "prediction": " C. A squirrel is foraging before a person picks up a pineapple"
+            }
+        ]
+    },
+    "1058907236_1021488277_1": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. Both events are happening concurrently\nB. A squirrel is foraging and then a person is picking up a pineapple\nC. A person is picking up a pineapple and then a squirrel is foraging",
+                "answer": "B. A squirrel is foraging and then a person is picking up a pineapple",
+                "prediction": " C. A person is picking up a pineapple and then a squirrel is foraging"
+            },
+            {
+                "question": "In what sequence are the events happening in the video?\nA. First, a squirrel is foraging; then, a person is picking up a pineapple\nB. Both events are happening simultaneously\nC. First, a person is picking up a pineapple; then, a squirrel is foraging",
+                "answer": "A. First, a squirrel is foraging; then, a person is picking up a pineapple",
+                "prediction": " A. First, a squirrel is foraging; then, a person is picking up a pineapple"
+            },
+            {
+                "question": "What is the arrangement of the events in the video?\nA. A squirrel is foraging before a person picks up a pineapple\nB. A person picks up a pineapple before a squirrel starts foraging\nC. They happen at exactly the same time",
+                "answer": "A. A squirrel is foraging before a person picks up a pineapple",
+                "prediction": " A. A squirrel is foraging before a person picks up a pineapple"
+            }
+        ]
+    },
+    "1058907236_1021488277_2": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. Both events are happening concurrently\nB. A person is picking up a pineapple and then a squirrel is foraging\nC. A squirrel is foraging and then a person is picking up a pineapple",
+                "answer": "B. A person is picking up a pineapple and then a squirrel is foraging",
+                "prediction": " C. A squirrel is foraging and then a person is picking up a pineapple"
+            },
+            {
+                "question": "In what sequence are the events happening in the video?\nA. Both events are happening simultaneously\nB. First, a squirrel is foraging; then, a person is picking up a pineapple\nC. First, a person is picking up a pineapple; then, a squirrel is foraging",
+                "answer": "C. First, a person is picking up a pineapple; then, a squirrel is foraging",
+                "prediction": " C. First, a person is picking up a pineapple; then, a squirrel is foraging"
+            },
+            {
+                "question": "What is the arrangement of the events in the video?\nA. A squirrel is foraging before a person picks up a pineapple\nB. They happen at exactly the same time\nC. A person picks up a pineapple before a squirrel starts foraging",
+                "answer": "C. A person picks up a pineapple before a squirrel starts foraging",
+                "prediction": " C. A person picks up a pineapple before a squirrel starts foraging"
+            }
+        ]
+    },
+    "1054717541_1047368344_0": {
+        "order": [
+            {
+                "question": "What is the sequence of events in the video?\nA. a girl jumping into water followed by a person kneading dough\nB. a person is kneading dough followed by a girl jumping into water\nC. a girl jumping into water while a person kneading dough",
+                "answer": "C. a girl jumping into water while a person kneading dough",
+                "prediction": " B. a person is kneading dough followed by a girl jumping into water"
+            },
+            {
+                "question": "What is happening first in the video?\nA. a person is kneading dough\nB. a girl is jumping into water\nC. Both events occur at the same time",
+                "answer": "C. Both events occur at the same time",
+                "prediction": " A. a person is kneading dough"
+            },
+            {
+                "question": "What event occurs second in the video?\nA. Both events occur at the same time\nB. a girl is jumping into water\nC. a person is kneading dough",
+                "answer": "A. Both events occur at the same time",
+                "prediction": " C. a person is kneading dough"
+            }
+        ]
+    },
+    "1054717541_1047368344_1": {
+        "order": [
+            {
+                "question": "What is the sequence of events in the video?\nA. a person is kneading dough followed by a girl jumping into water\nB. a girl jumping into water followed by a person kneading dough\nC. a girl jumping into water while a person kneading dough",
+                "answer": "A. a person is kneading dough followed by a girl jumping into water",
+                "prediction": " A. a person is kneading dough followed by a girl jumping into water"
+            },
+            {
+                "question": "What is happening first in the video?\nA. Both events occur at the same time\nB. a person is kneading dough\nC. a girl is jumping into water",
+                "answer": "B. a person is kneading dough",
+                "prediction": " B. a person is kneading dough"
+            },
+            {
+                "question": "What event occurs second in the video?\nA. a person is kneading dough\nB. a girl is jumping into water\nC. Both events occur at the same time",
+                "answer": "B. a girl is jumping into water",
+                "prediction": " A. a person is kneading dough"
+            }
+        ]
+    },
+    "1054717541_1047368344_2": {
+        "order": [
+            {
+                "question": "What is the sequence of events in the video?\nA. a person is kneading dough followed by a girl jumping into water\nB. a girl jumping into water followed by a person kneading dough\nC. a girl jumping into water while a person kneading dough",
+                "answer": "B. a girl jumping into water followed by a person kneading dough",
+                "prediction": " B. a girl jumping into water followed by a person kneading dough"
+            },
+            {
+                "question": "What is happening first in the video?\nA. a girl is jumping into water\nB. a person is kneading dough\nC. Both events occur at the same time",
+                "answer": "A. a girl is jumping into water",
+                "prediction": " A. a girl is jumping into water"
+            },
+            {
+                "question": "What event occurs second in the video?\nA. a girl is jumping into water\nB. Both events occur at the same time\nC. a person is kneading dough",
+                "answer": "C. a person is kneading dough",
+                "prediction": " A. a girl is jumping into water"
+            }
+        ]
+    },
+    "1089201973_1086820415_0": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. A person is kicking football and then a big wave is shown\nB. The events are shown simultaneously\nC. A big wave is shown and then a person is kicking football",
+                "answer": "B. The events are shown simultaneously",
+                "prediction": " A. A person is kicking football and then a big wave is shown"
+            },
+            {
+                "question": "What event is shown first in the video?\nA. A big wave is shown\nB. Both events happen simultaneously\nC. A person is kicking football",
+                "answer": "B. Both events happen simultaneously",
+                "prediction": " C. A person is kicking football"
+            },
+            {
+                "question": "Which event is shown second in the video?\nA. Both events happen simultaneously\nB. A big wave is shown\nC. A person is kicking football",
+                "answer": "A. Both events happen simultaneously",
+                "prediction": " B. A big wave is shown"
+            }
+        ]
+    },
+    "1089201973_1086820415_1": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. The events are shown simultaneously\nB. A big wave is shown and then a person is kicking football\nC. A person is kicking football and then a big wave is shown",
+                "answer": "C. A person is kicking football and then a big wave is shown",
+                "prediction": " C. A person is kicking football and then a big wave is shown"
+            },
+            {
+                "question": "What event is shown first in the video?\nA. Both events happen simultaneously\nB. A big wave is shown\nC. A person is kicking football",
+                "answer": "C. A person is kicking football",
+                "prediction": " C. A person is kicking football"
+            },
+            {
+                "question": "Which event is shown second in the video?\nA. A person is kicking football\nB. Both events happen simultaneously\nC. A big wave is shown",
+                "answer": "C. A big wave is shown",
+                "prediction": " C. A big wave is shown"
+            }
+        ]
+    },
+    "1089201973_1086820415_2": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. A big wave is shown and then a person is kicking football\nB. The events are shown simultaneously\nC. A person is kicking football and then a big wave is shown",
+                "answer": "A. A big wave is shown and then a person is kicking football",
+                "prediction": " A. A big wave is shown and then a person is kicking football"
+            },
+            {
+                "question": "What event is shown first in the video?\nA. A big wave is shown\nB. A person is kicking football\nC. Both events happen simultaneously",
+                "answer": "A. A big wave is shown",
+                "prediction": " A. A big wave is shown"
+            },
+            {
+                "question": "Which event is shown second in the video?\nA. A person is kicking football\nB. Both events happen simultaneously\nC. A big wave is shown",
+                "answer": "A. A person is kicking football",
+                "prediction": " C. A big wave is shown"
+            }
+        ]
+    },
+    "1080990179_1086820415_0": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. At the same time, an apple is drying out and a big wave is shown\nB. A big wave is shown and then an apple is drying out\nC. An apple is drying out and then a big wave is shown",
+                "answer": "A. At the same time, an apple is drying out and a big wave is shown",
+                "prediction": " C. An apple is drying out and then a big wave is shown"
+            },
+            {
+                "question": "Which event occurs first in the video?\nA. A big wave is shown\nB. Both events occur simultaneously\nC. An apple is drying out",
+                "answer": "B. Both events occur simultaneously",
+                "prediction": " C. An apple is drying out"
+            },
+            {
+                "question": "Which event occurs later in the video?\nA. Both events occur simultaneously\nB. An apple is drying out\nC. A big wave is shown",
+                "answer": "A. Both events occur simultaneously",
+                "prediction": " B. An apple is drying out"
+            }
+        ]
+    },
+    "1080990179_1086820415_1": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. An apple is drying out and then a big wave is shown\nB. A big wave is shown and then an apple is drying out\nC. At the same time, an apple is drying out and a big wave is shown",
+                "answer": "A. An apple is drying out and then a big wave is shown",
+                "prediction": " A. An apple is drying out and then a big wave is shown"
+            },
+            {
+                "question": "Which event occurs first in the video?\nA. Both events occur simultaneously\nB. An apple is drying out\nC. A big wave is shown",
+                "answer": "B. An apple is drying out",
+                "prediction": " B. An apple is drying out"
+            },
+            {
+                "question": "Which event occurs later in the video?\nA. An apple is drying out\nB. A big wave is shown\nC. Both events occur simultaneously",
+                "answer": "B. A big wave is shown",
+                "prediction": " B. A big wave is shown"
+            }
+        ]
+    },
+    "1080990179_1086820415_2": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. At the same time, an apple is drying out and a big wave is shown\nB. A big wave is shown and then an apple is drying out\nC. An apple is drying out and then a big wave is shown",
+                "answer": "B. A big wave is shown and then an apple is drying out",
+                "prediction": " B. A big wave is shown and then an apple is drying out"
+            },
+            {
+                "question": "Which event occurs first in the video?\nA. An apple is drying out\nB. Both events occur simultaneously\nC. A big wave is shown",
+                "answer": "C. A big wave is shown",
+                "prediction": " C. A big wave is shown"
+            },
+            {
+                "question": "Which event occurs later in the video?\nA. An apple is drying out\nB. Both events occur simultaneously\nC. A big wave is shown",
+                "answer": "A. An apple is drying out",
+                "prediction": " C. A big wave is shown"
+            }
+        ]
+    },
+    "1067268403_1064645467_0": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. Wind turbines are rotating followed by a man doing exercise\nB. A man doing exercise followed by wind turbines rotating\nC. A man doing exercise and wind turbines rotating concurrently",
+                "answer": "C. A man doing exercise and wind turbines rotating concurrently",
+                "prediction": " B. A man doing exercise followed by wind turbines rotating"
+            },
+            {
+                "question": "What is happening in the first event of the video?\nA. A man is doing exercise while wind turbines are rotating\nB. Wind turbines are rotating\nC. A man is doing exercise",
+                "answer": "A. A man is doing exercise while wind turbines are rotating",
+                "prediction": " B. Wind turbines are rotating"
+            },
+            {
+                "question": "What is happening in the second event of the video?\nA. Wind turbines are rotating\nB. A man is doing exercise while wind turbines are rotating\nC. A man is doing exercise",
+                "answer": "B. A man is doing exercise while wind turbines are rotating",
+                "prediction": " B. A man is doing exercise while wind turbines are rotating"
+            }
+        ]
+    },
+    "1067268403_1064645467_1": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. A man doing exercise and wind turbines rotating concurrently\nB. A man doing exercise followed by wind turbines rotating\nC. Wind turbines are rotating followed by a man doing exercise",
+                "answer": "C. Wind turbines are rotating followed by a man doing exercise",
+                "prediction": " C. Wind turbines are rotating followed by a man doing exercise"
+            },
+            {
+                "question": "What is happening in the first event of the video?\nA. Wind turbines are rotating\nB. A man is doing exercise while wind turbines are rotating\nC. A man is doing exercise",
+                "answer": "A. Wind turbines are rotating",
+                "prediction": " A. Wind turbines are rotating"
+            },
+            {
+                "question": "What is happening in the second event of the video?\nA. Wind turbines are rotating\nB. A man is doing exercise while wind turbines are rotating\nC. A man is doing exercise",
+                "answer": "C. A man is doing exercise",
+                "prediction": " B. A man is doing exercise while wind turbines are rotating"
+            }
+        ]
+    },
+    "1067268403_1064645467_2": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. A man doing exercise and wind turbines rotating concurrently\nB. A man doing exercise followed by wind turbines rotating\nC. Wind turbines are rotating followed by a man doing exercise",
+                "answer": "B. A man doing exercise followed by wind turbines rotating",
+                "prediction": " B. A man doing exercise followed by wind turbines rotating"
+            },
+            {
+                "question": "What is happening in the first event of the video?\nA. A man is doing exercise while wind turbines are rotating\nB. A man is doing exercise\nC. Wind turbines are rotating",
+                "answer": "B. A man is doing exercise",
+                "prediction": " B. A man is doing exercise\n\nThis is the most accurate description of the first event in the video. The man is clearly exercising on the equipment in the playground. The wind turbines are in the background and are not the focus of the video. While they are present and rotating, the action of the man exercising is the main focus. Therefore, option B is the best answer."
+            },
+            {
+                "question": "What is happening in the second event of the video?\nA. A man is doing exercise while wind turbines are rotating\nB. Wind turbines are rotating\nC. A man is doing exercise",
+                "answer": "B. Wind turbines are rotating",
+                "prediction": " A. A man is doing exercise while wind turbines are rotating"
+            }
+        ]
+    },
+    "1082268005_1063373449_0": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. The events are happening simultaneously\nB. planet earth is assembling from toy bricks and then viruses are dissolving\nC. viruses are dissolving and then planet earth is assembling from toy bricks",
+                "answer": "A. The events are happening simultaneously",
+                "prediction": " C. viruses are dissolving and then planet earth is assembling from toy bricks"
+            },
+            {
+                "question": "What is the first event in the video?\nA. planet earth is assembling from toy bricks\nB. viruses are dissolving\nC. The events are happening simultaneously",
+                "answer": "C. The events are happening simultaneously",
+                "prediction": " C. The events are happening simultaneously"
+            },
+            {
+                "question": "Which event occurs last in the video?\nA. The events are happening simultaneously\nB. planet earth is assembling from toy bricks\nC. viruses are dissolving",
+                "answer": "A. The events are happening simultaneously",
+                "prediction": " C. viruses are dissolving"
+            }
+        ]
+    },
+    "1082268005_1063373449_1": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. planet earth is assembling from toy bricks and then viruses are dissolving\nB. viruses are dissolving and then planet earth is assembling from toy bricks\nC. The events are happening simultaneously",
+                "answer": "A. planet earth is assembling from toy bricks and then viruses are dissolving",
+                "prediction": " A. planet earth is assembling from toy bricks and then viruses are dissolving"
+            },
+            {
+                "question": "What is the first event in the video?\nA. planet earth is assembling from toy bricks\nB. viruses are dissolving\nC. The events are happening simultaneously",
+                "answer": "A. planet earth is assembling from toy bricks",
+                "prediction": " A. planet earth is assembling from toy bricks"
+            },
+            {
+                "question": "Which event occurs last in the video?\nA. The events are happening simultaneously\nB. planet earth is assembling from toy bricks\nC. viruses are dissolving",
+                "answer": "C. viruses are dissolving",
+                "prediction": " B. planet earth is assembling from toy bricks"
+            }
+        ]
+    },
+    "1082268005_1063373449_2": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. viruses are dissolving and then planet earth is assembling from toy bricks\nB. The events are happening simultaneously\nC. planet earth is assembling from toy bricks and then viruses are dissolving",
+                "answer": "A. viruses are dissolving and then planet earth is assembling from toy bricks",
+                "prediction": " C. planet earth is assembling from toy bricks and then viruses are dissolving"
+            },
+            {
+                "question": "What is the first event in the video?\nA. planet earth is assembling from toy bricks\nB. The events are happening simultaneously\nC. viruses are dissolving",
+                "answer": "C. viruses are dissolving",
+                "prediction": " C. viruses are dissolving"
+            },
+            {
+                "question": "Which event occurs last in the video?\nA. planet earth is assembling from toy bricks\nB. viruses are dissolving\nC. The events are happening simultaneously",
+                "answer": "A. planet earth is assembling from toy bricks",
+                "prediction": " B. viruses are dissolving"
+            }
+        ]
+    },
+    "1060403198_1049965795_0": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. A light bulb is lighting up and then the tree is growing up\nB. The tree is growing up and then a light bulb is lighting up\nC. Both events happen at the same time",
+                "answer": "C. Both events happen at the same time",
+                "prediction": " A. A light bulb is lighting up and then the tree is growing up"
+            },
+            {
+                "question": "In what sequence do the events occur?\nA. A light bulb is lighting up and then the tree is growing up\nB. The tree is growing up and then a light bulb is lighting up\nC. Both events happen at the same time",
+                "answer": "C. Both events happen at the same time",
+                "prediction": " A. A light bulb is lighting up and then the tree is growing up"
+            },
+            {
+                "question": "How are the events ordered in the video?\nA. A light bulb is lighting up and then the tree is growing up\nB. Both events happen at the same time\nC. The tree is growing up and then a light bulb is lighting up",
+                "answer": "B. Both events happen at the same time",
+                "prediction": " A. A light bulb is lighting up and then the tree is growing up"
+            }
+        ]
+    },
+    "1060403198_1049965795_1": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. The tree is growing up and then a light bulb is lighting up\nB. Both events happen at the same time\nC. A light bulb is lighting up and then the tree is growing up",
+                "answer": "A. The tree is growing up and then a light bulb is lighting up",
+                "prediction": " C. A light bulb is lighting up and then the tree is growing up"
+            },
+            {
+                "question": "In what sequence do the events occur?\nA. Both events happen at the same time\nB. The tree is growing up and then a light bulb is lighting up\nC. A light bulb is lighting up and then the tree is growing up",
+                "answer": "B. The tree is growing up and then a light bulb is lighting up",
+                "prediction": " C. A light bulb is lighting up and then the tree is growing up"
+            },
+            {
+                "question": "How are the events ordered in the video?\nA. A light bulb is lighting up and then the tree is growing up\nB. Both events happen at the same time\nC. The tree is growing up and then a light bulb is lighting up",
+                "answer": "C. The tree is growing up and then a light bulb is lighting up",
+                "prediction": " C. The tree is growing up and then a light bulb is lighting up"
+            }
+        ]
+    },
+    "1060403198_1049965795_2": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. A light bulb is lighting up and then the tree is growing up\nB. The tree is growing up and then a light bulb is lighting up\nC. Both events happen at the same time",
+                "answer": "A. A light bulb is lighting up and then the tree is growing up",
+                "prediction": " A. A light bulb is lighting up and then the tree is growing up"
+            },
+            {
+                "question": "In what sequence do the events occur?\nA. A light bulb is lighting up and then the tree is growing up\nB. The tree is growing up and then a light bulb is lighting up\nC. Both events happen at the same time",
+                "answer": "A. A light bulb is lighting up and then the tree is growing up",
+                "prediction": " A. A light bulb is lighting up and then the tree is growing up"
+            },
+            {
+                "question": "How are the events ordered in the video?\nA. A light bulb is lighting up and then the tree is growing up\nB. The tree is growing up and then a light bulb is lighting up\nC. Both events happen at the same time",
+                "answer": "A. A light bulb is lighting up and then the tree is growing up",
+                "prediction": " A. A light bulb is lighting up and then the tree is growing up"
+            }
+        ]
+    },
+    "1091143117_1094219575_0": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. An eye is opening first, then a flower is wilting\nB. A flower is wilting first, then an eye is opening\nC. Both events happen simultaneously",
+                "answer": "C. Both events happen simultaneously",
+                "prediction": " B. A flower is wilting first, then an eye is opening"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. A flower is wilting\nB. Both events happen at the same time\nC. An eye is opening",
+                "answer": "B. Both events happen at the same time",
+                "prediction": " C. An eye is opening"
+            },
+            {
+                "question": "In what order do the events occur in the video?\nA. Both events happen at the same time\nB. A flower is wilting followed by an eye is opening\nC. An eye is opening followed by a flower is wilting",
+                "answer": "A. Both events happen at the same time",
+                "prediction": " C. An eye is opening followed by a flower is wilting"
+            }
+        ]
+    },
+    "1091143117_1094219575_1": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. An eye is opening first, then a flower is wilting\nB. Both events happen simultaneously\nC. A flower is wilting first, then an eye is opening",
+                "answer": "A. An eye is opening first, then a flower is wilting",
+                "prediction": " C. A flower is wilting first, then an eye is opening"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. A flower is wilting\nB. An eye is opening\nC. Both events happen at the same time",
+                "answer": "B. An eye is opening",
+                "prediction": " B. An eye is opening"
+            },
+            {
+                "question": "In what order do the events occur in the video?\nA. An eye is opening followed by a flower is wilting\nB. Both events happen at the same time\nC. A flower is wilting followed by an eye is opening",
+                "answer": "A. An eye is opening followed by a flower is wilting",
+                "prediction": " C. A flower is wilting followed by an eye is opening"
+            }
+        ]
+    },
+    "1091143117_1094219575_2": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. An eye is opening first, then a flower is wilting\nB. Both events happen simultaneously\nC. A flower is wilting first, then an eye is opening",
+                "answer": "C. A flower is wilting first, then an eye is opening",
+                "prediction": " C. A flower is wilting first, then an eye is opening"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. A flower is wilting\nB. An eye is opening\nC. Both events happen at the same time",
+                "answer": "A. A flower is wilting",
+                "prediction": " B. An eye is opening"
+            },
+            {
+                "question": "In what order do the events occur in the video?\nA. A flower is wilting followed by an eye is opening\nB. An eye is opening followed by a flower is wilting\nC. Both events happen at the same time",
+                "answer": "A. A flower is wilting followed by an eye is opening",
+                "prediction": " B. An eye is opening followed by a flower is wilting"
+            }
+        ]
+    },
+    "1086105089_1085910917_0": {
+        "order": [
+            {
+                "question": "What order do the events occur in?\nA. First, a building is being constructed; then, a woman is drinking water.\nB. First, a woman is drinking water; then, a building is being constructed.\nC. Both events happen simultaneously.",
+                "answer": "C. Both events happen simultaneously.",
+                "prediction": " A. First, a building is being constructed; then, a woman is drinking water."
+            },
+            {
+                "question": "Which event happens before the other?\nA. A building is being constructed happens before a woman is drinking water.\nB. Both events happen at the same time.\nC. A woman is drinking water happens before a building is being constructed.",
+                "answer": "B. Both events happen at the same time.",
+                "prediction": " A. A building is being constructed happens before a woman is drinking water."
+            },
+            {
+                "question": "In what sequence do the events occur?\nA. A building is being constructed comes first, followed by a woman drinking water.\nB. A woman is drinking water comes first, followed by a building being constructed.\nC. The events happen simultaneously.",
+                "answer": "C. The events happen simultaneously.",
+                "prediction": " A. A building is being constructed comes first, followed by a woman drinking water."
+            }
+        ]
+    },
+    "1086105089_1085910917_1": {
+        "order": [
+            {
+                "question": "What order do the events occur in?\nA. First, a building is being constructed; then, a woman is drinking water.\nB. Both events happen simultaneously.\nC. First, a woman is drinking water; then, a building is being constructed.",
+                "answer": "A. First, a building is being constructed; then, a woman is drinking water.",
+                "prediction": " A. First, a building is being constructed; then, a woman is drinking water."
+            },
+            {
+                "question": "Which event happens before the other?\nA. A building is being constructed happens before a woman is drinking water.\nB. A woman is drinking water happens before a building is being constructed.\nC. Both events happen at the same time.",
+                "answer": "A. A building is being constructed happens before a woman is drinking water.",
+                "prediction": " A. A building is being constructed happens before a woman is drinking water."
+            },
+            {
+                "question": "In what sequence do the events occur?\nA. A woman is drinking water comes first, followed by a building being constructed.\nB. A building is being constructed comes first, followed by a woman drinking water.\nC. The events happen simultaneously.",
+                "answer": "B. A building is being constructed comes first, followed by a woman drinking water.",
+                "prediction": " B. A building is being constructed comes first, followed by a woman drinking water."
+            }
+        ]
+    },
+    "1086105089_1085910917_2": {
+        "order": [
+            {
+                "question": "What order do the events occur in?\nA. First, a building is being constructed; then, a woman is drinking water.\nB. First, a woman is drinking water; then, a building is being constructed.\nC. Both events happen simultaneously.",
+                "answer": "B. First, a woman is drinking water; then, a building is being constructed.",
+                "prediction": " B. First, a woman is drinking water; then, a building is being constructed."
+            },
+            {
+                "question": "Which event happens before the other?\nA. Both events happen at the same time.\nB. A woman is drinking water happens before a building is being constructed.\nC. A building is being constructed happens before a woman is drinking water.",
+                "answer": "B. A woman is drinking water happens before a building is being constructed.",
+                "prediction": " C. A building is being constructed happens before a woman is drinking water."
+            },
+            {
+                "question": "In what sequence do the events occur?\nA. A building is being constructed comes first, followed by a woman drinking water.\nB. A woman is drinking water comes first, followed by a building being constructed.\nC. The events happen simultaneously.",
+                "answer": "B. A woman is drinking water comes first, followed by a building being constructed.",
+                "prediction": " B. A woman is drinking water comes first, followed by a building being constructed."
+            }
+        ]
+    },
+    "1034736653_1043054206_0": {
+        "order": [
+            {
+                "question": "In what order do the events occur in the video?\nA. Women running, then cars racing\nB. They happen simultaneously\nC. Cars racing, then women running",
+                "answer": "B. They happen simultaneously",
+                "prediction": " A. Women running, then cars racing"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. They happen simultaneously\nB. Cars are racing\nC. Women are running",
+                "answer": "A. They happen simultaneously",
+                "prediction": " C. Women are running"
+            },
+            {
+                "question": "Which event happens last in the video?\nA. Cars are racing\nB. Women are running\nC. They happen at the same time",
+                "answer": "C. They happen at the same time",
+                "prediction": " A. Cars are racing"
+            }
+        ]
+    },
+    "1034736653_1043054206_1": {
+        "order": [
+            {
+                "question": "In what order do the events occur in the video?\nA. Cars racing, then women running\nB. Women running, then cars racing\nC. They happen simultaneously",
+                "answer": "B. Women running, then cars racing",
+                "prediction": " B. Women running, then cars racing"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. They happen simultaneously\nB. Cars are racing\nC. Women are running",
+                "answer": "C. Women are running",
+                "prediction": " C. Women are running"
+            },
+            {
+                "question": "Which event happens last in the video?\nA. Cars are racing\nB. Women are running\nC. They happen at the same time",
+                "answer": "A. Cars are racing",
+                "prediction": " B. Women are running"
+            }
+        ]
+    },
+    "1034736653_1043054206_2": {
+        "order": [
+            {
+                "question": "In what order do the events occur in the video?\nA. They happen simultaneously\nB. Women running, then cars racing\nC. Cars racing, then women running",
+                "answer": "C. Cars racing, then women running",
+                "prediction": " C. Cars racing, then women running"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. They happen simultaneously\nB. Cars are racing\nC. Women are running",
+                "answer": "B. Cars are racing",
+                "prediction": " B. Cars are racing"
+            },
+            {
+                "question": "Which event happens last in the video?\nA. Cars are racing\nB. They happen at the same time\nC. Women are running",
+                "answer": "C. Women are running",
+                "prediction": " C. Women are running"
+            }
+        ]
+    },
+    "1086423566_1094782389_0": {
+        "order": [
+            {
+                "question": "What is the correct chronological order of the events in the video?\nA. A dog is giving a high five to a woman, and then foods are added into a bowl\nB. Foods are added into a bowl, while at the same time a dog is giving a high five to a woman\nC. Foods are added into a bowl, and then a dog is giving a high five to a woman",
+                "answer": "B. Foods are added into a bowl, while at the same time a dog is giving a high five to a woman",
+                "prediction": " C. Foods are added into a bowl, and then a dog is giving a high five to a woman"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. Foods are added into a bowl\nB. Simultaneously, foods are added into a bowl and a dog is giving a high five to a woman\nC. A dog is giving a high five to a woman",
+                "answer": "B. Simultaneously, foods are added into a bowl and a dog is giving a high five to a woman",
+                "prediction": " A. Foods are added into a bowl"
+            },
+            {
+                "question": "Which event happens second in the video?\nA. A dog is giving a high five to a woman\nB. Foods are added into a bowl\nC. Simultaneously, foods are added into a bowl and a dog is giving a high five to a woman",
+                "answer": "C. Simultaneously, foods are added into a bowl and a dog is giving a high five to a woman",
+                "prediction": " B. Foods are added into a bowl"
+            }
+        ]
+    },
+    "1086423566_1094782389_1": {
+        "order": [
+            {
+                "question": "What is the correct chronological order of the events in the video?\nA. A dog is giving a high five to a woman, and then foods are added into a bowl\nB. Foods are added into a bowl, while at the same time a dog is giving a high five to a woman\nC. Foods are added into a bowl, and then a dog is giving a high five to a woman",
+                "answer": "C. Foods are added into a bowl, and then a dog is giving a high five to a woman",
+                "prediction": " C. Foods are added into a bowl, and then a dog is giving a high five to a woman"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. Simultaneously, foods are added into a bowl and a dog is giving a high five to a woman\nB. A dog is giving a high five to a woman\nC. Foods are added into a bowl",
+                "answer": "C. Foods are added into a bowl",
+                "prediction": " C. Foods are added into a bowl"
+            },
+            {
+                "question": "Which event happens second in the video?\nA. Foods are added into a bowl\nB. Simultaneously, foods are added into a bowl and a dog is giving a high five to a woman\nC. A dog is giving a high five to a woman",
+                "answer": "C. A dog is giving a high five to a woman",
+                "prediction": " A. Foods are added into a bowl"
+            }
+        ]
+    },
+    "1086423566_1094782389_2": {
+        "order": [
+            {
+                "question": "What is the correct chronological order of the events in the video?\nA. A dog is giving a high five to a woman, and then foods are added into a bowl\nB. Foods are added into a bowl, while at the same time a dog is giving a high five to a woman\nC. Foods are added into a bowl, and then a dog is giving a high five to a woman",
+                "answer": "A. A dog is giving a high five to a woman, and then foods are added into a bowl",
+                "prediction": " C. Foods are added into a bowl, and then a dog is giving a high five to a woman"
+            },
+            {
+                "question": "Which event happens first in the video?\nA. Simultaneously, foods are added into a bowl and a dog is giving a high five to a woman\nB. A dog is giving a high five to a woman\nC. Foods are added into a bowl",
+                "answer": "B. A dog is giving a high five to a woman",
+                "prediction": " B. A dog is giving a high five to a woman"
+            },
+            {
+                "question": "Which event happens second in the video?\nA. A dog is giving a high five to a woman\nB. Foods are added into a bowl\nC. Simultaneously, foods are added into a bowl and a dog is giving a high five to a woman",
+                "answer": "B. Foods are added into a bowl",
+                "prediction": " A. A dog is giving a high five to a woman"
+            }
+        ]
+    },
+    "1053758117_1055413730_0": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. The digital brain is spinning and then the earth is spinning.\nB. Both events occur at the same time\nC. The earth is spinning and then the digital brain is spinning.",
+                "answer": "B. Both events occur at the same time",
+                "prediction": " A. The digital brain is spinning and then the earth is spinning."
+            },
+            {
+                "question": "What is happening first in the video?\nA. The digital brain is spinning.\nB. The events are happening simultaneously\nC. The earth is spinning.",
+                "answer": "B. The events are happening simultaneously",
+                "prediction": " A. The digital brain is spinning."
+            },
+            {
+                "question": "Which event occurs later in the video?\nA. The digital brain is spinning.\nB. The events are happening simultaneously\nC. The earth is spinning.",
+                "answer": "B. The events are happening simultaneously",
+                "prediction": " A. The digital brain is spinning."
+            }
+        ]
+    },
+    "1053758117_1055413730_1": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. The earth is spinning and then the digital brain is spinning.\nB. Both events occur at the same time\nC. The digital brain is spinning and then the earth is spinning.",
+                "answer": "C. The digital brain is spinning and then the earth is spinning.",
+                "prediction": " C. The digital brain is spinning and then the earth is spinning."
+            },
+            {
+                "question": "What is happening first in the video?\nA. The events are happening simultaneously\nB. The earth is spinning.\nC. The digital brain is spinning.",
+                "answer": "C. The digital brain is spinning.",
+                "prediction": " C. The digital brain is spinning."
+            },
+            {
+                "question": "Which event occurs later in the video?\nA. The events are happening simultaneously\nB. The earth is spinning.\nC. The digital brain is spinning.",
+                "answer": "B. The earth is spinning.",
+                "prediction": " B. The earth is spinning."
+            }
+        ]
+    },
+    "1053758117_1055413730_2": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. Both events occur at the same time\nB. The digital brain is spinning and then the earth is spinning.\nC. The earth is spinning and then the digital brain is spinning.",
+                "answer": "C. The earth is spinning and then the digital brain is spinning.",
+                "prediction": " C. The earth is spinning and then the digital brain is spinning."
+            },
+            {
+                "question": "What is happening first in the video?\nA. The digital brain is spinning.\nB. The earth is spinning.\nC. The events are happening simultaneously",
+                "answer": "B. The earth is spinning.",
+                "prediction": " B. The earth is spinning."
+            },
+            {
+                "question": "Which event occurs later in the video?\nA. The events are happening simultaneously\nB. The earth is spinning.\nC. The digital brain is spinning.",
+                "answer": "C. The digital brain is spinning.",
+                "prediction": " C. The digital brain is spinning."
+            }
+        ]
+    },
+    "1076877854_1073914229_0": {
+        "order": [
+            {
+                "question": "In what order do the events occur in the video?\nA. trains are driving, then robotic arms are working\nB. they happen at the same time\nC. robotic arms are working, then trains are driving",
+                "answer": "B. they happen at the same time",
+                "prediction": " C. robotic arms are working, then trains are driving"
+            },
+            {
+                "question": "What event happens first in the video?\nA. they happen at the same time\nB. trains are driving\nC. robotic arms are working",
+                "answer": "A. they happen at the same time",
+                "prediction": " C. robotic arms are working"
+            },
+            {
+                "question": "What event happens last in the video?\nA. trains are driving\nB. they happen at the same time\nC. robotic arms are working",
+                "answer": "B. they happen at the same time",
+                "prediction": " C. robotic arms are working"
+            }
+        ]
+    },
+    "1076877854_1073914229_1": {
+        "order": [
+            {
+                "question": "In what order do the events occur in the video?\nA. trains are driving, then robotic arms are working\nB. they happen at the same time\nC. robotic arms are working, then trains are driving",
+                "answer": "C. robotic arms are working, then trains are driving",
+                "prediction": " C. robotic arms are working, then trains are driving"
+            },
+            {
+                "question": "What event happens first in the video?\nA. robotic arms are working\nB. they happen at the same time\nC. trains are driving",
+                "answer": "A. robotic arms are working",
+                "prediction": " A. robotic arms are working"
+            },
+            {
+                "question": "What event happens last in the video?\nA. they happen at the same time\nB. trains are driving\nC. robotic arms are working",
+                "answer": "B. trains are driving",
+                "prediction": " C. robotic arms are working"
+            }
+        ]
+    },
+    "1076877854_1073914229_2": {
+        "order": [
+            {
+                "question": "In what order do the events occur in the video?\nA. robotic arms are working, then trains are driving\nB. trains are driving, then robotic arms are working\nC. they happen at the same time",
+                "answer": "B. trains are driving, then robotic arms are working",
+                "prediction": " B. trains are driving, then robotic arms are working"
+            },
+            {
+                "question": "What event happens first in the video?\nA. robotic arms are working\nB. trains are driving\nC. they happen at the same time",
+                "answer": "B. trains are driving",
+                "prediction": " B. trains are driving"
+            },
+            {
+                "question": "What event happens last in the video?\nA. robotic arms are working\nB. they happen at the same time\nC. trains are driving",
+                "answer": "A. robotic arms are working",
+                "prediction": " C. trains are driving"
+            }
+        ]
+    },
+    "1067268406_1067427023_0": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. snow particles are melting, then a white car is driving\nB. a white car is driving while snow particles are melting simultaneously\nC. a white car is driving, then snow particles are melting",
+                "answer": "B. a white car is driving while snow particles are melting simultaneously",
+                "prediction": " C. a white car is driving, then snow particles are melting"
+            },
+            {
+                "question": "What is happening first in the video?\nA. a white car is driving\nB. a white car is driving while snow particles are melting simultaneously\nC. snow particles are melting",
+                "answer": "B. a white car is driving while snow particles are melting simultaneously",
+                "prediction": " A. a white car is driving"
+            },
+            {
+                "question": "What is happening second in the video?\nA. a white car is driving while snow particles are melting simultaneously\nB. a white car is driving\nC. snow particles are melting",
+                "answer": "A. a white car is driving while snow particles are melting simultaneously",
+                "prediction": " B. a white car is driving"
+            }
+        ]
+    },
+    "1067268406_1067427023_1": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. a white car is driving, then snow particles are melting\nB. snow particles are melting, then a white car is driving\nC. a white car is driving while snow particles are melting simultaneously",
+                "answer": "A. a white car is driving, then snow particles are melting",
+                "prediction": " A. a white car is driving, then snow particles are melting"
+            },
+            {
+                "question": "What is happening first in the video?\nA. snow particles are melting\nB. a white car is driving while snow particles are melting simultaneously\nC. a white car is driving",
+                "answer": "C. a white car is driving",
+                "prediction": " C. a white car is driving\n\nThe video shows a white car driving on a road in a country setting. There are wind turbines in the background, which indicate that the setting is probably a renewable energy field. The sun is shining brightly, which suggests that it is not snowing, and the snow on the ground has already melted.\n\nThe other options are incorrect for the following reasons:\n\nA. There is no direct indication that snow particles are melting in the video. The sun is shining, and the environment appears to be clear of snowfall.\n\nB. This option is a combination of options A and C. However, as mentioned earlier, there is no direct indication that snow particles are melting in the video."
+            },
+            {
+                "question": "What is happening second in the video?\nA. a white car is driving\nB. a white car is driving while snow particles are melting simultaneously\nC. snow particles are melting",
+                "answer": "C. snow particles are melting",
+                "prediction": " A. a white car is driving"
+            }
+        ]
+    },
+    "1067268406_1067427023_2": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. a white car is driving while snow particles are melting simultaneously\nB. snow particles are melting, then a white car is driving\nC. a white car is driving, then snow particles are melting",
+                "answer": "B. snow particles are melting, then a white car is driving",
+                "prediction": " C. a white car is driving, then snow particles are melting\n\n---\nWhat is shown in the video? \nA. The video shows a roadway, with wind turbines in the background. The snow is melting as the car drives along the road.\n\nB. The video shows a very strong wind blowing in a field. Snow particles are starting to melt as the wind blows over them.\n\nC. The video shows a white car driving on a road in a snowy environment. As the car drives along, the snow melts.\n\nD. The video shows a white car driving in the desert. Snow falls as the car drives along, but the sun is shining strongly, so the snow melts as the car drives along."
+            },
+            {
+                "question": "What is happening first in the video?\nA. a white car is driving while snow particles are melting simultaneously\nB. snow particles are melting\nC. a white car is driving",
+                "answer": "B. snow particles are melting",
+                "prediction": " C. a white car is driving\n\nIn the video, the snow particles are already on the ground. They are not melting at the same time as the car is driving. The video shows the car driving first, with snow already present on the ground."
+            },
+            {
+                "question": "What is happening second in the video?\nA. a white car is driving\nB. snow particles are melting\nC. a white car is driving while snow particles are melting simultaneously",
+                "answer": "A. a white car is driving",
+                "prediction": " A. a white car is driving"
+            }
+        ]
+    },
+    "1086286649": {
+        "action": [
+            {
+                "question": "What are the armored vehicles doing in the video?\nA. Loading People\nB. Parked\nC. Driving\nD. Firing",
+                "answer": "C. Driving",
+                "prediction": " C. Driving"
+            },
+            {
+                "question": "How are the armored vehicles moving?\nA. Driving\nB. Bouncing\nC. Standing still\nD. Hovering",
+                "answer": "A. Driving",
+                "prediction": " A. Driving"
+            },
+            {
+                "question": "What is the main action performed by the armored vehicles?\nA. Firing\nB. Loading People\nC. Driving\nD. Under Repair",
+                "answer": "C. Driving",
+                "prediction": " C. Driving"
+            }
+        ],
+        "direction": [
+            {
+                "question": "Which way are the armored vehicles moving from the camera's point of view?\nA. Stationary\nB. Right to left\nC. Left to right",
+                "answer": "B. Right to left",
+                "prediction": " C. Left to right"
+            },
+            {
+                "question": "Towards which direction are the armored vehicles approaching?\nA. The right side of screen\nB. The upper side of screen\nC. The lower side of screen\nD. The left side of screen",
+                "answer": "D. The left side of screen",
+                "prediction": " A. The right side of screen"
+            },
+            {
+                "question": "How are the armored vehicles proceeding?\nA. From bottom to top\nB. From top to bottom\nC. From left to right\nD. From right to left",
+                "answer": "D. From right to left",
+                "prediction": " C. From left to right"
+            }
+        ],
+        "speed": [
+            {
+                "question": "How are the armored vehicles moving?\nA. Stationary\nB. Rapidly\nC. Slowly",
+                "answer": "C. Slowly",
+                "prediction": " C. Slowly"
+            },
+            {
+                "question": "What is the pace of the armored vehicles?\nA. Fast\nB. Slow\nC. Stationary",
+                "answer": "B. Slow",
+                "prediction": " B. Slow"
+            },
+            {
+                "question": "In terms of speed, how would you describe the movement of the armored vehicles?\nA. Slowly\nB. Stationary\nC. Quickly",
+                "answer": "A. Slowly",
+                "prediction": " A. Slowly"
+            }
+        ]
+    },
+    "1093041749": {
+        "action": [
+            {
+                "question": "What is the dragon doing in the video?\nA. flying\nB. swimming\nC. breathing fire",
+                "answer": "C. breathing fire",
+                "prediction": " C. breathing fire"
+            },
+            {
+                "question": "Which action can the dragon perform?\nA. breathing fire\nB. eating food\nC. laying eggs",
+                "answer": "A. breathing fire",
+                "prediction": " A. breathing fire"
+            },
+            {
+                "question": "What activity does the dragon engage in?\nA. eating food\nB. breathing fire\nC. laying eggs",
+                "answer": "B. breathing fire",
+                "prediction": " B. breathing fire"
+            }
+        ],
+        "order": [
+            {
+                "question": "What is the order of events performed by the dragon?\nA. flying to the sky and then breathing fire\nB. landing from the sky and then breathing fire\nC. breathing fire and then flying to the sky\nD. breathing fire and then landing from the sky",
+                "answer": "B. landing from the sky and then breathing fire",
+                "prediction": " D. breathing fire and then landing from the sky"
+            },
+            {
+                "question": "What is the first action that the dragon performs?\nA. landing from the sky\nB. breathing fire\nC. eating food\nD. laying eggs",
+                "answer": "A. landing from the sky",
+                "prediction": " B. breathing fire"
+            },
+            {
+                "question": "What is the second event that the dragon performs?\nA. breathing fire\nB. eating food\nC. landing from the sky\nD. laying eggs",
+                "answer": "A. breathing fire",
+                "prediction": " A. breathing fire"
+            }
+        ]
+    },
+    "1076180768": {
+        "action": [
+            {
+                "question": "What is the knight doing in the video?\nA. riding a horse\nB. wielding a spear\nC. drawing sword from sheath\nD. shooting an arrow",
+                "answer": "C. drawing sword from sheath",
+                "prediction": " C. drawing sword from sheath"
+            },
+            {
+                "question": "What action is the knight performing?\nA. drawing sword from sheath\nB. shooting an arrow\nC. raising a shield\nD. putting on armor",
+                "answer": "A. drawing sword from sheath",
+                "prediction": " A. drawing sword from sheath"
+            },
+            {
+                "question": "Which of the following actions is the knight demonstrating?\nA. putting on armor\nB. casting a spell\nC. drawing sword from sheath\nD. shooting a bow and arrow",
+                "answer": "C. drawing sword from sheath",
+                "prediction": " C. drawing sword from sheath"
+            }
+        ]
+    },
+    "3406661033": {
+        "action": [
+            {
+                "question": "What is the man doing in the video?\nA. propelling himself forward in wheelchair\nB. swimming\nC. walking",
+                "answer": "A. propelling himself forward in wheelchair",
+                "prediction": " A. propelling himself forward in wheelchair"
+            },
+            {
+                "question": "Which action is the man performing?\nA. running\nB. propelling himself forward in wheelchair\nC. jumping",
+                "answer": "B. propelling himself forward in wheelchair",
+                "prediction": " B. propelling himself forward in wheelchair"
+            },
+            {
+                "question": "How is the man moving?\nA. running\nB. propelling himself forward in wheelchair\nC. crawling",
+                "answer": "B. propelling himself forward in wheelchair",
+                "prediction": " B. propelling himself forward in wheelchair"
+            }
+        ],
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. The man hands the document to colleagues and then stands up from the wheelchair\nB. The man propels himself forward in wheelchair and then hands the document to colleagues.\nC. The man hands the document to colleagues and then propels himself forward in wheelchair.\nD. The man stands up from the wheelchair and then hands the document to colleagues",
+                "answer": "B. The man propels himself forward in wheelchair and then hands the document to colleagues.",
+                "prediction": " B. The man propels himself forward in wheelchair and then hands the document to colleagues."
+            },
+            {
+                "question": "In which order did the man perform the actions?\nA. He stands up from the wheelchair and then hands the document to colleagues\nB. He propelled himself forward in wheelchair and then handed the document to colleagues.\nC. He hands the document to colleagues and then stands up from the wheelchair\nD. He handed the document to colleagues and then propelled himself forward in wheelchair.",
+                "answer": "B. He propelled himself forward in wheelchair and then handed the document to colleagues.",
+                "prediction": " B. He propelled himself forward in wheelchair and then handed the document to colleagues."
+            },
+            {
+                "question": "Which action did the man perform first?\nA. Standing up from wheelchair\nB. Sitting down onto wheelchair\nC. Propelling himself forward in wheelchair\nD. Handing the document to colleagues",
+                "answer": "C. Propelling himself forward in wheelchair",
+                "prediction": " C. Propelling himself forward in wheelchair"
+            }
+        ]
+    },
+    "3406618583": {
+        "action": [
+            {
+                "question": "What type of dance is the woman performing?\nA. hip-hop\nB. salsa\nC. ballet\nD. freestyle dance",
+                "answer": "D. freestyle dance",
+                "prediction": " D. freestyle dance"
+            },
+            {
+                "question": "Which activity is the woman engaged in?\nA. ballet\nB. freestyle dance\nC. hip-hop\nD. jazz dance",
+                "answer": "B. freestyle dance",
+                "prediction": " B. freestyle dance"
+            },
+            {
+                "question": "What is the woman demonstrating?\nA. freestyle dance\nB. hip-hop\nC. jazz dance\nD. ballet",
+                "answer": "A. freestyle dance",
+                "prediction": " A. freestyle dance"
+            }
+        ],
+        "direction": [
+            {
+                "question": "What is the direction of the camera movement in the video?\nA. panning left and right around the girl\nB. panning up and down around the girl\nC. rotating clockwise around the girl\nD. zooming in and out around the girl",
+                "answer": "B. panning up and down around the girl",
+                "prediction": " B. panning up and down around the girl"
+            },
+            {
+                "question": "How is the camera moving in the video?\nA. panning up and down around the girl\nB. rotating counterclockwise around the girl\nC. staying still\nD. panning left and right around the girl",
+                "answer": "A. panning up and down around the girl",
+                "prediction": " A. panning up and down around the girl"
+            },
+            {
+                "question": "In which way is the camera moving around the girl in the video?\nA. panning left and right\nB. zooming in and out\nC. rotating clockwise\nD. panning up and down",
+                "answer": "D. panning up and down",
+                "prediction": " D. panning up and down"
+            }
+        ]
+    },
+    "3405120819": {
+        "action": [
+            {
+                "question": "What is the chef doing?\nA. cutting dough\nB. shaping dough\nC. placing dough in a dish",
+                "answer": "B. shaping dough",
+                "prediction": " B. shaping dough"
+            },
+            {
+                "question": "What action is the chef performing?\nA. shaping dough\nB. mixing dough with water\nC. cutting dough",
+                "answer": "A. shaping dough",
+                "prediction": " A. shaping dough"
+            },
+            {
+                "question": "Which activity is the chef engaging in?\nA. shaping dough\nB. baking dough\nC. cutting dough",
+                "answer": "A. shaping dough",
+                "prediction": " A. shaping dough"
+            }
+        ],
+        "order": [
+            {
+                "question": "In what order does the chef perform the actions?\nA. cutting dough and then shaping dough\nB. smiling at the camera and then shaping dough\nC. shaping dough and then smiling at the camera\nD. shaping dough and then cutting dough",
+                "answer": "C. shaping dough and then smiling at the camera",
+                "prediction": " C. shaping dough and then smiling at the camera"
+            },
+            {
+                "question": "What is the chef doing first in the video?\nA. shaping dough\nB. tossing the dough in the air\nC. smiling at the camera\nD. cutting dough",
+                "answer": "A. shaping dough",
+                "prediction": " A. shaping dough"
+            },
+            {
+                "question": "What is happening in the second part of the video?\nA. the chef is smiling at the camera\nB. the chef is shaping dough\nC. the chef is tossing the dough in the air\nD. the chef is cutting dough",
+                "answer": "A. the chef is smiling at the camera",
+                "prediction": " B. the chef is shaping dough"
+            }
+        ]
+    },
+    "3405088753": {
+        "action": [
+            {
+                "question": "What is the woman doing in the video?\nA. cooking soup\nB. eating apple\nC. buying bread\nD. sleeping",
+                "answer": "C. buying bread",
+                "prediction": " C. buying bread"
+            },
+            {
+                "question": "What action is the woman performing in the video?\nA. reading a book\nB. dancing\nC. buying bread\nD. working out",
+                "answer": "C. buying bread",
+                "prediction": " C. buying bread"
+            },
+            {
+                "question": "What activity is the woman engaged in?\nA. buying bread\nB. swimming\nC. painting\nD. gardening",
+                "answer": "A. buying bread",
+                "prediction": " A. buying bread"
+            }
+        ],
+        "order": [
+            {
+                "question": "In what order do the events occur involving the salesman?\nA. They happen at the same time\nB. packing up the bread for the woman and then saying something to the woman\nC. saying something to the woman and then packing up the bread for the woman",
+                "answer": "B. packing up the bread for the woman and then saying something to the woman",
+                "prediction": " C. saying something to the woman and then packing up the bread for the woman"
+            },
+            {
+                "question": "What is the first event in the video involving the salesman?\nA. packing up the bread for the woman\nB. saying something to the woman\nC. baking bread",
+                "answer": "A. packing up the bread for the woman",
+                "prediction": " B. saying something to the woman"
+            },
+            {
+                "question": "What is the last event in the video involving the salesman?\nA. baking bread\nB. packing up the bread for the woman\nC. saying something to the woman",
+                "answer": "C. saying something to the woman",
+                "prediction": " B. packing up the bread for the woman"
+            }
+        ]
+    },
+    "3401191309": {
+        "action": [
+            {
+                "question": "What is the athletic man doing in the video?\nA. putting on prosthetic running blade\nB. taking off prosthetic running blade\nC. repairing a prosthetic running blade",
+                "answer": "B. taking off prosthetic running blade",
+                "prediction": " A. putting on prosthetic running blade"
+            },
+            {
+                "question": "Which activity is the athletic man engaged in?\nA. taking off prosthetic running blade\nB. putting on prosthetic running blade\nC. repairing a prosthetic running blade",
+                "answer": "A. taking off prosthetic running blade",
+                "prediction": " B. putting on prosthetic running blade"
+            },
+            {
+                "question": "What action is the athletic man performing?\nA. taking off prosthetic running blade\nB. repairing a prosthetic running blade\nC. putting on prosthetic running blade",
+                "answer": "A. taking off prosthetic running blade",
+                "prediction": " C. putting on prosthetic running blade"
+            }
+        ]
+    },
+    "21218935": {
+        "action": [
+            {
+                "question": "What is the woman doing?\nA. exercising\nB. cooking\nC. sleeping",
+                "answer": "A. exercising",
+                "prediction": " A. exercising"
+            },
+            {
+                "question": "Which activity is the woman engaged in?\nA. reading\nB. dancing\nC. exercising",
+                "answer": "C. exercising",
+                "prediction": " C. exercising"
+            },
+            {
+                "question": "In the video, what action is the woman performing?\nA. exercising\nB. walking\nC. painting",
+                "answer": "A. exercising",
+                "prediction": " A. exercising"
+            }
+        ],
+        "order": [
+            {
+                "question": "What is the order of events for the woman?\nA. doing push ups and then smiling at the camera\nB. doing push ups and then frowning at the camera\nC. smiling at the camera and then doing push ups\nD. crying at the camera and then doing push ups",
+                "answer": "A. doing push ups and then smiling at the camera",
+                "prediction": " A. doing push ups and then smiling at the camera"
+            },
+            {
+                "question": "In which order does the woman perform the actions?\nA. doing push ups and then smiling at the camera\nB. doing push ups and then frowning at the camera\nC. crying at the camera and then doing push ups\nD. smiling at the camera and then doing push ups",
+                "answer": "A. doing push ups and then smiling at the camera",
+                "prediction": " A. doing push ups and then smiling at the camera"
+            },
+            {
+                "question": "What is the arrangement of events for the woman?\nA. crying at the camera and then doing push ups\nB. doing push ups and then frowning at the camera\nC. doing push ups and then smiling at the camera\nD. smiling at the camera and then doing push ups",
+                "answer": "C. doing push ups and then smiling at the camera",
+                "prediction": " C. doing push ups and then smiling at the camera"
+            }
+        ]
+    },
+    "5395244": {
+        "action": [
+            {
+                "question": "What is the woman doing near the creek?\nA. canoeing across the pebble creek\nB. swimming across the pebble creek\nC. running across the pebble creek\nD. walking across the pebble creek",
+                "answer": "D. walking across the pebble creek",
+                "prediction": " D. walking across the pebble creek"
+            },
+            {
+                "question": "How is the woman interacting with the creek?\nA. swimming across it\nB. canoeing across it\nC. walking across it\nD. jumping over it",
+                "answer": "C. walking across it",
+                "prediction": " C. walking across it"
+            },
+            {
+                "question": "What activity is the woman engaged in at the moment?\nA. walking across the pebble creek\nB. canoeing across the pebble creek\nC. running across the pebble creek\nD. swimming across the pebble creek",
+                "answer": "A. walking across the pebble creek",
+                "prediction": " A. walking across the pebble creek"
+            }
+        ]
+    },
+    "1037628617": {
+        "action": [
+            {
+                "question": "What is the person doing?\nA. Pressing a keyboard key and rotating a jog dial\nB. clicking button and rolling wheel on a mouse\nC. Tapping a touchpad and scrolling with two fingers",
+                "answer": "B. clicking button and rolling wheel on a mouse",
+                "prediction": " B. clicking button and rolling wheel on a mouse"
+            },
+            {
+                "question": "What is the person's action in the video?\nA. Tapping a touchpad and scrolling with two fingers\nB. Pressing a keyboard key and rotating a jog dial\nC. clicking button and rolling wheel on a mouse",
+                "answer": "C. clicking button and rolling wheel on a mouse",
+                "prediction": " C. clicking button and rolling wheel on a mouse"
+            },
+            {
+                "question": "In the video, what is the person engaged in?\nA. Pressing a keyboard key and rotating a jog dial\nB. clicking button and rolling wheel on a mouse\nC. Tapping a touchpad and scrolling with two fingers",
+                "answer": "B. clicking button and rolling wheel on a mouse",
+                "prediction": " B. clicking button and rolling wheel on a mouse"
+            }
+        ]
+    },
+    "1066801717": {
+        "action": [
+            {
+                "question": "What is the woman doing in the video?\nA. watering bouquet of daffodils\nB. arranging bouquet of daffodils\nC. cutting bouquet of daffodils",
+                "answer": "B. arranging bouquet of daffodils",
+                "prediction": " B. arranging bouquet of daffodils"
+            },
+            {
+                "question": "Which action is being performed by the woman?\nA. cutting bouquet of daffodils\nB. arranging bouquet of daffodils\nC. watering bouquet of daffodils",
+                "answer": "B. arranging bouquet of daffodils",
+                "prediction": " B. arranging bouquet of daffodils"
+            },
+            {
+                "question": "What activity can be seen in the video involving the woman?\nA. arranging bouquet of daffodils\nB. watering bouquet of daffodils\nC. cutting bouquet of daffodils",
+                "answer": "A. arranging bouquet of daffodils",
+                "prediction": " A. arranging bouquet of daffodils"
+            }
+        ]
+    },
+    "1088428381": {
+        "action": [
+            {
+                "question": "What is the woman doing in the video?\nA. storing items in a gift box\nB. opening a gift box\nC. wrapping a gift box\nD. delivering a gift box",
+                "answer": "B. opening a gift box",
+                "prediction": " B. opening a gift box"
+            },
+            {
+                "question": "What action is the woman performing?\nA. wrapping a gift box\nB. delivering a gift box\nC. opening a gift box\nD. storing items in a gift box",
+                "answer": "C. opening a gift box",
+                "prediction": " C. opening a gift box"
+            },
+            {
+                "question": "In the video, what action can be observed from the woman?\nA. storing items in a gift box\nB. delivering a gift box\nC. wrapping a gift box\nD. opening a gift box",
+                "answer": "D. opening a gift box",
+                "prediction": " D. opening a gift box"
+            }
+        ]
+    },
+    "1069593640": {
+        "action": [
+            {
+                "question": "What is the woman doing in the video?\nA. drying hair with a towel\nB. washing face with a towel\nC. putting a towel on her neck",
+                "answer": "C. putting a towel on her neck",
+                "prediction": " C. putting a towel on her neck"
+            },
+            {
+                "question": "What action is being performed by the woman?\nA. putting a towel on her neck\nB. drying hair with a towel\nC. washing face with a towel",
+                "answer": "A. putting a towel on her neck",
+                "prediction": " A. putting a towel on her neck"
+            },
+            {
+                "question": "Which of the following actions is shown in the video?\nA. putting a towel on her neck\nB. drying hair with a towel\nC. washing face with a towel",
+                "answer": "A. putting a towel on her neck",
+                "prediction": " A. putting a towel on her neck"
+            }
+        ]
+    },
+    "8307961": {
+        "order": [
+            {
+                "question": "What is the correct order of actions performed by the man?\nA. Walking and simultaneously showing something on his tablet to a woman\nB. Chatting with a woman while walking and then showing something on his tablet to a woman\nC. Showing something on his tablet to a woman and then chatting with a woman while walking",
+                "answer": "B. Chatting with a woman while walking and then showing something on his tablet to a woman",
+                "prediction": " B. Chatting with a woman while walking and then showing something on his tablet to a woman"
+            },
+            {
+                "question": "In what sequence do the events occur in the video?\nA. Chatting with a woman while walking and then showing something on his tablet to a woman\nB. Walking and simultaneously showing something on his tablet to a woman\nC. Showing something on his tablet to a woman and then chatting with a woman while walking",
+                "answer": "A. Chatting with a woman while walking and then showing something on his tablet to a woman",
+                "prediction": " C. Showing something on his tablet to a woman and then chatting with a woman while walking"
+            },
+            {
+                "question": "What is happening first in the video?\nA. Chatting with a woman while walking\nB. Showing something on his tablet to a woman\nC. They happen at the same time",
+                "answer": "A. Chatting with a woman while walking",
+                "prediction": " B. Showing something on his tablet to a woman"
+            }
+        ]
+    },
+    "15439453": {
+        "action": [
+            {
+                "question": "What activities are being performed simultaneously in the video?\nA. Tango dancing and playing piano\nB. Ballet dancing and playing saxophone\nC. Tango dancing and playing violin\nD. Tango dancing and playing saxophone",
+                "answer": "D. Tango dancing and playing saxophone",
+                "prediction": " D. Tango dancing and playing saxophone"
+            },
+            {
+                "question": "Which two actions are depicted in the video?\nA. Tango dancing and playing piano\nB. Tango dancing and playing saxophone\nC. Ballet dancing and playing saxophone\nD. Tango dancing and playing violin",
+                "answer": "B. Tango dancing and playing saxophone",
+                "prediction": " B. Tango dancing and playing saxophone"
+            },
+            {
+                "question": "Who is playing saxophone in the video?\nA. A boy\nB. A couple\nC. A girl",
+                "answer": "C. A girl",
+                "prediction": " C. A girl\n\nAlthough the video doesn't explicitly state who is playing the saxophone, it is clear that a girl is shown in the video playing the saxophone. The presence of a boy or couple is not consistent with the evidence provided in the video. Therefore, option C is the correct answer. It is critical to base our responses on the evidence present in the video rather than making assumptions beyond what is shown."
+            }
+        ]
+    },
+    "1107947873": {
+        "action": [
+            {
+                "question": "What is the doctor doing in the scenario?\nA. writing a prescription\nB. giving medicine to a patient\nC. performing a surgery",
+                "answer": "B. giving medicine to a patient",
+                "prediction": " B. giving medicine to a patient"
+            },
+            {
+                "question": "What is the primary role of the doctor in the scene?\nA. giving medicine to a patient\nB. checking vitals\nC. greeting patients",
+                "answer": "A. giving medicine to a patient",
+                "prediction": " A. giving medicine to a patient"
+            },
+            {
+                "question": "Which activity can be seen in the video involving the doctor?\nA. writing a prescription\nB. giving medicine to a patient\nC. performing a surgery",
+                "answer": "B. giving medicine to a patient",
+                "prediction": " B. giving medicine to a patient"
+            }
+        ]
+    },
+    "1081194848": {
+        "action": [
+            {
+                "question": "What is the researcher doing in the video?\nA. teaching children how to cook a frog\nB. teaching children how to feed a frog\nC. teaching children how to dissect a frog\nD. teaching children how to catch a frog",
+                "answer": "C. teaching children how to dissect a frog",
+                "prediction": " C. teaching children how to dissect a frog"
+            },
+            {
+                "question": "What activity are the people engaged in?\nA. dissect a frog\nB. feed a frog\nC. cook a frog\nD. catch a frog",
+                "answer": "A. dissect a frog",
+                "prediction": " A. dissect a frog"
+            },
+            {
+                "question": "What task is the researcher performing with the children?\nA. cook a frog\nB. dissect a frog\nC. feed a frog\nD. catch a frog",
+                "answer": "B. dissect a frog",
+                "prediction": " B. dissect a frog"
+            }
+        ]
+    },
+    "1091526823": {
+        "action": [
+            {
+                "question": "What is happening to the hand in the video?\nA. opening a book\nB. writing on a book\nC. turning over pages of a book\nD. closing a book",
+                "answer": "C. turning over pages of a book",
+                "prediction": " C. turning over pages of a book"
+            },
+            {
+                "question": "What action is the hand performing?\nA. opening a book\nB. writing on a book\nC. closing a book\nD. turning over pages of a book",
+                "answer": "D. turning over pages of a book",
+                "prediction": " A. opening a book"
+            },
+            {
+                "question": "What is the hand doing?\nA. opening a book\nB. writing on a book\nC. closing a book\nD. turning over pages of a book",
+                "answer": "D. turning over pages of a book",
+                "prediction": " A. opening a book"
+            }
+        ]
+    },
+    "26631100": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. One hand is holding the clay pot, then three hands are holding the clay pot\nB. Three hands are holding the clay pot, then two hands are holding the clay pot\nC. Two hands are holding the clay pot, then three hands are holding the clay pot",
+                "answer": "B. Three hands are holding the clay pot, then two hands are holding the clay pot",
+                "prediction": " A. One hand is holding the clay pot, then three hands are holding the clay pot"
+            },
+            {
+                "question": "What happens first in the video?\nA. Three hands are holding the clay pot\nB. One hand is holding the clay pot\nC. Two hands are holding the clay pot",
+                "answer": "A. Three hands are holding the clay pot",
+                "prediction": " C. Two hands are holding the clay pot"
+            },
+            {
+                "question": "What happens last in the video?\nA. Two hands are holding the clay pot\nB. One hand is holding the clay pot\nC. Three hands are holding the clay pot",
+                "answer": "A. Two hands are holding the clay pot",
+                "prediction": " A. Two hands are holding the clay pot"
+            }
+        ]
+    },
+    "1104663381": {
+        "action": [
+            {
+                "question": "What is the man doing in the video?\nA. cutting a pizza dough\nB. stretching a pizza dough\nC. folding a pizza dough",
+                "answer": "B. stretching a pizza dough",
+                "prediction": " B. stretching a pizza dough"
+            },
+            {
+                "question": "What activity is the man engaged in while being filmed?\nA. cutting a pizza dough\nB. stretching a pizza dough\nC. folding a pizza dough",
+                "answer": "B. stretching a pizza dough",
+                "prediction": " B. stretching a pizza dough"
+            },
+            {
+                "question": "What is the man's action depicted in the video?\nA. cutting a pizza dough\nB. stretching a pizza dough\nC. folding a pizza dough",
+                "answer": "B. stretching a pizza dough",
+                "prediction": " B. stretching a pizza dough"
+            }
+        ],
+        "direction": [
+            {
+                "question": "What is the direction in which the pizza dough is rotating?\nA. counter-clockwise\nB. clockwise\nC. it is not rotating",
+                "answer": "A. counter-clockwise",
+                "prediction": " A. counter-clockwise"
+            },
+            {
+                "question": "In what direction is the pizza dough moving?\nA. flipping up and down\nB. rotating clockwise\nC. rotating counter-clockwise\nD. flipping left and right",
+                "answer": "C. rotating counter-clockwise",
+                "prediction": " A. flipping up and down"
+            },
+            {
+                "question": "What is the rotational direction of the pizza dough?\nA. clockwise\nB. stationary\nC. anti-clockwise",
+                "answer": "C. anti-clockwise",
+                "prediction": " C. anti-clockwise"
+            }
+        ]
+    },
+    "22100041": {
+        "action": [
+            {
+                "question": "What is the woman doing in the video?\nA. waving goodbye\nB. clapping her hands\nC. doing an invitation gesture\nD. pointing towards something",
+                "answer": "C. doing an invitation gesture",
+                "prediction": " C. doing an invitation gesture"
+            },
+            {
+                "question": "Which action is the woman performing?\nA. waving goodbye\nB. pointing towards something\nC. clapping her hands\nD. doing an invitation gesture",
+                "answer": "D. doing an invitation gesture",
+                "prediction": " D. doing an invitation gesture"
+            },
+            {
+                "question": "When captured on video, what action is the woman engaged in?\nA. waving goodbye\nB. doing an invitation gesture\nC. pointing towards something\nD. clapping her hands",
+                "answer": "B. doing an invitation gesture",
+                "prediction": " B. doing an invitation gesture"
+            }
+        ]
+    },
+    "1103623921": {
+        "action": [
+            {
+                "question": "What is the man doing in the video?\nA. playing pool\nB. playing football\nC. cooking",
+                "answer": "A. playing pool",
+                "prediction": " A. playing pool"
+            },
+            {
+                "question": "What activity is the man engaged in?\nA. sleeping\nB. dancing\nC. playing pool",
+                "answer": "C. playing pool",
+                "prediction": " C. playing pool"
+            },
+            {
+                "question": "Which action is the man performing?\nA. swimming\nB. playing pool\nC. reading books",
+                "answer": "B. playing pool",
+                "prediction": " B. playing pool"
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed that the video is palying?\nA. slow-motion\nB. fast-forward\nC. normal speed\nD. stopped",
+                "answer": "C. normal speed",
+                "prediction": " A. slow-motion"
+            },
+            {
+                "question": "How would you describe the speed at which the video is playing?\nA. Slowly\nB. Normally\nC. Rapidly",
+                "answer": "B. Normally",
+                "prediction": " A. Slowly"
+            },
+            {
+                "question": "What playback rate is the video currently at?\nA. Slow motion\nB. Paused\nC. Normal pace\nD. Fast-forwarded",
+                "answer": "C. Normal pace",
+                "prediction": " A. Slow motion"
+            }
+        ]
+    },
+    "1093338031": {
+        "action": [
+            {
+                "question": "What is the man attempting to do?\nA. click a computer screen\nB. fix a computer screen\nC. clean a computer screen\nD. punch a computer screen",
+                "answer": "D. punch a computer screen",
+                "prediction": " A. click a computer screen"
+            },
+            {
+                "question": "Which action is the man trying to perform?\nA. fix a computer screen\nB. clean a computer screen\nC. click a computer screen\nD. punch a computer screen",
+                "answer": "D. punch a computer screen",
+                "prediction": " D. punch a computer screen"
+            },
+            {
+                "question": "What is the man's activity in the video?\nA. Attempting to punch a computer screen\nB. Attempting to fix a computer screen\nC. Attempting to clean a computer screen\nD. Attempting to click a computer screen",
+                "answer": "A. Attempting to punch a computer screen",
+                "prediction": " A. Attempting to punch a computer screen"
+            }
+        ]
+    },
+    "1064310466": {
+        "action": [
+            {
+                "question": "What is the man doing?\nA. watering cocoa seeds\nB. planting cocoa seeds\nC. baking cocoa seeds\nD. peeling cocoa seeds",
+                "answer": "D. peeling cocoa seeds",
+                "prediction": " D. peeling cocoa seeds"
+            },
+            {
+                "question": "Which activity is the man involved in?\nA. baking cocoa seeds\nB. watering cocoa seeds\nC. peeling cocoa seeds\nD. planting cocoa seeds",
+                "answer": "C. peeling cocoa seeds",
+                "prediction": " C. peeling cocoa seeds"
+            },
+            {
+                "question": "What action is the man performing?\nA. planting cocoa seeds\nB. watering cocoa seeds\nC. baking cocoa seeds\nD. peeling cocoa seeds",
+                "answer": "D. peeling cocoa seeds",
+                "prediction": " D. peeling cocoa seeds"
+            }
+        ]
+    },
+    "1088497853": {
+        "direction": [
+            {
+                "question": "What is the direction of the movement in the video?\nA. leftwards\nB. upwards\nC. rightwards\nD. downwards",
+                "answer": "B. upwards",
+                "prediction": " C. rightwards"
+            },
+            {
+                "question": "Which direction is the camera moving before the stone building?\nA. rightwards\nB. upwards\nC. leftwards\nD. downwards",
+                "answer": "B. upwards",
+                "prediction": " C. leftwards"
+            },
+            {
+                "question": "What is the trajectory of the camera movement in the video?\nA. flying downwards\nB. flying rightwards\nC. flying upwards\nD. flying leftwards",
+                "answer": "C. flying upwards",
+                "prediction": " B. flying rightwards"
+            }
+        ]
+    },
+    "1106087175": {
+        "action": [
+            {
+                "question": "What is the man doing in the video?\nA. wearing a white sneaker\nB. drawing on a white sneaker\nC. taking off a white sneaker\nD. tying shoelaces on a white sneaker",
+                "answer": "B. drawing on a white sneaker",
+                "prediction": " B. drawing on a white sneaker"
+            },
+            {
+                "question": "What activity is the man engaged in?\nA. drawing on a white sneaker\nB. taking off a white sneaker\nC. tying shoelaces on a white sneaker\nD. wearing a white sneaker",
+                "answer": "A. drawing on a white sneaker",
+                "prediction": " A. drawing on a white sneaker"
+            },
+            {
+                "question": "Which action can be observed in the video?\nA. drawing on a white sneaker\nB. taking off a white sneaker\nC. wearing a white sneaker\nD. tying shoelaces on a white sneaker",
+                "answer": "A. drawing on a white sneaker",
+                "prediction": " A. drawing on a white sneaker"
+            }
+        ]
+    },
+    "13324343": {
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. Man gliding on the skateboard and then tying his shoelaces\nB. Man tying his shoelaces and then gliding on the skateboard\nC. Man gliding on the skateboard and then jumping\nD. Man jumping and then tying his shoelaces",
+                "answer": "B. Man tying his shoelaces and then gliding on the skateboard",
+                "prediction": " B. Man tying his shoelaces and then gliding on the skateboard"
+            },
+            {
+                "question": "In which sequence does the man perform the actions?\nA. gliding on the skateboard and then jumping\nB. jumping and then tying his shoelaces\nC. tying his shoelaces and then gliding on the skateboard\nD. gliding on the skateboard and then tying his shoelaces",
+                "answer": "C. tying his shoelaces and then gliding on the skateboard",
+                "prediction": " C. tying his shoelaces and then gliding on the skateboard"
+            },
+            {
+                "question": "What is the correct order of actions by the man?\nA. gliding on the skateboard and then tying his shoelaces\nB. tying his shoelaces and then gliding on the skateboard\nC. jumping and then tying his shoelaces\nD. gliding on the skateboard and then jumping",
+                "answer": "B. tying his shoelaces and then gliding on the skateboard",
+                "prediction": " B. tying his shoelaces and then gliding on the skateboard"
+            }
+        ]
+    },
+    "1083624811": {
+        "action": [
+            {
+                "question": "What is the woman doing in the exercise?\nA. performing push-ups\nB. performing alternating leg lift plank\nC. performing a traditional plank hold\nD. performing side plank variations",
+                "answer": "B. performing alternating leg lift plank",
+                "prediction": " B. performing alternating leg lift plank"
+            },
+            {
+                "question": "Which action is the woman carrying out?\nA. performing side plank variations\nB. performing a traditional plank hold\nC. performing alternating leg lift plank\nD. performing push-ups",
+                "answer": "C. performing alternating leg lift plank",
+                "prediction": " A. performing side plank variations"
+            },
+            {
+                "question": "What activity is the woman engaged in?\nA. performing alternating leg lift plank\nB. performing push-ups\nC. performing a traditional plank hold\nD. performing side plank variations",
+                "answer": "A. performing alternating leg lift plank",
+                "prediction": " A. performing alternating leg lift plank"
+            }
+        ]
+    },
+    "1014976360": {
+        "order": [
+            {
+                "question": "What is the order of events for the man?\nA. putting on his glasses and then looking at his phone\nB. taking off his glasses and then looking at his phone\nC. looking at his phone and then putting on his glasses\nD. looking at his phone and then taking off his glasses",
+                "answer": "D. looking at his phone and then taking off his glasses",
+                "prediction": " B. taking off his glasses and then looking at his phone"
+            },
+            {
+                "question": "Which event does the man do first?\nA. looking at his phone\nB. taking off his glasses\nC. putting on his glasses",
+                "answer": "A. looking at his phone",
+                "prediction": " A. looking at his phone"
+            },
+            {
+                "question": "Which event does the man do second?\nA. taking off his glasses\nB. putting on his glasses\nC. looking at his phone",
+                "answer": "A. taking off his glasses",
+                "prediction": " A. taking off his glasses"
+            }
+        ]
+    },
+    "18416608": {
+        "order": [
+            {
+                "question": "In which order does the woman perform the actions?\nA. operating her tablet first, then sampling water in a bottle\nB. the actions are performed simultaneously\nC. sampling water in a bottle first, then operating her tablet",
+                "answer": "C. sampling water in a bottle first, then operating her tablet",
+                "prediction": " C. sampling water in a bottle first, then operating her tablet"
+            },
+            {
+                "question": "What is the first action that the woman does?\nA. sampling water in a bottle\nB. the actions are performed simultaneously\nC. operating her tablet",
+                "answer": "A. sampling water in a bottle",
+                "prediction": " A. sampling water in a bottle"
+            },
+            {
+                "question": "What is the second action that the woman does?\nA. sampling water in a bottle\nB. the actions are performed simultaneously\nC. operating her tablet",
+                "answer": "C. operating her tablet",
+                "prediction": " A. sampling water in a bottle"
+            }
+        ]
+    },
+    "1061351290": {
+        "order": [
+            {
+                "question": "What is the order of events in the video involving the woman?\nA. measuring her belly with a measuring tape and then touching her pregnant belly\nB. touching her pregnant belly and then taking a nap\nC. taking a nap and then measuring her belly with a measuring tape\nD. touching her pregnant belly and then measuring her belly with a measuring tape",
+                "answer": "D. touching her pregnant belly and then measuring her belly with a measuring tape",
+                "prediction": " D. touching her pregnant belly and then measuring her belly with a measuring tape"
+            },
+            {
+                "question": "What sequence of actions does the woman follow in the video?\nA. measuring her belly with a measuring tape and then touching her pregnant belly\nB. taking off clothes then measuring her belly with a measuring tape\nC. touching her pregnant belly and then taking off clothes\nD. touching her pregnant belly and then measuring her belly with a measuring tape",
+                "answer": "D. touching her pregnant belly and then measuring her belly with a measuring tape",
+                "prediction": " D. touching her pregnant belly and then measuring her belly with a measuring tape"
+            },
+            {
+                "question": "In what order does the woman perform the actions in the video?\nA. taking off clothes then measuring her belly with a measuring tape\nB. touching her pregnant belly and then measuring her belly with a measuring tape\nC. measuring her belly with a measuring tape and then touching her pregnant belly\nD. touching her pregnant belly and then taking off clothes",
+                "answer": "B. touching her pregnant belly and then measuring her belly with a measuring tape",
+                "prediction": " B. touching her pregnant belly and then measuring her belly with a measuring tape"
+            }
+        ]
+    },
+    "1066238617": {
+        "action": [
+            {
+                "question": "What is the woman doing?\nA. dancing\nB. practising her punches\nC. cooking",
+                "answer": "B. practising her punches",
+                "prediction": " B. practising her punches"
+            },
+            {
+                "question": "What activity is the woman engaged in?\nA. singing\nB. practising her punches\nC. swimming",
+                "answer": "B. practising her punches",
+                "prediction": " B. practising her punches"
+            },
+            {
+                "question": "Which action is the woman performing?\nA. playing chess\nB. practising her punches\nC. writing",
+                "answer": "B. practising her punches",
+                "prediction": " C. running"
+            }
+        ]
+    },
+    "1072000366": {
+        "action": [
+            {
+                "question": "What are the girls doing to each other?\nA. elbowing each other\nB. giving high five to each other\nC. waving at each other\nD. shaking hands",
+                "answer": "A. elbowing each other",
+                "prediction": " C. waving at each other\n\nIn the video, we can see two girls in a school corridor. Both are wearing face masks, and the girl in the blue face mask is looking at the other girl and smiling. She then raises her hand in a waving motion, and the other girl, who has long brown hair, turns around and smiles at her. It seems like they are greeting each other in a friendly manner, and waving is the most likely option among the choices given, as there is no physical contact that would indicate they are doing the other actions listed."
+            },
+            {
+                "question": "Which action are the girls engaged in?\nA. waving at each other\nB. shaking hands\nC. giving high five to each other\nD. elbowing each other",
+                "answer": "D. elbowing each other",
+                "prediction": " A. waving at each other"
+            },
+            {
+                "question": "What activity are the girls involved in?\nA. waving at each other\nB. shaking hands\nC. giving high five to each other\nD. elbowing each other",
+                "answer": "D. elbowing each other",
+                "prediction": " A. waving at each other"
+            }
+        ]
+    },
+    "1065272113": {
+        "action": [
+            {
+                "question": "What is the doctor doing to the woman?\nA. taking her blood pressure\nB. checking her temperature\nC. giving her an injection",
+                "answer": "C. giving her an injection",
+                "prediction": " C. giving her an injection"
+            },
+            {
+                "question": "What action is the doctor performing on the woman?\nA. applying bandage\nB. writing a prescription\nC. giving an injection",
+                "answer": "C. giving an injection",
+                "prediction": " C. giving an injection"
+            },
+            {
+                "question": "Which of the following actions is the doctor engaged in?\nA. writing a prescription\nB. giving an injection\nC. applying bandage",
+                "answer": "B. giving an injection",
+                "prediction": " B. giving an injection"
+            }
+        ]
+    },
+    "1072971926": {
+        "action": [
+            {
+                "question": "What is the man doing with the pizza box?\nA. opening the pizza box\nB. wrapping the pizza box\nC. eating the pizza\nD. closing the pizza box",
+                "answer": "A. opening the pizza box",
+                "prediction": " A. opening the pizza box"
+            },
+            {
+                "question": "What action is being performed by the man?\nA. closing the pizza box\nB. eating the pizza\nC. wrapping the pizza box\nD. opening the pizza box",
+                "answer": "D. opening the pizza box",
+                "prediction": " D. opening the pizza box"
+            },
+            {
+                "question": "Which of the following actions is the man engaged in?\nA. opening the pizza box\nB. eating the pizza\nC. wrapping the pizza box\nD. closing the pizza box",
+                "answer": "A. opening the pizza box",
+                "prediction": " A. opening the pizza box"
+            }
+        ]
+    },
+    "3399348431": {
+        "action": [
+            {
+                "question": "What is the person doing with the sauce?\nA. mixing it with the vegetables\nB. squeezing it into a bowl of vegetables\nC. dipping vegetables in it",
+                "answer": "B. squeezing it into a bowl of vegetables",
+                "prediction": " A. mixing it with the vegetables"
+            },
+            {
+                "question": "What is the video showing?\nA. dipping vegetables on the sauce\nB. squeezing the sauce into a bowl of vegetables\nC. mixing sauce with the vegetables",
+                "answer": "B. squeezing the sauce into a bowl of vegetables",
+                "prediction": " C. mixing sauce with the vegetables"
+            },
+            {
+                "question": "What action is being performed with the sauce?\nA. squeezing it into a bowl of vegetables\nB. dipping vegetables in it\nC. mixing it with the vegetables",
+                "answer": "A. squeezing it into a bowl of vegetables",
+                "prediction": " C. mixing it with the vegetables"
+            }
+        ]
+    },
+    "1025137214": {
+        "action": [
+            {
+                "question": "What is the man doing?\nA. walking\nB. smoking cigarette\nC. talking on the phone",
+                "answer": "B. smoking cigarette",
+                "prediction": " B. smoking cigarette"
+            },
+            {
+                "question": "What action is the man engaged in?\nA. reading a book\nB. smoking cigarette\nC. writing a letter",
+                "answer": "B. smoking cigarette",
+                "prediction": " B. smoking cigarette"
+            },
+            {
+                "question": "Which activity is the man involved in?\nA. playing soccer\nB. smoking cigarette\nC. cooking a meal",
+                "answer": "B. smoking cigarette",
+                "prediction": " B. smoking cigarette"
+            }
+        ]
+    },
+    "1033101626": {
+        "action": [
+            {
+                "question": "What is the man doing?\nA. cooking\nB. singing\nC. playing instrument",
+                "answer": "C. playing instrument",
+                "prediction": " C. playing instrument"
+            },
+            {
+                "question": "What activity is the man engaged in?\nA. dancing\nB. reading\nC. playing instrument",
+                "answer": "C. playing instrument",
+                "prediction": " C. playing instrument"
+            },
+            {
+                "question": "Which action is the man performing?\nA. walking\nB. sleeping\nC. playing instrument",
+                "answer": "C. playing instrument",
+                "prediction": " C. playing instrument"
+            }
+        ]
+    },
+    "9537677": {
+        "action": [
+            {
+                "question": "What activity is the woman engaged in?\nA. reading a book\nB. watching TV\nC. playing tablet\nD. cooking",
+                "answer": "C. playing tablet",
+                "prediction": " C. playing tablet"
+            },
+            {
+                "question": "What is the woman's action in the video?\nA. playing tablet\nB. dancing\nC. painting\nD. driving",
+                "answer": "A. playing tablet",
+                "prediction": " A. playing tablet"
+            },
+            {
+                "question": "What is the main focus of the woman's attention?\nA. listening to music\nB. playing tablet\nC. talking on the phone\nD. cooking",
+                "answer": "B. playing tablet",
+                "prediction": " B. playing tablet"
+            }
+        ]
+    },
+    "1077388994": {
+        "action": [
+            {
+                "question": "What action is the woman performing?\nA. singing\nB. dancing\nC. patting the baby",
+                "answer": "C. patting the baby",
+                "prediction": " C. patting the baby"
+            },
+            {
+                "question": "What activity is the woman engaged in?\nA. cooking dinner\nB. gardening\nC. patting the baby",
+                "answer": "C. patting the baby",
+                "prediction": " C. patting the baby"
+            },
+            {
+                "question": "Which of the following is the woman doing?\nA. writing a letter\nB. reading a book\nC. patting the baby",
+                "answer": "C. patting the baby",
+                "prediction": " C. patting the baby"
+            }
+        ]
+    },
+    "1037531786": {
+        "action": [
+            {
+                "question": "What are the two men doing in the video?\nA. dancing\nB. cooking\nC. boxing\nD. painting",
+                "answer": "C. boxing",
+                "prediction": " C. boxing"
+            },
+            {
+                "question": "Which physical activity are the two men engaged in?\nA. swimming\nB. running\nC. boxing\nD. cycling",
+                "answer": "C. boxing",
+                "prediction": " C. boxing"
+            },
+            {
+                "question": "What sport are the two men participating in?\nA. basketball\nB. football\nC. boxing\nD. tennis",
+                "answer": "C. boxing",
+                "prediction": " C. boxing"
+            }
+        ]
+    },
+    "1077275024": {
+        "action": [
+            {
+                "question": "What is the girl doing in the video?\nA. Jumping with a man playing ukulele\nB. Dancing with a man playing ukulele\nC. Clapping hands for a man playing ukulele",
+                "answer": "C. Clapping hands for a man playing ukulele",
+                "prediction": " C. Clapping hands for a man playing ukulele"
+            },
+            {
+                "question": "What activity is the girl engaged in?\nA. Sitting and watching a man play the ukulele\nB. Playing the ukulele alongside the man\nC. Clapping hands for a man playing ukulele",
+                "answer": "C. Clapping hands for a man playing ukulele",
+                "prediction": " C. Clapping hands for a man playing ukulele"
+            },
+            {
+                "question": "What action is the girl performing?\nA. Recording the man playing the ukulele\nB. Dancing with a man playing ukulele\nC. Clapping hands for a man playing ukulele",
+                "answer": "C. Clapping hands for a man playing ukulele",
+                "prediction": " C. Clapping hands for a man playing ukulele"
+            }
+        ]
+    },
+    "1107180099": {
+        "action": [
+            {
+                "question": "What are the women doing?\nA. singing\nB. painting\nC. dancing\nD. cooking",
+                "answer": "C. dancing",
+                "prediction": " C. dancing"
+            },
+            {
+                "question": "Which activity are the women engaged in?\nA. swimming\nB. playing basketball\nC. dancing\nD. gardening",
+                "answer": "C. dancing",
+                "prediction": " C. dancing"
+            },
+            {
+                "question": "What is the primary action of the group of women?\nA. playing football\nB. dancing\nC. reading\nD. skiing",
+                "answer": "B. dancing",
+                "prediction": " B. dancing"
+            }
+        ]
+    },
+    "1049434159": {
+        "action": [
+            {
+                "question": "What are the parents and daughter doing together?\nA. cooking dinner\nB. playing video games\nC. reading a book",
+                "answer": "B. playing video games",
+                "prediction": " B. playing video games"
+            },
+            {
+                "question": "What activity are the parents and daughter engaged in?\nA. hiking\nB. playing video games\nC. dancing",
+                "answer": "B. playing video games",
+                "prediction": " B. playing video games"
+            },
+            {
+                "question": "Which of the following actions are the parents and daughter involved in?\nA. painting\nB. playing video games\nC. gardening",
+                "answer": "B. playing video games",
+                "prediction": " B. playing video games"
+            }
+        ]
+    },
+    "3402234027": {
+        "action": [
+            {
+                "question": "What is the cat doing in the video?\nA. sleeping\nB. playing with a toy\nC. eating food",
+                "answer": "C. eating food",
+                "prediction": " C. eating food"
+            },
+            {
+                "question": "Which activity is the cat engaged in?\nA. swimming\nB. climbing a tree\nC. eating food",
+                "answer": "C. eating food",
+                "prediction": " C. eating food"
+            },
+            {
+                "question": "What action is the cat performing?\nA. running on the ground\nB. sitting on a chair\nC. eating food on the ground",
+                "answer": "C. eating food on the ground",
+                "prediction": " C. eating food on the ground"
+            }
+        ]
+    },
+    "1056491306": {
+        "action": [
+            {
+                "question": "What are the passengers doing on the subway?\nA. sleeping on the bed\nB. standing in a room\nC. taking a seat on subway\nD. dancing on the stage",
+                "answer": "C. taking a seat on subway",
+                "prediction": " C. taking a seat on subway"
+            },
+            {
+                "question": "What activity are the passengers engaged in while on the subway train?\nA. talking\nB. reading\nC. taking a seat\nD. eating",
+                "answer": "C. taking a seat",
+                "prediction": " B. reading"
+            },
+            {
+                "question": "Which action are the passengers performing inside the subway?\nA. running on a treadmill\nB. walking on the street\nC. taking a seat on subway\nD. jumping on the floor",
+                "answer": "C. taking a seat on subway",
+                "prediction": " C. taking a seat on subway"
+            }
+        ]
+    },
+    "1012085909": {
+        "action": [
+            {
+                "question": "What are the people doing in the video?\nA. rolling boats on the lake\nB. walking on the street\nC. pushing bikes up a hill",
+                "answer": "C. pushing bikes up a hill",
+                "prediction": " C. pushing bikes up a hill"
+            },
+            {
+                "question": "How are the people moving?\nA. running\nB. swimming\nC. pushing bikes",
+                "answer": "C. pushing bikes",
+                "prediction": " C. pushing bikes"
+            },
+            {
+                "question": "What is the main activity of the people?\nA. rollerblading\nB. playing basketball\nC. pushing bikes",
+                "answer": "C. pushing bikes",
+                "prediction": " C. pushing bikes"
+            }
+        ]
+    },
+    "1079406734": {
+        "action": [
+            {
+                "question": "What is the man doing to the car in the video?\nA. riding bikes\nB. taking a shower\nC. washing the car\nD. driving the car",
+                "answer": "C. washing the car",
+                "prediction": " C. washing the car"
+            },
+            {
+                "question": "Which of the following actions is being performed by the man?\nA. feeding a dog\nB. reading a book\nC. washing the car\nD. playing the guitar",
+                "answer": "C. washing the car",
+                "prediction": " C. washing the car"
+            },
+            {
+                "question": "In the video, what activity is the man engaged in?\nA. dancing\nB. sleeping\nC. washing the car\nD. cooking",
+                "answer": "C. washing the car",
+                "prediction": " C. washing the car"
+            }
+        ]
+    },
+    "1022115337": {
+        "order": [
+            {
+                "question": "What is the order of events?\nA. dancing and then sending an air kiss\nB. sending an air kiss and then dancing\nC. dancing at the same time as sending an air kiss",
+                "answer": "A. dancing and then sending an air kiss",
+                "prediction": " A. dancing and then sending an air kiss"
+            },
+            {
+                "question": "Which event occurs first?\nA. dancing\nB. sending an air kiss\nC.Both events happen at the same time",
+                "answer": "A. dancing",
+                "prediction": " B. sending an air kiss"
+            },
+            {
+                "question": "Which event occurs second?\nA. dancing\nB. sending an air kiss\nC.Both events happen at the same time",
+                "answer": "B. sending an air kiss",
+                "prediction": " B. sending an air kiss"
+            }
+        ]
+    },
+    "1071214909": {
+        "action": [
+            {
+                "question": "What is the person doing on the wood surface?\nA. carving a design\nB. measuring the length\nC. drawing a cutting line\nD. sanding the surface",
+                "answer": "C. drawing a cutting line",
+                "prediction": " C. drawing a cutting line"
+            },
+            {
+                "question": "What is the action performed by the person?\nA. drawing a cuttting line on a wood surface\nB. erasing a line on a wood surface\nC. carving a pattern on a wood surface\nD. measuring length on a wood surface",
+                "answer": "A. drawing a cuttting line on a wood surface",
+                "prediction": " A. drawing a cutting line on a wood surface"
+            },
+            {
+                "question": "What is the video about?\nA. drawing a cuttting line on a wood surface\nB. erasing a line on a wood surface\nC. carving a pattern on a wood surface\nD. measuring length on a wood surface",
+                "answer": "A. drawing a cuttting line on a wood surface",
+                "prediction": " A. drawing a cuttting line on a wood surface"
+            }
+        ]
+    },
+    "1092065543": {
+        "action": [
+            {
+                "question": "What is the man doing?\nA. eating\nB. shopping\nC. sleeping\nD. running",
+                "answer": "B. shopping",
+                "prediction": " B. shopping"
+            },
+            {
+                "question": "Which activity is the man engaged in?\nA. cooking\nB. gardening\nC. shopping\nD. painting",
+                "answer": "C. shopping",
+                "prediction": " C. shopping"
+            },
+            {
+                "question": "In the video, what can we see the man doing?\nA. singing\nB. dancing\nC. shopping\nD. playing guitar",
+                "answer": "C. shopping",
+                "prediction": " C. shopping"
+            }
+        ]
+    },
+    "1017063703": {
+        "action": [
+            {
+                "question": "What is the person doing in the video?\nA. baking cakes\nB. decorating cakes\nC. cutting cakes\nD. presenting cakes to guests",
+                "answer": "B. decorating cakes",
+                "prediction": " B. decorating cakes"
+            },
+            {
+                "question": "What action is demonstrated in the video?\nA. baking cakes\nB. decorating cakes\nC. cutting cakes\nD. presenting cakes to guests",
+                "answer": "B. decorating cakes",
+                "prediction": " B. decorating cakes"
+            },
+            {
+                "question": "What task is being performed in the footage?\nA. baking cakes\nB. decorating cakes\nC. cutting cakes\nD. presenting cakes to guests",
+                "answer": "B. decorating cakes",
+                "prediction": " B. decorating cakes"
+            }
+        ]
+    },
+    "1055022287": {
+        "action": [
+            {
+                "question": "What is the man doing in the video?\nA. cooking\nB. singing\nC. cleaning a swimming pool",
+                "answer": "C. cleaning a swimming pool",
+                "prediction": " C. cleaning a swimming pool"
+            },
+            {
+                "question": "Which activity is being performed by the man in the video?\nA. dancing\nB. playing basketball\nC. cleaning a swimming pool",
+                "answer": "C. cleaning a swimming pool",
+                "prediction": " C. cleaning a swimming pool"
+            },
+            {
+                "question": "What action is the man undertaking?\nA. reading\nB. sleeping\nC. cleaning a swimming pool",
+                "answer": "C. cleaning a swimming pool",
+                "prediction": " C. cleaning a swimming pool"
+            }
+        ]
+    },
+    "1094259081": {
+        "action": [
+            {
+                "question": "What is the woman doing in the video?\nA. watching VR movie\nB. listening to music using VR\nC. playing VR shooting game\nD. working out using VR",
+                "answer": "C. playing VR shooting game",
+                "prediction": " C. playing VR shooting game"
+            },
+            {
+                "question": "What action is the woman engaged in?\nA. watching VR movie\nB. listening to music using VR\nC. playing VR shooting game\nD. working out using VR",
+                "answer": "C. playing VR shooting game",
+                "prediction": " C. playing VR shooting game"
+            },
+            {
+                "question": "Which activity is the woman participating in?\nA. watching VR movie\nB. listening to music using VR\nC. playing VR shooting game\nD. working out using VR",
+                "answer": "C. playing VR shooting game",
+                "prediction": " C. playing VR shooting game"
+            }
+        ]
+    },
+    "1022260408": {
+        "action": [
+            {
+                "question": "What is the squirrel doing in the video?\nA. sleeping\nB. running\nC. eating food",
+                "answer": "C. eating food",
+                "prediction": " C. eating food"
+            },
+            {
+                "question": "What activity is the squirrel engaged in?\nA. chasing its tail\nB. cleaning itself\nC. eating food",
+                "answer": "C. eating food",
+                "prediction": " C. eating food"
+            },
+            {
+                "question": "Which of the following actions is the squirrel performing?\nA. climbing a tree\nB. swimming in a pond\nC. eating food",
+                "answer": "C. eating food",
+                "prediction": " C. eating food\n\nIn the video, we can see the squirrel is on the rocks and appears to be eating something. The other options aren't right because the squirrel isn't climbing a tree or swimming in a pond."
+            }
+        ]
+    },
+    "1089810969": {
+        "action": [
+            {
+                "question": "How does the little girl interact with the woman?\nA. she runs towards her and hugs her\nB. she walks towards her and hug her\nC. she runs towards her and jumps on her back\nD. she runs towards her and talks to her",
+                "answer": "A. she runs towards her and hugs her",
+                "prediction": " A. she runs towards her and hugs her"
+            },
+            {
+                "question": "What action does the little girl perform?\nA. she runs towards a woman and hugs her\nB. she walks towards a woman and hugs her\nC. she runs towards a woman and jumps on her back\nD. she runs towards a woman and talks to her",
+                "answer": "A. she runs towards a woman and hugs her",
+                "prediction": " A. she runs towards a woman and hugs her"
+            },
+            {
+                "question": "Which of the following actions is the little girl performing?\nA. she runs towards a woman and hugs her\nB. she walks towards a woman and hugs her\nC. she runs towards a woman and jumps on her back\nD. she runs towards a woman and talks to her",
+                "answer": "A. she runs towards a woman and hugs her",
+                "prediction": " A. she runs towards a woman and hugs her"
+            }
+        ]
+    },
+    "6165731": {
+        "action": [
+            {
+                "question": "What is the scientist doing in the experiment?\nA. observing quietly on the experiment\nB. leisurely conducting experiments\nC. looking confused and frustrated about the experiment",
+                "answer": "C. looking confused and frustrated about the experiment",
+                "prediction": " C. looking confused and frustrated about the experiment"
+            },
+            {
+                "question": "How does the scientist feel about the experiment?\nA. excited and motivated\nB. bored and disinterested\nC. confused and frustrated",
+                "answer": "C. confused and frustrated",
+                "prediction": " C. confused and frustrated"
+            },
+            {
+                "question": "What is the emotional state of the scientist during the experiment?\nA. calm and content\nB. happy and satisfied\nC. confused and frustrated",
+                "answer": "C. confused and frustrated",
+                "prediction": " C. confused and frustrated"
+            }
+        ]
+    },
+    "1111469465": {
+        "action": [
+            {
+                "question": "What is the man doing in the video?\nA. raising his arm to look at the watch looking happy\nB. raising his arm to look at the watch looking calm\nC. raising his arm to look at the watch looking anxious\nD. putting his hands in his pockets looking anxious",
+                "answer": "C. raising his arm to look at the watch looking anxious",
+                "prediction": " C. raising his arm to look at the watch looking anxious"
+            },
+            {
+                "question": "What action is being performed by the man?\nA. raising his arm to look at the watch looking happy\nB. raising his arm to look at the watch looking calm\nC. raising his arm to look at the watch looking anxious\nD. putting his hands in his pockets looking anxious",
+                "answer": "C. raising his arm to look at the watch looking anxious",
+                "prediction": " C. raising his arm to look at the watch looking anxious"
+            },
+            {
+                "question": "In the video, what is the man's action?\nA. raising his arm to look at the watch looking happy\nB. raising his arm to look at the watch looking calm\nC. raising his arm to look at the watch looking anxious\nD. putting his hands in his pockets looking anxious",
+                "answer": "C. raising his arm to look at the watch looking anxious",
+                "prediction": " C. raising his arm to look at the watch looking anxious"
+            }
+        ]
+    },
+    "1050000214": {
+        "action": [
+            {
+                "question": "What action is the little child performing?\nA. Running\nB. Swimming\nC. Water jumping\nD. Dancing",
+                "answer": "C. Water jumping",
+                "prediction": " C. Water jumping"
+            },
+            {
+                "question": "What is the little child doing in the video?\nA. Eating\nB. Sleeping\nC. Crying\nD. Water jumping",
+                "answer": "D. Water jumping",
+                "prediction": " D. Water jumping"
+            },
+            {
+                "question": "Which action is the little child engaged in?\nA. Reading\nB. Writing\nC. Singing\nD. Water jumping",
+                "answer": "D. Water jumping",
+                "prediction": " D. Water jumping"
+            }
+        ]
+    },
+    "27537016": {
+        "order": [
+            {
+                "question": "What is the sequence of events involving the man?\nA. showing off his car key then pulling back inside the car\nB. pulling back inside the car then showing off his car key\nC. throwing away his car key then pulling back inside the car\nD. pulling back inside the car then throwing away his car key",
+                "answer": "A. showing off his car key then pulling back inside the car",
+                "prediction": " B. pulling back inside the car then showing off his car key"
+            },
+            {
+                "question": "What is the correct order of actions performed by the man?\nA. showing off his car key, pulling back inside the car\nB. pulling back inside the car, showing off his car key\nC. throwing away his car key, pulling back inside the car\nD. pulling back inside the car, throwing away his car key",
+                "answer": "A. showing off his car key, pulling back inside the car",
+                "prediction": " B. pulling back inside the car, showing off his car key"
+            },
+            {
+                "question": "In what order did the man do the activities?\nA. showing off his car key, pulling back inside the car\nB. pulling back inside the car, showing off his car key\nC. throwing away his car key, pulling back inside the car\nD. pulling back inside the car, throwing away his car key",
+                "answer": "A. showing off his car key, pulling back inside the car",
+                "prediction": " B. pulling back inside the car, showing off his car key"
+            }
+        ]
     }
 }
