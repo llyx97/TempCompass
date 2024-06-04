@@ -10,7 +10,7 @@ def video_to_url(video_path):
         video_url = f'data:video/mp4;base64,{video_base64}'
     return video_url
 
-def get_response(client, video_path, question):
+def get_response(client, model_version, video_path, question):
     response = client.chat.create(
         messages=[
             ChatMessage(
@@ -21,7 +21,7 @@ def get_response(client, video_path, question):
                 role="user",
             )
         ],
-        model="reka-flash",
+        model=model_version,
     )
 
     llm_response = response.responses[0].message.content
@@ -37,7 +37,8 @@ answer_prompt = {
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()     
     parser.add_argument('--video_path', default='videos')     
-    parser.add_argument('--output_path', default='predictions/reka-flash')     
+    parser.add_argument('--output_path', default='predictions')     
+    parser.add_argument('--model_version', default='reka-flash')     
     parser.add_argument('--task_type', default='multi-choice', choices=['multi-choice', 'captioning', 'caption_matching', 'yes_no'])     
     args = parser.parse_args()
 
@@ -46,11 +47,12 @@ if __name__ == '__main__':
     with open(question_path, 'r') as f:
         input_datas = json.load(f)
 
-    os.makedirs(args.output_path, exist_ok=True)
-    pred_file = f"{args.output_path}/{args.task_type}.json"
+    output_path = f"{args.output_path}/{args.model_version}"
+    os.makedirs(output_path, exist_ok=True)
+    pred_file = f"{output_path}/{args.task_type}.json"
     # Loading existing predictions
     if os.path.isfile(pred_file):
-        with open(f"{args.output_path}/{args.task_type}.json", 'r') as f:
+        with open(pred_file, 'r') as f:
             predictions = json.load(f)
     else:
         predictions = {}
@@ -68,7 +70,7 @@ if __name__ == '__main__':
                 predictions[vid][dim] = []
                 for question in questions:
                     inp = question['question'] + answer_prompt[args.task_type]
-                    video_llm_pred = get_response(client, video_path, inp)
+                    video_llm_pred = get_response(client, args.model_version, video_path, inp)
                     predictions[vid][dim].append({'question': question['question'], 'answer': question['answer'], 'prediction': video_llm_pred})
             with open(pred_file, 'w') as f:
                 json.dump(predictions, f, indent=4)
