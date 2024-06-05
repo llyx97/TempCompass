@@ -650,5 +650,448 @@
                 "prediction": " The clock hands are moving in a clockwise direction. This is evident from the sequence of the hour hand moving from 10 to 11 and the minute hand moving from 12 to 1. The second hand also moves from 0 to 60 seconds, which is consistent with normal clock movements."
             }
         ]
+    },
+    "1050618460": {
+        "speed": [
+            {
+                "question": "What is the speed of the entire video?\nA. normal speed\nB. time-lapse\nC. slow motion",
+                "answer": "B. time-lapse",
+                "prediction": " The video is a time-lapse. This can be deduced from the fact that the video shows the progression of the blooming of cherry blossoms from closed buds to fully open flowers within a span of a few seconds, which would not be possible to capture in real-time video at normal speed. Time-lapse photography is a technique where a series of photographs are taken over a long period and then played back at an accelerated rate, making the slow processes, like the opening of flowers, appear to happen quickly."
+            },
+            {
+                "question": "How would you describe the pace of the entire video?\nA. fast-paced\nB. slow-paced\nC. medium-paced",
+                "answer": "A. fast-paced",
+                "prediction": " B. slow-paced"
+            },
+            {
+                "question": "How does the entire video appear in terms of tempo?\nA. rapidly\nB. moderately\nC. leisurely",
+                "answer": "A. rapidly",
+                "prediction": " The best option in terms of tempo for the entire video is \"leisurely.\" The video shows a time-lapse of cherry blossoms opening up against a blue background. Time-lapse videos are characterized by their ability to condense long periods into shorter, faster-paced sequences. However, in this case, the term \"leisurely\" is used to describe the gentle and slow opening of the flowers, which is the focal point of the video. The tempo of the video is not rapid or moderate; instead, it is calm and unhurried, allowing the viewer to appreciate the intricate details and beauty of the blossoms as they unfold."
+            }
+        ],
+        "attribute_change": [
+            {
+                "question": "What is happening to the flowers?\nA. turning into buds\nB. shrinking and wilting\nC. turning into full bloom\nD. remaining as buds",
+                "answer": "C. turning into full bloom",
+                "prediction": " C. turning into full bloom."
+            },
+            {
+                "question": "How do the flowers transform?\nA. from stem to leaf\nB. from full bloom to bud\nC. from seed to germination\nD. from bud to full bloom",
+                "answer": "D. from bud to full bloom",
+                "prediction": " D. from bud to full bloom"
+            },
+            {
+                "question": "What happens when the flowers go through the attribute_change?\nA. reaching full maturity\nB. shedding leaves\nC. sprouting more buds\nD. shrinking into buds",
+                "answer": "A. reaching full maturity",
+                "prediction": " The video shows a time-lapse of a flowering branch where the flowers are opening up and blooming. The best option that describes this change is:\n\nA. reaching full maturity"
+            }
+        ]
+    },
+    "1083113449": {
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. slow motion\nB. time-lapse\nC. normal speed",
+                "answer": "B. time-lapse",
+                "prediction": " B. time-lapse"
+            },
+            {
+                "question": "What type of speed is applied to the video?\nA. rewind\nB. time-lapse\nC. slow ",
+                "answer": "B. time-lapse",
+                "prediction": " B. time-lapse"
+            },
+            {
+                "question": "What effect is applied to the video's speed?\nA. time-lapse\nB. normal speed\nC. slow motion",
+                "answer": "A. time-lapse",
+                "prediction": " A. time-lapse"
+            },
+            {
+                "question": "In what way is the speed altered in the video?\nA. normal speed\nB. time-lapse\nC. slow motion",
+                "answer": "B. time-lapse",
+                "prediction": " The video is sped up in a time-lapse fashion. This can be inferred from the transition of light across the sky and the artificial lighting inside the building, which changes at a faster rate than would be observed in real-time. The people visible through the windows also move quickly or appear as stills, which is a characteristic of time-lapse footage where frames are captured over long periods and then played back at a faster rate to show an extended period of time in a shorter space of time. Therefore, the best option is:\n\nB. time-lapse"
+            }
+        ],
+        "attribute_change": [
+            {
+                "question": "How would you describe the change in the sky's appearance?\nA. lightening up\nB. maintaining its brightness\nC. getting darker",
+                "answer": "C. getting darker",
+                "prediction": " C. getting darker."
+            },
+            {
+                "question": "What is occurring to the sky?\nA. staying the same\nB. getting darker\nC. brightening",
+                "answer": "B. getting darker",
+                "prediction": " B. getting darker"
+            },
+            {
+                "question": "In terms of illumination, what is happening to the sky?\nA. becoming brighter\nB. growing dimmer\nC. remaining unchanged",
+                "answer": "B. growing dimmer",
+                "prediction": " B. growing dimmer"
+            }
+        ]
+    },
+    "1091143117": {
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. time-lapse\nB. slow motion\nC. normal speed",
+                "answer": "C. normal speed",
+                "prediction": " The speed of the video is normal speed. This can be inferred from the natural blink of the eye and the steady progression of the eye's movement, which is consistent with real-time video footage. There is no artificial stretching or compression of the movements that would indicate slow motion or time-lapse. The video captures the eye's natural blinking cycle and the focus change from the skin's texture to the eye itself in a manner that aligns with how these events would be seen in real life."
+            },
+            {
+                "question": "Which of the following describes the velocity of the video?\nA. fast-forward\nB. regular\nC. backwards",
+                "answer": "B. regular",
+                "prediction": " B. regular."
+            },
+            {
+                "question": "Which word best captures the pace of the video?\nA. speedy\nB. real-time speed\nC. fast-paced",
+                "answer": "B. real-time speed",
+                "prediction": " B. real-time speed."
+            }
+        ],
+        "attribute_change": [
+            {
+                "question": "What is happening to the eye?\nA. from closed to open\nB. turning red\nC. becoming blurry\nD. from open to closed",
+                "answer": "A. from closed to open",
+                "prediction": " The best option is D, \"from open to closed\". The video shows a close-up of a blue eye with a detailed view of the iris, pupil, and the skin around the eye. The eye starts open and gradually closes. There is no indication of the eye turning red or becoming blurry; it's a clear, focused close-up. The motion is from open to closed, not the other way around."
+            },
+            {
+                "question": "How is the eye changing?\nA. changing color\nB. from closed to open\nC. becoming smaller\nD. from open to closed",
+                "answer": "B. from closed to open",
+                "prediction": " The video shows the eye changing from being closed to open. The best option to describe this change is \"B. from closed to open\"."
+            },
+            {
+                "question": "What transformation is occurring in the eye?\nA. from open to closed\nB. shrinking\nC. from closed to open\nD. blinking",
+                "answer": "C. from closed to open",
+                "prediction": " The best option is D. blinking. The video shows a close-up of a detailed eye, with the pupil starting off large and constricting as the eye opens. The eyelashes and skin detail are visible, indicating a close-up shot. The natural light reflection and the movement of the pupil suggest the eye is blinking."
+            }
+        ]
+    },
+    "1100329207": {
+        "action": [
+            {
+                "question": "What is the sheep doing?\nA. running\nB. sleeping\nC. eating grass",
+                "answer": "A. running",
+                "prediction": " The sheep are grazing, which is best described by option C, \"eating grass.\" They are spread out across the field, and many of them can be seen with their heads down to the ground, which is consistent with the behavior of eating grass."
+            },
+            {
+                "question": "Which of the following actions is the sheep engaged in?\nA. swimming\nB. flying\nC. running",
+                "answer": "C. running",
+                "prediction": " C. running"
+            },
+            {
+                "question": "In the video, what action can be seen performed by the sheep?\nA. running\nB. knitting\nC. typing on a keyboard",
+                "answer": "A. running",
+                "prediction": " A. running."
+            },
+            {
+                "question": "From the given information, which action is being exhibited by the sheep?\nA. dancing\nB. running\nC. reading a book",
+                "answer": "B. running",
+                "prediction": " B. running"
+            },
+            {
+                "question": "What is the activity showcased in the video involving the sheep?\nA. painting\nB. running\nC. playing a musical instrument",
+                "answer": "B. running",
+                "prediction": " B. running"
+            }
+        ],
+        "direction": [
+            {
+                "question": "What is the direction of the camera view?\nA. moving right\nB. moving backward\nC. moving left\nD. moving forward",
+                "answer": "D. moving forward",
+                "prediction": " The camera view is moving backward. This is evident from the consistent retreat of the background horizon and the forward progression of the flock of sheep in the frame. The sheep that were initially near the bottom of the frame move towards the center and then upwards, which would not be the case if the camera were moving in any other direction."
+            },
+            {
+                "question": "In which direction is the video panning?\nA. up\nB. down\nC. backward\nD. forward",
+                "answer": "D. forward",
+                "prediction": " The video is panning from the left to the right of the field, which would be considered as moving forward from the perspective of the sheep. The sheep are moving from the near to the far end of the field, so the best option is:\n\nD. forward"
+            },
+            {
+                "question": "What is the direction of the camera movement?\nA. moving forward\nB. tilting up\nC. tilting down\nD. moving backward",
+                "answer": "A. moving forward",
+                "prediction": " The video shows a clear forward progression across the field of view. The background, which includes a mountain range, is getting closer, which would not be the case if the camera were tilting or moving backward. The perspective is from a fixed height that remains constant relative to the ground, focusing on the top of the sheep as they graze, which would not be the case if the camera were tilting down. There's no sense of the camera moving upwards to focus on a higher point, which would indicate a tilt up. Therefore, the best option is:\n\nA. moving forward"
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. fast forward\nB. normal speed\nC. reverse speed\nD. super slow motion",
+                "answer": "B. normal speed",
+                "prediction": " B. normal speed."
+            },
+            {
+                "question": "Which option describes the rate at which the video is playing?\nA. accelerated\nB. normal speed\nC. super slow motion\nD. fast-paced",
+                "answer": "B. normal speed",
+                "prediction": " The video is playing at an accelerated rate. This can be inferred from the way the sheep are moving in unnatural, quick motions that are not consistent with their typical behavior. In contrast to normal speed or fast-paced footage, where the movements would appear smooth and natural, or super slow motion, where movements would be exaggerated and detailed, the accelerated video shows a compressed sequence of events that speeds up the natural behavior of the sheep."
+            },
+            {
+                "question": "What is the tempo of the video?\nA. paused\nB. sped up\nC. slowed down\nD. regular pace",
+                "answer": "D. regular pace",
+                "prediction": " The video is sped up. This can be inferred from the way the sheep move in the video. In the first frame, multiple sheep are seen running, which is unusual for sheep that are typically grazing, and in the following frames, their movements are in bursts which is consistent with the characteristics of a sped-up video. Additionally, the video seems to be taken from a drone that is moving steadily over the field, and the transitions between the frames are too smooth to be at a regular pace where the sheep's actions would be more fluid. There's also no indication of the video being paused or slowed down."
+            }
+        ]
+    },
+    "1089201973": {
+        "action": [
+            {
+                "question": "What are the people doing in the video?\nA. stopping football\nB. kicking football\nC. throwing football\nD. spinning football",
+                "answer": "B. kicking football",
+                "prediction": " B."
+            },
+            {
+                "question": "What activity are the people engaged in?\nA. stopping football\nB. kicking football\nC. spinning football\nD. throwing football",
+                "answer": "B. kicking football",
+                "prediction": " B. kicking football"
+            },
+            {
+                "question": "Which action are the people performing?\nA. kicking football\nB. throwing football\nC. spinning football\nD. stopping football",
+                "answer": "A. kicking football",
+                "prediction": " A. kicking football."
+            },
+            {
+                "question": "What is the movement of the people?\nA. stopping football\nB. kicking football\nC. throwing football\nD. spinning football",
+                "answer": "B. kicking football",
+                "prediction": " B. kicking football."
+            },
+            {
+                "question": "Which sport are the people participating in?\nA. kicking football\nB. stopping football\nC. throwing football\nD. spinning football",
+                "answer": "A. kicking football",
+                "prediction": " A. kicking football."
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. normal speed\nB. time-lapse\nC. slow motion",
+                "answer": "C. slow motion",
+                "prediction": " The speed of the video is C. slow motion."
+            },
+            {
+                "question": "What is the pace at which the video is playing?\nA. rapid speed\nB. slow motion\nC. moderate speed",
+                "answer": "B. slow motion",
+                "prediction": " B. slow motion."
+            },
+            {
+                "question": "At what rate is the video being played?\nA. slow motion\nB. fast speed\nC. regular speed",
+                "answer": "A. slow motion",
+                "prediction": " The video is being played at slow motion. This can be inferred from the way the ball and the boot are moving in the video. In slow motion, the movements that are usually fast are viewed at a slower rate, allowing for a more detailed observation of the action. This is especially noticeable in the way the ball seems to be moving at a pace that would be faster in real-time, and the droplets of water or dust are captured in a way that suggests a slower playback speed compared to the regular speed of the action."
+            },
+            {
+                "question": "What term describes the tempo of the video?\nA. high speed\nB. slow motion\nC. standard speed",
+                "answer": "B. slow motion",
+                "prediction": " The term that describes the tempo of the video is \"slow motion.\" This can be inferred from the way the video captures the motion of the soccer ball and the player's foot. In slow motion videos, the action is shot at a higher frame rate than standard video and then played back at a normal frame rate, which makes the action appear to be happening at a fraction of its actual speed. This effect is clearly visible in the video provided, as the particles of the field are suspended in the air for a longer period than they would be in a video shot at standard speed, and the overall motion of the foot and ball is very smooth and extended."
+            },
+            {
+                "question": "Which word best describes the  velocity of the video?\nA. regular speed\nB. slow motion\nC. swift speed",
+                "answer": "B. slow motion",
+                "prediction": " B. slow motion"
+            }
+        ],
+        "direction": [
+            {
+                "question": "What is the direction of the football in the video?\nA. moving from left to right\nB. moving from right to left\nC. stationary",
+                "answer": "A. moving from left to right",
+                "prediction": " B. moving from right to left."
+            },
+            {
+                "question": "In which direction is the football traveling?\nA. Rightwards\nB. Upwards\nC. Leftwards\nD. Downwards",
+                "answer": "A. Rightwards",
+                "prediction": " The football is traveling leftwards. This is determined by observing the direction of the ball's shadow and the mist being displaced, which are both consistent with a leftward motion from the perspective of the camera. Additionally, the ball's position relative to the cleats shows that it has been struck from the right side and is moving away towards the left side of the frame."
+            },
+            {
+                "question": "How would you describe the path of the football?\nA. from bottom to top\nB. from right to left\nC. from left to right\nD. from top to bottom",
+                "answer": "C. from left to right",
+                "prediction": " The best option is **C. from left to right**. The ball is seen on the left side of the video, moving forward and upwards as the player kicks it. It then moves from left to right across the frame as it follows the ball's trajectory."
+            }
+        ]
+    },
+    "1034736653": {
+        "action": [
+            {
+                "question": "What are the woman athletes doing?\nA. cycling\nB. swimming\nC. running\nD. dancing",
+                "answer": "C. running",
+                "prediction": " C. running"
+            },
+            {
+                "question": "What is the primary action of the woman athletes?\nA. running\nB. reading\nC. singing\nD. cooking",
+                "answer": "A. running",
+                "prediction": " A. running."
+            },
+            {
+                "question": "What activity are the woman athletes engaged in?\nA. skiing\nB. running\nC. painting\nD. playing basketball",
+                "answer": "B. running",
+                "prediction": " B. running."
+            },
+            {
+                "question": "What sport are the woman athletes participating in?\nA. running\nB. gardening\nC. knitting\nD. soccer",
+                "answer": "A. running",
+                "prediction": " A. running."
+            },
+            {
+                "question": "Which action are the woman athletes performing?\nA. writing\nB. running\nC. driving\nD. shopping",
+                "answer": "B. running",
+                "prediction": " B. running."
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the woman closest to the camera?\nA. Normal speed\nB. Slowest speed\nC. The fastest speed",
+                "answer": "C. The fastest speed",
+                "prediction": " A. Normal speed."
+            },
+            {
+                "question": "Compared to the other people in the video, how fast is the woman closest to the camera moving?\nA. Faster\nB. Same speed\nC. Slower",
+                "answer": "A. Faster",
+                "prediction": " A. Faster."
+            },
+            {
+                "question": "Among the individuals in the video, who is moving at the highest speed?\nA. Woman closest to the camera\nB. Man in the background\nC. Other people in the video",
+                "answer": "A. Woman closest to the camera",
+                "prediction": " B. Man in the background."
+            },
+            {
+                "question": "In terms of speed, how does the woman closest to the camera rank?\nA. Slowest\nB. Fastest\nC. Middle",
+                "answer": "B. Fastest",
+                "prediction": " B. Fastest."
+            }
+        ],
+        "direction": [
+            {
+                "question": "In which direction are the woman athletes running?\nA. from right to left\nB. in circles\nC. from left to right",
+                "answer": "C. from left to right",
+                "prediction": " The woman athletes are running from left to right. This is observed from the sequential order of the runners' positions relative to the camera angle. In the first frame, the runners are closer to the left side of the frame, and by the last frame, they have progressed towards the right side of the camera's view. Their running lanes are angled but are marked for a straight course, and there is no indication of a circular track in the video. The background elements, like the hurdles and the track's edge, remain consistent, which would not be the case if the runners were moving in circles."
+            },
+            {
+                "question": "From which side are the woman athletes entering the screen?\nA. right\nB. top\nC. left\nD. bottom",
+                "answer": "C. left",
+                "prediction": " B. top"
+            },
+            {
+                "question": "Which way are the woman athletes heading?\nA. from left to right\nB. away from the camera\nC. from right to left\nD. towards the camera",
+                "answer": "A. from left to right",
+                "prediction": " C. from right to left"
+            }
+        ]
+    },
+    "1098153561": {
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. normal speed\nB. time-lapse\nC. slow motion",
+                "answer": "B. time-lapse",
+                "prediction": " The video is a time-lapse. This can be deduced from the significant changes in the lighting and color of the leaves that occur over the short span of the video. In a normal speed video, such changes would take several hours or even days to occur, not seconds or minutes. Slow motion is characterized by a reduced playback speed of an action that is happening in real-time, which is not the case here."
+            },
+            {
+                "question": "How fast is the video playing?\nA. very slow\nB. at a regular pace\nC. in fast forward",
+                "answer": "C. in fast forward",
+                "prediction": " The video is playing in fast forward. This is evident from the way the foliage transitions from green to autumn colors very quickly, which would not occur at a regular pace within the span of a few seconds. Additionally, the movement of the leaves and branches, as well as the changing quality of light, suggest that the video is sped up significantly."
+            },
+            {
+                "question": "Which of the following best describes the tempo of the video?\nA. sluggish\nB. steady\nC. accelerated",
+                "answer": "C. accelerated",
+                "prediction": " B. steady."
+            },
+            {
+                "question": "In what manner is the video playing?\nA. gradually\nB. instantly\nC. quickly",
+                "answer": "C. quickly",
+                "prediction": " The video is playing in a gradual manner, starting with a lush green forest scene and transitioning through the seasons to end with an autumn scene filled with orange and yellow leaves. The best option to describe this is \"gradually\" as the video shows a slow and steady progression of the seasons within the forest. So the answer is A. gradually."
+            },
+            {
+                "question": "What is the rate at which the video is being played?\nA. rapid\nB. slow-paced\nC. moderate",
+                "answer": "A. rapid",
+                "prediction": " B. slow-paced."
+            }
+        ],
+        "attribute_change": [
+            {
+                "question": "What is happening to the leaves?\nA. changing shape\nB. falling off\nC. changing color from green to red\nD. changing color from red to green",
+                "answer": "C. changing color from green to red",
+                "prediction": " C. changing color from green to red."
+            },
+            {
+                "question": "What is the initial color of the leaves?\nA. red\nB. white\nC. green",
+                "answer": "C. green",
+                "prediction": " C. green"
+            },
+            {
+                "question": "What is the final color of the leaves?\nA. white\nB. red\nC. green",
+                "answer": "B. red",
+                "prediction": " B. red"
+            }
+        ]
+    },
+    "1084153195": {
+        "action": [
+            {
+                "question": "What are the dolphins doing in the water? \nA. Diving\nB. Swimming\nC. Sleeping\nD. Jumping",
+                "answer": "B. Swimming",
+                "prediction": " The dolphins in the water are swimming and jumping. They appear close to the surface, interacting with each other and with people on the nearby boat, likely in response to the presence of the boat and the people or as part of a trained activity if the setting is a marine park. So the best options are B. Swimming and D. Jumping."
+            },
+            {
+                "question": "Which activity can be observed in the dolphins? \nA. Dancing\nB. Swimming\nC. Climbing\nD. Diving",
+                "answer": "B. Swimming",
+                "prediction": " The activity that can be observed in the dolphins in the video is B. Swimming. They are swimming close to the surface of the water, and at least one of them is swimming close to a boat. The dolphins are moving through the water, and one of them is seen leaping out of the water in one of the frames. There is no indication of climbing or dancing, and while they may be diving at some point, the activity visible in the video is swimming."
+            },
+            {
+                "question": "What is the action of the dolphins in the video? \nA. Swimming\nB. Jumping\nC. Flying\nD. Reading",
+                "answer": "A. Swimming",
+                "prediction": " The action of the dolphins in the video is swimming. This is evident from the water splashes and the dolphins' bodies moving through the water. In one of the frames, the dolphins are even seen close to the surface appearing to interact with a person on a boat, but they are not jumping, flying, or reading. So the best option is:\n\nA. Swimming"
+            }
+        ],
+        "direction": [
+            {
+                "question": "What is the movement of the dolphins?\nA. swimming towards the shore\nB. hovering in one place\nC. swimming away from the shore",
+                "answer": "A. swimming towards the shore",
+                "prediction": " The movement of the dolphins appears to be towards the shore. This is indicated by their orientation and the wake behind them, which shows that they are moving in the direction of the camera's point of view, which is from the shore outwards. Additionally, their progression through the water can be seen by the changing position of their bodies and the ripples they create, consistent with forward motion. There is no evidence in the video of them remaining in one place or moving away from the shore."
+            },
+            {
+                "question": "In which direction are the dolphins swimming?\nA. parallel to the shore\nB. towards the shore\nC. away from the shore",
+                "answer": "B. towards the shore",
+                "prediction": " B. towards the shore."
+            },
+            {
+                "question": "If you observe the dolphins, what direction would you notice them heading?\nA. towards the shore\nB. parallel to the shore\nC. away from the shore",
+                "answer": "A. towards the shore",
+                "prediction": " B. parallel to the shore."
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the rate of movement in the video?\nA. fast speed\nB. no speed\nC. normal speed\nD. slow speed",
+                "answer": "C. normal speed",
+                "prediction": " The rate of movement in the video is slow speed. This is observed from the dolphins' swimming pace in the water, which is gentle and not rapid. They are moving calmly, likely alongside a boat given the presence of the blue boat rail in the foreground of the latter part of the video. There is no abrupt change in the scenery that would suggest fast movement, and the dolphins are not stationary, which rules out no speed. Their movement is consistent with typical swimming behavior, but the pace is slow, allowing for clear and calm observation of the dolphins."
+            },
+            {
+                "question": "Which word describes the pace of the video?\nA. stationary speed\nB. leisurely speed\nC. moderate speed\nD. rapid speed",
+                "answer": "C. moderate speed",
+                "prediction": " B. leisurely speed."
+            },
+            {
+                "question": "What term best describes the velocity of the video?\nA. average speed\nB. low speed\nC. high speed\nD. still speed",
+                "answer": "A. average speed",
+                "prediction": " The best term to describe the velocity of the video is \"high speed.\" This is indicated by the motion blur of the dolphins' tails and the rapid appearance and change in position of the dolphins as they surface, which are both characteristic of high-speed video capture."
+            },
+            {
+                "question": "What type of motion does the video exhibit?\nA. standard speed\nB. immobile speed\nC. sluggish speed\nD. swift speed",
+                "answer": "A. standard speed",
+                "prediction": " The best option is A. standard speed. The video shows dolphins swimming and interacting with each other at a normal speed. They are captured approaching the surface, likely to breathe, and then moving alongside a boat, which is also moving at a pace that corresponds with the typical observation of such marine animals in their natural habitat or in a controlled environment like an aquarium. The term 'standard speed' is appropriate as it does not imply any alteration to the natural motion of the dolphins and aligns with the typical behavior observed in such settings."
+            },
+            {
+                "question": "What is the tempo of the video?\nA. rapid speed\nB. unhurried speed\nC. regular speed\nD. static speed",
+                "answer": "C. regular speed",
+                "prediction": " B. unhurried speed."
+            }
+        ],
+        "order": [
+            {
+                "question": "What is the sequence of events involving dolphins?\nA. swimming towards the shore, then getting fed with fish\nB. swimming in circles\nC. getting fed with fish, then swimming towards the shore",
+                "answer": "A. swimming towards the shore, then getting fed with fish",
+                "prediction": " The best option is C. The dolphins are first seen swimming in the water, then they approach the side of the boat where they are likely being fed with fish. After this, they are seen swimming towards the shore. There is no indication in the video that they are swimming in circles."
+            },
+            {
+                "question": "What is the first event that happens to the dolphins?\nA. Getting fed with fish\nB. None of the above\nC. Swimming towards the shore",
+                "answer": "C. Swimming towards the shore",
+                "prediction": " The best option is A. Getting fed with fish. The video shows that the first event that happens is the dolphins swimming up to the side of the boat where they are likely being fed fish, as suggested by the presence of a person on the boat who is in a position to be feeding them. This is before any interaction with a blue structure, such as a rope or board, which they interact with later in the video."
+            },
+            {
+                "question": "What is the last event in order that happens to the dolphins?\nA. None of the above\nB. Swimming towards the shore\nC. Getting fed with fish",
+                "answer": "C. Getting fed with fish",
+                "prediction": " C. Getting fed with fish."
+            }
+        ]
     }
 }
