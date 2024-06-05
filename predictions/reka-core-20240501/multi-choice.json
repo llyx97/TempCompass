@@ -1093,5 +1093,516 @@
                 "prediction": " C. Getting fed with fish."
             }
         ]
+    },
+    "1054717541": {
+        "action": [
+            {
+                "question": "What is the person doing?\nA. cutting dough\nB. kneading dough\nC. grilling dough",
+                "answer": "B. kneading dough",
+                "prediction": " B. kneading dough."
+            },
+            {
+                "question": "Which action is the person performing?\nA. kneading dough\nB. cutting dough\nC. grilling dough",
+                "answer": "A. kneading dough",
+                "prediction": " The person in the video is performing option A, kneading dough. This can be determined by the act of folding, pressing, and stretching the dough with hands, which is a common kneading technique used to develop gluten in the dough. This process is distinct from cutting, which would involve a tool such as a knife or cutter, or grilling, which would require a cooking surface like a grill and typically involves a cooked or partially cooked dough."
+            },
+            {
+                "question": "In the video, what is the person engaged in?\nA. grilling dough\nB. kneading dough\nC. cutting dough",
+                "answer": "B. kneading dough",
+                "prediction": " B. kneading dough."
+            },
+            {
+                "question": "What activity is the person involved in?\nA. kneading dough\nB. grilling dough\nC. cutting dough",
+                "answer": "A. kneading dough",
+                "prediction": " The person is involved in **kneading dough**. This can be inferred from the presence of flour on the surface and the person's hands pushing and folding the dough, which are actions characteristic of the kneading process."
+            },
+            {
+                "question": "What action is demonstrated by the person?\nA. grilling dough\nB. kneading dough\nC. cutting dough",
+                "answer": "B. kneading dough",
+                "prediction": " B. kneading dough."
+            }
+        ],
+        "speed": [
+            {
+                "question": "How is the video playing?\nA. in slow motion\nB. with a time-lapse effect\nC. at normal speed",
+                "answer": "A. in slow motion",
+                "prediction": " The video is playing with a time-lapse effect. This conclusion is based on the noticeable changes in the dough's size and shape within just four frames. In a real-time video, the dough would not be seen transforming so quickly with each hand motion. Time-lapse is a technique that speeds up the rate of a video to show a longer period in a shorter time, which is consistent with the visual evidence provided."
+            },
+            {
+                "question": "What is the tempo of the video playback?\nA. medium\nB. slow\nC. fast",
+                "answer": "B. slow",
+                "prediction": " B. slow"
+            },
+            {
+                "question": "In what way is the video playing?\nA. rapidly\nB. slowly\nC. consistently",
+                "answer": "B. slowly",
+                "prediction": " The video is playing slowly. This is evident from the provided video, where there is a timestamp indicator that shows the video is being played at 0.25x speed, which is a quarter of the normal speed. This slow playback is a method sometimes used to emphasize and show in detail the actions taking place, which in this case is the process of kneading dough. There is no variation in the speed within the provided frames to suggest that it plays at different rates, so 'rapidly' and 'consistently' can be ruled out. The best option is:\n\nB. slowly"
+            },
+            {
+                "question": "What is the relative speed of the video compared to real-time?\nA. slower\nB. faster\nC. equal",
+                "answer": "A. slower",
+                "prediction": " The video is faster compared to real-time. This can be inferred from the fact that the video is sped up, as indicated by the text in the video itself. In real life, the process of kneading dough takes several minutes to properly develop the gluten, which is essential for the texture of the bread. The video, however, condenses this process to a much shorter length of time for the purpose of creating a brief and engaging clip."
+            }
+        ]
+    },
+    "1081092839": {
+        "direction": [
+            {
+                "question": "What is the direction of the sun?\nA. descending\nB. ascending\nC. moving sideways",
+                "answer": "A. descending",
+                "prediction": " The sun's direction in the video is ascending. This conclusion is based on the observation that the sun is shown near the horizon at the beginning of the video and its position rises as the video progresses. The colors of the sky and the shadows on the ground are consistent with what one would expect during sunrise, where the sun moves from the horizon upward."
+            },
+            {
+                "question": "What is the movement pattern of the sun?\nA. falling\nB. rising\nC. remaining still",
+                "answer": "A. falling",
+                "prediction": " B. rising"
+            },
+            {
+                "question": "What is the movement direction of the sun?\nA. descending\nB. ascending\nC. rotating",
+                "answer": "A. descending",
+                "prediction": " A. descending"
+            },
+            {
+                "question": "In what direction does the sun travel during sunset?\nA. downwards\nB. upwards\nC. horizontally",
+                "answer": "A. downwards",
+                "prediction": " The sun travels downwards during sunset. In the video, the sun is setting on the horizon, moving from a higher to a lower position in the sky, changing the color of the sky and casting long shadows on the snow-covered ground."
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. time-lapse\nB. slow motion\nC. normal speed",
+                "answer": "A. time-lapse",
+                "prediction": " The speed of the video is A. time-lapse. This can be deduced from the changes in the position of the sun and the color of the sky, which are occurring much faster than would be observed in a typical video. In a time-lapse, a series of photographs are taken over a long period and then played back at an accelerated rate, so that changes that would normally occur slowly are seen quickly. This is a common technique used in photography to capture dynamic changes in the environment, such as the movement of the sun or the changing of the seasons, which appears to be the case in this video."
+            },
+            {
+                "question": "What is the tempo of the video?\nA. normal speed\nB. slow motion\nC. fast pace",
+                "answer": "C. fast pace",
+                "prediction": " B. slow motion."
+            },
+            {
+                "question": "Which speed is the video playing at?\nA. time-lapse\nB. slow motion\nC. regular speed",
+                "answer": "A. time-lapse",
+                "prediction": " The video is playing at time-lapse speed. This can be deduced from the way the sun moves quickly across the sky and the changes in the lighting and colors of the sky happen much faster than they would in a regular video. Time-lapse is a technique where a series of photographs are taken over a long period, then played back at a faster rate to show changes that would otherwise happen too slowly to perceive. This video does not play at slow motion, which would make events appear slower than they are happening in real life, nor does it play at regular speed."
+            },
+            {
+                "question": "What is the rate of the video?\nA. regular speed\nB. slow motion\nC. time-lapse",
+                "answer": "C. time-lapse",
+                "prediction": " The rate of the video is C. time-lapse. This can be deduced from the way the sky changes color and the position of the sun in the video. In a time-lapse video, a series of photographs are taken over a long period and then compiled to show the progression of time in a faster motion. This is different from regular speed or slow motion, where the video would show the scene unfolding in real-time or slower than it actually occurred. The video shows a sunset with a rapid change in colors and the sun moving quickly across the sky, which is characteristic of a time-lapse recording."
+            }
+        ]
+    },
+    "1059462749": {
+        "action": [
+            {
+                "question": "Which action is being performed by the person?\nA. reading a book\nB. cooking\nC. climbing down a ladder\nD. riding a bike",
+                "answer": "C. climbing down a ladder",
+                "prediction": " C. climbing down a ladder."
+            },
+            {
+                "question": "What activity is taking place with the person?\nA. playing soccer\nB. painting a picture\nC. dancing\nD. climbing down a ladder",
+                "answer": "D. climbing down a ladder",
+                "prediction": " D. climbing down a ladder"
+            },
+            {
+                "question": "What is the main action of the person in the video?\nA. playing basketball\nB. climbing down a ladder\nC. singing\nD. running",
+                "answer": "B. climbing down a ladder",
+                "prediction": " B. climbing down a ladder."
+            },
+            {
+                "question": "Which of the following actions is being demonstrated by the person?\nA. climbing down a ladder\nB. playing guitar\nC. writing a letter\nD. sleeping",
+                "answer": "A. climbing down a ladder",
+                "prediction": " The person in the video is climbing down a ladder. This is evident from the upward perspective of the camera showing the person descending towards the bottom of the frame, the rungs of the ladder, and the movement of the person's feet and legs as they move down each step. The other options listed, such as playing guitar, writing a letter, or sleeping, are not consistent with the visual information provided in the video."
+            }
+        ],
+        "direction": [
+            {
+                "question": "In which direction is the person moving?\nA. rightwards\nB. downwards\nC. upwards\nD. leftwards",
+                "answer": "B. downwards",
+                "prediction": " C. upwards."
+            },
+            {
+                "question": "What word describes the movement of the person?\nA. standing\nB. descending\nC. climbing up\nD. jumping",
+                "answer": "B. descending",
+                "prediction": " The best option to describe the movement of the person in the video is \"climbing up.\" This is evident from the sequential positioning of the person's feet on the rungs of the ladder and the upward progression towards the top of the silo. The individual's hands are also seen gripping the rungs above, which is consistent with the motion of climbing rather than descending or standing still. There is no indication of the person jumping, as the feet remain in contact with the ladder throughout the frames provided."
+            },
+            {
+                "question": "From a higher point to a lower point, the person is:\nA. rotating\nB. rising\nC. staying still\nD. descending",
+                "answer": "D. descending",
+                "prediction": " D. descending"
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. time-lapse\nB. normal speed\nC. slow motion",
+                "answer": "B. normal speed",
+                "prediction": " The speed of the video is B. normal speed."
+            },
+            {
+                "question": "How fast is the video playing?\nA. slowly\nB. quickly\nC. normally",
+                "answer": "C. normally",
+                "prediction": " B. quickly."
+            },
+            {
+                "question": "What is the pace of the video?\nA. regular\nB. accelerated\nC. decelerated",
+                "answer": "A. regular",
+                "prediction": " B. accelerated"
+            },
+            {
+                "question": "At what rate is the video played?\nA. moderate speed\nB. slow speed\nC. fast speed",
+                "answer": "A. moderate speed",
+                "prediction": " B. slow speed."
+            },
+            {
+                "question": "In what tempo is the video running?\nA. high speed\nB. normal speed\nC. low speed",
+                "answer": "B. normal speed",
+                "prediction": " B. normal speed."
+            }
+        ]
+    },
+    "1077590324": {
+        "action": [
+            {
+                "question": "What is the woman doing in the video?\nA. doing laundry\nB. cooking\nC. singing",
+                "answer": "A. doing laundry",
+                "prediction": " A. doing laundry."
+            },
+            {
+                "question": "What activity is the woman engaged in?\nA. dancing\nB. doing laundry\nC. painting",
+                "answer": "B. doing laundry",
+                "prediction": " B. doing laundry\n\nThe woman is engaged in doing laundry. This is evident from several key steps shown in the video. First, she is seen taking laundry out of a washing machine. This is indicated by the presence of a washing machine door open at her knee height, from which she removes a wet item of clothing. Next, she is shown putting the laundry item into a laundry basket, which is a common step people take when doing laundry, transferring items from the washer to a basket to be either dried or ironed. The presence of a bottle that likely contains laundry detergent or fabric softener next to the washing machine further supports this activity. The setting is a laundry room or a section of a home dedicated to laundry, as indicated by the presence of the washing machine and a sink typically used for washing or rinsing clothes."
+            },
+            {
+                "question": "Which action is the woman performing?\nA. swimming\nB. doing laundry\nC. hiking",
+                "answer": "B. doing laundry",
+                "prediction": " B. doing laundry."
+            },
+            {
+                "question": "What task is the woman involved in?\nA. knitting\nB. doing laundry\nC. gardening",
+                "answer": "B. doing laundry",
+                "prediction": " B. doing laundry."
+            },
+            {
+                "question": "Which action is depicted in the video?\nA. reading\nB. sleeping\nC. doing laundry",
+                "answer": "C. doing laundry",
+                "prediction": " The action depicted in the video is C. doing laundry. This is evident from the sequence of actions performed by the person in the video: they are seen taking laundry out of a washing machine, checking the pockets of the clothes, and then putting the laundry into a bag. These actions are consistent with someone doing laundry. There is no indication of reading, as no books or reading materials are present, nor is there any indication of sleeping, as the person is fully dressed and engaged in an activity."
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the entire video?\nA. slow motion\nB. normal speed\nC. time-lapse",
+                "answer": "B. normal speed",
+                "prediction": " B. normal speed."
+            },
+            {
+                "question": "What is the velocity of the video playback?\nA. low speed\nB. normal speed\nC. high speed",
+                "answer": "B. normal speed",
+                "prediction": " B. normal speed."
+            },
+            {
+                "question": "In what fashion is the video being played?\nA. rapid motion\nB. average speed\nC. slow motion",
+                "answer": "B. average speed",
+                "prediction": " The video is being played in slow motion. This is evident from the way the person's movements are captured with a sense of extended time, which is not typical for videos recorded at average speed. Additionally, the motion appears smooth without any breaks or jumps that would indicate rapid motion or fast forwarding. Therefore, the best option that describes the fashion of the video is:\n\nC. slow motion"
+            }
+        ],
+        "order": [
+            {
+                "question": "What is the order of the events performed by the woman?\nA. Sitting down to operate the washing machine and then putting clothes into the washing machine\nB. Putting clothes into the washing machine and then standing up to operate the washing machine\nC. Operate the washing machine and then putting clothes into the washing machine\nD. Putting clothes into the washing machine and then sitting down to operate the washing machine",
+                "answer": "B. Putting clothes into the washing machine and then standing up to operate the washing machine",
+                "prediction": " B. Putting clothes into the washing machine and then standing up to operate the washing machine"
+            },
+            {
+                "question": "What is the sequence of actions taken by the woman?\nA. Turning off the washing machine and then getting dressed\nB. Putting clothes into the washing machine and then turning it on\nC. Turning off the washing machine and then putting clothes into it\nD. Getting dressed and then turning on the washing machine",
+                "answer": "B. Putting clothes into the washing machine and then turning it on",
+                "prediction": " B. Putting clothes into the washing machine and then turning it on."
+            },
+            {
+                "question": "What is the proper sequence of the woman's actions?\nA. Opening the door of the washing machine and then standing in front of it\nB. Standing in front of the washing machine and then opening the door\nC. Closing the door of the washing machine and then standing in front of it\nD. Standing in front of the washing machine and then closing the door",
+                "answer": "C. Closing the door of the washing machine and then standing in front of it",
+                "prediction": " B. Standing in front of the washing machine and then opening the door."
+            }
+        ]
+    },
+    "1040541401": {
+        "action": [
+            {
+                "question": "What are the children doing?\nA. painting pictures\nB. reading books\nC. doing chemical experiments\nD. playing soccer",
+                "answer": "C. doing chemical experiments",
+                "prediction": " C. doing chemical experiments."
+            },
+            {
+                "question": "What activities are the children engaged in?\nA. playing chess\nB. doing chemical experiments\nC. swimming in the pool\nD. dancing ballet",
+                "answer": "B. doing chemical experiments",
+                "prediction": " B. doing chemical experiments."
+            },
+            {
+                "question": "Which action are the children involved in?\nA. building sandcastles\nB. baking cookies\nC. doing chemical experiments\nD. playing hide and seek",
+                "answer": "C. doing chemical experiments",
+                "prediction": " The children are involved in doing chemical experiments. This is indicated by the presence of lab equipment, such as test tubes, a beaker, and a flask containing a blue liquid, which are typical of a chemistry lab setting. The young students are wearing safety goggles, and one is pouring a liquid from a bottle into a test tube, which is a common practice in conducting chemical experiments to observe reactions. The setting does not resemble a place where sandcastles would be built, cookies baked, or a game of hide and seek played, as those activities would not require lab equipment or safety gear."
+            },
+            {
+                "question": "What is the main action performed by the children?\nA. doing chemical experiments\nB. flying kites\nC. jumping on the trampoline\nD. riding bicycles",
+                "answer": "A. doing chemical experiments",
+                "prediction": " A. doing chemical experiments."
+            },
+            {
+                "question": "In which activity are the children participating?\nA. singing in a choir\nB. acting in a play\nC. doing chemical experiments\nD. playing video games",
+                "answer": "C. doing chemical experiments",
+                "prediction": " The children are participating in doing chemical experiments. This is evident from the laboratory setting, the presence of multiple beakers containing different colored liquids, and the children's engagement with scientific equipment under the guidance of an adult who appears to be a teacher. They are wearing lab coats and safety goggles, which are standard attire for conducting chemistry experiments to ensure safety. The beakers and test tubes, along with the children's focused expressions, indicate that this is an educational science activity rather than a choir, play, or video game."
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. time-lapse\nB. normal speed\nC. super slow motion",
+                "answer": "B. normal speed",
+                "prediction": " B. normal speed."
+            },
+            {
+                "question": "How fast is the video playing?\nA. normal speed\nB. very slow\nC. extremely fast",
+                "answer": "A. normal speed",
+                "prediction": " The video is playing at a normal speed. The best option is:\n\nA. normal speed\n\nIn the video, the actions of the children and the teacher appear to be in real-time, and there is no visual or contextual evidence to suggest that the video is being played at an altered speed. The students are actively engaged in their experiment, and the teacher is attentively guiding them through the process. The liquid being poured from one container to another flows at a natural rate, which would be consistent with normal speed playback."
+            },
+            {
+                "question": "In what pace is the video running?\nA. rapid speed\nB. 10 times slow speed\nC. medium speed",
+                "answer": "C. medium speed",
+                "prediction": " B. 10 times slow speed."
+            }
+        ]
+    },
+    "1059072773": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the ice cream?\nA. melting\nB. freezing\nC. evaporating\nD. solidifying",
+                "answer": "A. melting",
+                "prediction": " A. melting"
+            },
+            {
+                "question": "How is the ice cream changing?\nA. changing color\nB. being eaten out\nC. turning into liquid\nD. solidifying into a ball",
+                "answer": "C. turning into liquid",
+                "prediction": " The ice cream is turning into liquid. The shape of the ice cream is changing from a ball into a flat, round, and undefined shape, which is consistent with melting. There's no evidence of color change, being eaten, or becoming more solid. So the best option is C, turning into liquid."
+            },
+            {
+                "question": "Which term best describes the state change of the ice cream?\nA. evaporation\nB. solidifying\nC. melting",
+                "answer": "C. melting",
+                "prediction": " C. melting"
+            }
+        ]
+    },
+    "1064645467": {
+        "action": [
+            {
+                "question": "What is the man doing?\nA. cooking\nB. reading a book\nC. exercising\nD. watching TV",
+                "answer": "C. exercising",
+                "prediction": " The man in the video is exercising. The best option to describe his activity is:\n\nC. exercising\n\nAt the beginning of the video, he is seen taking off his jacket and getting into a stance to perform arm circles. Throughout the video, he is in a playground setting, which is consistent with exercising or engaging in physical activity. There is no indication that he is cooking, reading a book, or watching TV, as those activities would not typically take place in a playground and do not match the actions he is performing."
+            },
+            {
+                "question": "Which activity is the man engaged in?\nA. dancing\nB. doing exercise\nC. swimming\nD. painting",
+                "answer": "B. doing exercise",
+                "prediction": " B. doing exercise"
+            },
+            {
+                "question": "In the video, what is the man involved in?\nA. knitting\nB. doing yoga\nC. horseback riding\nD. exercising intensively",
+                "answer": "D. exercising intensively",
+                "prediction": " B. doing yoga."
+            },
+            {
+                "question": "What activity is the man participating in?\nA. exercising\nB. playing chess\nC. gardening\nD. business activity",
+                "answer": "A. exercising",
+                "prediction": " The man is participating in exercising. This is evident from the fact that the video shows him in a playground, where he starts off taking off his jacket and ends up engaging in an activity that resembles a workout, such as squats or lunges, which are common body-weight exercises."
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. slow motion\nB. time-lapse\nC. normal speed",
+                "answer": "C. normal speed",
+                "prediction": " The speed of the video is normal speed. This can be determined by several indicators: the person's movement appears fluid without any jerky movements that would indicate a time-lapse, and there's no sense of motion blur or speed-ramping that would suggest slow motion. Furthermore, the background and the person's actions are consistent with what would be seen in real-time footage."
+            },
+            {
+                "question": "How fast is the video playing?\nA. normal speed\nB. fast speed\nC. slow speed",
+                "answer": "A. normal speed",
+                "prediction": " The video is playing at normal speed. This can be inferred from the fluidity of the man's movements and the lack of any visual or audio cues that would indicate altered speed. Additionally, the background and the person's hair movement are consistent with what would be expected in a video recorded at its normal speed."
+            },
+            {
+                "question": "In what pace is the entire video played?\nA. moderately\nB. normally\nC. rapidly",
+                "answer": "B. normally",
+                "prediction": " B. normally."
+            },
+            {
+                "question": "Which option describes the speed of the video accurately?\nA. slowest speed\nB. fastest speed\nC. normal speed",
+                "answer": "C. normal speed",
+                "prediction": " C. normal speed."
+            },
+            {
+                "question": "What is the video playback rate?\nA. accelerated speed\nB. decelerated speed\nC. normal speed",
+                "answer": "C. normal speed",
+                "prediction": " The video is played at an accelerated speed. This conclusion is based on the observation that the movements of the person in the video appear smooth and continuous, which is characteristic of motion that has been sped up. Additionally, there are no abrupt transitions or frame drops that would indicate a decelerated speed. Therefore, the best option is:\n\nA. Accelerated speed"
+            }
+        ],
+        "order": [
+            {
+                "question": "What is the order of events for the man?\nA. jumping up to grab the bar and then putting on his jacket\nB. putting on his jacket and then jumping up to grab the bar\nC. jumping up to grab the bar and then taking off his jacket\nD. taking off his jacket and then jumping up to grab the bar",
+                "answer": "D. taking off his jacket and then jumping up to grab the bar",
+                "prediction": " D. taking off his jacket and then jumping up to grab the bar."
+            },
+            {
+                "question": "When does the man jump up to grab the bar?\nA. before taking off his jacket\nB. after taking off his jacket\nC. while taking off his jacket",
+                "answer": "B. after taking off his jacket",
+                "prediction": " B. after taking off his jacket."
+            },
+            {
+                "question": "How does the man perform the actions?\nA. he jumps up to grab the bar and then takes off his jacket\nB. he jumps up to grab the bar and then takes off his jacket with his hands\nC. he takes off his jacket and then jumps up to grab the bar with his hands",
+                "answer": "C. he takes off his jacket and then jumps up to grab the bar with his hands",
+                "prediction": " C. he takes off his jacket and then jumps up to grab the bar with his hands."
+            }
+        ]
+    },
+    "1088279109": {
+        "direction": [
+            {
+                "question": "What is the elevator doing?\nA. rising\nB. going down\nC. staying still",
+                "answer": "A. rising",
+                "prediction": " The elevator is going down. This is clear from the video because we can see the elevator from the top and the floor is getting higher."
+            },
+            {
+                "question": "In which direction is the elevator moving?\nA. up\nB. down\nC. not moving",
+                "answer": "A. up",
+                "prediction": " The elevator is moving up. This is indicated by the descending position of the elevator in the frame. In the first part of the video, the elevator is higher up and further away. In the latter part of the video, the elevator is lower down and closer to the viewpoint, indicating that it is moving in a downward direction from the perspective of the camera."
+            },
+            {
+                "question": "What is the direction of the elevator's movement?\nA. descending\nB. ascending\nC. stationary",
+                "answer": "B. ascending",
+                "prediction": " The direction of the elevator's movement is A. descending. This is evident from the video as the elevator changes from being higher up and visible through the glass ceiling to being lower down and visible through the glass walls. The movement is smooth, indicating that the elevator is in motion rather than stationary."
+            },
+            {
+                "question": "Which way is the elevator going?\nA. up\nB. down\nC. stopped",
+                "answer": "A. up",
+                "prediction": " A. up."
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. slow motion\nB. time-lapse\nC. normal speed",
+                "answer": "C. normal speed",
+                "prediction": " The video is a time-lapse. This can be determined by the noticeable change in the position of the elevator in each frame, as well as the fact that the video is captioned as a time-lapse. Time-lapse videos are characterized by their accelerated effect, which shows a slower event (like an elevator moving) at a much faster rate, and is achieved by taking many photographs over a long period and then playing them back at an increased speed. This is different from slow motion, which is a technique used to show fast events in slow detail, and normal speed, which would show the elevator moving at the actual speed it is moving without any manipulation of the footage."
+            },
+            {
+                "question": "In which mode is the video being played?\nA. normal speed\nB. fast forward\nC. rewind\nD. pause",
+                "answer": "A. normal speed",
+                "prediction": " A. normal speed."
+            },
+            {
+                "question": "What is the tempo of the video?\nA. normal speed\nB. slow tempo\nC. no tempo\nD. fast tempo",
+                "answer": "A. normal speed",
+                "prediction": " The video is at normal speed. It is not slowed down or sped up, it is in real-time. So the best option is A. normal speed."
+            }
+        ]
+    },
+    "1093573255": {
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. normal speed\nB. slow motion\nC. time-lapse",
+                "answer": "C. time-lapse",
+                "prediction": " The speed of the video is neither normal speed, slow motion, nor time-lapse. The video is recorded in such a way that it shows the plant's condition over time, but without additional information, it cannot be determined if the video is played at normal speed or if it's a time-lapse. However, since there are only three frames available and the plant does not show a considerable difference in the progression of the leaves' wilting, it can be assumed that the video is played at normal speed."
+            },
+            {
+                "question": "At what pace is the video running?\nA. steadily\nB. sluggishly\nC. rapidly",
+                "answer": "C. rapidly",
+                "prediction": " The video is running steadily. The leaves of the plant are not moving, which would indicate a rapid or sluggish motion, but the lighting and the shadows indicate that time is passing at a regular rate."
+            },
+            {
+                "question": "The video is played at what kind of speed?\nA. regular speed\nB. timelapse\nC. decelerated motion",
+                "answer": "B. timelapse",
+                "prediction": " The video is played at a timelapse speed. This conclusion is based on the observation that the plant appears to be changing its position and orientation significantly across the frames provided. In a regular speed video, such a drastic change would not occur so quickly. Decelerated motion would mean that the video is slowed down from its original recording speed, which does not seem to be the case here. Therefore, the best option is:\n\nB. timelapse"
+            }
+        ],
+        "attribute_change": [
+            {
+                "question": "What is happening to the plant?\nA. wilting\nB. reviving\nC. shedding leaves\nD. turning into buds",
+                "answer": "B. reviving",
+                "prediction": " The best option is A. wilting. The video shows a plant with leaves that are hanging down and appear to be drying out. This is commonly known as wilting, which can be due to lack of water, disease, or the plant nearing the end of its life cycle. The leaves are not green and full of life, which would indicate that the plant is reviving (B), nor are they being shed in a way that suggests a natural process like autumnal shedding (C). There's also no sign of buds forming, which would indicate new growth (D)."
+            },
+            {
+                "question": "How is the plant changing?\nA. withering away\nB. turning yellow\nC. reviving\nD. blooming",
+                "answer": "C. reviving",
+                "prediction": " The plant is withering away. This is evident from the leaves' brown edges and the general droopiness of the plant, which indicate that the plant is not healthy and could be suffering from lack of water, nutrients, or other care. So the best option is A."
+            },
+            {
+                "question": "In what way is the plant transforming?\nA. wilting\nB. rotting\nC. reviving\nD. shedding leaves",
+                "answer": "C. reviving",
+                "prediction": " The best option to describe the transformation of the plant in the video is A. wilting. This can be inferred from the downward bending and drying of the leaves. There is no visible sign of rotting, such as discoloration or mold. The plant does not appear to be reviving, as one would expect to see some green color return or leaves becoming more rigid if that were the case. Lastly, while the plant is shedding leaves, the key transformation is that the leaves are wilting before they fall."
+            }
+        ]
+    },
+    "1105233293": {
+        "action": [
+            {
+                "question": "What are the people doing in the video?\nA. swimming\nB. dancing\nC. playing basketball",
+                "answer": "C. playing basketball",
+                "prediction": " C. playing basketball."
+            },
+            {
+                "question": "What activity are the people engaged in?\nA. playing basketball\nB. sleeping\nC. eating",
+                "answer": "A. playing basketball",
+                "prediction": " The people are engaged in playing basketball. This is evident from the video that shows multiple players on a basketball court, wearing athletic gear and playing with a basketball. The court is marked with the key, three-point line, and other markings specific to basketball. The players are seen dribbling, defending, and attempting to score in a hoop, which are all actions involved in the game of basketball. The presence of a referee and the players' focus on the ball further indicate that this is an organized basketball game."
+            },
+            {
+                "question": "Which sport are the people participating in?\nA. playing basketball\nB. soccer\nC. tennis",
+                "answer": "A. playing basketball",
+                "prediction": " The sport being played in the video is basketball. The video shows multiple players on a basketball court, wearing basketball attire, and handling a basketball while playing. The court has markings for basketball, and the hoop is visible, which is consistent with the rules and setting of a basketball game."
+            },
+            {
+                "question": "What is the action of the people in the footage?\nA. playing basketball\nB. reading\nC. writing",
+                "answer": "A. playing basketball",
+                "prediction": " The action being performed in the footage is A. playing basketball. This is evident from the video's content, which shows a basketball court and players engaging in a basketball game. The players are wearing athletic gear and are in the middle of a match, with one player dribbling the ball and attempting to make a shot at the basket. The other players are either defending or preparing to receive a pass, all of which are typical actions seen in a basketball game."
+            },
+            {
+                "question": "In the video, what are the people actively involved in?\nA. painting\nB. shopping\nC. playing basketball",
+                "answer": "C. playing basketball",
+                "prediction": " C. playing basketball."
+            }
+        ],
+        "speed": [
+            {
+                "question": "How would you describe the pace of the video?\nA. accelerated speed\nB. normal speed\nC. reversed speed\nD. slow-motion",
+                "answer": "B. normal speed",
+                "prediction": " The pace of the video is best described as normal speed. The video shows a sequence of events in a basketball game where players are making passes, dribbling, and playing defense. There is no indication that the video has been altered to show the action at an accelerated, reversed, or slow-motion pace. The players' movements appear natural and fluid, consistent with the typical speed of a basketball game as it unfolds in real-time."
+            },
+            {
+                "question": "What is the tempo of the video playback?\nA. normal speed\nB. freeze frame\nC. time-lapse\nD. fast-forward",
+                "answer": "A. normal speed",
+                "prediction": " The video is played at normal speed. This can be deduced from the fact that the movement of the players is fluid and continuous, and the camera follows the game in real-time, as indicated by the sequence of events unfolding in a coherent and uninterrupted manner consistent with typical basketball game footage."
+            },
+            {
+                "question": "Which option best characterizes the speed of the entire video?\nA. decelerated motion\nB. quickened pace\nC. normal speed\nD. real-time speed",
+                "answer": "C. normal speed",
+                "prediction": " C. normal speed."
+            },
+            {
+                "question": "What is the velocity at which the video is playing?\nA. rapid speed\nB. slow motion\nC. stopped frame\nD. normal speed",
+                "answer": "D. normal speed",
+                "prediction": " The video is playing at a rapid speed. This can be inferred from the way the players are moving in the video. In sports videos, when the frame rate is normal or the speed is not altered, players move fluently without any visual glitches or abrupt changes in their positions between frames. In contrast, slow motion would show a much more gradual movement, and a stopped frame would show players in a fixed position without any motion. Since the players' movements between the frames provided are continuous and dynamic, it suggests that the video is being played at a rapid speed, possibly to show the highlights or key moments of the game in a shorter span of time."
+            },
+            {
+                "question": "How would you describe the rate at which the video is progressing?\nA. slo-mo\nB. normal speed\nC. expedited speed\nD. rewinding speed",
+                "answer": "B. normal speed",
+                "prediction": " The video is progressing at normal speed. The players' movements are fluid without any noticeable slowing or acceleration. The ball is being dribbled and passed at a pace consistent with a regular basketball game, and the players' actions are not overly elongated or rushed, which would indicate slo-mo or expedited speed, respectively. There is no backward movement of players or the ball that would suggest rewinding speed. Therefore, the best option is:\n\nB. normal speed"
+            }
+        ],
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. Shooting the basketball and then passing the ball to each other\nB. Shooting the basketball and then dribbling the ball\nC. Passing the ball to each other and then shooting the basketball",
+                "answer": "C. Passing the ball to each other and then shooting the basketball",
+                "prediction": " The best option is C. Passing the ball to each other and then shooting the basketball."
+            },
+            {
+                "question": "What is the sequence of actions performed by the players?\nA. Shooting the basketball and then passing the ball to each other\nB. Shooting the basketball and then blocking the opponent\nC. Passing the ball to each other and then shooting the basketball",
+                "answer": "C. Passing the ball to each other and then shooting the basketball",
+                "prediction": " The best option is C. Passing the ball to each other and then shooting the basketball."
+            },
+            {
+                "question": "Arrange the events involving the players in the correct order.\nA. dribbling, shooting, passing the basketball\nB. shooting the basketball, passing the ball to each other\nC. passing the ball to each other, shooting the basketball",
+                "answer": "C. passing the ball to each other, shooting the basketball",
+                "prediction": " C. passing the ball to each other, shooting the basketball, dribbling."
+            }
+        ]
     }
 }
