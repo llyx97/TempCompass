@@ -1604,5 +1604,1193 @@
                 "prediction": " C. passing the ball to each other, shooting the basketball, dribbling."
             }
         ]
+    },
+    "1077146132": {
+        "action": [
+            {
+                "question": "What is the woman doing in the video?\nA. waking up\nB. tossing and turning in the bed\nC. falling asleep",
+                "answer": "A. waking up",
+                "prediction": " The woman in the video is A. waking up. This is evidenced by the first frame where she is lying still in bed with her eyes closed, and the following frames where she opens her eyes, sits up, and pulls back the curtains to let the sunlight in. These actions indicate the process of waking up rather than falling asleep or just tossing and turning in bed."
+            },
+            {
+                "question": "What action is the woman performing?\nA. waking up\nB. tossing and turning in the bed\nC. falling asleep",
+                "answer": "A. waking up",
+                "prediction": " The woman is performing action A. Waking up. This is evident from the first frame where she is lying still with her eyes closed, possibly simulating the state of being asleep. In the second frame, she is shown to be turning around in bed with her eyes open, and by the third and fourth frames, she has pulled back the curtains and is standing by the window with her arms outstretched, facing the light, which typically symbolizes waking up or a new beginning."
+            },
+            {
+                "question": "Which of the following actions is the woman engaged in?\nA. tossing and turning in the bed\nB. waking up\nC. falling asleep",
+                "answer": "B. waking up",
+                "prediction": " B. waking up."
+            },
+            {
+                "question": "In the video, what is the woman's activity?\nA. waking up\nB. tossing and turning in the bed\nC. falling asleep",
+                "answer": "A. waking up",
+                "prediction": " A. waking up."
+            },
+            {
+                "question": "What action is depicted in the video?\nA. falling asleep\nB. waking up\nC. tossing and turning in the bed",
+                "answer": "B. waking up",
+                "prediction": " B. waking up."
+            }
+        ],
+        "order": [
+            {
+                "question": "What is the first event in the sequence?\nA. Getting out of bed\nB. Opening the curtains\nC. Both events happen simultaneously",
+                "answer": "A. Getting out of bed",
+                "prediction": " B. Opening the curtains"
+            },
+            {
+                "question": "Which event occurs after getting out of bed?\nA. Opening the curtains\nB. Closing the curtains\nC. None of the above",
+                "answer": "A. Opening the curtains",
+                "prediction": " A. Opening the curtains."
+            },
+            {
+                "question": "What is the last event to occur?\nA. Opening the curtains\nB. None of the above\nC. Getting out of bed",
+                "answer": "A. Opening the curtains",
+                "prediction": " C. Getting out of bed"
+            }
+        ],
+        "attribute_change": [
+            {
+                "question": "What is happening to the video?\nA. staying the same brightness\nB. turning darker\nC. turning brighter",
+                "answer": "C. turning brighter",
+                "prediction": " C. turning brighter."
+            },
+            {
+                "question": "How does the video change in terms of brightness?\nA. decreasing\nB. remaining constant\nC. increasing",
+                "answer": "C. increasing",
+                "prediction": " C. increasing."
+            },
+            {
+                "question": "What is occurring with the video's attribute?\nA. maintaining steady brightness\nB. getting brighter\nC. getting dimmer",
+                "answer": "B. getting brighter",
+                "prediction": " The best option is B. getting brighter."
+            }
+        ]
+    },
+    "1086688682": {
+        "attribute_change": [
+            {
+                "question": "What change is happening to the traffic lights?\nA. From red to green\nB. From red to yellow\nC. From yellow to red\nD. From green to red",
+                "answer": "A. From red to green",
+                "prediction": " The traffic light is changing from red to green. This can be observed in the video where the red light is on, and then the green light comes on while the red turns off. There is no yellow light shown in the video, so we can conclude that the change is from red to green. So the answer is A."
+            },
+            {
+                "question": "What is the attribute change occurring to the traffic lights?\nA. Changing color sequence\nB. Dimming brightness\nC. Switching off\nD. Blinking rapidly",
+                "answer": "A. Changing color sequence",
+                "prediction": " The traffic lights in the video are undergoing a color sequence change from red to green. This is a standard function of traffic lights to manage the flow of traffic from one direction to another. There is no dimming of brightness, complete switching off, or blinking that is occurring. The red light fades as the green light comes on, which is indicative of a change in signal for the direction of traffic it is facing."
+            },
+            {
+                "question": "What alteration is taking place to the traffic lights?\nA. Transitioning from yellow to green\nB. Transitioning from green to yellow\nC. Transitioning from red to green\nD. Transitioning from green to red",
+                "answer": "C. Transitioning from red to green",
+                "prediction": " The best option is D. Transitioning from green to red. Initially, the video shows a traffic light with a green signal. In the next frame, the green signal is still on, but it appears to be dimmer, suggesting that it is in the process of turning off. By the third frame, the light is completely red, indicating that the transition from green to red is complete. There is no yellow signal shown, which is often used to indicate a change is imminent, but the sequence does not go from green to yellow to red in this video."
+            }
+        ]
+    },
+    "1096612823": {
+        "action": [
+            {
+                "question": "In the video, what can be observed about the car's movement?\nA. sliding on ice\nB. dancing on the rooftop\nC. buried in the sand\nD. driving on the road",
+                "answer": "D. driving on the road",
+                "prediction": " D. driving on the road"
+            },
+            {
+                "question": "What is happening to the car?\nA. driving on the road\nB. being fixed\nC. sleeping",
+                "answer": "A. driving on the road",
+                "prediction": " A. driving on the road."
+            },
+            {
+                "question": "What is the car doing in the scene?\nA. flying in the sky\nB. swimming in the ocean\nC. parked on the sidewalk\nD. driving on the road",
+                "answer": "D. driving on the road",
+                "prediction": " D. driving on the road"
+            }
+        ],
+        "direction": [
+            {
+                "question": "What is happening to the video?\nA. zooming out\nB. rotating\nC. panning left\nD. zooming in",
+                "answer": "D. zooming in",
+                "prediction": " The video is being zoomed in. This can be determined by the increasing curvature of the road and the fact that the edges of the video are getting closer to the center, which is the typical result of a zooming in action as opposed to a panning or rotating action."
+            },
+            {
+                "question": "What is the direction of the video?\nA. panning left\nB. fading out\nC. zooming in\nD. moving backward",
+                "answer": "C. zooming in",
+                "prediction": " The video is moving backward. This is indicated by the car appearing to move from a higher curve to a lower one in the video. Despite the car's actual direction being forward, the camera's perspective is aerial and angled in such a way that the path of the road creates an illusion of backward motion relative to the landscape. Therefore, the best option is D. moving backward."
+            },
+            {
+                "question": "How is the video changing?\nA. panning upwards\nB. rewinding\nC. zooming out\nD. zooming in",
+                "answer": "D. zooming in",
+                "prediction": " The video is changing by zooming out. This can be determined by the fact that the curvature of the road and the surrounding greenery appear larger and more spread out as the video progresses. If the video were panning, we would see lateral movement across a fixed field of view. Rewinding would not be visually represented by a change in the scale of the image. Therefore, the best option is:\n\nC. zooming out"
+            }
+        ]
+    },
+    "1075484900": {
+        "direction": [
+            {
+                "question": "Which way is the child facing in relation to the man?\nA. Forward\nB. Turning towards the man\nC. Turning away from the man\nD. Backward",
+                "answer": "C. Turning away from the man",
+                "prediction": " B. Turning towards the man."
+            },
+            {
+                "question": "In what direction is the child moving in relation to the man?\nA. Backward\nB. Forward\nC. Turning away from the man\nD. Turning towards the man",
+                "answer": "C. Turning away from the man",
+                "prediction": " D. Turning towards the man."
+            },
+            {
+                "question": "What is the orientation of the child with respect to the man?\nA. Downwards\nB. Upwards\nC. Turning away from the man\nD. Turning towards the man",
+                "answer": "C. Turning away from the man",
+                "prediction": " B. Upwards."
+            }
+        ]
+    },
+    "1090578917": {
+        "action": [
+            {
+                "question": "What is the man doing?\nA. playing soccer\nB. painting a picture\nC. reading a book\nD. cooking dinner",
+                "answer": "A. playing soccer",
+                "prediction": " A. playing soccer"
+            },
+            {
+                "question": "What activity is the man engaged in?\nA. playing soccer\nB. dancing\nC. singing\nD. swimming",
+                "answer": "A. playing soccer",
+                "prediction": " A. playing soccer."
+            },
+            {
+                "question": "What sport is the man participating in?\nA. volleyball\nB. basketball\nC. soccer\nD. tennis",
+                "answer": "C. soccer",
+                "prediction": " C. soccer"
+            },
+            {
+                "question": "What recreational activity is the man involved in?\nA. playing chess\nB. gardening\nC. hiking\nD. playing soccer",
+                "answer": "D. playing soccer",
+                "prediction": " D. playing soccer."
+            },
+            {
+                "question": "In what physical activity is the man actively involved?\nA. playing soccer\nB. weightlifting\nC. biking\nD. jogging",
+                "answer": "A. playing soccer",
+                "prediction": " A. playing soccer."
+            }
+        ],
+        "order": [
+            {
+                "question": "What is the order of events in the video?\nA. The man is not leaping to his right nor standing up\nB. The man is standing up and then leaping to his right\nC. The man is leaping to his right and then standing up",
+                "answer": "C. The man is leaping to his right and then standing up",
+                "prediction": " The best option is C. The man is leaping to his right and then standing up. The sequence of events in the video shows the goalkeeper initially in a crouched position, then diving to his right in an attempt to save a goal, and finally, he is seen lying on the ground having missed the save, with the ball having gone into the net. There is no instance in the video where the man is seen standing up before or during the leap to his right."
+            },
+            {
+                "question": "What is happening first in the video?\nA. The man is standing up from ground\nB. The man is leaping to his right\nC. Nothing is happening",
+                "answer": "B. The man is leaping to his right",
+                "prediction": " B. The man is leaping to his right."
+            },
+            {
+                "question": "What is happening second in the video?\nA. There is no specific order\nB. The man is standing up from ground\nC. The man is leaping to his right",
+                "answer": "B. The man is standing up from ground",
+                "prediction": " B. The man is standing up from ground."
+            }
+        ],
+        "direction": [
+            {
+                "question": "What direction is the man leaping?\nA. to his left\nB. backward\nC. forward\nD. to his right",
+                "answer": "D. to his right",
+                "prediction": " D. to his right."
+            },
+            {
+                "question": "Which way is the man moving?\nA. left\nB. forwards\nC. right\nD. up",
+                "answer": "C. right",
+                "prediction": " The man, who is a goalkeeper in the video, is moving to his right in an attempt to stop the soccer ball from going into the goal. This is indicated by his dive to the right side of the goalpost and his outstretched arms in that direction. So the best option is:\n\nC. right"
+            },
+            {
+                "question": "What is the direction of the man's movement?\nA. counterclockwise\nB. horizontal\nC. vertically\nD. clockwise",
+                "answer": "B. horizontal",
+                "prediction": " The direction of the man's movement is horizontal. He is diving from the left side of the goal towards the right side of the goal, attempting to block the soccer ball from entering the net. So the best option is:\n\nB. Horizontal"
+            }
+        ]
+    },
+    "1075338140": {
+        "direction": [
+            {
+                "question": "What is the direction of the ball?\nA. forward and backward\nB. spinning in place\nC. rolling from left to right\nD. rolling from right to left",
+                "answer": "C. rolling from left to right",
+                "prediction": " C. rolling from left to right\n\nThis is determined by the ball's position relative to the wave on which it is placed. The ball is on a wave that curves upwards to the right, and the ball is seen in a different position relative to this curve in each of the frames. In the first frame, the ball is at the start of the upward curve. By the third frame, the ball is past the peak of the curve, indicating that it has moved along the wave. The ball's position in the second frame shows it in the process of moving along the curve, which, given the upward curve to the right, indicates a left-to-right movement."
+            },
+            {
+                "question": "Which way is the ball moving?\nA. counterclockwise\nB. rolling from left to right\nC. clockwise\nD. rolling from right to left",
+                "answer": "B. rolling from left to right",
+                "prediction": " The answer is A. counterclockwise."
+            },
+            {
+                "question": "In which direction does the ball travel?\nA. straight ahead\nB. rolling from left to right\nC. rolling from right to left\nD. floating in mid-air",
+                "answer": "B. rolling from left to right",
+                "prediction": " B. rolling from left to right\n\n"
+            }
+        ]
+    },
+    "1067268403": {
+        "direction": [
+            {
+                "question": "What is the movement direction of the wind turbines?\nA. Stationary\nB. Rotating clockwise\nC. Rotating counterclockwise",
+                "answer": "B. Rotating clockwise",
+                "prediction": " The wind turbines are rotating clockwise. This can be inferred from the direction the shadows are cast and the movement of the blades in the video. The shadows are falling to the left of the turbines, indicating that the sun is setting to the right of the frame. Given that the shadows move from the turbine towers towards the left, we can deduce that the blades are rotating in a clockwise direction when viewed from above."
+            },
+            {
+                "question": "Which way are the wind turbines rotating?\nA. Randomly\nB. Clockwise\nC. Anti-clockwise",
+                "answer": "B. Clockwise",
+                "prediction": " The wind turbines in the video are rotating anti-clockwise. This can be determined by observing the direction that the blades are moving in relation to the sun and the shadows they cast. While it is not possible to determine the absolute direction of rotation without knowing the direction the camera is facing, within the context of the video and the typical design of wind turbines, it is safe to say that they are most commonly designed to rotate anti-clockwise as viewed from the front."
+            },
+            {
+                "question": "In which direction are the wind turbines turning?\nA. Anticlockwise\nB. Still\nC. Clockwise",
+                "answer": "C. Clockwise",
+                "prediction": " The wind turbines in the video are turning clockwise. This can be determined from the perspective of the video, where the blades are rotating towards the right side of the screen."
+            },
+            {
+                "question": "What is the rotational direction of the wind turbines?\nA. Clockwise\nB. Anti-clockwise\nC. Unchanging",
+                "answer": "A. Clockwise",
+                "prediction": " B. Anti-clockwise."
+            }
+        ]
+    },
+    "1072594556": {
+        "speed": [
+            {
+                "question": "How would you describe the speed of the car in the center of the screen?\nA. slower than other cars\nB. faster than other cars\nC. at the same speed as other cars",
+                "answer": "B. faster than other cars",
+                "prediction": " The speed of the car in the center of the screen can be described as faster than other cars. This is indicated by the visual cues of the car leaving motion blur and the surrounding environment appearing to move quickly in the opposite direction. Additionally, the car is overtaking other vehicles, which are not displaying the same level of motion blur, further suggesting a higher speed in comparison."
+            },
+            {
+                "question": "Compared to other cars, how does the car in the center of the screen move?\nA. At the same speed\nB. Faster\nC. Slower\nD. Information unavailable",
+                "answer": "B. Faster",
+                "prediction": " B. Faster."
+            },
+            {
+                "question": "What do we know about the car's motion relative to other objects on the screen?\nA. It is the fastest\nB. It is the slowest\nC. There is no motion\nD. Same speed as the others",
+                "answer": "A. It is the fastest",
+                "prediction": " A. It is the fastest"
+            }
+        ]
+    },
+    "1096007487": {
+        "direction": [
+            {
+                "question": "From the camera's point of view, in which direction is the 3d cloud moving?\nA. upward\nB. downward\nC. leftward\nD. rightward",
+                "answer": "C. leftward",
+                "prediction": " The 3d cloud appears to be moving from the left side of the screen to the right side. This is indicated by the direction in which the cloud appears to be passing through the neon ring. If we assume that the camera's point of view is directly facing the cloud's trajectory, then the cloud would be moving rightward. There is no clear indication of upward or downward movement, and the leftward movement is the opposite of what is observed. So the best option is:\n\nD. rightward"
+            },
+            {
+                "question": "How is the 3d cloud moving from the camera's point of view?\nA. contracting\nB. spinning leftward\nC. spinning rightward\nD. expanding",
+                "answer": "B. spinning leftward",
+                "prediction": " The 3D cloud in the video appears to be spinning from the camera's point of view. Given the options provided, the best description is that it is spinning leftward. This is determined by observing the direction in which the cloud's features, like its illuminated edges and internal structures, move around the central axis of the hoop. The top of the cloud moves towards the left side of the frame, indicating a leftward spinning motion. There is no clear indication that the cloud is contracting or expanding in size; it's the rotational movement that is most evident."
+            },
+            {
+                "question": "What is the movement pattern of the 3d cloud as seen from the camera's point of view?\nA. from right to left\nB. rotating clockwise\nC. rotating counter-clockwise\nD. from left to right",
+                "answer": "A. from right to left",
+                "prediction": " The best option is C. rotating counter-clockwise. \n\nHere's the reasoning process:\n\n- The cloud is not moving from left to right or right to left, as its orientation relative to the frame does not change.\n- Between a clockwise and counter-clockwise rotation, we can determine the direction by looking at the cloud's movement in relation to the neon ring. The top of the cloud appears to move towards the center of the ring, which would happen if the cloud is rotating counter-clockwise. \n- This is also supported by the fact that the right side of the cloud (from the viewer's perspective) seems to move upwards, which aligns with a counter-clockwise rotation around a central axis perpendicular to the viewer's line of sight."
+            }
+        ]
+    },
+    "1095939659": {
+        "direction": [
+            {
+                "question": "In which direction is the light growing?\nA. Downwards\nB. Clockwise\nC. Counterclockwise\nD. Upwards",
+                "answer": "B. Clockwise",
+                "prediction": " B. Clockwise"
+            },
+            {
+                "question": "What is the direction of the light's movement?\nA. Clockwise\nB. Anticlockwise\nC. Straight forward\nD. Downwards",
+                "answer": "A. Clockwise",
+                "prediction": " The light in the video is moving anticlockwise. This is determined by observing the direction in which the light circles are expanding and contracting. If one were to align themselves with the center of the circles, the motion would be from their right to their left, which is consistent with anticlockwise movement."
+            },
+            {
+                "question": "How is the light changing direction?\nA. Spinning vertically\nB. Rotating clockwise\nC. Shifting diagonally\nD. Growing counterclockwise",
+                "answer": "B. Rotating clockwise",
+                "prediction": " D. Growing counterclockwise."
+            }
+        ]
+    },
+    "1059632327": {
+        "direction": [
+            {
+                "question": "What is the direction of the tennis ball?\nA. bouncing up and down\nB. spinning clockwise and anticlockwise\nC. rolling forward and backward\nD. bouncing left to right",
+                "answer": "A. bouncing up and down",
+                "prediction": " A. bouncing up and down\n\nThe video shows a tennis ball that is bouncing up and down in the frame. There is no clear indication of it spinning or rolling in any particular direction, though the latter would be difficult on the tennis court surface shown. The ball is stationary in terms of horizontal movement, so we can rule out bouncing left to right."
+            },
+            {
+                "question": "Which direction does the tennis ball move in?\nA. moving in a circular path\nB. floating in mid-air\nC. moving in a zigzag pattern\nD. bouncing up and down",
+                "answer": "D. bouncing up and down",
+                "prediction": " D. bouncing up and down."
+            },
+            {
+                "question": "In which direction does the tennis ball travel?\nA. bouncing up and down\nB. shooting straight ahead\nC. staying stationary\nD. bouncing side to side",
+                "answer": "A. bouncing up and down",
+                "prediction": " B. shooting straight ahead\n\nThe video shows a tennis ball moving in a straight line from the foreground to the background on a tennis court. The ball is not stationary, nor is it bouncing up and down or side to side. It is being hit or served towards the back of the court, moving from the left side of the frame to the right side, indicating a straight ahead direction."
+            }
+        ]
+    },
+    "1098785169": {
+        "direction": [
+            {
+                "question": "What is the direction of the galaxy's spin?\nA. counterclockwise\nB. left to right\nC. clockwise\nD. up and down",
+                "answer": "C. clockwise",
+                "prediction": " The best option is C. clockwise. The galaxy in the video is spinning clockwise. This can be determined by observing the blue spiral arms which are moving towards the right side of the video, indicating that the rotation is in a clockwise direction."
+            },
+            {
+                "question": "In which direction is the galaxy rotating?\nA. backward\nB. counter clockwise\nC. clockwise\nD. forward",
+                "answer": "C. clockwise",
+                "prediction": " Based on the video, the best option is B. counter clockwise. The galaxy is shown with a clear spiral structure. If we assume that the galaxy is oriented with its near side facing us and the top side is the north, then the galaxy is rotating counter clockwise. This is determined by the apparent motion of the spiral arms and the light from the central bulge, which gives a sense of direction to the galaxy's rotation."
+            },
+            {
+                "question": "How is the galaxy spinning?\nA. backward\nB. counter clockwise\nC. clockwise\nD. forward",
+                "answer": "C. clockwise",
+                "prediction": " The galaxy is spinning clockwise. This can be determined from the video as the spiral arms move from the top right to the bottom left of the center of the galaxy."
+            }
+        ]
+    },
+    "1099984801": {
+        "direction": [
+            {
+                "question": "What is the movement of the clouds?\nA. moving away from the camera\nB. staying still\nC. moving towards the camera",
+                "answer": "C. moving towards the camera",
+                "prediction": " C. moving towards the camera."
+            },
+            {
+                "question": "In what direction are the clouds heading?\nA. towards the camera\nB. upward\nC. downward\nD. away from the camera",
+                "answer": "A. towards the camera",
+                "prediction": " D. away from the camera."
+            },
+            {
+                "question": "What is the movement direction of the clouds?\nA. forward\nB. in a circular motion\nC. side to side\nD. backward",
+                "answer": "D. backward",
+                "prediction": " The clouds in the video are moving forward. As the video is a time lapse, the clouds appear to move quickly across the sky. They do not show any motion that would indicate a circular or side to side direction. The forward movement is consistent with typical wind patterns and cloud movement from west to east due to the Earth's rotation, although this cannot be confirmed without knowledge of the video's geographic location. Therefore, the best option is:\n\nA. forward"
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. normal speed\nB. slow motion\nC. time-lapse",
+                "answer": "C. time-lapse",
+                "prediction": " The speed of the video is time-lapse. This can be determined by the changes in the sky and the position of the stars, which indicate that the video is a sped-up recording of a longer period. In time-lapse videos, the camera takes photographs at set intervals, and these are then played back at a faster rate, making the slow processes, like the movement of the stars in the sky, visible to the naked eye. This is different from normal speed or slow motion, which would show the movement of the stars as they appear in real life."
+            },
+            {
+                "question": "What speed is the video set to?\nA. time-lapse\nB. time dilation\nC. real-time",
+                "answer": "A. time-lapse",
+                "prediction": " The video is set to A. time-lapse."
+            },
+            {
+                "question": "What is the pacing of the video?\nA. accelerating\nB. decelerating\nC. normal speed",
+                "answer": "A. accelerating",
+                "prediction": " The video is a time lapse, which means that it was filmed at a much slower rate than normal and then played back at an accelerated rate. The best option to describe the pacing of the video is: A. accelerating."
+            }
+        ],
+        "attribute_change": [
+            {
+                "question": "What is happening to the entire video?\nA. staying the same\nB. getting darker\nC. getting brighter",
+                "answer": "B. getting darker",
+                "prediction": " C. getting brighter"
+            },
+            {
+                "question": "What change is occurring to the light condition of the video?\nA. getting darker\nB. remaining stable\nC. getting brighter",
+                "answer": "A. getting darker",
+                "prediction": " The light condition of the video is getting brighter. This is evident from the increasing brightness on the horizon and the visible changes in the sky's color, which is shifting from a darker to a lighter blue. The stars are still visible in the sky, but they appear less prominent as the overall brightness of the scene increases. This suggests that the video is capturing either dawn or dusk, where the light conditions change rapidly due to the sun moving below the horizon."
+            },
+            {
+                "question": "Which of the following best describes the change in the entire video?\nA. getting darker\nB. getting blurry\nC. turning brighter",
+                "answer": "A. getting darker",
+                "prediction": " The best option to describe the change in the video is A. Getting darker. The video starts with a blue sky and a cloud that is illuminated from underneath, likely by the sun. As the video progresses, the cloud loses its illumination, and the blue of the sky darkens to black, revealing stars. The mountain range remains visible throughout, and no blurriness or increase in overall brightness occurs."
+            }
+        ]
+    },
+    "1082419672": {
+        "direction": [
+            {
+                "question": "What is the direction of movement in the video?\nA. hovering\nB. flying forwards\nC. flying backwards",
+                "answer": "C. flying backwards",
+                "prediction": " B. flying forwards."
+            },
+            {
+                "question": "What is the trajectory of the movement?\nA. straight line\nB. arc-shaped\nC. zigzag",
+                "answer": "A. straight line",
+                "prediction": " The trajectory of the movement in the video is best described as an arc-shaped or curved path. The camera starts from a point ahead of the cruise ship, moves to the side, and then follows along the cruise ship's direction of travel. It does not move in a straight line parallel to the ship or in a zigzag pattern. Therefore, the correct option is:\n\nB. Arc-shaped."
+            },
+            {
+                "question": "In what direction is the entire video moving relative to the ship?\nA. forward\nB. up\nC. down\nD. backward",
+                "answer": "D. backward",
+                "prediction": " The best option is B. up. The video shows a cruise ship with its bow (front) on the left side and its stern (back) on the right side. As the camera is moving from the bow to the stern, it is moving in the upward direction relative to the ship. The ship is stationary with respect to the camera, which is moving upwards along the length of the ship from the front to the back."
+            }
+        ]
+    },
+    "1058985719": {
+        "direction": [
+            {
+                "question": "What is the direction in which the airplane is flying?\nA. bottom to top\nB. right to left\nC. top to bottom\nD. left to right",
+                "answer": "A. bottom to top",
+                "prediction": " A. bottom to top"
+            },
+            {
+                "question": "Which way is the airplane moving on the screen?\nA. anticlockwise\nB. upwards\nC. clockwise\nD. downwards",
+                "answer": "B. upwards",
+                "prediction": " The answer is B. upwards."
+            },
+            {
+                "question": "What is the trajectory of the airplane?\nA. vertically upwards\nB. vertically downwards\nC. horizontally rightwards\nD. horizontally leftwards",
+                "answer": "A. vertically upwards",
+                "prediction": " C."
+            }
+        ]
+    },
+    "1055413730": {
+        "direction": [
+            {
+                "question": "In which direction is the planet Earth spinning?\nA. Rightwards\nB. Downwards\nC. Leftwards\nD. Upwards",
+                "answer": "A. Rightwards",
+                "prediction": " The planet Earth is spinning from West to East, which would be perceived as left to right in the video. However, since the video shows a view from space with the North Pole at the top, the Earth appears to be spinning upwards. This is due to the orientation of the video and the fact that the top of the Earth is moving towards the camera. Therefore, the best option from the given choices would be:\n\nD. Upwards\n\nHowever, it's essential to note that this is a matter of perspective and that the Earth's actual spin direction, relative to the ground we stand on, is from West to East."
+            },
+            {
+                "question": "Considering the camera's perspective, what is the rotational movement of the planet Earth?\nA. spinning to the left\nB. rotating upward\nC. spinning to the right",
+                "answer": "C. spinning to the right",
+                "prediction": " A. spinning to the left."
+            },
+            {
+                "question": "What is the apparent motion of the Earth based on the camera's viewpoint?\nA. away from the camera\nB. towards the camera\nC. spinning to the right\nD. spinning to the left",
+                "answer": "C. spinning to the right",
+                "prediction": " The apparent motion of the Earth in the video is spinning to the right based on the camera's viewpoint. This is indicated by the progression of the Earth's features, such as the clouds and landmasses, moving from the right side of the frame towards the center and then to the left side of the frame. There is no indication that the Earth is moving towards or away from the camera since the scale and size of the Earth remain constant throughout the video. The rotation is from the right to the left, which would be consistent with a counter-clockwise rotation if we were viewing it from above the North Pole, which is the typical way Earth's rotation is depicted."
+            }
+        ]
+    },
+    "1081684532": {
+        "direction": [
+            {
+                "question": "What is the direction of the asteroids in the video?\nA. flying away from the camera\nB. flying to the left\nC. flying towards the camera\nD. flying to the right",
+                "answer": "C. flying towards the camera",
+                "prediction": " The best option is C. flying towards the camera. This is determined by the perspective given in the video. The asteroids are getting larger as time progresses in the video, which indicates that they are moving towards the point of view of the camera. There is also a sense of motion that suggests they are not stationary or moving away. The angle of the asteroids does not suggest they are moving to the left or right, but rather straight towards the camera's perspective."
+            },
+            {
+                "question": "Which direction are the asteroids moving?\nA. downwards\nB. towards the camera\nC. upwards\nD. away from the camera",
+                "answer": "B. towards the camera",
+                "prediction": " B. towards the camera"
+            },
+            {
+                "question": "Which way are the asteroids going?\nA. towards the camera\nB. parallel to the camera\nC. away from the camera",
+                "answer": "A. towards the camera",
+                "prediction": " A. towards the camera."
+            }
+        ]
+    },
+    "23391142": {
+        "action": [
+            {
+                "question": "What are the people doing in the video?\nA. dancing\nB. playing badminton\nC. reading books",
+                "answer": "B. playing badminton",
+                "prediction": " B. playing badminton."
+            },
+            {
+                "question": "What activity are the people engaged in?\nA. swimming\nB. playing badminton\nC. playing soccer",
+                "answer": "B. playing badminton",
+                "prediction": " B. playing badminton"
+            },
+            {
+                "question": "Which of the following activities are the people participating in?\nA. playing badminton\nB. hiking\nC. baking cookies",
+                "answer": "A. playing badminton",
+                "prediction": " The people in the video are participating in playing badminton. This is evident from the indoor sports hall setting, the presence of a badminton net, and the players using racquets to hit a shuttlecock. The video shows several pairs of players engaged in a game of badminton, which is a sport where players or teams hit a shuttlecock back and forth across a net using racquets. The activity is consistent with badminton gameplay, and there is no indication of hiking or baking cookies taking place in the video."
+            },
+            {
+                "question": "What action can be seen in the video?\nA. knitting\nB. playing badminton\nC. painting",
+                "answer": "B. playing badminton",
+                "prediction": " B. playing badminton."
+            },
+            {
+                "question": "What is happening in the video?\nA. sleeping\nB. singing\nC. playing badminton",
+                "answer": "C. playing badminton",
+                "prediction": " C. playing badminton."
+            }
+        ],
+        "direction": [
+            {
+                "question": "What direction is the video panning?\nA. Upwards\nB. Downwards\nC. To the left\nD. To the right",
+                "answer": "D. To the right",
+                "prediction": " The video is panning to the right. This is seen as the players move from the left side of the frame to the right side of the frame. The video starts with the players almost out of view on the left and gradually they come into full view and then go out of view again on the right. There is no indication of the camera panning upwards or downwards as the players maintain a similar vertical positioning in the frame throughout."
+            },
+            {
+                "question": "What is the movement of the video?\nA. Zoom in\nB. Panning to the left\nC. Zoom out\nD. Panning to the right",
+                "answer": "D. Panning to the right",
+                "prediction": " The movement of the video is panning to the right. This is observed from the steady motion of the camera following the subjects playing the sport from one side of the court to the other, maintaining a consistent distance from the subjects, which is indicative of panning rather than zooming."
+            },
+            {
+                "question": "Which way is the scene shifting?\nA. Panning to the left\nB. Panning to the right\nC. Away from the camera\nD. Towards the camera",
+                "answer": "B. Panning to the right",
+                "prediction": " The scene is shifting towards the camera, meaning that the camera's perspective is moving from a position further away from the court to one closer to the court. This is not a panning motion, as that would involve moving the camera horizontally to the left or right, which is not the case here. Also, the camera is not moving away from the court, which would be indicated by the court and players getting smaller in the frame. Instead, the players and the court are getting larger as the camera moves towards them. \n\nTherefore, the best option is:\nD. Towards the camera"
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. normal speed\nB. slow motion\nC. time-lapse",
+                "answer": "B. slow motion",
+                "prediction": " The speed of the video is normal speed."
+            },
+            {
+                "question": "How fast is the video playing?\nA. quickly\nB. at a moderate pace\nC. slowly",
+                "answer": "C. slowly",
+                "prediction": " B. at a moderate pace."
+            },
+            {
+                "question": "Which speed mode is applied to the video?\nA. regular speed\nB. accelerated\nC. slow motion",
+                "answer": "C. slow motion",
+                "prediction": " B. accelerated"
+            },
+            {
+                "question": "What is the video playback rate?\nA. fast\nB. slow\nC. moderate",
+                "answer": "B. slow",
+                "prediction": " The video playback rate is moderate. The video shows a continuous scene of a badminton game and players on a court with no abrupt jumps or freezes that would indicate a fast or slow playback rate. The players' movements, such as their swings and footwork, appear natural and smooth, consistent with a normal video recording speed. Furthermore, there is no contextual information to suggest that the video has been edited for speed, nor are there any indicators like text or captions that would imply a manipulated playback rate. Therefore, the best option is:\n\nC. moderate"
+            },
+            {
+                "question": "In what kind of speed is the video shown?\nA. slow motion\nB. rapid\nC. normal",
+                "answer": "A. slow motion",
+                "prediction": " The video is shown in a normal speed. The speed of the video is consistent with what is happening in the scene, and the players' movements are not accelerated or decelerated. The video captures the natural flow of the badminton game and the interactions between the players, with no alterations to the timing of their movements or actions."
+            }
+        ]
+    },
+    "1078368947": {
+        "action": [
+            {
+                "question": "What is the woman doing in the bathroom?\nA. reading a book while taking a shower\nB. writing letter while taking a bath\nC. reading a book while taking a bath",
+                "answer": "C. reading a book while taking a bath",
+                "prediction": " C. reading a book while taking a bath."
+            },
+            {
+                "question": "What activity is the woman engaged in?\nA. reading a book while taking a bath\nB. listening to music while taking a bath\nC. drinking wine while taking a bath",
+                "answer": "A. reading a book while taking a bath",
+                "prediction": " A. reading a book while taking a bath."
+            },
+            {
+                "question": "Which of the following actions is the woman involved in?\nA. washing her hair while taking a bath\nB. reading a book while taking a bath\nC. washing her face while taking a bath",
+                "answer": "B. reading a book while taking a bath",
+                "prediction": " B. reading a book while taking a bath."
+            }
+        ]
+    },
+    "1099738787": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the concrete wall?\nA. melting\nB. falling apart\nC. assembling together",
+                "answer": "B. falling apart",
+                "prediction": " The concrete wall is falling apart. The video shows a wall that appears to be disintegrating, with pieces breaking away and falling to the ground. The process starts from the top and moves downwards as the wall loses integrity. The correct answer is B."
+            },
+            {
+                "question": "What is the attribute change of the concrete wall?\nA. rebuilding\nB. shrinking\nC. disappearing\nD. falling apart",
+                "answer": "D. falling apart",
+                "prediction": " The best option is C. disappearing. The video shows a concrete wall that gradually disappears, revealing a black background. It starts with a solid surface that breaks into pieces, which then fall away, leaving no remaining structure by the end of the video."
+            },
+            {
+                "question": "In what state is the concrete wall?\nA. expanding\nB. assembling together\nC. falling apart\nD. intact",
+                "answer": "C. falling apart",
+                "prediction": " C. falling apart."
+            }
+        ]
+    },
+    "1094219575": {
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. normal speed\nB. time-lapse\nC. slow motion\nD. fast forwarding",
+                "answer": "B. time-lapse",
+                "prediction": " The video is a time-lapse. This can be determined from the video's context which shows a flower opening up and wilting at a much faster rate than it would do in real-time. Time-lapse is a technique where a series of photographs are taken over a long period of time and then played back at an increased speed, so events that normally happen slowly (like a flower wilting) can be seen quickly. This video does not have the characteristics of slow motion, which would show a slower-than-normal speed of events, nor does it show signs of fast-forwarding, which is a playback control feature that moves the playhead at multiples of normal speed through the video. There's also no indication that this is a sped-up version of a normal speed video, which would be the case if it was sped up in post-production without the context of the content indicating time-lapse photography."
+            },
+            {
+                "question": "Which term describes how the video is played?\nA. time-lapse\nB. rewinded\nC. decelerated\nD. paused",
+                "answer": "A. time-lapse",
+                "prediction": " The video is played using a time-lapse technique. This is evident from the way the flower opens and closes at a much faster rate than it would in real-time, which is a characteristic of time-lapse photography or video. This technique involves taking many photographs over a long period and then playing them back at an increased speed, so that the action that took a long time to happen appears to occur quickly. The other options, such as rewinded, decelerated, or paused, do not describe the process of speeding up the action to show the passage of time in a condensed form."
+            },
+            {
+                "question": "How is the video being played?\nA. as a time-lapse\nB. on fast forward\nC. in slow motion\nD. at a regular pace",
+                "answer": "A. as a time-lapse",
+                "prediction": " The video is being played as a time-lapse. This can be inferred from the way the flower opens and closes its petals significantly over a short series of frames, which indicates that the video is compressing the time taken for these changes to occur. Time-lapse videos are a technique where a series of photographs are taken over a long period and then played at a faster rate, making the slow processes (like the opening of a flower) appear to happen quickly. This is different from playing a video on fast forward, which would not capture the gradual changes in such detail, and it is not in slow motion, which would make the video slower than real-time. There is no indication that the video is being played at a regular pace since the flower's progression from a closed to an open state and back again would not typically occur so quickly in a standard video."
+            },
+            {
+                "question": "What type of speed is applied to the video?\nA. gradual speed\nB. erratic speed\nC. time-lapse speed\nD. variable speed",
+                "answer": "C. time-lapse speed",
+                "prediction": " C. time-lapse speed."
+            },
+            {
+                "question": "In what way is the video being shown?\nA. rapidly\nB. in real-time\nC. as a time-lapse\nD. in slow motion",
+                "answer": "C. as a time-lapse",
+                "prediction": " The video is being shown as a time-lapse. This is indicated by the way the flower opens and closes its petals significantly over the course of a few seconds, which is too fast to be real-time. There is no evidence of the video being played rapidly or in slow motion; the latter would be particularly noticeable as a distortion of the natural speed of events. Therefore, the best option is:\n\nC. as a time-lapse\n\nThis method of video recording involves taking many photographs over a long period and then playing them back at a faster rate, so that the slow processes that occur in nature, like the opening of a flower, can be observed in a shorter amount of time."
+            }
+        ],
+        "attribute_change": [
+            {
+                "question": "What is happening to the flowers?\nA. growing taller\nB. changing color\nC. blooming\nD. wilting",
+                "answer": "D. wilting",
+                "prediction": " C. blooming\n\nThe best option is C, \"blooming.\" The video shows a time-lapse of a flower opening up, which is the blooming process. Option A, \"growing taller,\" is not depicted in the video. Option B, \"changing color,\" is also incorrect, as the color remains consistent while the petals open; the color change is not significant enough to be the main focus. Option D, \"wilting,\" is the opposite of what is shown, as the flower goes from closed to fully open, indicating it is not wilting but rather blooming."
+            },
+            {
+                "question": "What is the condition of the flowers?\nA. decaying\nB. dormant\nC. budding\nD. blooming",
+                "answer": "A. decaying",
+                "prediction": " A. decaying."
+            },
+            {
+                "question": "What is the transformation occurring to the flowers?\nA. reproducing through seeds\nB. changing from withered to full blossom\nC. changing from full blossom to withered\nD. sprouting new buds",
+                "answer": "C. changing from full blossom to withered",
+                "prediction": " C. changing from full blossom to withered."
+            }
+        ]
+    },
+    "1053758117": {
+        "direction": [
+            {
+                "question": "What is happening in the video?\nA. Zoom out from a 3D digital brain\nB. Standing still before a 3D digital brain\nC. Zoom into a 3D digital brain",
+                "answer": "C. Zoom into a 3D digital brain",
+                "prediction": " C. Zoom into a 3D digital brain."
+            },
+            {
+                "question": "In which direction is the camera moving in the video?\nA. zooming in\nB. downwards\nC. upwards\nD. zooming out",
+                "answer": "A. zooming in",
+                "prediction": " A. zooming in\n\nIn the video, the camera is moving towards the center of the brain from the back, giving the impression of zooming in. The brain's surface details, like the sulci and gyri, become more prominent and occupy a larger portion of the frame as the video progresses. This rules out options B, C, and D, as the camera is not moving in a horizontal direction or zooming out."
+            },
+            {
+                "question": "How would you describe the trajectory of the video's direction?\nA. panning right\nB. panning left\nC. zooming out\nD. zooming in",
+                "answer": "D. zooming in",
+                "prediction": " The best option to describe the trajectory of the video's direction is \"D. zooming in.\" This is evident from the way the brain model starts as a small object in the center of the frame and gradually becomes larger, making it the focal point of the video. The camera angle does not show any horizontal movement that would indicate panning, and the focus remains on the center of the brain, which would not be the case if the video were zooming out."
+            }
+        ]
+    },
+    "1069717165": {
+        "order": [
+            {
+                "question": "How does the woman arrange her head movements?\nA. nodding and shaking her head repeatedly\nB. shaking her head, followed by nodding her head\nC. nodding her head, followed by shaking her head",
+                "answer": "B. shaking her head, followed by nodding her head",
+                "prediction": " C. nodding her head, followed by shaking her head."
+            },
+            {
+                "question": "What does the woman do after shaking her heads?\nA. feeling sad\nB. nothing\nC. nodding her head\nD. left away",
+                "answer": "C. nodding her head",
+                "prediction": " A. feeling sad"
+            },
+            {
+                "question": "Which actions did the woman take and in what order?\nA. shaking her head and then shaking it again\nB. nodding her head and then nodding it again\nC. nodding her head and then shaking her head\nD. shaking her whole body and then turning around",
+                "answer": "A. shaking her head and then shaking it again",
+                "prediction": " C. nodding her head and then shaking her head."
+            }
+        ]
+    },
+    "1041584314": {
+        "order": [
+            {
+                "question": "In what order does the man's expression change?\nA. The man doesn't change his expression\nB. Smiling, then showing a serious expression\nC. Showing a serious expression, then smiling",
+                "answer": "C. Showing a serious expression, then smiling",
+                "prediction": " The best option is C. Showing a serious expression, then smiling. Initially, the man is looking straight at the camera with a serious expression, and as the video progresses, he begins to smile."
+            },
+            {
+                "question": "When does the man start to smile?\nA. After showing a serious expression\nB. Before showing a serious expression\nC. The man doesn't smile",
+                "answer": "A. After showing a serious expression",
+                "prediction": " A. After showing a serious expression."
+            },
+            {
+                "question": "How did the man's facial expressions change over time?\nA. from serious to smiling\nB. no change in expressions\nC. from smiling to serious",
+                "answer": "A. from serious to smiling",
+                "prediction": " A. from serious to smiling."
+            }
+        ]
+    },
+    "1067427023": {
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. normal speed\nB. time-lapse\nC. slow motion",
+                "answer": "B. time-lapse",
+                "prediction": " The video is a time-lapse. This can be deduced from the melting of the snow in the video. Given that snow melting can take several hours to days depending on the temperature and the amount of snow, the video must have been recorded over a long period and then sped up to show the changes within a much shorter timeframe. This is a common technique used in time-lapse photography to demonstrate processes that happen too slowly to be observed clearly in real-time."
+            },
+            {
+                "question": "How fast is the video playing?\nA. time-lapse\nB. normal speed\nC. slow motion",
+                "answer": "A. time-lapse",
+                "prediction": " The video is playing at time-lapse speed. This conclusion is based on the noticeable changes in the snow and ice cover over the grass in each frame. In real-time, the melting and disappearance of snow and ice would not be so apparent within the span of a short video. Time-lapse is a technique that records a series of images over a long period and then plays them back at a faster rate, thus showing the progress of events like melting, growing, or building that would otherwise be too slow to observe in real-time. This is different from normal speed or slow motion, which would show the snow melting at a rate that is either consistent with real life or even slower, respectively."
+            },
+            {
+                "question": "In what manner is the video progressing?\nA. real-time\nB. slow motion\nC. sped up",
+                "answer": "C. sped up",
+                "prediction": " The video is progressing in a sped-up manner. This is evident because the snow is melting quickly and the state of the snow changes from covering the grass to being almost gone in the span of the video. The options 'real-time' and 'slow motion' can be ruled out because the snow would not melt that quickly in real-time or slow motion in such a short span of the video. Therefore, the best option is:\n\nC. sped up"
+            }
+        ],
+        "attribute_change": [
+            {
+                "question": "Which term best describes the transformation happening to the snow particles?\nA. solidifying\nB. melting\nC. scattering",
+                "answer": "B. melting",
+                "prediction": " The term that best describes the transformation happening to the snow particles in the video is \"melting.\" This is indicated by the snow's change from a solid, white, and fluffy state to a more translucent and liquid state as it makes contact with the grass. The presence of water droplets and the diminishing size of the snowflakes are visual cues that support the melting process."
+            },
+            {
+                "question": "What change is occurring to the snow particles?\nA. remaining the same\nB. growing in size\nC. decreasing in size",
+                "answer": "C. decreasing in size",
+                "prediction": " The snow particles are decreasing in size. The video shows that they are melting and the snow is gradually disappearing. This is evidenced by the fact that the coverage of the snow is becoming patchy and there are more exposed areas of grass as the video progresses. Additionally, some of the snow is melting directly into water droplets, which can be seen on the grass at the end of the video."
+            },
+            {
+                "question": "In the given scenario, what is the primary attribute change experienced by the snow particles?\nA. freezing\nB. melting\nC. scattering",
+                "answer": "B. melting",
+                "prediction": " The primary attribute change experienced by the snow particles in the video is melting. This is evidenced by the snow's transition from a solid, fluffy texture to a more liquid state with visible water droplets and the disappearance of the snow's structure. The presence of green grass underneath, which is not covered by ice, further implies that the snow is not freezing but rather melting due to the temperature being above the freezing point of water."
+            }
+        ]
+    },
+    "1093948229": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the golden particles?\nA. melting\nB. shrinking\nC. spinning\nD. exploding",
+                "answer": "D. exploding",
+                "prediction": " D. exploding"
+            },
+            {
+                "question": "Which of the following best describes the change in the attribute of the golden particles?\nA. freezing\nB. exploding\nC. melting\nD. shrinking",
+                "answer": "B. exploding",
+                "prediction": " B. exploding"
+            },
+            {
+                "question": "Which word below represents the transformation taking place on the golden particles?\nA. contracting\nB. melting\nC. exploding\nD. condensing",
+                "answer": "C. exploding",
+                "prediction": " C. exploding"
+            }
+        ]
+    },
+    "1106668103": {
+        "direction": [
+            {
+                "question": "What is the direction of movement in the video?\nA. staying still\nB. moving forward\nC. moving backward",
+                "answer": "B. moving forward",
+                "prediction": " B. moving forward"
+            },
+            {
+                "question": "In what way is the primary motion depicted in the video?\nA. turning leftward\nB. moving forward\nC. moving backward\nD. turning rightward",
+                "answer": "B. moving forward",
+                "prediction": " B. moving forward."
+            },
+            {
+                "question": "How would you describe the primary trajectory in the video?\nA. descending\nB. moving backward\nC. moving forward",
+                "answer": "C. moving forward",
+                "prediction": " The primary trajectory in the video is C. moving forward. This is determined by the consistent motion of the coffee beans from the left side of the frame to the right side across all timestamps. The angle of the view does not change significantly, which would be the case if the camera or the beans were moving backward or in a circular motion. The focus remains on the coffee beans, which are moving forward out of the frame, rather than descending, which would show a change in the size relative to the camera."
+            }
+        ]
+    },
+    "1049965795": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the light bulb?\nA. turning off\nB. breaking\nC. light up\nD. rapidly changing color",
+                "answer": "C. light up",
+                "prediction": " C. light up."
+            },
+            {
+                "question": "What change occurs in the light bulb?\nA. becoming darker\nB. getting smaller\nC. light up\nD. flickering",
+                "answer": "C. light up",
+                "prediction": " The best answer is C. light up. The video shows a light bulb that is initially off and in the dark. As the video progresses, the light bulb is turned on and begins to glow, first in a dim and inconsistent way, but then the light becomes brighter and steadier. There is no indication in the video of the light becoming darker or getting smaller, and while the light does start off inconsistently, it does not definitively show the bulb flickering, which is typically a rapid and periodic variation in intensity."
+            },
+            {
+                "question": "What alteration takes place in the light bulb?\nA. rusting\nB. turn off\nC. crackling\nD. light up",
+                "answer": "D. light up",
+                "prediction": " The best option is D. light up. The video shows that the light bulb is initially off and in the dark. As the video progresses, the light bulb is turned on, and the filament becomes visible, glowing brightly in the dark."
+            }
+        ]
+    },
+    "1052364490": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the digital bar chart?\nA. staying in the same size\nB. increasing\nC. decreasing",
+                "answer": "B. increasing",
+                "prediction": " B. increasing."
+            },
+            {
+                "question": "The digital bar chart is experiencing what kind of change?\nA. decreasing\nB. growing\nC. fluctuating",
+                "answer": "B. growing",
+                "prediction": " The digital bar chart is experiencing growing change. The chart shows a line graph with a general upward trend, indicating growth over time. Although there are some individual bars that are lower than others, the overall pattern represented by the line graph connected to the tops of the bars is ascending. This suggests that, despite any short-term decreases or fluctuations, the trend being measured is increasing on average as time progresses along the horizontal axis."
+            },
+            {
+                "question": "What alteration is taking place to the digital bar chart?\nA. levelling out\nB. growing\nC. disappearing",
+                "answer": "B. growing",
+                "prediction": " B. growing"
+            }
+        ]
+    },
+    "1080990179": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the apple?\nA. being cut\nB. shrinking and drying out\nC. growing bigger",
+                "answer": "B. shrinking and drying out",
+                "prediction": " B. shrinking and drying out."
+            },
+            {
+                "question": "How is the apple changing?\nA. getting smaller\nB. remaining in the same shape\nC. getting bigger",
+                "answer": "A. getting smaller",
+                "prediction": " The apple is rotting, drying out, and getting smaller. It is not getting bigger or remaining the same shape. The process is due to decay and dehydration."
+            },
+            {
+                "question": "What is the change in the apple's attributes?\nA. swelling and becoming juicy\nB. shrinking and drying out\nC. being cut and getting smaller",
+                "answer": "B. shrinking and drying out",
+                "prediction": " B. shrinking and drying out."
+            }
+        ]
+    },
+    "1057163434": {
+        "direction": [
+            {
+                "question": "What is the chef doing with the bread?\nA. removing it from the top of the burger\nB. putting it on top of the burger\nC. putting it inside the burger\nD. throwing it away",
+                "answer": "B. putting it on top of the burger",
+                "prediction": " B."
+            },
+            {
+                "question": "Which direction is the chef moving the bread?\nA. throwing it away\nB. removing it from the burger\nC. putting it on top of the burger\nD. putting it inside the burger",
+                "answer": "C. putting it on top of the burger",
+                "prediction": " The chef is putting the bread back on top of the burger, which is option C. This is evident from the video where we see a person in a black glove holding a burger bun above a beef patty. The patty has cheese and a topping on it, and the bun is placed on top of the patty to complete the burger. The motion of the hand and the position of the bun indicate that it is being placed back onto the burger, not removed or thrown away, and it is being put on top rather than inside."
+            },
+            {
+                "question": "Which action is the chef performing with the bread?\nA. putting it on top of the burger\nB. picking it up from the burger\nC. inserting it inside the burger",
+                "answer": "A. putting it on top of the burger",
+                "prediction": " The chef is putting the bread on top of the burger. This is best indicated by the first and third frames of the video, where we can observe the hands of the chef placing the top bun onto the burger, completing its assembly. The action does not show the bread being picked up or inserted in a way that would suggest the other options."
+            }
+        ]
+    },
+    "1085910917": {
+        "action": [
+            {
+                "question": "What is the woman doing in the video?\nA. drinking\nB. sleeping\nC. dancing",
+                "answer": "A. drinking",
+                "prediction": " A. drinking."
+            },
+            {
+                "question": "What activity is the woman engaged in?\nA. running\nB. drinking\nC. cooking",
+                "answer": "B. drinking",
+                "prediction": " B. drinking"
+            },
+            {
+                "question": "In the video, what is the action performed by the woman?\nA. reading\nB. swimming\nC. drinking",
+                "answer": "C. drinking",
+                "prediction": " C. drinking."
+            },
+            {
+                "question": "What behavior is exhibited by the woman?\nA. drinking\nB. eating\nC. talking",
+                "answer": "A. drinking",
+                "prediction": " The behavior exhibited by the woman in the video is A. drinking. This is evident from the repeated action of her raising a glass to her mouth, the movement of her throat as she swallows, and the way she is holding the glass, which is consistent with drinking. There is no food visible that would indicate eating, nor is there any audible sound or clear indication that she is talking."
+            },
+            {
+                "question": "Which of the following actions is being carried out by the woman?\nA. drawing\nB. drinking\nC. walking",
+                "answer": "B. drinking",
+                "prediction": " B. drinking"
+            }
+        ],
+        "order": [
+            {
+                "question": "In what sequence do the events occur in the video?\nA. drinking a glass of water and then turning back\nB. turning back and then drinking a glass of water\nC. both events occur at the same time",
+                "answer": "A. drinking a glass of water and then turning back",
+                "prediction": " A. drinking a glass of water and then turning back"
+            },
+            {
+                "question": "What is the first event that happened?\nA. turning back\nB. both events occur simultaneously\nC. drinking a glass of water",
+                "answer": "C. drinking a glass of water",
+                "prediction": " C. drinking a glass of water"
+            },
+            {
+                "question": "What is the second event that happened?\nA. drinking a glass of water\nB. both events occur simultaneously\nC. turning back",
+                "answer": "C. turning back",
+                "prediction": " B. both events occur simultaneously."
+            }
+        ]
+    },
+    "1058907236": {
+        "action": [
+            {
+                "question": "What is the squirrel doing in the park?\nA. Sleeping\nB. Swimming\nC. Foraging\nD. Dancing",
+                "answer": "C. Foraging",
+                "prediction": " The squirrel in the video is foraging. We can tell because it is seen searching through the ground leaves, picking up walnuts and holding them in its paws. These actions are consistent with foraging behavior, where an animal searches for food to eat or to store. The other options can be ruled out as follows: the squirrel is clearly awake and moving in the foraging video, so 'Sleeping' is not correct. There is no water present in the video, so 'Swimming' is not possible. Lastly, the squirrel's actions are utilitarian and not rhythmic or dance-like, so 'Dancing' is not the best description of what is happening in the video."
+            },
+            {
+                "question": "What action is the squirrel performing?\nA. Running around\nB. Taking a rest\nC. Foraging for mushroom\nD. Foraging for nuts",
+                "answer": "D. Foraging for nuts",
+                "prediction": " The best option is D. Foraging for nuts. The squirrel is seen picking up and moving walnuts while eating them. It is clear that the squirrel is foraging for nuts rather than running around, taking a rest, or seeking mushrooms."
+            },
+            {
+                "question": "What is the main activity of the squirrel?\nA. Building a nest\nB. Foraging for nuts\nC. Hibernating \nD. Jumping",
+                "answer": "B. Foraging for nuts",
+                "prediction": " B. Foraging for nuts"
+            }
+        ],
+        "order": [
+            {
+                "question": "What is the correct order of the events?\nA. Cannot be determined from the given information\nB. Turning back followed by picking up a nut\nC. Picking up a nut followed by turning back",
+                "answer": "C. Picking up a nut followed by turning back",
+                "prediction": " B. Turning back followed by picking up a nut."
+            },
+            {
+                "question": "What is the first event in the sequence?\nA. Picking up a nut\nB. Turning back\nC. Cannot be determined from the given information",
+                "answer": "A. Picking up a nut",
+                "prediction": " C. Cannot be determined from the given information."
+            },
+            {
+                "question": "What is the second event in the sequence?\nA. Turning back\nB. Cannot be determined from the given information\nC. Picking up a nut",
+                "answer": "A. Turning back",
+                "prediction": " B. Cannot be determined from the given information."
+            },
+            {
+                "question": "Which event happens before the other?\nA. Turning back\nB. Cannot be determined from the given information\nC. Picking up a nut",
+                "answer": "C. Picking up a nut",
+                "prediction": " C. Picking up a nut"
+            }
+        ]
+    },
+    "1077575504": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the pile of salt?\nA. scattering\nB. growing\nC. melting\nD. disappearing",
+                "answer": "B. growing",
+                "prediction": " B."
+            },
+            {
+                "question": "Which one of the following is an attribute change happening to the pile of salt?\nA. shrinking\nB. growing\nC. burning\nD. dissolving",
+                "answer": "B. growing",
+                "prediction": " B. growing"
+            },
+            {
+                "question": "How is the pile of salt changing?\nA. melting\nB. unchanged\nC. growing bigger\nD. becoming smaller",
+                "answer": "C. growing bigger",
+                "prediction": " The pile of salt is growing bigger. The video shows salt grains falling from a wooden bowl onto a larger pile below. It is clear that the pile is accumulating more mass, so the correct answer is C."
+            }
+        ]
+    },
+    "23370985": {
+        "attribute_change": [
+            {
+                "question": "What is happening to the ice crystal?\nA. freezing\nB. melting\nC. shattering",
+                "answer": "A. freezing",
+                "prediction": " The ice crystal is melting. This can be deduced from the video showing the ice crystal's edges softening and the crystal losing its distinct shape over time. Melting is the phase change from solid ice to liquid water when the ice reaches or exceeds its melting point of 0\u00b0C (32\u00b0F) and is exposed to warmth. The options \"freezing\" and \"shattering\" are incorrect because freezing would involve the ice crystal gaining solidity and mass as water turns to ice, and shattering would imply the ice crystal breaking into pieces, which is not observed in the video."
+            },
+            {
+                "question": "What process is occurring with the ice crystal?\nA. reducing in size\nB. turning into water\nC. growing in size\nD. remaining the same",
+                "answer": "C. growing in size",
+                "prediction": " The video shows that the ice crystal is growing in size. This is likely due to the water vapor in the air freezing upon contact with the ice crystal, a process known as deposition. So the best option is:\n\nC. growing in size\n\nThis is not a melting or reducing process, and while the ice crystal could be considered to be remaining the same in terms of its identity as an ice crystal, it is clearly increasing in mass and size, which eliminates option D as well."
+            },
+            {
+                "question": "What transformation is taking place in the ice crystal?\nA. cracking\nB. unchanged\nC. melting\nD. forming",
+                "answer": "D. forming",
+                "prediction": " The best option is C. melting. The ice crystal is undergoing a transformation from a solid state to a liquid state, as evidenced by the presence of what appears to be water on the surface of the crystal and the diminishing size of the ice crystal over time. This change is consistent with the melting process, which occurs when ice is exposed to temperatures above its melting point of 0\u00b0C (32\u00b0F) and turns into water."
+            }
+        ]
+    },
+    "1100319395": {
+        "direction": [
+            {
+                "question": "What direction is the circular pattern moving?\nA. clockwise\nB. towards the camera\nC. counter-clockwise\nD. away from the camera",
+                "answer": "A. clockwise",
+                "prediction": " The best option is C. counter-clockwise. The circular pattern in the video is moving in a counter-clockwise direction. This is determined by observing the motion of the circle and the dot relative to the center of the circle. The dot appears to be moving along the circumference of the circle from the bottom to the top on the right side, which would be consistent with a counter-clockwise rotation when viewed from the perspective of the camera."
+            },
+            {
+                "question": "Which way is the circular pattern moving?\nA. spinning clockwise\nB. spinning counter-clockwise\nC. vibrating back and forth",
+                "answer": "A. spinning clockwise",
+                "prediction": " B. spinning counter-clockwise."
+            },
+            {
+                "question": "In which direction is the circular pattern spinning?\nA. towards the screen\nB. anticlockwise\nC. clockwise\nD. away from the screen",
+                "answer": "C. clockwise",
+                "prediction": " The circular pattern in the video is spinning clockwise. This is determined by observing the direction in which the circle appears to rotate around its center. The larger circle completes a full rotation, and the smaller, inner circle rotates in the same direction within it, maintaining its central position relative to the larger circle's motion."
+            }
+        ]
+    },
+    "1067268406": {
+        "speed": [
+            {
+                "question": "What is the speed of the car?\nA. at the same speed as the camera\nB. faster than the camera\nC. slower than the camera",
+                "answer": "B. faster than the camera",
+                "prediction": " B. faster than the camera"
+            },
+            {
+                "question": "How does the car's speed compare to the camera's speed?\nA. It is faster.\nB. It is slower.\nC. They have the same speed.",
+                "answer": "A. It is faster.",
+                "prediction": " C. They have the same speed."
+            },
+            {
+                "question": "Does the car move at a different speed compared to the camera?\nA. Yes, it moves faster.\nB. Yes, it moves slower.\nC. No, they move at the same speed.",
+                "answer": "A. Yes, it moves faster.",
+                "prediction": " A. Yes, it moves faster."
+            }
+        ]
+    },
+    "1092682551": {
+        "speed": [
+            {
+                "question": "What is the speed of the cars compared to the camera?\nA. travel at the same speed as the camera\nB. faster than the camera\nC. travel slower than the camera",
+                "answer": "C. travel slower than the camera",
+                "prediction": " A. travel at the same speed as the camera."
+            },
+            {
+                "question": "How does the cars' speed compare to the camera's speed?\nA. They have the same speed.\nB. They are slower.\nC. They are faster.",
+                "answer": "B. They are slower.",
+                "prediction": " A. They have the same speed."
+            },
+            {
+                "question": "Do the cars move at a different speed compared to the camera?\nA. Yes, they move faster.\nB. No, they move at the same speed.\nC. Yes, they move slower.",
+                "answer": "C. Yes, they move slower.",
+                "prediction": " C. Yes, they move slower."
+            }
+        ]
+    },
+    "1101200293": {
+        "direction": [
+            {
+                "question": "What is the direction of the camera motion relative to the aircraft carrier?\nA. counterclockwise\nB. downward\nC. upward\nD. clockwise",
+                "answer": "D. clockwise",
+                "prediction": " The best option is D. clockwise. The video shows an aerial view of an aircraft carrier with fighter jets on its deck. The camera motion is moving from a higher altitude down towards the deck of the carrier, following a path that is parallel to the length of the carrier. Since the carrier is oriented horizontally in the frame and the camera moves from the top left to the bottom right, the camera's motion relative to the carrier is clockwise. The aircraft carrier itself is not moving; it's the camera's point of view that is changing."
+            },
+            {
+                "question": "Which way is the camera moving around the aircraft carrier?\nA. clockwise\nB. back and forth\nC. tilting upwards\nD. counterclockwise",
+                "answer": "A. clockwise",
+                "prediction": " The camera movement in the video is moving from the stern (back) of the aircraft carrier towards the bow (front), and then circling back again. This indicates that the camera is moving in a counterclockwise direction around the carrier, which would be the best answer from the given options. However, this movement also includes a significant portion that is directly along the length of the carrier, not just around it. The camera does not appear to be moving clockwise, tilting upwards, or moving back and forth without the forward progression. Therefore, the best option is:\n\nD. counterclockwise"
+            },
+            {
+                "question": "In what direction is the camera flying around the aircraft carrier?\nA. clockwise\nB. descending\nC. ascending\nD. anti-clockwise",
+                "answer": "A. clockwise",
+                "prediction": " The camera is flying around the aircraft carrier in an anti-clockwise direction. This is observed from the fact that the aircraft on the deck are moving from left to right from the frame's perspective, indicating that the camera is moving in the opposite direction relative to the ship, which is anti-clockwise. Additionally, there is no indication of the camera ascending or descending significantly; it appears to be maintaining a relatively stable altitude focused on the deck of the carrier."
+            }
+        ]
+    },
+    "1072453637": {
+        "direction": [
+            {
+                "question": "What is the direction of the camera panning in the video?\nA. panning to the back of a fighter jet\nB. panning downwards around a fighter jet\nC. panning upwards around a fighter jet\nD. panning to the front of a fighter jet",
+                "answer": "A. panning to the back of a fighter jet",
+                "prediction": " B. panning downwards around a fighter jet."
+            },
+            {
+                "question": "What is the camera's panning orientation in the video?\nA. Moving to the front of a fighter jet\nB. Ascending around a fighter jet\nC. Moving to the rear of a fighter jet\nD. Descending around a fighter jet",
+                "answer": "C. Moving to the rear of a fighter jet",
+                "prediction": " B. Ascending around a fighter jet."
+            },
+            {
+                "question": "Identify the camera's panning movement in the video.\nA. Panning to the back of a fighter jet\nB. Panning upward around a fighter jet\nC. Panning downward around a fighter jet\nD. Panning to the front of a fighter jet",
+                "answer": "A. Panning to the back of a fighter jet",
+                "prediction": " The best option is B. Panning upward around a fighter jet. In the video, we can see a fighter jet flying from left to right. The camera follows the jet and moves in a circular motion around it, which indicates an upward panning movement. There is no indication that the camera is moving towards the front or back of the jet, nor is it moving in a downward direction."
+            }
+        ],
+        "order": [
+            {
+                "question": "What was the order of events for the fighter jet in the video?\nA. shooting three missiles, then shooting four missiles\nB. shooting two missiles, then shooting one missile\nC. shooting one missile, then shooting two missiles\nD. shooting four missiles, then shooting three missiles",
+                "answer": "C. shooting one missile, then shooting two missiles",
+                "prediction": " C."
+            },
+            {
+                "question": "What did the fighter jet do first in the video?\nA. shooting two missiles\nB. shooting one missile\nC. shooting three missiles\nD. shooting four missiles",
+                "answer": "B. shooting one missile",
+                "prediction": " B. shooting one missile."
+            },
+            {
+                "question": "What did the fighter jet do latter in the video?\nA. shooting three missiles\nB. shooting two missiles\nC. shooting one missile\nD. shooting four missiles",
+                "answer": "B. shooting two missiles",
+                "prediction": " The fighter jet latter in the video shot three missiles, as seen in the second half of the video. So the answer is A."
+            }
+        ]
+    },
+    "3396473605": {
+        "direction": [
+            {
+                "question": "In which direction do the five stars appear?\nA. from right to left\nB. from top to bottom\nC. from left to right\nD. from bottom to top",
+                "answer": "C. from left to right",
+                "prediction": " C. from left to right."
+            },
+            {
+                "question": "Which star appears first?\nA. the star in the center\nB. the star in the right\nC. the star in the left\nD. all stars appear at the same time",
+                "answer": "C. the star in the left",
+                "prediction": " C. the star in the left"
+            },
+            {
+                "question": "What is the direction that the stars appear?\nA. from right to left\nB. from left to right\nC. upwards\nD. downwards",
+                "answer": "B. from left to right",
+                "prediction": " B. from left to right."
+            }
+        ]
+    },
+    "1086820415": {
+        "direction": [
+            {
+                "question": "What is the direction of motion of the large wave?\nA. moving vertically towards the top of the screen\nB. moving horizontally towards the right side of the screen\nC. moving vertically towards the bottom of the screen\nD. moving horizontally towards the left side of the screen",
+                "answer": "C. moving vertically towards the bottom of the screen",
+                "prediction": " The large wave is moving horizontally towards the right side of the screen. This is evident from the progression of the wave in the series of video frames, where the wave's crest and the white foam expand from left to right across the frames."
+            },
+            {
+                "question": "Which direction does the large wave move in the video?\nA. vertically towards the top of the screen\nB. diagonally towards the bottom-right corner\nC. vertically towards the bottom of the screen\nD. diagonally towards the top-left corner",
+                "answer": "C. vertically towards the bottom of the screen",
+                "prediction": " The large wave in the video is moving vertically towards the bottom of the screen. This can be determined by observing the consistent upward motion of the water as it forms a wave, which indicates that the wave is moving in the opposite direction, downwards on the screen.\n\nSo the best option is:\nC. vertically towards the bottom of the screen"
+            },
+            {
+                "question": "How does the large wave travel across the screen?\nA. moving vertically towards the bottom\nB. contracting towards the center\nC. moving vertically towards the top\nD. expanding from the center",
+                "answer": "A. moving vertically towards the bottom",
+                "prediction": " The best option is A. Moving vertically towards the bottom. The wave appears to be moving from the top of the screen towards the bottom, as indicated by the progression of the wave's motion in the video. The wave does not show characteristics of contraction, as it does not get smaller or move towards the center. It also does not expand from the center, which would show a different pattern of growth."
+            }
+        ]
+    },
+    "1081513610": {
+        "action": [
+            {
+                "question": "What is the man doing in the video?\nA. swimming\nB. discussing\nC. sleeping\nD. running",
+                "answer": "B. discussing",
+                "prediction": " B. discussing."
+            },
+            {
+                "question": "What action is the man performing?\nA. discussing\nB. reading\nC. cooking\nD. dancing",
+                "answer": "A. discussing",
+                "prediction": " A. discussing."
+            },
+            {
+                "question": "Which activity is the man engaged in?\nA. singing\nB. playing basketball\nC. discussing\nD. painting",
+                "answer": "C. discussing",
+                "prediction": " The best option is C. discussing. The man is engaged in a discussion with a colleague while looking at a laptop screen. There is no indication of singing, playing basketball, or painting. The setting is an office environment, and both individuals are dressed in business attire, which, along with the presence of the laptop, suggests a professional context where they might be discussing work-related matters."
+            },
+            {
+                "question": "What is the man occupied with?\nA. discussing\nB. shopping\nC. working out\nD. gardening",
+                "answer": "A. discussing",
+                "prediction": " The man in the video is occupied with discussing. This is evident from his body language and interaction with the other man. They are both dressed in business attire, sitting at a table with papers and a laptop, which suggests a work-related meeting. The man is gesturing towards the laptop, likely explaining or discussing a point related to the content on the screen or the paperwork in front of them. There is no indication of shopping, working out, or gardening activities in the video."
+            },
+            {
+                "question": "What does the man participate in?\nA. biking\nB. hiking\nC. fishing\nD. discussing",
+                "answer": "D. discussing",
+                "prediction": " D. discussing."
+            }
+        ]
+    },
+    "1073831006": {
+        "action": [
+            {
+                "question": "What are the zebras doing in the video?\nA. swimming\nB. sleeping\nC. running",
+                "answer": "C. running",
+                "prediction": " C. running."
+            },
+            {
+                "question": "Which of the following actions are the zebras performing?\nA. running\nB. jumping\nC. eating",
+                "answer": "A. running",
+                "prediction": " A. running"
+            },
+            {
+                "question": "In the video, what can we see the zebras doing?\nA. running\nB. standing still\nC. drinking water",
+                "answer": "A. running",
+                "prediction": " A. running"
+            }
+        ],
+        "direction": [
+            {
+                "question": "What is the direction of the zebras' movement?\nA. from right to left\nB. from left to right\nC. from top to bottom",
+                "answer": "B. from left to right",
+                "prediction": " B. from left to right"
+            },
+            {
+                "question": "In what direction are the zebras moving?\nA. from left to right relative to the camera\nB. away from the camera\nC. towards the camera\nD. from right to left relative to the camera",
+                "answer": "A. from left to right relative to the camera",
+                "prediction": " A. from left to right relative to the camera."
+            },
+            {
+                "question": "Which direction are the zebras heading?\nA. downward\nB. leftward\nC. rightward\nD. upward",
+                "answer": "C. rightward",
+                "prediction": " A. downward"
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the zebras in the video?\nA. slow motion\nB. stationary\nC. fast motion\nD. normal speed",
+                "answer": "A. slow motion",
+                "prediction": " C. fast motion."
+            },
+            {
+                "question": "How fast is the video playing?\nA. normal speed\nB. time-lapse\nC. slow motion",
+                "answer": "C. slow motion",
+                "prediction": " The video is playing at a normal speed. This can be inferred from the fluidity of the movement of the zebras and the lack of any artificial manipulation that would indicate a time-lapse or slow motion. In time-lapse, the movement would appear much faster and possibly choppy due to the frames being taken at much longer intervals than normal video recording. In slow motion, the movement would be much smoother and more deliberate, which is not the case here. Therefore, the best option is:\n\nA. normal speed"
+            },
+            {
+                "question": "Which option describes the rate at which the video is playing?\nA. accelerated\nB. normal speed\nC. slow motion",
+                "answer": "C. slow motion",
+                "prediction": " A. accelerated"
+            }
+        ]
     }
 }
