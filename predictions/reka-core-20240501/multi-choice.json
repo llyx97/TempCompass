@@ -372,5 +372,283 @@
                 "prediction": " The camera is moving rightward. This is indicated by the consistent motion of the background from right to left across all the frames and the way the people are being revealed as the camera moves. The pool's edge and the people on the right side of the frame come into view as the camera progresses, which would not be the case if the camera were moving in any other direction."
             }
         ]
+    },
+    "1077507593": {
+        "action": [
+            {
+                "question": "What are the people doing in the video?\nA. sleeping\nB. eating\nC. dancing\nD. cooking",
+                "answer": "D. cooking",
+                "prediction": " D. cooking."
+            },
+            {
+                "question": "Which activity can be seen in the video?\nA. painting\nB. reading\nC. cooking\nD. swimming",
+                "answer": "C. cooking",
+                "prediction": " C. cooking"
+            },
+            {
+                "question": "What is the action being performed by the individuals?\nA. writing\nB. singing\nC. running\nD. cooking",
+                "answer": "D. cooking",
+                "prediction": " D. cooking"
+            },
+            {
+                "question": "What can you observe the people doing in the footage?\nA. playing sports\nB. studying\nC. cooking\nD. shopping",
+                "answer": "C. cooking",
+                "prediction": " C. cooking."
+            },
+            {
+                "question": "Which verb best describes the action of the people?\nA. sleeping\nB. cooking\nC. talking\nD. driving",
+                "answer": "B. cooking",
+                "prediction": " B. cooking."
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. normal speed\nB. slow motion\nC. time-lapse",
+                "answer": "B. slow motion",
+                "prediction": " The speed of the video is not normal. It appears to be either slow motion or time-lapse, but given that the video shows a cooking process, the best option is B. slow motion. \n\nThis is because time-lapse would not make sense in this context as it is a technique used to show an extended period of time in a shorter span, which would not be appropriate for a cooking video that is supposed to show the steps of the cooking process in detail. On the other hand, slow motion is used to show fast events in slower detail, which fits the context of this video."
+            },
+            {
+                "question": "What is the rate at which the events are happening in the video?\nA. gradual\nB. fast\nC. slow",
+                "answer": "C. slow",
+                "prediction": " The rate at which the events are happening in the video can be described as fast. The cooking process shown in the video is a stir-fry, which is characterized by high heat and quick cooking times. The chef is seen adding ingredients to the pan swiftly and tossing them with dexterity. The flames rise suddenly and the overall pace of the video is dynamic, focusing on the rapid movements and immediate reactions typical of a busy professional kitchen environment."
+            },
+            {
+                "question": "What is the tempo of the video?\nA. slow tempo\nB. rapid tempo\nC. moderate tempo",
+                "answer": "A. slow tempo",
+                "prediction": " B. rapid tempo."
+            },
+            {
+                "question": "How would you describe the pace of the video?\nA. medium-paced\nB. quick-paced\nC. slow-paced",
+                "answer": "C. slow-paced",
+                "prediction": " B. quick-paced."
+            }
+        ],
+        "order": [
+            {
+                "question": "Which event happens first to the skillet?\nA. Burning in fire\nB. None of both\nC. Smoking",
+                "answer": "C. Smoking",
+                "prediction": " C. Smoking."
+            },
+            {
+                "question": "What is the sequence of events for the skillet?\nA. Smoking, and then burning in fire\nB. Burning in fire, and then smoking\nC. Smoking without burning in fire",
+                "answer": "A. Smoking, and then burning in fire",
+                "prediction": " The sequence of events for the skillet in the video is first smoking, and then burning in fire. This is indicative of a cooking process in which a flammable liquid is added to the pan, causing it to ignite once it reaches a certain temperature. The smoke is present before the flames are visible, which shows the order of the events. So the best option is A. Smoking, and then burning in fire."
+            },
+            {
+                "question": "When does the skillet smoke?\nA. After burning in fire\nB. The skillet doesn't smoke\nC. Before burning in fire",
+                "answer": "C. Before burning in fire",
+                "prediction": " C. Before burning in fire."
+            },
+            {
+                "question": "In what order do the events occur with the skillet?\nA. Smoking, followed by burning in fire\nB. Burning in fire, followed by smoking\nC. Both events happen simultaneously",
+                "answer": "B. Burning in fire, followed by smoking",
+                "prediction": " The best option is A. Smoking, followed by burning in fire. This is based on the video's sequence of events, where the food starts off smoking, and then later in the video, it bursts into flames."
+            }
+        ]
+    },
+    "1107116885": {
+        "action": [
+            {
+                "question": "What activity is the man engaged in?\nA. swimming\nB. shooting an arrow\nC. running",
+                "answer": "B. shooting an arrow",
+                "prediction": " B. shooting an arrow."
+            },
+            {
+                "question": "Which sport is the man participating in?\nA. soccer\nB. archery\nC. basketball",
+                "answer": "B. archery",
+                "prediction": " B. archery"
+            },
+            {
+                "question": "What action is being performed by the man?\nA. dancing\nB. shooting an arrow\nC. singing",
+                "answer": "B. shooting an arrow",
+                "prediction": " B. shooting an arrow."
+            },
+            {
+                "question": "What is the man doing with the bow?\nA. throwing it away\nB. playing it like a guitar\nC. shooting an arrow",
+                "answer": "C. shooting an arrow",
+                "prediction": " C. shooting an arrow."
+            },
+            {
+                "question": "In the given footage, what is the man involved in?\nA. cooking\nB. painting\nC. shooting an arrow",
+                "answer": "C. shooting an arrow",
+                "prediction": " C. shooting an arrow."
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the pace of the video?\nA. time-lapse\nB. accelerated speed\nC. slow motion\nD. normal speed",
+                "answer": "D. normal speed",
+                "prediction": " The video is in slow motion. This can be inferred from the way the video is edited and the motion of the archer. In slow motion videos, the action is captured at a higher frame rate than normal and then played back at a standard rate, which makes everything appear to be moving slower. The archer's movements, particularly the draw of the bow and the release of the arrow, are smooth and elongated, which is characteristic of slow motion footage. This is a technique often used to highlight the details of an action that is too fast to be appreciated in real-time, especially in sports like archery where precision and technique are key."
+            },
+            {
+                "question": "How fast is the video playing?\nA. at an average speed\nB. with time-lapse effect\nC. in slow motion\nD. at a rapid speed",
+                "answer": "A. at an average speed",
+                "prediction": " The video is playing at an average speed. The archer's actions are not accelerated, and the surrounding environment, such as the bystanders and the movement of the bowstring, are consistent with real-time footage. There is no blurring that would indicate a time-lapse effect or rapid speed, and the motion is smooth without the tell-tale signs of slow motion, such as a noticeably reduced frame rate or increased detail during movement. Therefore, the best option is:\n\nA. at an average speed."
+            },
+            {
+                "question": "Which speed setting is applied to the entire video?\nA. fast-forward\nB. normal speed\nC. slow motion\nD. time-lapse",
+                "answer": "B. normal speed",
+                "prediction": " C. slow motion."
+            },
+            {
+                "question": "At what rate is the video playing?\nA. with a time warp\nB. slowly\nC. rapidly\nD. normally",
+                "answer": "D. normally",
+                "prediction": " The video is playing normally. There is no time warp or notable variation in speed. The archer is following the typical stages of a draw in archery, which is consistent with a normal playback rate. The video shows a sequence of actions that would be too complex to be done rapidly without affecting accuracy, which is a crucial element in archery. Therefore, the best option is:\n\nD. normally"
+            },
+            {
+                "question": "What is the tempo of the video?\nA. speeded-up\nB. regular\nC. quick\nD. sluggish",
+                "answer": "B. regular",
+                "prediction": " B. regular."
+            }
+        ]
+    },
+    "1059718130": {
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. slow motion\nB. normal speed\nC. time-lapse\nD. stop motion",
+                "answer": "C. time-lapse",
+                "prediction": " The speed of the video is C. time-lapse. This can be deduced from the video content, which shows the sun moving across the sky at an accelerated rate, which is not possible with normal speed recording or slow motion. Time-lapse photography captures several images over a long period and then plays them back at a faster rate, making it appear as though the sun is moving quickly across the sky. This technique is often used to show changes in sky, clouds, or other natural processes that occur over time."
+            },
+            {
+                "question": "What is the pace at which the video is playing?\nA. fast-forward\nB. slow motion\nC. real-time",
+                "answer": "A. fast-forward",
+                "prediction": " B. slow motion."
+            },
+            {
+                "question": "At what rate does the video progress?\nA. slow motion\nB. normal speed\nC. time-lapse\nD. reverse motion",
+                "answer": "C. time-lapse",
+                "prediction": " C. time-lapse"
+            }
+        ],
+        "direction": [
+            {
+                "question": "What direction is the sun moving in?\nA. falling\nB. rising\nC. staying in one place",
+                "answer": "B. rising",
+                "prediction": " B. rising"
+            },
+            {
+                "question": "What is the direction of the sun?\nA. stationary\nB. falling\nC. rising",
+                "answer": "C. rising",
+                "prediction": " B. falling."
+            },
+            {
+                "question": "What is the primary movement of the sun?\nA. descending\nB. standing still\nC. rising",
+                "answer": "C. rising",
+                "prediction": " The primary movement of the sun in the video is A. descending. This is indicated by the progression of the sun towards the bottom of the video frame, as well as the color and cloud changes consistent with a sunset."
+            }
+        ],
+        "attribute_change": [
+            {
+                "question": "What is happening to the video's brightness?\nA. getting darker\nB. staying the same\nC. turning brighter",
+                "answer": "C. turning brighter",
+                "prediction": " C. turning brighter."
+            },
+            {
+                "question": "How is the attribute of brightness changing?\nA. remaining stable\nB. increasing\nC. decreasing",
+                "answer": "B. increasing",
+                "prediction": " B. increasing"
+            },
+            {
+                "question": "What transformation is occurring in the brightness of the video?\nA. remaining constant\nB. brightening\nC. dimming",
+                "answer": "B. brightening",
+                "prediction": " The best option is C. dimming. The video shows a sunset with the sun starting at a higher brightness and evolving into a dimmer red color as time progresses. The clouds are also changing from dark silhouettes to lighter and more illuminated features as the sun sets."
+            }
+        ]
+    },
+    "1059718130_reverse": {
+        "direction": [
+            {
+                "question": "What direction is the sun moving in?\nA. setting\nB. rising\nC. staying in one place",
+                "answer": "A. setting",
+                "prediction": " The sun is setting. This can be determined by the fact that the light is redder and seems to be coming from a lower angle, which is consistent with a sunset."
+            },
+            {
+                "question": "What is the direction of the sun?\nA. stationary\nB. falling\nC. rising",
+                "answer": "B. falling",
+                "prediction": " B. falling."
+            },
+            {
+                "question": "What is the primary movement of the sun?\nA. descending\nB. standing still\nC. rising",
+                "answer": "A. descending",
+                "prediction": " The primary movement of the sun in the video is A. descending. This can be inferred from the fact that the sun is near the horizon and the colors of the sky, which are typical for a sunset."
+            }
+        ],
+        "attribute_change": [
+            {
+                "question": "What is happening to the video's brightness?\nA. getting darker\nB. staying the same\nC. turning brighter",
+                "answer": "A. getting darker",
+                "prediction": " C. turning brighter."
+            },
+            {
+                "question": "How is the attribute of brightness changing?\nA. remaining stable\nB. increasing\nC. decreasing",
+                "answer": "C. decreasing",
+                "prediction": " B. increasing"
+            },
+            {
+                "question": "What transformation is occurring in the brightness of the video?\nA. remaining constant\nB. brightening\nC. dimming",
+                "answer": "C. dimming",
+                "prediction": " The brightness of the video is dimming. This is evident as the video progresses and the sun, which is the primary light source, appears to be setting. The clouds are losing their illuminated glow, and the overall color palette is shifting from bright orange and yellow hues to darker oranges and reds, indicating that the video is capturing a sunset and moving into night. Therefore, the best option is:\n\nC. dimming"
+            }
+        ]
+    },
+    "1083845854": {
+        "speed": [
+            {
+                "question": "What speed is the video playing at?\nA. time-lapse\nB. slow motion\nC. normal speed",
+                "answer": "A. time-lapse",
+                "prediction": " The video is playing at normal speed. This can be determined by observing the second hand, which is moving smoothly and not repeating any positions, which would indicate time-lapse. Additionally, the motion does not appear to be slower than normal, which would be the case in slow motion."
+            },
+            {
+                "question": "The video is playing at which speed?\nA. slow motion\nB. normal speed\nC. fast-forward",
+                "answer": "C. fast-forward",
+                "prediction": " B. normal speed."
+            },
+            {
+                "question": "Which word describes the speed of the video?\nA. time-lapse\nB. normal\nC. backwards\nD. double",
+                "answer": "A. time-lapse",
+                "prediction": " The video is a time-lapse. This is indicated by the clock hands moving quickly, which is not possible in real-time video footage. Time-lapse is a technique where a camera takes images over a long period, and then these images are played back at a faster rate, making it appear as though time is moving faster than it actually is. The other options do not fit this description: 'normal' would show the clock moving at real-time speed, 'backwards' would show the clock hands moving in the reverse direction, and 'double' does not accurately describe any known video recording technique related to speed."
+            },
+            {
+                "question": "At what rate is the video progressing?\nA. slow motion\nB. time-lapse\nC. normal speed",
+                "answer": "B. time-lapse",
+                "prediction": " The video is progressing at a time-lapse rate. This can be inferred from the fact that the clock hands are moving at a much faster rate than what would be considered normal. In the span of a few seconds, the hands move from approximately 10:10 to 10:40, which would not happen in real-time. Therefore, the best option is:\n\nB. time-lapse"
+            }
+        ],
+        "direction": [
+            {
+                "question": "What is the direction in which the clock hands are moving?\nA. counterclockwise\nB. clockwise\nC. stationary",
+                "answer": "B. clockwise",
+                "prediction": " The clock hands are moving clockwise. This is determined by observing the position of the hands in the video. At the beginning, the hour hand is just past 10 and the minute hand is on 12; as the video progresses, the hour hand moves towards 11 and the minute hand moves towards 2, which confirms the clockwise direction."
+            },
+            {
+                "question": "How are the clock hands changing their orientation?\nA. standing still\nB. moving clockwise\nC. moving anti-clockwise",
+                "answer": "B. moving clockwise",
+                "prediction": " The clock hands are moving clockwise. This can be observed from the sequence of the hands' positions on the clock face in the video. Initially, the hour hand is just past 10, and the minute hand is pointing at 12. As the video progresses, the hour hand moves towards 11, and the minute hand moves towards 2, which is consistent with clockwise rotation."
+            },
+            {
+                "question": "In what direction are the clock hands moving?\nA. clockwise\nB. alternating between clockwise and counterclockwise\nC. counterclockwise",
+                "answer": "A. clockwise",
+                "prediction": " A. clockwise"
+            }
+        ]
+    },
+    "1083845854_reverse": {
+        "direction": [
+            {
+                "question": "What is the direction in which the clock hands are moving?\nA. counterclockwise\nB. clockwise\nC. stationary",
+                "answer": "A. counterclockwise",
+                "prediction": " The clock hands are moving clockwise. This can be observed by watching the minute hand move from 10 to 2 and the hour hand move from 12 to 1 in the video."
+            },
+            {
+                "question": "How are the clock hands changing their orientation?\nA. standing still\nB. moving clockwise\nC. moving anti-clockwise",
+                "answer": "C. moving anti-clockwise",
+                "prediction": " The clock hands are moving clockwise. This is observed through the sequence of the minute hand moving from just past the 10, moving towards the 12, and the hour hand advancing from the 10 towards the 11. The second hand is also moving from left to right, which is consistent with the clockwise motion of a typical clock face."
+            },
+            {
+                "question": "In what direction are the clock hands moving?\nA. clockwise\nB. alternating between clockwise and counterclockwise\nC. counterclockwise",
+                "answer": "C. counterclockwise",
+                "prediction": " The clock hands are moving in a clockwise direction. This is evident from the sequence of the hour hand moving from 10 to 11 and the minute hand moving from 12 to 1. The second hand also moves from 0 to 60 seconds, which is consistent with normal clock movements."
+            }
+        ]
     }
 }
