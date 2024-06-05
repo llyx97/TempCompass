@@ -1,0 +1,376 @@
+{
+    "1034419625": {
+        "action": [
+            {
+                "question": "What is the man doing in the video?\nA. dunking a basketball\nB. dribbling a basketball\nC. passing a basketball",
+                "answer": "A. dunking a basketball",
+                "prediction": " A. dunking a basketball."
+            },
+            {
+                "question": "Which activity is the man engaged in?\nA. passing a basketball\nB. dribbling a basketball\nC. dunking a basketball",
+                "answer": "C. dunking a basketball",
+                "prediction": " The man is engaged in dunking a basketball. This is evident from the video where he is shown jumping towards the basket and the ball is seen on the other side of the hoop in the next moment. The options of passing or dribbling can be ruled out as those actions would not require the upward motion towards the hoop that is captured in the video."
+            },
+            {
+                "question": "What action is the man performing?\nA. dribbling a basketball\nB. dunking a basketball\nC. passing a basketball",
+                "answer": "B. dunking a basketball",
+                "prediction": " B. dunking a basketball."
+            },
+            {
+                "question": "Which of the following actions describes the man?\nA. dribbling a basketball\nB. passing a basketball\nC. dunking a basketball",
+                "answer": "C. dunking a basketball",
+                "prediction": " C. dunking a basketball"
+            }
+        ],
+        "direction": [
+            {
+                "question": "What is the direction of the man?\nA. moving towards the camera\nB. moving from left to right\nC. moving away from the camera",
+                "answer": "B. moving from left to right",
+                "prediction": " The man is moving towards the camera. This is evident from the video as the shot starts with him in the frame, shooting the ball at the hoop. As the ball is in motion, the camera pans upwards following the ball's trajectory, and the man comes closer to the frame, indicating his movement towards the camera."
+            },
+            {
+                "question": "From the camera's point of view, in which direction is the man moving?\nA. away from the camera\nB. towards the camera\nC. from left to right",
+                "answer": "C. from left to right",
+                "prediction": " B. towards the camera"
+            },
+            {
+                "question": "In relation to the camera's position, which way is the man headed?\nA. from left to right\nB. towards the camera\nC. from right to left",
+                "answer": "A. from left to right",
+                "prediction": " B. towards the camera"
+            }
+        ]
+    },
+    "1034419625_reverse": {
+        "direction": [
+            {
+                "question": "What is the direction of the man?\nA. moving towards the camera\nB. moving from right to left\nC. moving away from the camera\nD. moving from left to right",
+                "answer": "B. moving from right to left",
+                "prediction": " The man is moving towards the camera. This is evident from the first frame where he appears at the bottom of the frame and looks small, and in the last frame, he is significantly larger as he is near the camera, having passed the basketball hoop."
+            },
+            {
+                "question": "From the camera's point of view, in which direction is the man moving?\nA. away from the camera\nB. towards the camera\nC. from right to left\nD. from left to right",
+                "answer": "C. from right to left",
+                "prediction": " B. towards the camera."
+            },
+            {
+                "question": "In relation to the camera's position, which way is the man headed?\nA. from right to left\nB. towards the camera\nC. from left to right\nD. away from the camera",
+                "answer": "A. from right to left",
+                "prediction": " B. towards the camera."
+            }
+        ]
+    },
+    "1094590221": {
+        "action": [
+            {
+                "question": "What is the man doing in the video?\nA. dribbling basketball\nB. passing basketball\nC. shooting basketball\nD. dunking basketball",
+                "answer": "C. shooting basketball",
+                "prediction": " C. shooting basketball."
+            },
+            {
+                "question": "What activity is depicted in the video?\nA. shooting basketball\nB. dribbling basketball\nC. dunking basketball\nD. passing basketball",
+                "answer": "A. shooting basketball",
+                "prediction": " A. shooting basketball."
+            },
+            {
+                "question": "Which action is being performed by the man?\nA. dunking basketball\nB. dribbling basketball\nC. painting\nD. shooting basketball",
+                "answer": "D. shooting basketball",
+                "prediction": " D. shooting basketball."
+            },
+            {
+                "question": "What is the main action of the man in the video?\nA. dribbling basketball\nB. shooting basketball\nC. dunking basketball\nD. passing basketball",
+                "answer": "B. shooting basketball",
+                "prediction": " B. shooting basketball."
+            },
+            {
+                "question": "In the video, what is the man engaged in?\nA. passing basketball\nB. shooting basketball\nC. dunking basketball\nD. dribbling basketball",
+                "answer": "B. shooting basketball",
+                "prediction": " B. shooting basketball."
+            }
+        ],
+        "direction": [
+            {
+                "question": "What direction is the basketball moving?\nA. straight ahead\nB. left to right\nC. right to left",
+                "answer": "C. right to left",
+                "prediction": " B. left to right."
+            },
+            {
+                "question": "How does the basketball move in the horizontal direction?\nA. left to right\nB. right to left\nC. standing still",
+                "answer": "B. right to left",
+                "prediction": " The basketball moves from right to left in the horizontal direction. The video shows the man shooting the basketball from a three-point position on the right, and the ball goes through the hoop, which is on the left side of the frame. Therefore, the correct answer is:\n\nB. right to left"
+            },
+            {
+                "question": "From which side of the screen does the basketball ends moving?\nA. right top\nB. right bottom\nC. left bottom\nD. left top",
+                "answer": "C. left bottom",
+                "prediction": " B. right bottom"
+            }
+        ]
+    },
+    "1094590221_reverse": {
+        "direction": [
+            {
+                "question": "What direction is the basketball moving?\nA. straight ahead\nB. left to right\nC. right to left",
+                "answer": "B. left to right",
+                "prediction": " B. left to right."
+            },
+            {
+                "question": "How does the basketball move in the horizontal direction?\nA. left to right\nB. right to left\nC. standing still",
+                "answer": "A. left to right",
+                "prediction": " The basketball moves from left to right in the video. The man shoots the basketball from a standing position, and it can be seen moving from the left side of the frame to the right side as it goes towards the hoop."
+            },
+            {
+                "question": "From which side of the screen does the basketball start moving?\nA. right top\nB. right bottom\nC. left bottom\nD. left top",
+                "answer": "C. left bottom",
+                "prediction": " The basketball starts moving from the right bottom side of the screen. This is observed from the appearance of the basketball in the lower right part of the frame in the first sequence and then following its trajectory as it moves towards the basket, passing by the silhouette of the player. So the best option is B. right bottom."
+            }
+        ]
+    },
+    "1098982673": {
+        "action": [
+            {
+                "question": "What is the woman doing?\nA. Eating and singing\nB. Dancing and singing\nC. Sleeping and singing\nD. Running and singing",
+                "answer": "B. Dancing and singing",
+                "prediction": " B. Dancing and singing"
+            },
+            {
+                "question": "What can be observed about the woman?\nA. She is cooking meal\nB. She is dancing and singing\nC. She is washing dishes\nD. She is walking",
+                "answer": "B. She is dancing and singing",
+                "prediction": " B. She is dancing and singing."
+            },
+            {
+                "question": "In the video, what actions is the woman involved in?\nA. Cooking\nB. Jumping\nC. Dancing and singing\nD. Doing laundry",
+                "answer": "C. Dancing and singing",
+                "prediction": " C. Dancing and singing."
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. normal speed\nB. slow motion\nC. fast forward\nD. reverse",
+                "answer": "A. normal speed",
+                "prediction": " A. normal speed."
+            },
+            {
+                "question": "How fast is the video playing?\nA. 2x speed\nB. 1x speed\nC. 10x speed\nD. 0.5x speed",
+                "answer": "B. 1x speed",
+                "prediction": " B. 1x speed."
+            },
+            {
+                "question": "Which speed setting does the video appear to be at?\nA. fluctuating speed\nB. real-time speed\nC. decelerated speed\nD. accelerated speed",
+                "answer": "B. real-time speed",
+                "prediction": " D. accelerated speed."
+            },
+            {
+                "question": "In what pace is the video running?\nA. rapid pace\nB. leisure pace\nC. standard pace\nD. sporadic pace",
+                "answer": "C. standard pace",
+                "prediction": " B."
+            },
+            {
+                "question": "What is the tempo of the video?\nA. erratic tempo\nB. moderate tempo\nC. brisk tempo\nD. sluggish tempo",
+                "answer": "B. moderate tempo",
+                "prediction": " B. moderate tempo."
+            }
+        ]
+    },
+    "1111657885": {
+        "action": [
+            {
+                "question": "What are the people doing?\nA. skiing\nB. ice skating\nC. swimming",
+                "answer": "B. ice skating",
+                "prediction": " B. ice skating."
+            },
+            {
+                "question": "What sport are the people engaged in?\nA. tennis\nB. soccer\nC. ice skating",
+                "answer": "C. ice skating",
+                "prediction": " C. ice skating"
+            },
+            {
+                "question": "What activity can be observed in the video?\nA. dancing\nB. painting\nC. ice skating",
+                "answer": "C. ice skating",
+                "prediction": " C. ice skating."
+            },
+            {
+                "question": "Which action are the people performing?\nA. ice skating\nB. playing guitar\nC. playing basketball",
+                "answer": "A. ice skating",
+                "prediction": " A. ice skating."
+            },
+            {
+                "question": "What is the action being performed by the individuals?\nA. ice skating\nB. yoga\nC. running",
+                "answer": "A. ice skating",
+                "prediction": " A. ice skating."
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the tempo of the video?\nA. rapid pace\nB. slow motion\nC. normal speed",
+                "answer": "B. slow motion",
+                "prediction": " The tempo of the video is at a normal speed. The video shows two individuals ice skating on a rink, racing around the corner, and the skater in the white shirt and black shorts is captured in a dynamic pose, bent forward with one skate touching the ground. The background and the skaters' movements are consistent with a regular speed recording, not a slow-motion or sped-up video."
+            },
+            {
+                "question": "How is the entire video presented?\nA. pause\nB. fast forward\nC. slow motion",
+                "answer": "C. slow motion",
+                "prediction": " The best option is C. slow motion. \n\nThe video is presented in slow motion, as indicated by the way the skaters move in a manner that is more sluggish and less fluid than what would be expected in a regular speed recording of a speed skating event. This is especially noticeable when considering the typical high speed of competitive speed skating. The slow motion effect is used to highlight the details of the skaters' technique, posture, and the mechanics of their movements on the ice."
+            },
+            {
+                "question": "In which speed mode is the video playing?\nA. real-time speed\nB. slow motion\nC. accelerated\nD. standing still",
+                "answer": "B. slow motion",
+                "prediction": " The video is playing in real-time speed. The skaters' movements are fluid, and there's no indication that the video has been altered to change its pace. They move across the ice at a speed consistent with competitive speed skating, and the background remains constant in its rate of change relative to the skaters' movements. There's no blurring that would suggest accelerated speed, and the skaters' actions are too fluid and continuous for the video to be standing still."
+            }
+        ],
+        "direction": [
+            {
+                "question": "Which direction are the people skating?\nA. towards the camera\nB. parallel to the screen\nC. away from the camera",
+                "answer": "A. towards the camera",
+                "prediction": " The people are skating away from the camera. This is evident from the perspective of the video, which shows the skaters starting from a point closer to the camera and moving towards the horizon of the rink. As they progress, their figures become smaller relative to the frame, which would not be the case if they were moving towards the camera or skating parallel to it."
+            },
+            {
+                "question": "In what direction are the people moving?\nA. standing still\nB. towards the camera\nC. from right to left in relation to the camera\nD. away from the camera",
+                "answer": "B. towards the camera",
+                "prediction": " B. towards the camera."
+            },
+            {
+                "question": "How would you describe the movement of the people?\nA. gliding away from the camera\nB. gliding towards the camera\nC. gliding parallel the camera",
+                "answer": "B. gliding towards the camera",
+                "prediction": " The answer is B."
+            }
+        ]
+    },
+    "1111657885_reverse": {
+        "direction": [
+            {
+                "question": "Which direction are the people skating?\nA. towards the camera\nB. parallel to the screen\nC. away from the camera",
+                "answer": "C. away from the camera",
+                "prediction": " C. away from the camera"
+            },
+            {
+                "question": "In what direction are the people moving?\nA. standing still\nB. towards the camera\nC. from right to left in relation to the camera\nD. away from the camera",
+                "answer": "D. away from the camera",
+                "prediction": " B. towards the camera"
+            },
+            {
+                "question": "How would you describe the movement of the people?\nA. gliding away from the camera\nB. gliding towards the camera\nC. gliding parallel the camera",
+                "answer": "A. gliding away from the camera",
+                "prediction": " B. gliding towards the camera."
+            }
+        ]
+    },
+    "1073873933": {
+        "action": [
+            {
+                "question": "What is happening in the video?\nA. eating\nB. fighting\nC. sleeping\nD. dancing",
+                "answer": "B. fighting",
+                "prediction": " The best option is B. fighting. The video shows two monkeys engaging in a physical altercation with one another. They are biting and grappling, which indicates that they are fighting. The other options, such as eating, sleeping, or dancing, do not apply as there is no evidence of those behaviors in the video."
+            },
+            {
+                "question": "What activity is the monkey engaged in?\nA. swimming\nB. running\nC. climbing\nD. fighting",
+                "answer": "D. fighting",
+                "prediction": " D. fighting."
+            },
+            {
+                "question": "What is the main action of the monkey?\nA. reading\nB. hiding\nC. painting\nD. fighting",
+                "answer": "D. fighting",
+                "prediction": " D. fighting."
+            },
+            {
+                "question": "Which action is depicted by the monkey?\nA. singing\nB. fighting\nC. knitting\nD. playing chess",
+                "answer": "B. fighting",
+                "prediction": " B. fighting."
+            },
+            {
+                "question": "What activity is the monkey participating in?\nA. fishing\nB. skiing\nC. shopping\nD. fighting",
+                "answer": "D. fighting",
+                "prediction": " The monkey is participating in a fighting activity. This is evident from the video where two monkeys are seen on a dirt road, engaging in a physical altercation. They are biting and wrestling on the ground, which is behavior consistent with fighting rather than the other activities listed such as fishing, skiing, or shopping. These activities either do not make sense in the context of what is observed (skiing, shopping) or are not related to the physical interaction displayed (fishing). Therefore, the best option is:\n\nD. Fighting"
+            }
+        ]
+    },
+    "1089810425": {
+        "action": [
+            {
+                "question": "What are the people doing?\nA. cooking\nB. sleeping\nC. dancing",
+                "answer": "C. dancing",
+                "prediction": " C. dancing"
+            },
+            {
+                "question": "What activity are the people engaged in?\nA. swimming\nB. dancing\nC. painting",
+                "answer": "B. dancing",
+                "prediction": " B. dancing"
+            },
+            {
+                "question": "Which action are the people performing?\nA. singing\nB. dancing\nC. reading",
+                "answer": "B. dancing",
+                "prediction": " B. dancing"
+            },
+            {
+                "question": "What is the activity of the people?\nA. dancing\nB. running\nC. studying",
+                "answer": "A. dancing",
+                "prediction": " A. dancing"
+            },
+            {
+                "question": "What are the people participating in?\nA. dancing\nB. knitting\nC. playing football",
+                "answer": "A. dancing",
+                "prediction": " A. dancing"
+            }
+        ],
+        "speed": [
+            {
+                "question": "What is the speed of the video?\nA. slow motion\nB. normal speed\nC. time-lapse",
+                "answer": "B. normal speed",
+                "prediction": " The speed of the video is normal speed. The video shows a lively scene of people partying in a pool, with water splashing around as they move and dance. There is no indication that the video has been altered to change its speed, and the movements of the people appear to be in real-time. The lighting and the context suggest that it's an evening event, and the atmosphere is energetic and typical of a pool party with friends or at a club. The best option is B. normal speed."
+            },
+            {
+                "question": "What is the tempo of the entire video?\nA. slow\nB. regular\nC. fast",
+                "answer": "B. regular",
+                "prediction": " C. fast"
+            },
+            {
+                "question": "What is the rate of the video?\nA. moderate speed\nB. low speed\nC. high speed",
+                "answer": "A. moderate speed",
+                "prediction": " A. moderate speed."
+            }
+        ],
+        "direction": [
+            {
+                "question": "What is the direction of the panning in the video?\nA. left to right\nB. right to left\nC. up and down\nD. circular motion",
+                "answer": "B. right to left",
+                "prediction": " B. right to left."
+            },
+            {
+                "question": "What is the movement of the camera in the video?\nA. panning from right to left\nB. zooming in\nC. zooming out\nD. panning from left to right",
+                "answer": "A. panning from right to left",
+                "prediction": " The movement of the camera in the video is panning from right to left. This is observed as the camera starts from a position where the right side of the pool is in view and then moves towards the left side of the pool, capturing the people and the environment as it goes along this horizontal path. The other options can be ruled out as there is no indication of the camera moving closer to or further from the subjects (which would suggest zooming in or out), nor is it panning from left to right."
+            },
+            {
+                "question": "Which way is the video shifting?\nA. horizontal\nB. diagonal\nC. vertical",
+                "answer": "A. horizontal",
+                "prediction": " The video is shifting horizontally. The first part of the video shows the left side of the pool, and the second part of the video shows the right side of the pool."
+            },
+            {
+                "question": "In what direction is the camera moving?\nA. leftward\nB. upward\nC. downward\nD. rightward",
+                "answer": "A. leftward",
+                "prediction": " The camera is moving leftward. This can be inferred from the video as the background elements on the left side, such as the poolside bar and the vertical pipes or columns, are seen to move from the right side of the frame to the center and then out of the frame on the left side. The movement of people and water splashes also align with this direction, as they appear to be moving from right to left across the frame."
+            }
+        ]
+    },
+    "1089810425_reverse": {
+        "direction": [
+            {
+                "question": "What is the direction of the panning in the video?\nA. left to right\nB. right to left\nC. up and down\nD. circular motion",
+                "answer": "A. left to right",
+                "prediction": " A. left to right."
+            },
+            {
+                "question": "What is the movement of the camera in the video?\nA. panning from right to left\nB. zooming in\nC. zooming out\nD. panning from left to right",
+                "answer": "D. panning from left to right",
+                "prediction": " The movement of the camera in the video is panning from left to right. This can be inferred from the sequential appearance of the pool's surroundings and people. Initially, the camera is focused on a group of people at the edge of the pool and as the video progresses, the camera moves to the left, showing more of the pool area and eventually capturing the presence of other individuals who are inside the pool. There is no indication of zooming in or out, as the size of the subjects relative to the frame does not significantly change."
+            },
+            {
+                "question": "Which way is the video shifting?\nA. horizontal\nB. diagonal\nC. vertical",
+                "answer": "A. horizontal",
+                "prediction": " A."
+            },
+            {
+                "question": "In what direction is the camera moving?\nA. leftward\nB. upward\nC. downward\nD. rightward",
+                "answer": "D. rightward",
+                "prediction": " The camera is moving rightward. This is indicated by the consistent motion of the background from right to left across all the frames and the way the people are being revealed as the camera moves. The pool's edge and the people on the right side of the frame come into view as the camera progresses, which would not be the case if the camera were moving in any other direction."
+            }
+        ]
+    }
+}
