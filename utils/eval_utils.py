@@ -120,7 +120,7 @@ def get_llm_output(prompt, sys_prompt, max_tokens=128):
         sys_prompt = "You are an AI assistant for question answering."
     data = {
         "max_tokens": max_tokens,
-        "model": "gpt-3.5-turbo",
+        "model": "gpt-3.5-turbo-1106",
         "temperature": 1.0,
         "top_p": 1,
         "presence_penalty": 1,

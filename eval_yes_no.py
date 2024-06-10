@@ -38,7 +38,7 @@ def main(predictions, eval_results, output_file, disable_llm):
                     eval_results[id][dim].append(eval_result)
                     continue
                 
-                pred["prediction"] = pred["prediction"].replace('</s>', '')
+                pred["prediction"] = pred["prediction"].replace('</s>', '').strip()
                 eval_result = {"question": pred["question"], "gt-answer": pred["answer"], "video-llm-prediction": pred["prediction"], "match_success": True}
 
                 yes_no_pred = extract_pred(pred["prediction"])  # Some hand-crafted matching rules
