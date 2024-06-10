@@ -83,6 +83,7 @@ The task instructions can be found in `questions/`.
 </details>
 
 **2. Videos**
+
 All the processed videos can be downloaded from [here](https://drive.google.com/file/d/1b0ZIeRqhrUpQYxoCN_Ym_e0UW05cckYJ/view?usp=sharing).
 
 <details>
@@ -94,6 +95,8 @@ cd utils
 python download_video.py    # Download raw videos
 python process_videos.py    # Construct conflicting videos
 ```
+
+**Note:** If you encounter a `MoviePy error` when running the processing script, please refer to this [issue](https://github.com/llyx97/TempCompass/issues/4).
 </details>
 
 ### Run Inference
