@@ -83,6 +83,10 @@ The task instructions can be found in `questions/`.
 </details>
 
 **2. Videos**
+All the processed videos can be downloaded from [here](https://drive.google.com/file/d/1b0ZIeRqhrUpQYxoCN_Ym_e0UW05cckYJ/view?usp=sharing).
+
+<details>
+<summary><span id="instruct_gen"> As an alternative, you can also download the raw videos and process them yourself </span></summary>
 
 Run the following commands. The videos will be saved to `videos/`.
 ```shell
@@ -90,6 +94,7 @@ cd utils
 python download_video.py    # Download raw videos
 python process_videos.py    # Construct conflicting videos
 ```
+</details>
 
 ### Run Inference
 We use [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) and [Gemini](https://github.com/google-gemini/cookbook/blob/98a74b3cde77e518032928acec2fab8b8f3b41be/preview/file-api/File_API_Video.ipynb) as examples to illustrate how to conduct MLLM inference on our benchmark.
