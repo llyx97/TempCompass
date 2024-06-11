@@ -28,6 +28,8 @@
 
 ## 📢 News
 
+**[2024-06-11]** Result of Reka-core is added to the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass).
+
 **[2024-05-25]** [TempCompass Leaderboard](https://huggingface.co/spaces/lyx97/TempCompass) is available on HuggingFace Space 🤗.
 
 **[2024-05-16]** 🎊🎊🎊 TempCompass is accepted at ACL 2024 Findings!
@@ -144,7 +146,7 @@ Match Success Rate=100.0
 ![](./assets/data_statistics.png)
 
 ## 📊 <span id="eval_result"> Evaluation Results </span>
-The following figures present results of [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA), [VideoChat2](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2), [SPHINX-v2](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX), [Gemini-1.5-pro](https://github.com/google-gemini/cookbook/blob/98a74b3cde77e518032928acec2fab8b8f3b41be/preview/file-api/File_API_Video.ipynb) and the random baseline. Results of more Video LLMs and Image LLMs can be found in our [paper](https://arxiv.org/abs/2403.00476).
+The following figures present results of [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA), [VideoChat2](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2), [SPHINX-v2](https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX), [Gemini-1.5-pro](https://github.com/google-gemini/cookbook/blob/98a74b3cde77e518032928acec2fab8b8f3b41be/preview/file-api/File_API_Video.ipynb) and the random baseline. Results of more Video LLMs and Image LLMs can be found in our [paper](https://arxiv.org/abs/2403.00476) and the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass).
 
 <img src="./assets/multi-choice.jpg" alt="Multi-Choice" style="float: left; width: 49%; margin-right: 10px;">
 <img src="./assets/yes_no.jpg" alt="Yes/No" style="float: left; width: 49%;">
