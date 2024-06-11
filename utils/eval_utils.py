@@ -174,3 +174,19 @@ def process_gemini_caption(llm_output):
     if ':' in caption:
         caption = caption.split(':')[1].strip().strip('"')
     return caption
+
+def process_reka_caption(llm_output):
+    last_line = llm_output.split('\n')[-1]
+    if llm_output.count("\"")==2:
+        matches = re.findall(r'"(.*?)"', llm_output)
+        caption = matches[0]
+    elif last_line.count("\"")==2:
+        matches = re.findall(r'"(.*?)"', last_line)
+        caption = matches[0]
+    elif llm_output.count(": ")==1:
+        caption = llm_output.split(": ")[1]
+    elif last_line.count(": ")==1:
+        caption = last_line.split(": ")[1]
+    else:
+        caption = llm_output
+    return caption

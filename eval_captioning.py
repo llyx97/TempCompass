@@ -1,7 +1,7 @@
 from prompt_templates import *
 
 import requests, json, os, argparse, random, time
-from utils.eval_utils import url, headers, print_result, process_gemini_caption
+from utils.eval_utils import url, headers, print_result, process_gemini_caption, process_reka_caption
 from tqdm import tqdm
 
 qtype = "captioning"
@@ -39,7 +39,7 @@ def parse_llm_output(llm_output, gt_answer):
 def get_llm_output(prompt):
     data = {
         "max_tokens": 128,
-        "model": "gpt-3.5-turbo",
+        "model": "gpt-3.5-turbo-1106",
         "temperature": 1.0,
         "top_p": 1,
         "presence_penalty": 1,
@@ -103,12 +103,14 @@ def main(predictions, eval_results, output_file, mc_questions):
                     eval_results[id][dim].append(eval_result)
                     continue
 
-                pred["prediction"] = pred["prediction"].replace('</s>', '')
+                pred["prediction"] = pred["prediction"].replace('</s>', '').strip()
 
-                if args.video_llm=='gemini':
+                if 'gemini' in args.video_llm:
                     pred["prediction"] = process_gemini_caption(pred["prediction"])
+                if 'reka' in args.video_llm:
+                    pred["prediction"] = process_reka_caption(pred["prediction"])
 
-                prompt = f"""{base_prompt}\nVideo Description:{pred["prediction"]}\nMulti-Choice Question:\n{mc_questions[id][dim][0]["question"]}\nAnswer:"""
+                prompt = f"""{base_prompt}\nVideo Description:{pred["prediction"]}\nMulti-Choice Question:\n{mc_questions[id][dim][0]["question"]}\n"""
 
                 eval_result = get_eval_result(prompt, mc_answer=mc_questions[id][dim][0]["answer"])
 
