@@ -30,6 +30,8 @@
 
 **[2024-08-08]** Results of [LLaVA-Next-Video](https://github.com/LLaVA-VL/LLaVA-NeXT/blob/inference/docs/LLaVA-NeXT-Video_0716.md), [VILA-1.5](https://github.com/NVlabs/VILA) and [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) are added to the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass).
 
+**[2024-07]** 🎉🎉🎉 TempCompass is integrated into [LMMs-Eval](https://lmms-lab.github.io/posts/lmms-eval-0.2/). See here for usage examples.
+
 **[2024-06-11]** Result of [Reka-core](https://www.reka.ai/news/reka-core-our-frontier-class-multimodal-language-model) is added to the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass).
 
 **[2024-05-25]** [TempCompass Leaderboard](https://huggingface.co/spaces/lyx97/TempCompass) is available on HuggingFace Space 🤗.
@@ -88,7 +90,7 @@ The task instructions can be found in `questions/`.
 
 **2. Videos**
 
-All the processed videos can be downloaded from [here](https://drive.google.com/file/d/1b0ZIeRqhrUpQYxoCN_Ym_e0UW05cckYJ/view?usp=sharing).
+All the processed videos can be downloaded from [google drive](https://drive.google.com/file/d/1b0ZIeRqhrUpQYxoCN_Ym_e0UW05cckYJ/view?usp=sharing) or [huggingface](https://huggingface.co/datasets/lmms-lab/TempCompass).
 
 <details>
 <summary><span id="instruct_gen"> As an alternative, you can also download the raw videos and process them yourself </span></summary>
@@ -143,6 +145,43 @@ The results of each data point will be saved to `auto_eval_results/video-llava/<
 {'fine-grained action': 58.8, 'coarse-grained action': 90.3, 'object motion': 36.2, 'camera motion': 32.6, 'absolute speed': 47.6, 'relative speed': 28.0, 'order': 37.7, 'color & light change': 43.6, 'size & shape change': 39.4, 'combined change': 41.7, 'other change': 38.9}
 Match Success Rate=100.0
 ```
+
+## LMMs-Eval Evaluation
+Here we provide an example of how to evaluate LLaVA-Next-Video on TempCompass, using lmms-eval.
+**1. Clone the repo from LLaVA-Next and setup environments**
+```
+git clone https://github.com/LLaVA-VL/LLaVA-NeXT
+cd LLaVA-NeXT
+pip install -e .
+```
+**2. Run inference and evaluation in a single command**
+```
+accelerate launch --num_processes 8 --main_process_port 12345 -m lmms_eval \
+    --model llavavid \
+    --model_args pretrained=lmms-lab/LLaVA-NeXT-Video-32B-Qwen,conv_template=qwen_1_5,video_decode_backend=decord,max_frames_num=32,mm_spatial_pool_mode=average,mm_newline_position=grid,mm_resampler_location=after \
+    --tasks tempcompass \
+    --batch_size 1 \
+    --log_samples \
+    --log_samples_suffix llava_vid_32B \
+    --output_path ./logs/
+```
+You can also evaluate the performance on each task (e.g., multi-choice) seperately:
+```
+accelerate launch --num_processes 8 --main_process_port 12345 -m lmms_eval \
+    --model llavavid \
+    --model_args pretrained=lmms-lab/LLaVA-NeXT-Video-32B-Qwen,conv_template=qwen_1_5,video_decode_backend=decord,max_frames_num=32,mm_spatial_pool_mode=average,mm_newline_position=grid,mm_resampler_location=after \
+    --tasks tempcompass_multi_choice \
+    --batch_size 1 \
+    --log_samples \
+    --log_samples_suffix llava_vid_32B \
+    --output_path ./logs/
+```
+**3. Submit results to [TempCompass LeaderBoard](https://huggingface.co/spaces/lyx97/TempCompass)**
+Place the lmms-eval outputs (`tempcompass_multi_choice.json`, `tempcompass_yes_no.json`, `tempcompass_caption_matching.json` and `tempcompass_captioning.json`) into the same folder and run this [script](https://huggingface.co/spaces/lyx97/TempCompass/blob/main/merge_eval_result.py):
+```
+python merge_eval_result.py
+```
+Then submit the output file `merged_result.json` to the leaderboard.
 
 ## 📈 Data Statistics
 ![](./assets/data_statistics.png)
