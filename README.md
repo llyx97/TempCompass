@@ -28,13 +28,15 @@
 
 ## 📢 News
 
-**[2024-06-11]** Result of Reka-core is added to the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass).
+**[2024-08-08]** Results of [LLaVA-Next-Video](https://github.com/LLaVA-VL/LLaVA-NeXT/blob/inference/docs/LLaVA-NeXT-Video_0716.md), [VILA-1.5](https://github.com/NVlabs/VILA) and [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) are added to the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass).
+
+**[2024-06-11]** Result of [Reka-core](https://www.reka.ai/news/reka-core-our-frontier-class-multimodal-language-model) is added to the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass).
 
 **[2024-05-25]** [TempCompass Leaderboard](https://huggingface.co/spaces/lyx97/TempCompass) is available on HuggingFace Space 🤗.
 
 **[2024-05-16]** 🎊🎊🎊 TempCompass is accepted at ACL 2024 Findings!
 
-**[2024-04-14]** Evaluation [result](#eval_result) of Gemini-1.5-pro, the current SOTA Video LLM, is add.
+**[2024-04-14]** Evaluation [result](#eval_result) of [Gemini-1.5-pro](https://deepmind.google/technologies/gemini/pro/), the current SOTA Video LLM, is add.
 
 **[2024-03-23]** The [answer prompt](#answer_prompt) is improved to better guide Video LLMs to follow the desired answer formats. The [evaluation code](#eval) now provides an option to disable the use of ChatGPT.
 
