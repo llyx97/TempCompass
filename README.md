@@ -148,7 +148,8 @@ Match Success Rate=100.0
 
 ## <span id="lmms-eval"> LMMs-Eval Evaluation </span>
 Here we provide an example of how to evaluate LLaVA-Next-Video on TempCompass, using lmms-eval.
-**1. Clone the repo from LLaVA-Next and setup environments**
+
+**1. Clone the repo from [LLaVA-Next](https://github.com/LLaVA-VL/LLaVA-NeXT) and setup environments**
 ```
 git clone https://github.com/LLaVA-VL/LLaVA-NeXT
 cd LLaVA-NeXT
@@ -177,6 +178,7 @@ accelerate launch --num_processes 8 --main_process_port 12345 -m lmms_eval \
     --output_path ./logs/
 ```
 **3. Submit results to [TempCompass LeaderBoard](https://huggingface.co/spaces/lyx97/TempCompass)**
+
 Place the lmms-eval outputs (`tempcompass_multi_choice.json`, `tempcompass_yes_no.json`, `tempcompass_caption_matching.json` and `tempcompass_captioning.json`) into the same folder and run this [script](https://huggingface.co/spaces/lyx97/TempCompass/blob/main/merge_eval_result.py):
 ```
 python merge_eval_result.py
