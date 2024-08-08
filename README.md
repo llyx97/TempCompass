@@ -185,6 +185,9 @@ python merge_eval_result.py
 ```
 Then submit the output file `merged_result.json` to the leaderboard.
 
+**Note:**
+Currently, the evaluation results calculated by lmms-eval on specific temporal aspects might be incorrect (the average accuracy on each task is correct). To obtain the correct results, you can use this script: [acc_lmms_eval.py](https://github.com/llyx97/TempCompass/blob/main/utils/acc_lmms_eval.py) or submit the result to our leaderboard.
+
 ## 📈 Data Statistics
 ![](./assets/data_statistics.png)
 
