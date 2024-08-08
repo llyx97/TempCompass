@@ -146,7 +146,7 @@ The results of each data point will be saved to `auto_eval_results/video-llava/<
 Match Success Rate=100.0
 ```
 
-## LMMs-Eval Evaluation
+## <span id="eval"> LMMs-Eval Evaluation </span>
 Here we provide an example of how to evaluate LLaVA-Next-Video on TempCompass, using lmms-eval.
 **1. Clone the repo from LLaVA-Next and setup environments**
 ```
