@@ -30,7 +30,7 @@
 
 **[2024-08-08]** Results of [LLaVA-Next-Video](https://github.com/LLaVA-VL/LLaVA-NeXT/blob/inference/docs/LLaVA-NeXT-Video_0716.md), [VILA-1.5](https://github.com/NVlabs/VILA) and [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) are added to the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass).
 
-**[2024-07]** 🎉🎉🎉 TempCompass is integrated into [LMMs-Eval](https://lmms-lab.github.io/posts/lmms-eval-0.2/). See here for usage examples.
+**[2024-07]** 🎉🎉🎉 TempCompass is integrated into [LMMs-Eval](https://lmms-lab.github.io/posts/lmms-eval-0.2/). See [here](#lmms-eval) for usage examples.
 
 **[2024-06-11]** Result of [Reka-core](https://www.reka.ai/news/reka-core-our-frontier-class-multimodal-language-model) is added to the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass).
 
@@ -146,7 +146,7 @@ The results of each data point will be saved to `auto_eval_results/video-llava/<
 Match Success Rate=100.0
 ```
 
-## <span id="eval"> LMMs-Eval Evaluation </span>
+## <span id="lmms-eval"> LMMs-Eval Evaluation </span>
 Here we provide an example of how to evaluate LLaVA-Next-Video on TempCompass, using lmms-eval.
 **1. Clone the repo from LLaVA-Next and setup environments**
 ```
