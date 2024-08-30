@@ -28,6 +28,8 @@
 
 ## 📢 News
 
+**[2024-08-30]** Results of [GPT-4o](https://openai.com/index/hello-gpt-4o/), [MiniCPM-V-2.6](https://huggingface.co/openbmb/MiniCPM-V-2_6), [InternVL-2-8B](https://huggingface.co/OpenGVLab/InternVL2-8B), [LLaVA-OneVision-Qwen-2-7B](https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov) and [InterLM-XComposer-2.5](https://huggingface.co/internlm/internlm-xcomposer2d5-7b) are added to the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass). GPT-4o establishes the new SoTA!
+
 **[2024-08-08]** Results of [LLaVA-Next-Video](https://github.com/LLaVA-VL/LLaVA-NeXT/blob/inference/docs/LLaVA-NeXT-Video_0716.md), [VILA-1.5](https://github.com/NVlabs/VILA) and [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) are added to the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass).
 
 **[2024-07]** 🎉🎉🎉 TempCompass is integrated into [LMMs-Eval](https://lmms-lab.github.io/posts/lmms-eval-0.2/). See [here](#lmms-eval) for usage examples.
