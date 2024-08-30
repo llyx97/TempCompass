@@ -4,6 +4,7 @@
     <a href='https://arxiv.org/abs/2403.00476'><img src='https://img.shields.io/badge/ArXiv-2403.00476-red'></a>
     <a href='https://llyx97.github.io/tempcompass/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
     <a href='https://huggingface.co/spaces/lyx97/TempCompass'><img src='https://img.shields.io/badge/🤗_Hugging_Face-Leaderboard-blue'></a>
+    <a href='https://huggingface.co/datasets/lmms-lab/TempCompass'><img src='https://img.shields.io/badge/🤗_Hugging_Face-Datasets-green'></a>
 </div>
 
 <div>
@@ -28,7 +29,7 @@
 
 ## 📢 News
 
-**[2024-08-30]** Results of [GPT-4o](https://openai.com/index/hello-gpt-4o/), [MiniCPM-V-2.6](https://huggingface.co/openbmb/MiniCPM-V-2_6), [InternVL-2-8B](https://huggingface.co/OpenGVLab/InternVL2-8B), [LLaVA-OneVision-Qwen-2-7B](https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov) and [InterLM-XComposer-2.5](https://huggingface.co/internlm/internlm-xcomposer2d5-7b) are added to the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass). GPT-4o establishes the new SoTA!
+**[2024-08-30]** Results of [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [GPT-4o](https://openai.com/index/hello-gpt-4o/), [MiniCPM-V-2.6](https://huggingface.co/openbmb/MiniCPM-V-2_6), [InternVL-2-8B](https://huggingface.co/OpenGVLab/InternVL2-8B), [LLaVA-OneVision-Qwen-2-7B](https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov) and [InterLM-XComposer-2.5](https://huggingface.co/internlm/internlm-xcomposer2d5-7b) are added to the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass). GPT-4o establishes the new SoTA!
 
 **[2024-08-08]** Results of [LLaVA-Next-Video](https://github.com/LLaVA-VL/LLaVA-NeXT/blob/inference/docs/LLaVA-NeXT-Video_0716.md), [VILA-1.5](https://github.com/NVlabs/VILA) and [LongVA](https://github.com/EvolvingLMMs-Lab/LongVA) are added to the [leaderboard](https://huggingface.co/spaces/lyx97/TempCompass).
 
