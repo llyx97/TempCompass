@@ -47,9 +47,7 @@
 
 **[2024-03-12]** 🔥🔥🔥 The evaluation code is released now! Feel free to evaluate your own Video LLMs.
 
-<iframe src="https://huggingface.co/spaces/lyx97/TempCompass" width="90%" height="500px"></iframe>
-
-### LeaderBoard
+## 🏆 LeaderBoard
 ![](./assets/leaderboard.png)
 
 ## ✨ Highlights
