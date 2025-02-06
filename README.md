@@ -229,6 +229,9 @@ The success rate of rule-based matching is as follows:
 - [x] Upload the code for automatic evaluation.
 - [x] Upload the code for task instruction generation.
 
+## License
+This dataset is intended for academic research only. It is under [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/).
+
 ## Citation
 ```bibtex
 @article{liu2024tempcompass,
