@@ -27,7 +27,7 @@
     <sup>3</sup>Huawei Noah’s Ark Lab
 </div>
 <div align="center">
-    <sup>*</sup>Equal Contribution;
+    <sup>*</sup>Equal Contribution
 </div>
 
 ## 📢 News
