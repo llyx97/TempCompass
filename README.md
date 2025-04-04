@@ -9,8 +9,8 @@
 
 <div>
 <div align="center">
-    <a href='https://llyx97.github.io/' target='_blank'>Yuanxin Liu<sup>1</sup></a>&emsp;
-    <a href='https://lscpku.github.io/' target='_blank'>Shicheng Li<sup>1</sup></a>&emsp;
+    <a href='https://llyx97.github.io/' target='_blank'>Yuanxin Liu<sup>1*</sup></a>&emsp;
+    <a href='https://lscpku.github.io/' target='_blank'>Shicheng Li<sup>1*</sup></a>&emsp;
     <a href='https://liuyi-pku.github.io/' target='_blank'>Yi Liu<sup>1</sup></a>&emsp;
     Yuxiang Wang<sup>1</sup>&emsp;
     <a href='https://renshuhuai-andy.github.io/' target='_blank'>Shuhuai Ren<sup>1</sup></a>&emsp;
@@ -25,6 +25,9 @@
     <sup>1</sup>Peking University&emsp;
     <sup>2</sup>The University of Hong Kong&emsp;
     <sup>3</sup>Huawei Noah’s Ark Lab
+</div>
+<div align="center">
+    <sup>*</sup>Equal Contribution;
 </div>
 
 ## 📢 News
